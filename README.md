@@ -1,4 +1,5 @@
-# imka-begrippen
+# Begrippenkader Klimaatadaptatie
+
 Repository voor het begrippenkader over klimaatadaptatie
 
 ## Over het IMKA begrippenkader
