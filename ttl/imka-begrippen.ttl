@@ -1,0 +1,29 @@
+@prefix : <https://begrippen.geostandaarden.nl/imka/nl/page/> .
+@prefix grddl: <http://www.w3.org/2003/g/data-view#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://begrippen.geostandaarden.nl/imka/nl/page/> a owl:Ontology .
+
+:imka a skos:ConceptScheme;
+  skos:prefLabel "klimaatadaptatie"@nl .
+
+:c_a347ef24 a skos:Concept;
+  skos:prefLabel "gevoelstemperatuur"@nl;
+  skos:inScheme :imka;
+  skos:definition "Hoe warm een persoon het heeft in een bepaalde weersituatie."@nl;
+  skos:example "Als de gemeten luchttemperatuur bijvoorbeeld 30 ºC is, kan het in de volle zon en uit de wind voelen als 40 ºC."@nl;
+  skos:broader :c_cec00451;
+  skos:altLabel "PET"@en, "Physiological Equivalent Temperature"@en;
+  skos:broadMatch <https://www.aquo.nl/index.php/Id-368757fa-38b2-4b6a-910f-72e849810ba9>;
+  dct:source <https://www.klimaateffectatlas.nl/nl/hittekaart-gevoelstemperatuur> .
+
+:c_cec00451 a skos:Concept;
+  skos:topConceptOf :imka;
+  skos:prefLabel "indicator"@nl;
+  skos:inScheme :imka .
