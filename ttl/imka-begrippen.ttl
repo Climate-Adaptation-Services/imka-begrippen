@@ -13,17 +13,217 @@
 :imka a skos:ConceptScheme;
   skos:prefLabel "klimaatadaptatie"@nl .
 
-:c_a347ef24 a skos:Concept;
+:gevoelstemperatuur a skos:Concept;
   skos:prefLabel "gevoelstemperatuur"@nl;
   skos:inScheme :imka;
   skos:definition "Hoe warm een persoon het heeft in een bepaalde weersituatie."@nl;
   skos:example "Als de gemeten luchttemperatuur bijvoorbeeld 30 ºC is, kan het in de volle zon en uit de wind voelen als 40 ºC."@nl;
-  skos:broader :c_cec00451;
   skos:altLabel "PET"@en, "Physiological Equivalent Temperature"@en;
   skos:broadMatch <https://www.aquo.nl/index.php/Id-368757fa-38b2-4b6a-910f-72e849810ba9>;
-  dct:source <https://www.klimaateffectatlas.nl/nl/hittekaart-gevoelstemperatuur> .
+  dct:source <https://www.klimaateffectatlas.nl/nl/hittekaart-gevoelstemperatuur>;
+  skos:broader :temperatuur .
 
-:c_cec00451 a skos:Concept;
-  skos:topConceptOf :imka;
-  skos:prefLabel "indicator"@nl;
+:tropischeDag a skos:Concept;
+  skos:prefLabel "tropischeDag"@nl;
+  skos:inScheme :imka;
+  skos:broader :temperatuur .
+
+:temperatuur a skos:Concept;
+  skos:prefLabel "temperatuur"@nl;
+  skos:inScheme :imka;
+  skos:broader :hitte .
+
+:tropischeNacht a skos:Concept;
+  skos:prefLabel "tropischeNacht"@nl;
+  skos:inScheme :imka;
+  skos:broader :temperatuur .
+
+:koelgraaddag a skos:Concept;
+  skos:prefLabel "koelgraaddag"@nl;
+  skos:inScheme :imka;
+  skos:broader :temperatuur .
+
+:hitte a skos:Concept;
+  skos:prefLabel "hitte"@nl;
+  skos:inScheme :imka;
+  skos:broader :klimaateffect .
+
+:binnenruimte a skos:Concept;
+  skos:prefLabel "binnenruimte"@nl;
+  skos:inScheme :imka;
+  skos:broader :klimaatgevolg .
+
+:buitenruimte a skos:Concept;
+  skos:prefLabel "buitenruimte"@nl;
+  skos:inScheme :imka;
+  skos:broader :klimaatgevolg .
+
+:gebouw a skos:Concept;
+  skos:prefLabel "gebouw"@nl;
+  skos:inScheme :imka;
+  skos:broader :klimaatgevolg .
+
+:gebied a skos:Concept;
+  skos:prefLabel "gebied"@nl;
+  skos:inScheme :imka;
+  skos:broader :klimaatgevolg .
+
+:gezondheid a skos:Concept;
+  skos:prefLabel "gezondheid"@nl;
+  skos:inScheme :imka;
+  skos:broader :klimaatgevolg .
+
+:slaapproblemen a skos:Concept;
+  skos:prefLabel "slaapproblemen"@nl;
+  skos:inScheme :imka;
+  skos:broader :gezondheid .
+
+:ziekenhuisopnamen a skos:Concept;
+  skos:prefLabel "ziekenhuisopnamen"@nl;
+  skos:inScheme :imka;
+  skos:broader :gezondheid .
+
+:sterfte a skos:Concept;
+  skos:prefLabel "sterfte"@nl;
+  skos:inScheme :imka;
+  skos:broader :gezondheid .
+
+:gezondheidszorg a skos:Concept;
+  skos:prefLabel "gezondheidszorg"@nl;
+  skos:inScheme :imka;
+  skos:broader :gezondheid .
+
+:hulpdienst a skos:Concept;
+  skos:prefLabel "hulpdienst"@nl;
+  skos:inScheme :imka;
+  skos:broader :gezondheid .
+
+:thuiszorg a skos:Concept;
+  skos:prefLabel "thuiszorg"@nl;
+  skos:inScheme :imka;
+  skos:broader :hulpdienst .
+
+:huisarts a skos:Concept;
+  skos:prefLabel "huisarts"@nl;
+  skos:inScheme :imka;
+  skos:broader :hulpdienst .
+
+:ambulancedienst a skos:Concept;
+  skos:prefLabel "ambulancedienst"@nl;
+  skos:inScheme :imka;
+  skos:broader :hulpdienst .
+
+:reddingsbrigade a skos:Concept;
+  skos:prefLabel "reddingsbrigade"@nl;
+  skos:inScheme :imka;
+  skos:broader :hulpdienst .
+
+:sterftecijfer a skos:Concept;
+  skos:prefLabel "sterftecijfer"@nl;
+  skos:inScheme :imka;
+  skos:broader :sterfte .
+
+:warmeDag a skos:Concept;
+  skos:prefLabel "warmeDag"@nl;
+  skos:inScheme :imka;
+  skos:broader :temperatuur .
+
+:zomerseDag a skos:Concept;
+  skos:prefLabel "zomerseDag"@nl;
+  skos:inScheme :imka;
+  skos:broader :temperatuur .
+
+:vorstdag a skos:Concept;
+  skos:prefLabel "vorstdag"@nl;
+  skos:inScheme :imka;
+  skos:broader :temperatuur .
+
+:ijsdag a skos:Concept;
+  skos:prefLabel "ijsdag"@nl;
+  skos:inScheme :imka;
+  skos:broader :temperatuur .
+
+:verwarmingsgraaddag a skos:Concept;
+  skos:prefLabel "verwarmingsgraaddag"@nl;
+  skos:inScheme :imka;
+  skos:broader :temperatuur .
+
+:zonnestraling a skos:Concept;
+  skos:prefLabel "zonnestraling"@nl;
+  skos:inScheme :imka;
+  skos:broader :temperatuur .
+
+:windsnelheid a skos:Concept;
+  skos:broader :temperatuur;
+  skos:prefLabel "windsnelheid"@nl;
   skos:inScheme :imka .
+
+:warmtestraling a skos:Concept;
+  skos:prefLabel "warmtestraling"@nl;
+  skos:inScheme :imka;
+  skos:broader :temperatuur .
+
+:verdamping a skos:Concept;
+  skos:broader :temperatuur;
+  skos:prefLabel "verdamping"@nl;
+  skos:inScheme :imka .
+
+:antropogeneWarmte a skos:Concept;
+  skos:prefLabel "antropogeneWarmte"@nl;
+  skos:inScheme :imka;
+  skos:broader :temperatuur .
+
+:hittestress a skos:Concept;
+  skos:broader :gevoelstemperatuur;
+  skos:prefLabel "hittestress"@nl;
+  skos:inScheme :imka .
+
+:luchttemperatuur a skos:Concept;
+  skos:prefLabel "luchttemperatuur"@nl;
+  skos:inScheme :imka;
+  skos:broader :temperatuur .
+
+:activiteit a skos:Concept;
+  skos:broader :persoonlijk;
+  skos:prefLabel "activiteit"@nl;
+  skos:inScheme :imka .
+
+:luchtvochtigheid a skos:Concept;
+  skos:prefLabel "luchtvochtigheid"@nl;
+  skos:inScheme :imka;
+  skos:broader :temperatuur .
+
+:kleding a skos:Concept;
+  skos:prefLabel "kleding"@nl;
+  skos:inScheme :imka;
+  skos:broader :persoonlijk .
+
+:schaduw a skos:Concept;
+  skos:prefLabel "schaduw"@nl;
+  skos:inScheme :imka;
+  skos:broader :temperatuur .
+
+:ervaring a skos:Concept;
+  skos:prefLabel "ervaring"@nl;
+  skos:inScheme :imka;
+  skos:broader :gevoelstemperatuur .
+
+:fysiologischstressniveau a skos:Concept;
+  skos:prefLabel "fysiologischstressniveau"@nl;
+  skos:inScheme :imka;
+  skos:broader :gevoelstemperatuur .
+
+:klimaateffect a skos:Concept;
+  skos:prefLabel "klimaateffect"@nl;
+  skos:inScheme :imka;
+  skos:topConceptOf :imka .
+
+:klimaatgevolg a skos:Concept;
+  skos:prefLabel "klimaatgevolg"@nl;
+  skos:inScheme :imka;
+  skos:topConceptOf :imka .
+
+:persoonlijk a skos:Concept;
+  skos:prefLabel "persoonlijk"@nl;
+  skos:inScheme :imka;
+  skos:broader :gevoelstemperatuur .
