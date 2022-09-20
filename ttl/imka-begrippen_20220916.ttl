@@ -21,78 +21,41 @@
 
 :binnenruimte a skos:Collection;
   skos:prefLabel "Binnenruimte"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl, "(bijv. Engelse term)"@en;
-  rdfs:label "Binnenruimte";
   skos:member :airconditioning, :koele_plek, :opwarming, :schaduwplek,
     :uv_straling, :warmtestraling, :ventilatie, :zonnestraling;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:exactMatch <https://example.com>;
-  dct:source <https://example.com> .
+  skos:definition ""@nl .
 
 :buitenruimte a skos:Collection;
   skos:prefLabel "Buitenruimte"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl, "(bijv. Engelse term)"@en;
-  rdfs:label "Buitenruimte";
   skos:member :bebouwingsdichtheid, :beplanting, :blauwalg, :bodem, 
     :boom, :koele_plek, :openbaar_groen, :reflecterend_vermogen, 
     :reflecterend_materiaal, :schaduwplek, :stadspark, :verstening, :zonplek;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:exactMatch <https://example.com>;
-  dct:source <https://example.com> .
+  skos:definition ""@nl .
 
 :gezondheid a skos:Collection;
   skos:prefLabel "Gezondheid"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl, "(bijv. Engelse term)"@en;
-  rdfs:label "Gezondheid";
   skos:member :alcoholgebruik, :concentratieprobleem, :drugsgebruik, 
     :sterftecijfer, :gezondheidszorg, :huidkanker, :huisarts, :hulpdienst,
     :sterfte, :luchtverontreiniging, :thuiszorg, :uitdroging, :uitputting,
     :verdrinking, :ziekenhuisopnamen, :zuurstofstress;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:exactMatch <https://example.com>;
-  dct:source <https://example.com> .
+  skos:definition ""@nl .
 
 :gebouw a skos:Collection;
   skos:prefLabel "Gebouw"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl, "(bijv. Engelse term)"@en;
-  rdfs:label "Gebouw";
   skos:member :blootstelling, :gebouw, :gebouwhoogte, :groen_dak, 
     :groene_gevel, :reflecterend_vermogen, :reflecterend_materiaal, :ventilatie;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:exactMatch <https://example.com>;
-  dct:source <https://example.com> .
+  skos:definition ""@nl .
 
 :gebied a skos:Collection;
   skos:prefLabel "Gebied"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl, "(bijv. Engelse term)"@en;
-  rdfs:label "Gebied";
   skos:member :bodem, :bodemdaling, :bodemdalingvoorspelling, :boom, 
     :gemeentegrens, :koele_plek, :leefomgeving, :natuurbrandgevoeligheid,
     :natuurlijk_systeem, :natuurlijke_klimaatbuffer, :openbaar_groen,
     :speeltuin, :verstening, :warmteminnende_aquatische_soorten, :zonplek;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:exactMatch <https://example.com>;
-  dct:source <https://example.com> .
+  skos:definition ""@nl .
 
 :hitte a skos:Collection;
   skos:prefLabel "Hitte"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl, "(bijv. Engelse term)"@en;
-  rdfs:label "Hitte";
   skos:member :atmosfeer, :antropogene_warmtebron, :deltaplan_ruimte_adaptatie, 
     :gevoelstemperatuur, :hittebestendig, :hittemaatregel, :hitteplan, 
     :hittestress, :ijsdag, :koele_plek, :koelgraaddag, :luchttemperatuur, 
@@ -101,112 +64,65 @@
     :uv_straling, :verdamping, :verwarmingsgraaddag, :vorstdag, :warme_dag, 
     :warmtestraling, :windsnelheid, :windkracht, :zomerse_dag, :zonnestraling, 
     :zonplek;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:exactMatch <https://example.com>;
-  dct:source <https://example.com> .
+  skos:definition "Verzameling van begrippen die aan hitte gerelateerd zijn."@nl .
 
 :leefbaarheid a skos:Collection;
   skos:prefLabel "Leefbaarheid"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl, "(bijv. Engelse term)"@en;
-  rdfs:label "Leefbaarheid";
   skos:member :luchtverontreiniging, :opleidingsniveau, :schaduwplek, :verstening, :zuurstofstress;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:exactMatch <https://example.com>;
-  dct:source <https://example.com> .
+  skos:definition ""@nl .
 
+# ===================== AANPASSEN ====================================
 # Verplaatsen van concept naar collection
  #:klimaatverandering a skos:Collection;
  #  skos:prefLabel "Klimaatverandering"@nl;
- #  skos:altLabel "(bijv. afkorting)"@nl, "(bijv. Engelse term)"@en;
- #  rdfs:label "";
  #  skos:member :klimaatzone, :luchtstromingspatroon, :luchttemperatuur,
  #    :natuurbrand, uv_straling;
- #  skos:definitverplicht "(nog opnemen)"@nl;
- #  skos:scopeNote "(optioneel opnemen)"@nl;
- #  skos:editorialNote "(optioneel opnemen)"@nl;
- #  skos:example "(optioneel opnemen)"@nl;
- #  skos:exactMatch <https://example.com>;
- #  dct:source <https://example.com> .
+ #  skos:definition ""@nl .
 
 :klimaatadaptatie a skos:Collection;
   skos:prefLabel "Klimaatadaptatie"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl, "(bijv. Engelse term)"@en;
-  rdfs:label "Klimaatadaptatie";
   skos:member :openbaar_groen;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:exactMatch <https://example.com>;
+  skos:definition ""@nl;
+  skos:scopeNote ""@nl;
+  rdfs:label "Klimaatadaptatie";
   dct:source <https://example.com> .
 
 :klimaateffect a skos:Collection;
   skos:prefLabel "Klimaateffect"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl, "(bijv. Engelse term)"@en;
-  rdfs:label "Klimaateffect";
   skos:member :klimaatschadeschatter, :natuurbrand;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:exactMatch <https://example.com>;
+  skos:definition ""@nl;
+  skos:scopeNote ""@nl;
+  rdfs:label "Klimaateffect";
   dct:source <https://example.com> .
 
 :klimaatgevolg a skos:Collection;
   skos:prefLabel "Klimaatgevolg"@nl;
-  rdfs:label "Klimaatgevolg";
-  skos:altLabel "(bijv. afkorting)"@nl, "(bijv. Engelse term)"@en;
   skos:member :migratiepatroon, :natuurbrand;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:exactMatch <https://example.com>;
+  skos:definition ""@nl;
+  skos:scopeNote ""@nl;
+  rdfs:label "Klimaatgevolg";
   dct:source <https://example.com> .
 
 :klimaatmitigatie a skos:Collection;
   skos:prefLabel "Klimaatmitigatie"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl, "(bijv. Engelse term)"@en;
-  rdfs:label "Klimaatmitigatie";
   skos:member :openbaar_groen, :stresstest, :verstening, :warmteminnende_aquatische_soorten;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:exactMatch <https://example.com>;
+  skos:definition ""@nl;
+  skos:scopeNote ""@nl;
+  rdfs:label "Klimaatmitigatie";
   dct:source <https://example.com> .
 
+# ====================================================================
 :persoon a skos:Collection;
   skos:prefLabel "Persoon"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl, "(bijv. Engelse term)"@en;
-  rdfs:label "Persoon";
   skos:member :blootstelling, :fysiologisch_stressniveau, :kleding, 
     :leeftijd, :slaapproblemen, :staar, :uitdroging, :uitputting, :verdrinking,
     :vermoeidheid, :zuurstofstress;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:exactMatch <https://example.com>;
-  dct:source <https://example.com> .
+  skos:definition ""@nl .
 
 :organisaties a skos:Collection;
   skos:prefLabel "Organisaties"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl, "(bijv. Engelse term)"@en;
-  rdfs:label "Organisaties";
   skos:member :nationaal_kennis_en_innovatieprogramma_water_en_klimaat;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:exactMatch <https://example.com>;
-  dct:source <https://example.com> .
+  skos:definition ""@nl .
 
 #-------------------------------------------------------------------------------------------------------------
 # Concepten - Topstructuur
@@ -473,9 +389,9 @@
   dct:source <https://www.woorden.org/woord/zonnestraling>;
   dct:source <https://nl.wikipedia.org/wiki/Zonlicht> .
 
-# ------------------------------------------------------------------------------------------------------------
+# -WindsnelheidZonnestraling-----------------------------------------------------------------------------------------------------------
 #                              ONGESORTEERD
-# ------------------------------------------------------------------------------------------------------------
+#Windkracht ------------------------------------------------------------------------------------------------------------
 
 :atmosfeer a skos:Concept;
   skos:prefLabel "Atmosfeer"@nl;
