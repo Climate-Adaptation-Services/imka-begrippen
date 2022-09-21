@@ -263,11 +263,6 @@
   skos:broader :activiteit;
   dct:source <https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/maatregel#.YxCO7XZBwQ8> .
 
-:nog_indelen a skos:Concept;
-  skos:prefLabel "NOG INDELEN"@nl;
-  skos:inScheme :imka;
-  skos:topConceptOf :imka .
-
 :proces a skos:Concept;
   skos:prefLabel "Proces"@nl;
   skos:inScheme :imka;
@@ -315,6 +310,7 @@
 #-------------------------------------------------------------------------------------------------------------
 # Concepten - Hitte
 #-------------------------------------------------------------------------------------------------------------
+
 :antropogene_warmte a skos:Concept;
   skos:prefLabel "Antropogene warmte"@nl;
   skos:inScheme :imka;
@@ -479,135 +475,180 @@
 
 :atmosfeer a skos:Concept;
   skos:prefLabel "Atmosfeer"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Atmosfeer";
   dct:source <https://example.com> .
 
 :airconditioning a skos:Concept;
   skos:prefLabel "Airconditioning"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Airconditioning";
   dct:source <https://example.com> .
 
 :alcoholgebruik a skos:Concept;
   skos:prefLabel "Alcoholgebruik"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Alcoholgebruik";
   dct:source <https://example.com> .
 
 :bebouwingsdichtheid a skos:Concept;
   skos:prefLabel "Bebouwingsdichtheid"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Bebouwingsdichtheid";
   dct:source <https://example.com> .
 
 :beplanting a skos:Concept;
   skos:prefLabel "Beplanting"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Beplanting";
   dct:source <https://example.com> .
 
 :bereikbaarheid a skos:Concept;
   skos:prefLabel "Bereikbaarheid"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Bereikbaarheid";
   dct:source <https://example.com> .
 
 :blackout a skos:Concept;
   skos:prefLabel "Blackout"@en;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Blackout";
   dct:source <https://example.com> .
 
 :blauwalg a skos:Concept;
   skos:prefLabel "Blauwalg"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Blauwalg";
   dct:source <https://example.com> .
 
 :bloeiinductie a skos:Concept;
   skos:prefLabel "Bloeiinductie"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Bloeiinductie";
   dct:source <https://example.com> .
 
 :blootstelling a skos:Concept;
   skos:prefLabel "Blootstelling"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Blootstelling";
   dct:source <https://example.com> .
 
 :bodem a skos:Concept;
   skos:prefLabel "Bodem"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Bodem";
   dct:source <https://example.com> .
 
 :bodemdaling a skos:Concept;
   skos:prefLabel "Bodemdaling"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Bodemdaling";
   dct:source <https://example.com> .
 
 :bodemdalingvoorspelling a skos:Concept;
   skos:prefLabel "Bodemdalingvoorspelling"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Bodemdalingvoorspelling";
   dct:source <https://example.com> .
 
 :boom a skos:Concept;
   skos:prefLabel "Boom"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Boom";
   dct:source <https://example.com> .
 
 :concentratieprobleem a skos:Concept;
   skos:prefLabel "Concentratieprobleem"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Concentratieprobleem";
   dct:source <https://example.com> .
@@ -615,279 +656,372 @@
 :deltaplan_ruimte_adaptatie a skos:Concept;
   skos:prefLabel "Deltaplan Ruimte Adaptatie"@nl;
   skos:altLabel "DRA"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Deltaplan Ruimte Adaptatie";
   dct:source <https://example.com> .
 
 :doorstroming a skos:Concept;
   skos:prefLabel "Doorstroming"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Doorstroming";
   dct:source <https://example.com> .
 
 :drugsgebruik a skos:Concept;
   skos:prefLabel "Drugsgebruik"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Drugsgebruik";
   dct:source <https://example.com> .
 
 :fysiologisch_stressniveau a skos:Concept;
   skos:prefLabel "Fysiologisch Stressniveau"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Fysiologisch Stressniveau";
   dct:source <https://example.com> .
 
 :gebouwhoogte a skos:Concept;
   skos:prefLabel "Gebouwhoogte"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Gebouwhoogte";
   dct:source <https://example.com> .
 
 :gemeentegrens a skos:Concept;
   skos:prefLabel "Gemeentegrens"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Gemeentegrens";
   dct:source <https://example.com> .
 
 :gezondheidszorg a skos:Concept;
   skos:prefLabel "Gezondheidszorg"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Gezondheidszorg";
   dct:source <https://example.com> .
 
 :grijs a skos:Concept;
   skos:prefLabel "Grijs"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Grijs";
   dct:source <https://example.com> .
 
 :groen a skos:Concept;
   skos:prefLabel "Groen"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Groen";
   dct:source <https://example.com> .
 
 :groen_dak a skos:Concept;
   skos:prefLabel "Groen dak"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Groen dak";
   dct:source <https://example.com> .
 
 :groene_gevel a skos:Concept;
   skos:prefLabel "Groene gevel"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Groene gevel";
   dct:source <https://example.com> .
 
 :hittebestendig a skos:Concept;
   skos:prefLabel "Hittebestendig"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Hittebestendig";
   dct:source <https://example.com> .
 
 :hittemaatregel a skos:Concept;
   skos:prefLabel "Hittemaatregel"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Hittemaatregel";
   dct:source <https://example.com> .
 
 :hitteplan a skos:Concept;
   skos:prefLabel "Hitteplan"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Hitteplan";
   dct:source <https://example.com> .
 
 :hittestress a skos:Concept;
   skos:prefLabel "Hittestress"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Hittestress";
   dct:source <https://example.com> .
 
 :huidkanker a skos:Concept;
   skos:prefLabel "Huidkanker"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Huidkanker";
   dct:source <https://example.com> .
 
 :huisarts a skos:Concept;
   skos:prefLabel "Huisarts"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Huisarts";
   dct:source <https://example.com> .
 
 :hulpdienst a skos:Concept;
   skos:prefLabel "Hulpdienst"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Hulpdienst";
   dct:source <https://example.com> .
 
 :impact a skos:Concept;
   skos:prefLabel "Impact"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Impact";
   dct:source <https://example.com> .
 
 :jaarlijkse_neerslag a skos:Concept;
   skos:prefLabel "Jaarlijkse neerslag"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Jaarlijkse neerslag";
   dct:source <https://example.com> .
 
 :jaarlijkse_referentieverdamping a skos:Concept;
   skos:prefLabel "Jaarlijkse referentieverdamping"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Jaarlijkse referentieverdamping";
   dct:source <https://example.com> .
 
 :kleding a skos:Concept;
   skos:prefLabel "Kleding"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Kleding";
   dct:source <https://example.com> .
 
 :klimaatschadeschatter a skos:Concept;
   skos:prefLabel "Klimaatschadeschatter"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Klimaatschadeschatter";
   dct:source <https://example.com> .
 
 :klimaatzone a skos:Concept;
   skos:prefLabel "Klimaatzone"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Klimaatzone";
   dct:source <https://example.com> .
 
 :koele_plek a skos:Concept;
   skos:prefLabel "Koele plek"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Koele plek";
   dct:source <https://example.com> .
 
 :koelwater a skos:Concept;
   skos:prefLabel "Koelwater"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Koelwater";
   dct:source <https://example.com> .
 
 :leefomgeving a skos:Concept;
   skos:prefLabel "Leefomgeving"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Leefomgeving";
   dct:source <https://example.com> .
 
 :leeftijd a skos:Concept;
   skos:prefLabel "Leeftijd"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Leeftijd";
   dct:source <https://example.com> .
 
 :luchtstromingspatroon a skos:Concept;
   skos:prefLabel "Luchtstromingspatroon"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Luchtstromingspatroon";
   dct:source <https://example.com> .
 
 :luchtverontreiniging a skos:Concept;
   skos:prefLabel "Luchtverontreiniging"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Luchtverontreiniging";
   dct:source <https://example.com> .
 
 :migratiepatroon a skos:Concept;
   skos:prefLabel "Migratiepatroon"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Migratiepatroon";
   dct:source <https://example.com> .
@@ -895,216 +1029,288 @@
 :nationaal_kennis_en_innovatieprogramma_water_en_klimaat a skos:Concept;
   skos:prefLabel "Nationaal Kennis- en Innovatieprogramma Water en Klimaat"@nl;
   skos:altLabel "NKWK"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Nationaal Kennis- en Innovatieprogramma Water en Klimaat";
   dct:source <https://example.com> .
 
 :natuurbrand a skos:Concept;
   skos:prefLabel "Natuurbrand"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Natuurbrand";
   dct:source <https://example.com> .
 
 :natuurbrandgevoeligheid a skos:Concept;
   skos:prefLabel "Natuurbrandgevoeligheid"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Natuurbrandgevoeligheid";
   dct:source <https://example.com> .
 
 :natuurlijk_systeem a skos:Concept;
   skos:prefLabel "Natuurlijk systeem"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Natuurlijk systeem";
   dct:source <https://example.com> .
 
 :natuurlijke_klimaatbuffer a skos:Concept;
   skos:prefLabel "Natuurlijke klimaatbuffer"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Natuurlijke klimaatbuffer";
   dct:source <https://example.com> .
 
 :openbaar_groen a skos:Concept;
   skos:prefLabel "Openbaar groen"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Openbaar groen";
   dct:source <https://example.com> .
 
 :opleidingsniveau a skos:Concept;
   skos:prefLabel "Opleidingsniveau"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Opleidingsniveau";
   dct:source <https://example.com> .
 
 :opwarming a skos:Concept;
   skos:prefLabel "Opwarming"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Opwarming";
   dct:source <https://example.com> .
 
 :reflecterend_vermogen a skos:Concept;
   skos:prefLabel "Reflecterend vermogen"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Reflecterend vermogen";
   dct:source <https://example.com> .
 
 :reflecterend_materiaal a skos:Concept;
   skos:prefLabel "Reflecterend materiaal"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Reflecterend materiaal";
   dct:source <https://example.com> .
 
 :schaduwplek a skos:Concept;
   skos:prefLabel "Schaduwplek"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Schaduwplek";
   dct:source <https://example.com> .
 
 :slaapproblemen a skos:Concept;
   skos:prefLabel "Slaapproblemen"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Slaapproblemen";
   dct:source <https://example.com> .
 
 :sky_view_factor a skos:Concept;
   skos:prefLabel "Sky View Factor"@en;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Sky View Factor";
   dct:source <https://example.com> .
 
 :staar a skos:Concept;
   skos:prefLabel "Staar"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Staar";
   dct:source <https://example.com> .
 
 :stadspark a skos:Concept;
   skos:prefLabel "Stadspark"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Stadspark";
   dct:source <https://example.com> .
 
 :stedelijk_hitte_eilandeffect a skos:Concept;
   skos:prefLabel "Stedelijk hitte-eilandeffect"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Stedelijk hitte-eilandeffect";
   dct:source <https://example.com> .
 
 :stedelijke_recreatieruimte a skos:Concept;
   skos:prefLabel "Stedelijke recreatieruimte"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Stedelijke recreatieruimte";
   dct:source <https://example.com> .
 
 :speeltuin a skos:Concept;
   skos:prefLabel "Speeltuin"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Speeltuin";
   dct:source <https://example.com> .
 
 :sterfte a skos:Concept;
   skos:prefLabel "Sterfte"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Sterfte";
   dct:source <https://example.com> .
 
 :sterftecijfer a skos:Concept;
   skos:prefLabel "Sterftecijfer"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Sterftecijfer";
   dct:source <https://example.com> .
 
 :stresstest a skos:Concept;
   skos:prefLabel "Stresstest"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Stresstest";
   dct:source <https://example.com> .
 
 :thuiszorg a skos:Concept;
   skos:prefLabel "Thuiszorg"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Thuiszorg";
   dct:source <https://example.com> .
 
 :uitdroging a skos:Concept;
   skos:prefLabel "Uitdroging"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Uitdroging";
   dct:source <https://example.com> .
 
 :uitputting a skos:Concept;
   skos:prefLabel "Uitputting"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Uitputting";
   dct:source <https://example.com> .
@@ -1112,81 +1318,108 @@
 :uv_straling a skos:Concept;
   skos:prefLabel "UV-straling"@nl;
   skos:altLabel "ultraviolette straling"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "UV-straling";
   dct:source <https://example.com> .
 
 :ventilatie a skos:Concept;
   skos:prefLabel "Ventilatie"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Ventilatie";
   dct:source <https://example.com> .
 
 :verdrinking a skos:Concept;
   skos:prefLabel "Verdrinking"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Verdrinking";
   dct:source <https://example.com> .
 
 :vermoeidheid a skos:Concept;
   skos:prefLabel "Vermoeidheid"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Vermoeidheid";
   dct:source <https://example.com> .
 
 :verstening a skos:Concept;
   skos:prefLabel "Verstening"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Verstening";
   dct:source <https://example.com> .
 
 :warmteminnende_aquatische_soorten a skos:Concept;
   skos:prefLabel "Warmteminnende aquatische soorten"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Warmteminnende aquatische soorten";
   dct:source <https://example.com> .
 
 :ziekenhuisopnamen a skos:Concept;
   skos:prefLabel "Ziekenhuisopnamen"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Ziekenhuisopnamen";
   dct:source <https://example.com> .
 
 :zonplek a skos:Concept;
   skos:prefLabel "Zonplek"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Zonplek";
   dct:source <https://example.com> .
 
 :zuurstofstress a skos:Concept;
   skos:prefLabel "Zuurstofstress"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition ""@nl;
-  skos:scopeNote ""@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen"@nl;
+  skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
   rdfs:label "Zuurstofstress";
   dct:source <https://example.com> .
