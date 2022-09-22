@@ -16,7 +16,7 @@ In deze repository gebruiken we [issues](https://github.com/Geonovum/imka-begrip
 
 Iedereen is welkom om zelf [een issue aan te maken](https://github.com/Geonovum/imka-begrippen/issues/new/choose) om op deze manier feedback te geven over het begrippenkader in wording. Kijk wel eerst even of hetzelfde issue niet al is gemeld door iemand anders.
 
-**Nieuw op Github**? Het is voor iedereen mogelijk om de informatie, inclusief de gemelde issues, te bekijken. Als u op een issue wilt reageren, of zelf een issue wilt aanmaken om een bevinding, vraag of andere reactie te melden, moet u een Github account hebben. Klik op [Sign Up](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=Geonovum%2Fimka-begrippen) en volg de instructies om zelf een Github account te maken. 
+**Nieuw op Github**? Het is voor iedereen mogelijk om de informatie, inclusief de gemelde issues, te bekijken. Als u op een issue wilt reageren, of zelf een issue wilt aanmaken om een bevinding, vraag of andere reactie te melden, moet u een Github account hebben. Klik op [Sign Up](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=Geonovum%2Fimka-begrippen) en volg de instructies om zelf een Github account te maken.  
 
 ## Links
 
