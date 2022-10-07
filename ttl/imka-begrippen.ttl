@@ -397,7 +397,7 @@ col:organisaties a skos:Collection;
   dct:source <https://www.klimaateffectatlas.nl/nl/het-wordt-heter> .
 
 :tropische_nacht a skos:Concept;
-  skos:prefLabel "Tropischenacht"@nl;
+  skos:prefLabel "Tropische nacht"@nl;
   skos:definition "We spreken in Nederland van een tropische nacht als de minimumtemperatuur 20 °C of hoger is"@nl;
   skos:scopeNote " Het hoogste aantal tropische nachten wordt in het zuidwesten van ons land op station Vlissingen behaald. Door de temperende werking van de zee koelt het langs de kust ’s nachts minder af. In het noordwesten komen het laagst aantal tropische nachten voor, doordat daar de temperatuur gemiddeld lager is dan in het zuiden. De metingen zijn gedaan in het landelijk gebied. Het Hitte-eiland effect zorgt ervoor dat het werkelijk aantal tropische nachten in steden hoger zal zijn dan de grafiek hierboven aangeeft. In de toekomst zal het aantal tropische nachten overal in Nederland stijgen. Tropische nachten zorgen vaak voor hitte stress, doordat mensen minder goed slapen en minder goed herstellen van hittestress overdag. Dit kan overdag leiden tot bijvoorbeeld arbeidsproductiviteitsverlies."@nl;
   skos:inScheme :imka;
@@ -457,7 +457,7 @@ col:organisaties a skos:Collection;
   dct:source <https://nl.wikipedia.org/wiki/Schaal_van_Beaufort> .
 
 :zomerse_dag a skos:Concept;
-  skos:prefLabel "Zomersedag"@nl;
+  skos:prefLabel "Zomerse dag"@nl;
   skos:inScheme :imka;
   skos:definition "Dag waarop de maximumtemperatuur 25 °C of hoger is."@nl;
   skos:scopeNote "Door de temperende werking van de zee komen zomerse dagen aan de kust minder vaak voor dan in het binnenland. Het hoogste aantal zomerse dagen worden in het zuidoosten van ons land behaald. Langere perioden met zomerse dagen bieden bijvoorbeeld prettigere temperaturen voor een zomervakantie in eigen land. De perioden leiden bijvoorbeeld ook tot waterkwaliteit problemen en hittestress. Met name ouderen en zieken zijn gevoelig voor hittestress."@nl;
@@ -657,8 +657,8 @@ col:organisaties a skos:Collection;
   rdfs:label "Concentratieprobleem";
   dct:source <https://example.com> .
 
-:deltaplan_ruimte_adaptatie a skos:Concept;
-  skos:prefLabel "Deltaplan Ruimte Adaptatie"@nl;
+:deltaplan_ruimtelijke_adaptatie a skos:Concept;
+  skos:prefLabel "Deltaplan Ruimtelijke Adaptatie"@nl;
   skos:altLabel "DRA"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
@@ -667,7 +667,7 @@ col:organisaties a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf :imka;
-  rdfs:label "Deltaplan Ruimte Adaptatie";
+  rdfs:label "Deltaplan Ruimtelijke Adaptatie";
   dct:source <https://example.com> .
 
 :doorstroming a skos:Concept;
