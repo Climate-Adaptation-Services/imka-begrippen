@@ -129,8 +129,7 @@ col:klimaatverandering a skos:Collection;
   skos:prefLabel "Klimaatverandering"@nl;
   skos:altLabel "(bijv. afkorting)"@nl, "(bijv. Engelse term)"@en;
   rdfs:label "";
-  skos:member :klimaatzone, :luchtstromingspatroon, :luchttemperatuur,
-    :natuurbrand, uv_straling;
+  skos:member :klimaatzone, :luchtstromingspatroon, :luchttemperatuur, :natuurbrand, :uv_straling;
   skos:definition "(verplicht opnemen)"@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
@@ -190,9 +189,7 @@ col:persoon a skos:Collection;
   skos:prefLabel "Persoon"@nl;
   skos:altLabel "(bijv. afkorting)"@nl, "(bijv. Engelse term)"@en;
   rdfs:label "Persoon";
-  skos:member :blootstelling, :fysiologisch_stressniveau, :kleding, 
-    :leeftijd, :slaapproblemen, :staar, :uitdroging, :uitputting, :verdrinking,
-    :vermoeidheid, :zuurstofstress;
+  skos:member :blootstelling, :fysiologisch_stressniveau, :kleding, :leeftijd, :slaapproblemen, :staar, :uitdroging, :uitputting, :verdrinking, :vermoeidheid, :zuurstofstress;
   skos:definition "(verplicht opnemen)"@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
