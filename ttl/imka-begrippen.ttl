@@ -1,6 +1,6 @@
-@prefix : <https://definities.geostandaarden.nl/imka/id/begrip/> .
-@prefix bk: <https://definities.geostandaarden.nl/imka/id/begrippenkader/> .
-@prefix col: <https://definities.geostandaarden.nl/imka/id/collectie/> .
+@prefix : <http://definities.geostandaarden.nl/imka/id/begrip/> .
+@prefix bk: <http://definities.geostandaarden.nl/imka/id/begrippenkader/> .
+@prefix col: <http://definities.geostandaarden.nl/imka/id/collectie/> .
 @prefix grddl: <http://www.w3.org/2003/g/data-view#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -10,7 +10,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 
-<https://begrippen.geostandaarden.nl/imka/nl/page/> a owl:Ontology .
+# <http://begrippen.geostandaarden.nl/imka/nl/page/> a owl:Ontology .
 
 #-------------------------------------------------------------------------------------------------------------
 # Scheme
