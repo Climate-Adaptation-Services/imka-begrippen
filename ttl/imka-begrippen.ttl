@@ -1273,7 +1273,7 @@ col:organisaties a skos:Collection;
 
 :reflectiefactor a skos:Concept;
   skos:prefLabel "Reflectiefactor"@nl;
-  skos:altLabel "Albedo"@nl;, "Witheid"@nl;
+  skos:altLabel "Albedo"@nl, "Witheid"@nl;
   skos:inScheme :imka;
   skos:definition "Deze variabele representeert de hoeveelheid zonnestraling die het oppervlak reflecteert vergeleken met de hoeveelheid die het ontvangt."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
@@ -1433,7 +1433,7 @@ col:organisaties a skos:Collection;
   skos:definition "Stralingstemperatuur is net als PET een index voor de gevoelstemperatuur en combineert luchttemperatuur en straling."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:broader :temperatuur;
-  skos:altLabel "Mean radiant temperature"@en, "Tmrt"@en,;
+  skos:altLabel "Mean radiant temperature"@en, "Tmrt"@en;
   skos:broadMatch <https://www.aquo.nl/index.php/Id-368757fa-38b2-4b6a-910f-72e849810ba9>;
   dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
 
@@ -1556,9 +1556,9 @@ col:organisaties a skos:Collection;
   rdfs:label "Verstening";
   dct:source <https://example.com> .
 
-:warmteflux skos:Concept;
+:warmteflux a skos:Concept;
   skos:prefLabel "Warmteflux"@nl;
-  skos:altLabel "Warmteoverdracht"@nl;, "Warmtetransport"@nl;, "Warmtestroming"@nl;
+  skos:altLabel "Warmteoverdracht"@nl, "Warmtetransport"@nl, "Warmtestroming"@nl;
   skos:inScheme :imka;
   skos:definition "De flux (stroming) van energie in de vorm van warmte van locaties met een hogere temperatuur, naar locaties met een lagere temperatuur. "@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
