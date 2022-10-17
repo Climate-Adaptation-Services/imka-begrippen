@@ -27,7 +27,7 @@ col:binnenruimte a skos:Collection;
   skos:prefLabel "Binnenruimte"@nl;
   skos:altLabel "(bijv. afkorting)"@nl, "(bijv. Engelse term)"@en;
   rdfs:label "Binnenruimte";
-  skos:member :airconditioning, :koele_plek, :opwarming, :schaduwplek,
+  skos:member :airconditioning, :binnentemperatuur, :koele_plek, :opwarming, :schaduwplek,
     :uv_straling, :warmtestraling, :ventilatie, :zonnestraling;
   skos:definition "(verplicht opnemen)"@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
@@ -69,7 +69,7 @@ col:gebouw a skos:Collection;
   skos:prefLabel "Gebouw"@nl;
   skos:altLabel "(bijv. afkorting)"@nl, "(bijv. Engelse term)"@en;
   rdfs:label "Gebouw";
-  skos:member :blootstelling, :gebouw, :gebouwhoogte, :groen_dak, 
+  skos:member :binnentemperatuur, :blootstelling, :gebouw, :gebouwhoogte, :groen_dak, 
     :groene_gevel, :reflecterend_vermogen, :reflecterend_materiaal, :ventilatie;
   skos:definition "(verplicht opnemen)"@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
@@ -97,12 +97,12 @@ col:hitte a skos:Collection;
   skos:prefLabel "Hitte"@nl;
   skos:altLabel "(bijv. afkorting)"@nl, "(bijv. Engelse term)"@en;
   rdfs:label "Hitte";
-  skos:member :atmosfeer, :antropogene_warmtebron, :deltaplan_ruimte_adaptatie, 
-    :gevoelstemperatuur, :hittebestendig, :hittemaatregel, :hitteplan, 
-    :hittestress, :ijsdag, :koele_plek, :koelgraaddag, :luchttemperatuur, 
+  skos:member :atmosfeer, :antropogene_warmtebron, :binnentemperatuur, :deltaplan_ruimte_adaptatie, 
+    :gevoelstemperatuur, :hittebestendig, :hittegolf, :hittemaatregel, :hitteplan, :hitterisico, :hitterisicokaart,
+    :hittestress, :hittetoetsingskaart, :ijsdag, :koele_plek, :koelgraaddag, :luchttemperatuur, 
     :luchtvochtigheid, :relatieve_luchtvochtigheid, :opwarming, :schaduw, 
-    :stedelijk_hitte_eilandeffect, :stresstest, :tropische_dag, :tropische_nacht, 
-    :uv_straling, :verdamping, :verwarmingsgraaddag, :vorstdag, :warme_dag, 
+    :stedelijk_hitte_eilandeffect, :stralingstemperatuur, :stresstest, :temperatuurkaart, :thermalwalk, :tropische_dag, :tropische_nacht, 
+    :uv_straling, :verdamping, :verwarmingsgraaddag, :vorstdag, :warme_dag, :warmteflux, 
     :warmtestraling, :windsnelheid, :windkracht, :zomerse_dag, :zonnestraling, 
     :zonplek;
   skos:definition "(verplicht opnemen)"@nl;
@@ -141,7 +141,7 @@ col:klimaatadaptatie a skos:Collection;
   skos:prefLabel "Klimaatadaptatie"@nl;
   skos:altLabel "(bijv. afkorting)"@nl, "(bijv. Engelse term)"@en;
   rdfs:label "Klimaatadaptatie";
-  skos:member :openbaar_groen;
+  skos:member :beschaduwing, :hitteopgave, :openbaar_groen, :reflectie, :reflectiefactor, :thermalwalk;
   skos:definition "(verplicht opnemen)"@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
@@ -241,6 +241,13 @@ col:organisaties a skos:Collection;
   skos:broader :ding;
   dct:source <https://example.com> .
 
+:instrument a skos:Concept;
+  skos:prefLabel "Instrument"@nl;
+  skos:inScheme :imka;
+  skos:definition "-"@nl;
+  skos:broader :object;
+  dct:source <https://example.com> .
+
 :klimaat a skos:Concept;
   skos:prefLabel "Klimaat"@nl;
   skos:inScheme :imka;
@@ -283,7 +290,7 @@ col:organisaties a skos:Collection;
   skos:prefLabel "Observatie"@nl;
   skos:inScheme :imka;
   skos:definition "Een waarmening"@nl;
-  skos:broader :gebeurtenis;
+  skos:broader :activiteit;
   dct:source <https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/observatie#.YxCKLXZBwQ8> .
 
 :risico a skos:Concept;
@@ -315,8 +322,8 @@ col:organisaties a skos:Collection;
 :antropogene_warmte a skos:Concept;
   skos:prefLabel "Antropogene warmte"@nl;
   skos:inScheme :imka;
-  skos:definition "Warmte veroorzaakt door menselijke activiteiten"@nl;
-  skos:scopeNote "Verbranding van fossiele brandstoffen, intensieve veeteelt, koelsystemen"@nl;
+  skos:definition "Warmte die vrijkomt als gevolg van menselijke activiteiten"@nl;
+  skos:scopeNote "Verbranding van fossiele brandstoffenvoor gebouwen, voertuigen en industriële processen, intensieve veeteelt, koelsystemen"@nl;
   skos:broader :eigenschap;
   dct:source <http://cartogis.ugent.be/geologis/quartair/ijstijden/43_klimaatverandering_oorzaken_antropogene_invloeden.html> .
 
@@ -329,6 +336,23 @@ col:organisaties a skos:Collection;
   skos:editorialNote "Dit is een lastige term voor opname in een thesaurus omdat het een samengestelde term is. Eigenlijk is het antropogeen-zijn een eigenschap van een object. Misschien opsplitsen in Antropogeen en Warmtebron. Het is doordat het een samenstelling is, ook lastig in een categorie te plaatsen. Iets specifiekere Broader categorie zou wel zijn: Reëel object zoals gedefinieerd in NEN 3610, eventueel met een subcategorie Antropogeen Reëel Object. Maar deze zijn nog niet opgenomen in deze thesaurus."@nl;
   dct:source <http://cartogis.ugent.be/geologis/quartair/ijstijden/43_klimaatverandering_oorzaken_antropogene_invloeden.html> .
 
+:binnentemperatuur a skos:Concept;
+  skos:prefLabel "Binnentemperatuur"@nl;
+  skos:inScheme :imka;
+  skos:definition "Hoe warm het is in een gebouw."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:broader :temperatuur;
+  dct:source <https://www.klimaateffectatlas.nl/nl/hittekaart-gevoelstemperatuur> .
+  
+:energiebalans a skos:Concept;
+  skos:prefLabel "Energiebalans"@nl;
+  skos:inScheme :imka;
+  skos:definition "de balans tussen de inkomende en uitgaande warmtestraling."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "Definitie zelf geformuleerd op basis van Klimaatbestendige stad rapport"@nl;
+  skos:broader :eigenschap;
+  dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
+
 :gevoelstemperatuur a skos:Concept;
   skos:prefLabel "Gevoelstemperatuur"@nl;
   skos:inScheme :imka;
@@ -338,6 +362,15 @@ col:organisaties a skos:Collection;
   skos:altLabel "Fysiologisch equivalente temperatuur"@nl, "PET"@en, "Physiological Equivalent Temperature"@en;
   skos:broadMatch <https://www.aquo.nl/index.php/Id-368757fa-38b2-4b6a-910f-72e849810ba9>;
   dct:source <https://www.klimaateffectatlas.nl/nl/hittekaart-gevoelstemperatuur> .
+
+:hitterisico a skos:Concept;
+  skos:prefLabel "Hitterisico"@nl;
+  skos:inScheme :imka;
+  skos:definition "Risico als gevolg van hitte, veroorzaakt door intensiteit en duur, blootstelling, en kwetsbaarheid van de blootgestelde mensen, objecten of flora/fauna."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "Definitie zelf geformuleerd op basis van Klimaatbestendige stad rapport"@nl;
+  skos:broader :proces;
+  dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
 
 :ijsdag a skos:Concept;
   skos:prefLabel "IJsdag"@nl;
@@ -355,8 +388,17 @@ col:organisaties a skos:Collection;
   skos:broader :gebeurtenis;
   dct:source <https://www.klimaateffectatlas.nl/nl/het-wordt-heter> .
 
+:klimatopenkaart a skos:Concept;
+  skos:prefLabel "Klimatopenkaart"@nl;
+  skos:inScheme :imka;
+  skos:definition "Kaart die deelgebieden in de stad toont die eenzelfde landgebruik en bebouwingstypologie hebben en daardoor ook een soortgelijk stedelijk klimaat"@nl; 
+  skos:scopeNote "Klimatopenkaarten geven aan welke deelgebieden koeler of warmer zijn tijdens een hete dag en sluiten dus aan bij het doel te identificeren waar het heet is."@nl;
+  skos:broader :instrument;
+  dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
+
 :luchttemperatuur a skos:Concept;
   skos:prefLabel "Luchttemperatuur"@nl;
+  skos:altLabel "Buitentemperatuur"@nl;
   skos:inScheme :imka;
   skos:definition "Temperatuur van de buitenlucht"@nl;
   skos:scopeNote "Bij weerstations wordt deze gemeten in graden Celsius op een hoogte van anderhalve meter boven een open grasvlakte."@nl;
@@ -393,6 +435,14 @@ col:organisaties a skos:Collection;
   skos:broader :gebeurtenis;
   dct:source <https://www.klimaateffectatlas.nl/nl/het-wordt-heter> .
 
+:thermalwalk a skos:Concept;
+  skos:prefLabel "Thermal walk"@nl;
+  skos:definition "een meetmethode voor het meten van hitte in de stad"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:inScheme :imka;
+  skos:broader :activiteit;
+  dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
+
 :tropische_nacht a skos:Concept;
   skos:prefLabel "Tropische nacht"@nl;
   skos:definition "We spreken in Nederland van een tropische nacht als de minimumtemperatuur 20 °C of hoger is"@nl;
@@ -405,6 +455,7 @@ col:organisaties a skos:Collection;
   skos:prefLabel "Verdamping"@nl;
   skos:inScheme :imka;
   skos:definition "De faseovergang van vloeistofmoleculen aan een oppervlak naar de gasfase."@nl;
+  skos:scopeNote "Verdamping zorgt voor het vergroten van het aandeel latente warmte in de energiebalans, zodat er minder energie overblijft voor het opwarmen van lucht en oppervlak."@nl;
   skos:broader :proces;
   skos:altLabel "Evaporatie"@nl;
   skos:closeMatch <https://www.begrippenxl.nl/droogte/nl/page/verdamping>;
@@ -545,6 +596,18 @@ col:organisaties a skos:Collection;
   skos:topConceptOf :imka;
   rdfs:label "Bereikbaarheid";
   dct:source <https://example.com> .
+
+:beschaduwing a skos:Concept;
+  skos:prefLabel "Beschaduwing"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme :imka;
+  skos:definition "Het afvangen van zonnestraling, zodat de hoeveelheid energie die aan het beschaduwde oppervlak komt, wordt beperkt."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :hittemaatregel;
+  rdfs:label "Beschaduwing";
+  dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
 
 :blackout a skos:Concept;
   skos:prefLabel "Blackout"@en;
@@ -799,17 +862,53 @@ col:organisaties a skos:Collection;
   rdfs:label "Hittebestendig";
   dct:source <https://example.com> .
 
+:hitteopgave a skos:Concept;
+  skos:prefLabel "Hitteopgave"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme :imka;
+  skos:definition "Dat wat je moet doen om de stad leefbaar en comfortabel te houden met het oog op hitte."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "In het rapport 'De hittebestendige stad' gaat het bij de hitteopgave alleen over de buitenruimte. We hebben de term hier breder geïnterpreteerd om ook de binnenruimte mee te kunnen nemen. "@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :maatregel;
+  rdfs:label "Hitteopgave";
+  dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
+
+:hittegolf a skos:Concept;
+  skos:prefLabel "Hittegolf"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme :imka;
+  skos:definition "In Nederland is een hittegolf een opeenvolging van in De Bilt minimaal 5 zomerse dagen, waarvan er minimaal drie tropische dagen zijn."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :gebeurtenis;
+  rdfs:label "Hittegolf";
+  dct:source <https://www.knmi.nl/kennis-en-datacentrum/uitleg/hittegolf> .
+
 :hittemaatregel a skos:Concept;
   skos:prefLabel "Hittemaatregel"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition "(verplicht opnemen)"@nl;
+  skos:definition "Maatregel om stadsbreed de luchttemperatuur of lokaal de gevoelstemperatuur te verlagen."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "Misschien moet de scope van de definitie verbreed worden om ook toepasbaar te zijn op binnenruimte en buiten de stad"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf :imka;
+  skos:broader :maatregel;
   rdfs:label "Hittemaatregel";
   dct:source <https://example.com> .
+
+:hitteopgave a skos:Concept;
+  skos:prefLabel "Hitteopgave"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme :imka;
+  skos:definition "Dat wat je moet doen om de stad leefbaar en comfortabel te houden met het oog op hitte."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "In het rapport 'De hittebestendige stad' gaat het bij de hitteopgave alleen over de buitenruimte. We hebben de term hier breder geïnterpreteerd om ook de binnenruimte mee te kunnen nemen. "@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :activiteit;
+  rdfs:label "Hitteopgave";
+  dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
 
 :hitteplan a skos:Concept;
   skos:prefLabel "Hitteplan"@nl;
@@ -823,17 +922,41 @@ col:organisaties a skos:Collection;
   rdfs:label "Hitteplan";
   dct:source <https://example.com> .
 
+:hitterisicokaart a skos:Concept;
+  skos:prefLabel "Hitterisicokaart"@nl;
+  skos:altLabel "Risicokaart"@nl;
+  skos:inScheme :imka;
+  skos:definition "Kaart die temperatuurkaarten met blootstelling en kwetsbaarheid combineert. "@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :instrument;
+  rdfs:label "Hitterisicokaart";
+  dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
+
 :hittestress a skos:Concept;
   skos:prefLabel "Hittestress"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:definition "Fysiologische stress gerelateerd aan warmte."@nl;
+  skos:scopeNote "Boven 23°C PET kan al hittestress ontstaan. Vanaf 41°C PET is er sprake van extreme hittestress."@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf :imka;
+  skos:broader :gebeurtenis;
   rdfs:label "Hittestress";
-  dct:source <https://example.com> .
+  dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
+
+:hittetoetsingskaart a skos:Concept;
+  skos:prefLabel "Hittetoetsingskaart"@nl;
+  skos:altLabel "Toetsingskaart"@nl;
+  skos:inScheme :imka;
+  skos:definition "Kaart die bedoeld is om doelstellingen op het gebied van hitte te toetsen."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "Bijvoorbeeld het toetsen zijn van het percentage schaduw, de afstand tot koele plekken vanaf elk woonadres of het percentage groen. "@nl;
+  skos:broader :instrument;
+  rdfs:label "Hittetoetsingskaart";
+  dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
 
 :huidkanker a skos:Concept;
   skos:prefLabel "Huidkanker"@nl;
@@ -966,6 +1089,18 @@ col:organisaties a skos:Collection;
   skos:topConceptOf :imka;
   rdfs:label "Koelwater";
   dct:source <https://example.com> .
+
+:kwetsbaarheidskaart a skos:Concept;
+  skos:prefLabel "Kwetsbaarheidskaart"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme :imka;
+  skos:definition "Kaart waarop een combinatie van gevoeligheid voor hitte en aanpassingsvermogen wordt weergegeven. "@nl;
+  skos:scopeNote "Deze kaarten laten zien waar hitte tot problemen kan leiden."@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "Een voorbeeld is een hittekaart die ook aangeeft in welke gebieden eenzaamheid voorkomt of een kaart met informatie over de bevolkingsopbouw of het percentage thuiswonende ouderen. Andere voorbeelden zijn de kaarten die de locaties van kwetsbare groepen zoals seniorenwoningen, kinderdagverblijven of basisscholen of kwetsbare objecten zoals bruggen aanduiden."@nl;
+  skos:broader :instrument;
+  rdfs:label "Kwetsbaarheidskaart";
+  dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
 
 :leefomgeving a skos:Concept;
   skos:prefLabel "Leefomgeving"@nl;
@@ -1124,6 +1259,30 @@ col:organisaties a skos:Collection;
   rdfs:label "Opwarming";
   dct:source <https://example.com> .
 
+:reflectie a skos:Concept;
+  skos:prefLabel "Reflectie"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme :imka;
+  skos:definition "het weerkaatsen van zonnestraling om de beschikbare energie die de stad opwarmt te verminderen."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :proces;
+  rdfs:label "Reflectie";
+  dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
+
+:reflectiefactor a skos:Concept;
+  skos:prefLabel "Reflectiefactor"@nl;
+  skos:altLabel "Albedo"@nl;, "Witheid"@nl;
+  skos:inScheme :imka;
+  skos:definition "Deze variabele representeert de hoeveelheid zonnestraling die het oppervlak reflecteert vergeleken met de hoeveelheid die het ontvangt."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :eigenschap;
+  rdfs:label "Reflectiefactor";
+  dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
+
 :reflecterend_vermogen a skos:Concept;
   skos:prefLabel "Reflecterend vermogen"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
@@ -1210,15 +1369,15 @@ col:organisaties a skos:Collection;
 
 :stedelijk_hitte_eilandeffect a skos:Concept;
   skos:prefLabel "Stedelijk hitte-eilandeffect"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:altLabel "Hitte-eilandeffect"@nl;
   skos:inScheme :imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:definition "Het verschijnsel waarbij de luchttemperatuur in de stad een paar graden warmer is dan de omgeving"@nl;
+  skos:scopeNote "Het effect neemt toe als gevolg van stadsuitbreiding en -inbreiding. NB Een veelgehoord misverstand is dat het stedelijk hitte-eilandeffect de problemen overdag zou vergroten. Dat is niet waar. Overdag is het hitte-eilandeffect doorgaans klein."@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf :imka;
+  skos:broader :proces;
   rdfs:label "Stedelijk hitte-eilandeffect";
-  dct:source <https://example.com> .
+  dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
 
 :stedelijke_recreatieruimte a skos:Concept;
   skos:prefLabel "Stedelijke recreatieruimte"@nl;
@@ -1268,6 +1427,16 @@ col:organisaties a skos:Collection;
   rdfs:label "Sterftecijfer";
   dct:source <https://example.com> .
 
+:stralingstemperatuur a skos:Concept;
+  skos:prefLabel "Stralingstemperatuur"@nl;
+  skos:inScheme :imka;
+  skos:definition "Stralingstemperatuur is net als PET een index voor de gevoelstemperatuur en combineert luchttemperatuur en straling."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:broader :temperatuur;
+  skos:altLabel "Mean radiant temperature"@en, "Tmrt"@en,;
+  skos:broadMatch <https://www.aquo.nl/index.php/Id-368757fa-38b2-4b6a-910f-72e849810ba9>;
+  dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
+
 :stresstest a skos:Concept;
   skos:prefLabel "Stresstest"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
@@ -1279,6 +1448,16 @@ col:organisaties a skos:Collection;
   skos:topConceptOf :imka;
   rdfs:label "Stresstest";
   dct:source <https://example.com> .
+
+:temperatuurkaart a skos:Concept;
+  skos:prefLabel "Temperatuurkaart"@nl;
+  skos:inScheme :imka;
+  skos:definition "Een kaart die een inschatting toont van de lucht-, gevoels- of oppervlaktetemperatuur, op basis van modellen, metingen of satellietbeelden."@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :instrument;
+  rdfs:label "Temperatuurkaart"@nl;
+  dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
 
 :thuiszorg a skos:Concept;
   skos:prefLabel "Thuiszorg"@nl;
@@ -1333,13 +1512,13 @@ col:organisaties a skos:Collection;
   skos:prefLabel "Ventilatie"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme :imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:definition "Afvoer van warme lucht"@nl;
+  skos:scopeNote "Het kan gaan om afvoer de stad uit of het gebouw uit."@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf :imka;
+  skos:broader :hittemaatregel;
   rdfs:label "Ventilatie";
-  dct:source <https://example.com> .
+  dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
 
 :verdrinking a skos:Concept;
   skos:prefLabel "Verdrinking"@nl;
@@ -1376,6 +1555,18 @@ col:organisaties a skos:Collection;
   skos:topConceptOf :imka;
   rdfs:label "Verstening";
   dct:source <https://example.com> .
+
+:warmteflux skos:Concept;
+  skos:prefLabel "Warmteflux"@nl;
+  skos:altLabel "Warmteoverdracht"@nl;, "Warmtetransport"@nl;, "Warmtestroming"@nl;
+  skos:inScheme :imka;
+  skos:definition "De flux (stroming) van energie in de vorm van warmte van locaties met een hogere temperatuur, naar locaties met een lagere temperatuur. "@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :proces;
+  rdfs:label "Warmteflux"@nl;
+  dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
 
 :warmteminnende_aquatische_soorten a skos:Concept;
   skos:prefLabel "Warmteminnende aquatische soorten"@nl;
