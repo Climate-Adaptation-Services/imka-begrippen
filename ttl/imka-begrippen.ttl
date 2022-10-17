@@ -116,7 +116,7 @@ col:instrumenten a skos:Collection;
   skos:prefLabel "Instrumenten"@nl;
   skos:altLabel "(bijv. afkorting)"@nl, "(bijv. Engelse term)"@en;
   rdfs:label "Instrumenten";
-  skos:member :hitterisicokaart, :hittetoetsingskaart, :klimatopenkaart, :kwetsbaarheidskaart, :temperatuurkaart, ;
+  skos:member :hitterisicokaart, :hittetoetsingskaart, :klimatopenkaart, :kwetsbaarheidskaart, :temperatuurkaart;
   skos:definition "(verplicht opnemen)"@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
