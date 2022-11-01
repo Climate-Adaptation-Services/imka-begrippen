@@ -2004,7 +2004,7 @@ col:weerverschijnselen a skos:Collection;
   dct:source <https://example.com> .
 
 :uv-straling a skos:Concept;
-  skos:prefLabel "Uv-straling"@nl;
+  skos:prefLabel "UV-straling"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
   skos:definition "(verplicht opnemen)"@nl;
