@@ -1095,7 +1095,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "Parameter in model"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "Één keer per honderd jaar."@nl;
-  skos:broader :herhalingstijd;
+  skos:broader :temporele_eigenschap;
   rdfs:label "Herhalingstijd";
   dct:source <https://example.com> .
 
