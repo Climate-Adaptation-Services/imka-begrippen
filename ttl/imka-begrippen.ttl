@@ -45,7 +45,7 @@ col:gezondheid a skos:Collection;
   skos:prefLabel "Gezondheid"@nl;
   skos:altLabel "(bijv. afkorting)"@nl, "(bijv. Engelse term)"@en;
   rdfs:label "Gezondheid";
-  skos:member :alcoholgebruik, :blackout, :blauwalg, :concentratieprobleem, :drugsgebruik, :fysiologisch_stressniveau, :gezondheidszorg, :hittestress, :huidkanker, :huisarts, :hulpdienst, :leeftijd, :slaapproblemen, :staar, :sterfte, :sterftecijfer, :thuiszorg, :uitdroging, :uitputting, :verdrinking, :ziekenhuisopnamen, :zuurstofstress, :vermoeidheid;
+  skos:member :alcoholgebruik, :blackout, :blauwalg, :concentratieprobleem, :drugsgebruik, :fysiologisch_stressniveau, :gezondheidszorg, :hittestress, :huidkanker, :huisarts, :hulpdienst, :leeftijd, :slaapprobleem, :staar, :sterfte, :sterftecijfer, :thuiszorg, :uitdroging, :uitputting, :verdrinking, :ziekenhuisopnamen, :zuurstofstress, :vermoeidheid;
   skos:definition "Begrippen die te maken hebben met gezondheid van mens en dier"@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
@@ -114,32 +114,25 @@ col:weerverschijnselen a skos:Collection;
   skos:broader :gebeurtenis;
   dct:source <https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/activiteit#.YxCMfHZBwQ9> .
 
-:ding a skos:Concept;
-  skos:prefLabel "Ding"@nl;
-  skos:inScheme bk:imka;
-  skos:definition "-"@nl;
-  skos:topConceptOf bk:imka;
-  dct:source <https://example.com> .
-
 :eigenschap a skos:Concept;
   skos:prefLabel "Eigenschap"@nl;
   skos:inScheme bk:imka;
   skos:definition "Waarneembaar verschijnsel van het wezen van een persoon of zaak"@nl;
-  skos:broader :ding;
+  skos:topConceptOf bk:imka;
   dct:source <https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/eigenschap#.YxCPGHZBwQ8> .
 
 :gebeurtenis a skos:Concept;
   skos:prefLabel "Gebeurtenis"@nl;
   skos:inScheme bk:imka;
   skos:definition "Iets dat plaatsvindt."@nl;
-  skos:broader :ding;
+  skos:topConceptOf bk:imka;
   dct:source <https://example.com> .
 
 :instrument a skos:Concept;
   skos:prefLabel "Instrument"@nl;
   skos:inScheme bk:imka;
   skos:definition "Een meetgereedschap"@nl;
-  skos:scopeNote "hulpmiddelen om een natuurkundige grootheid mee te meten." @nl;
+  skos:scopeNote "hulpmiddelen om een natuurkundige grootheid mee te meten."@nl;
   skos:broader :object;
   dct:source <https://example.com> .
 
@@ -156,7 +149,7 @@ col:weerverschijnselen a skos:Collection;
   skos:inScheme bk:imka;
   skos:definition "De fluctuaties op lang termijn van temperatuur, neerslag, wind en alle andere aspecten van het klimaat op aarde."@nl;
   skos:scopeNote "Tijdens de Conventie over de Klimaatverandering van de Verenigde Naties werd klimaatverandering ook omschreven als “verandering van het klimaat die direct of indirect kan worden toegeschreven aan menselijke activiteiten die de samenstelling van de atmosfeer wijzigen en die zich toevoegt aan de veranderlijkheid van het natuurlijke klimaat en met vergelijkbare perioden kan worden waargenomen.”"@nl;
-  skos:broader :proces;
+  skos:broader :impact;
   dct:source <https://www.greenfacts.org/nl/begrippenlijst/jkl/klimaatverandering.htm> .
 
 :maatregel a skos:Concept;
@@ -181,7 +174,7 @@ col:weerverschijnselen a skos:Collection;
   skos:definition "Elk ding dat zich aan de menselijke zintuigen voordoet, of het is een zaak, proces of persoon waarover men aan het spreken of denken is."@nl;
   skos:scopeNote "Objecten kunnen zowel werkelijk bestaand als denkbeeldig zijn."@nl;
   skos:editorialNote "Hier kan het NEN 3610 semantisch model onder gehangen worden (reëel object, virtuele ruimte, etc.)"@nl;
-  skos:broader :ding;
+  skos:topConceptOf bk:imka;
   dct:source <https://www.rijsenbrij.net/archive1/vision/nl/begrip2.htm#Object> .
 
 :observatie a skos:Concept;
@@ -202,7 +195,7 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Temperatuur"@nl;
   skos:inScheme bk:imka;
   skos:definition "De temperatuur is de mate van warmte (of kou) uitgedrukt in graden."@nl;
-  skos:broader :eigenschap;
+  skos:broader :weereigenschap;
   dct:source <https://www.knmi.nl/kennis-en-datacentrum/uitleg/temperatuur> .
 
 :temperatuurmeting a skos:Concept;
@@ -218,7 +211,7 @@ col:weerverschijnselen a skos:Collection;
   skos:inScheme bk:imka;
   skos:definition "Warmte die vrijkomt als gevolg van menselijke activiteiten"@nl;
   skos:scopeNote "Verbranding van fossiele brandstoffenvoor gebouwen, voertuigen en industriële processen, intensieve veeteelt, koelsystemen"@nl;
-  skos:broader :eigenschap;
+  skos:broader :eigenschap_gebouwde_omgeving;
   dct:source <http://cartogis.ugent.be/geologis/quartair/ijstijden/43_klimaatverandering_oorzaken_antropogene_invloeden.html> .
 
 :antropogene_warmtebron a skos:Concept;
@@ -226,7 +219,7 @@ col:weerverschijnselen a skos:Collection;
   skos:inScheme bk:imka;
   skos:definition "Een voorwerp/object van menselijke oorsprong dat warmte afgeeft"@nl;
   skos:scopeNote "Auto, gebouw, lantaarnpaal, oplaadstation"@nl;
-  skos:broader :object;
+  skos:broader :mens_gemaakt_object;
   skos:editorialNote "Dit is een lastige term voor opname in een thesaurus omdat het een samengestelde term is. Eigenlijk is het antropogeen-zijn een eigenschap van een object. Misschien opsplitsen in Antropogeen en Warmtebron. Het is doordat het een samenstelling is, ook lastig in een categorie te plaatsen. Iets specifiekere Broader categorie zou wel zijn: Reëel object zoals gedefinieerd in NEN 3610, eventueel met een subcategorie Antropogeen Reëel Object. Maar deze zijn nog niet opgenomen in deze thesaurus."@nl;
   dct:source <http://cartogis.ugent.be/geologis/quartair/ijstijden/43_klimaatverandering_oorzaken_antropogene_invloeden.html> .
 
@@ -263,7 +256,7 @@ col:weerverschijnselen a skos:Collection;
   skos:definition "Risico als gevolg van hitte, veroorzaakt door intensiteit en duur, blootstelling, en kwetsbaarheid van de blootgestelde mensen, objecten of flora/fauna."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Definitie zelf geformuleerd op basis van Klimaatbestendige stad rapport"@nl;
-  skos:broader :proces;
+  skos:broader :risico;
   dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
 
 :ijsdag a skos:Concept;
@@ -303,14 +296,14 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Luchtvochtigheid"@nl;
   skos:inScheme bk:imka;
   skos:definition "De hoeveelheid water in een vastgestelde hoeveelheid lucht"@nl;
-  skos:broader :eigenschap;
+  skos:broader :weereigenschap;
   dct:source <https://nl.wikipedia.org/wiki/Luchtvochtigheid> .
 
 :relatieve_luchtvochtigheid a skos:Concept;
   skos:prefLabel "Relatieve luchtvochtigheid"@nl;
   skos:inScheme bk:imka;
   skos:definition "Dit is het percentage van de maximale hoeveelheid waterdamp die de lucht bij de gegeven temperatuur en luchtdruk bevat"@nl;
-  skos:broader :luchtvochtigheid;
+  skos:broader :weereigenschap;
   dct:source <https://nl.wikipedia.org/wiki/Luchtvochtigheid> .
 
 :schaduw a skos:Concept;
@@ -380,7 +373,7 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Warmtestraling"@nl;
   skos:inScheme bk:imka;
   skos:definition "De elektromagnetische straling die een object uitzendt als gevolg van de temperatuur van het object."@nl;
-  skos:broader :eigenschap;
+  skos:broader :weereigenschap;
   skos:altLabel "Infraroodstraling"@nl, "Stralingswarmte"@nl;
   dct:source <https://nl.wikipedia.org/wiki/Warmtestraling> .
 
@@ -388,14 +381,14 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Windsnelheid"@nl;
   skos:inScheme bk:imka;
   skos:definition "De gemiddelde windsnelheid in meter per seconde gedurende 10 minuten op 10 meter boven de grond"@nl;
-  skos:broader :eigenschap;
+  skos:broader :weereigenschap;
   dct:source <https://nl.wikipedia.org/wiki/Schaal_van_Beaufort> .
 
 :windkracht a skos:Concept;
   skos:prefLabel "Windkracht"@nl;
   skos:inScheme bk:imka;
   skos:definition "De gemiddelde snelheid van de wind volgens de schaal van Beaufort."@nl;
-  skos:broader :eigenschap;
+  skos:broader :weereigenschap;
   dct:source <https://nl.wikipedia.org/wiki/Schaal_van_Beaufort> .
 
 :zomerse_dag a skos:Concept;
@@ -411,7 +404,7 @@ col:weerverschijnselen a skos:Collection;
   skos:inScheme bk:imka;
   skos:definition "Het totale spectrum van elektromagnetische straling dat door de zon wordt verspreid."@nl;
   skos:scopeNote "Ongeveer de helft van de zonnestraling bestaat uit zichtbaar licht. De andere helft bestaat uit infrarode straling en een klein deel ultraviolette straling."@nl;
-  skos:broader :eigenschap;
+  skos:broader :weereigenschap;
   dct:source <https://www.woorden.org/woord/zonnestraling>, <https://nl.wikipedia.org/wiki/Zonlicht> .
 
 #==================================================================================================
@@ -425,7 +418,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :gezondheidsprobleem;
   rdfs:label "Aandoening flora";
   dct:source <https://nl.wikipedia.org/wiki/Aandoening> .
 
@@ -437,7 +430,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :gezondheidsprobleem;
   rdfs:label "Aandoening mens en dier";
   dct:source <https://nl.wikipedia.org/wiki/Aandoening> .
 
@@ -449,7 +442,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :natuurlijk_object;
   rdfs:label "Atmosfeer";
   dct:source <https://example.com> .
 
@@ -461,7 +454,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Kan ook een bron van geluidsoverlast worden, zeker in heel druk gebied."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :apparaat;
   rdfs:label "Airconditioning";
   dct:source <https://example.com> .
 
@@ -473,7 +466,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :gedrag;
   rdfs:label "Alcoholgebruik";
   dct:source <https://example.com> .
 
@@ -485,7 +478,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :mens_gemaakt_object;
   rdfs:label "Apparaat";
   dct:source <https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/apparaat#> .
 
@@ -497,7 +490,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :gebouweigenschap;
   rdfs:label "Bebouwingsdichtheid";
   dct:source <https://example.com> .
 
@@ -509,7 +502,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :flora;
   rdfs:label "Beplanting";
   dct:source <https://example.com> .
 
@@ -521,7 +514,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :eigenschap_gebouwde_omgeving;
   rdfs:label "Bereikbaarheid";
   dct:source <https://example.com> .
 
@@ -533,7 +526,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :menselijke_eigenschap;
   rdfs:label "Beroep";
   dct:source <https://nl.wikipedia.org/wiki/Beroep> .
 
@@ -557,7 +550,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Over de effecten van hitte: slecht bewonersgedrag kan meer effect hebben dan in een stad wonen."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :menselijke_eigenschap;
   rdfs:label "Bewonersgedrag";
   dct:source <https://example.com> .
 
@@ -569,7 +562,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :mens_gemaakt_object;
   rdfs:label "Bijna energieneutraal gebouw";
   dct:source <https://example.com> .
 
@@ -581,7 +574,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :natuureigenschap;
   rdfs:label "Biodiversiteit";
   dct:source <https://example.com> .
 
@@ -593,7 +586,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :aandoening_mens_en_dier;
   rdfs:label "Blackout";
   dct:source <https://example.com> .
 
@@ -605,7 +598,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :fauna;
   rdfs:label "Blauwalg";
   dct:source <https://example.com> .
 
@@ -617,7 +610,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :aandoening_flora;
   rdfs:label "Bloeiinductie";
   dct:source <https://example.com> .
 
@@ -629,7 +622,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :proces;
   rdfs:label "Blootstelling";
   dct:source <https://example.com> .
 
@@ -641,7 +634,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :natuurlijk_object;
   rdfs:label "Bodem";
   dct:source <https://example.com> .
 
@@ -653,7 +646,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :impact;
   rdfs:label "Bodemdaling";
   dct:source <https://example.com> .
 
@@ -665,7 +658,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :activiteit;
   rdfs:label "Bodemdalingvoorspelling";
   dct:source <https://example.com> .
 
@@ -677,7 +670,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :flora;
   rdfs:label "Boom";
   dct:source <https://example.com> .
 
@@ -689,7 +682,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Opnemen, dit geeft namelijk duidelijk richting aan welke maatregelen wel en niet mogelijk zijn."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :wet_en_regelgeving;
   rdfs:label "Bouwbesluit";
   dct:source <https://www.rijksoverheid.nl/onderwerpen/bouwregelgeving/bouwbesluit-2012> .
 
@@ -701,7 +694,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Door hitte grote kans op natuur-, berm- en woningbranden."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :risico;
   rdfs:label "Brandgevaar";
   dct:source <https://example.com> .
 
@@ -713,7 +706,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "In relatie tot 'binnentemperatuur' heel relevant. Bij welke binnentemperatuur ben je nog comfortabel? Parameters o.a.: kleding, doorstroming van de lucht, luchtvochtigheid, etc."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :eigenschap_gebouwde_omgeving;
   rdfs:label "Comfort";
   dct:source <https://example.com> .
 
@@ -725,7 +718,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :aandoening_mens_en_dier;
   rdfs:label "Concentratieprobleem";
   dct:source <https://example.com> .
 
@@ -737,7 +730,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "Het doel van het plan is dat Nederland in 2050 klimaatbestendig en waterrobuust is ingericht. Gemeenten, waterschappen, provincies en het Rijk werken samen aan de ambities in dit plan en hebben zich daarvoor ook verenigd in werkregio's."@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :instrument;
   rdfs:label "Deltaplan Ruimtelijke Adaptatie";
   dct:source <https://klimaatadaptatienederland.nl/overheden/deltaplan-ra/> .
 
@@ -750,7 +743,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:related :virus;
-  skos:topConceptOf bk:imka;
+  skos:broader :aandoening_mens_en_dier;
   rdfs:label "Dengue";
   dct:source <https://example.com> .
 
@@ -762,7 +755,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :activiteit;
   rdfs:label "Doorstroming";
   dct:source <https://example.com> .
 
@@ -774,7 +767,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "De opwarming van drinkwater is ook belangrijk in relatie tot gezondheid."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :natuurlijk_object;
   rdfs:label "Drinkwater";
   dct:source <https://example.com> .
 
@@ -786,7 +779,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Opnemen in het woordenboek, want dit wordt veroorzaakt dóór hitte."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :gebeurtenis;
   skos:exactMatch <https://www.aquo.nl/index.php/Id-88defb88-c5fa-40f9-b198-3525af6cbd31>;
   rdfs:label "Droogte";
   dct:source "National Weather Forecast Service Office, NOAA, Glossary of Select Meteorological, Climatological and Hydrological Terms."@en .
@@ -799,7 +792,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :gedrag;
   rdfs:label "Drugsgebruik";
   dct:source <https://example.com> .
 
@@ -811,7 +804,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "Parameter in model."@nl;
   skos:editorialNote "samen met 'intensiteit' de assen waarop je hittefenomeen kunt categorieseren, vaststellen en standaardiseren."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :temporele_eigenschap;
   rdfs:label "Duur";
   dct:source <https://example.com> .
 
@@ -823,7 +816,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :impact;
   rdfs:label "Ecosysteemverschuiving";
   dct:source <https://nl.wikipedia.org/wiki/Ecosysteem> .
 
@@ -835,7 +828,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :eigenschap;
   rdfs:label "Eigenschap gebouwde omgeving";
   dct:source <https://example.com> .
 
@@ -847,7 +840,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Heeft relatie met opwarming."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :gebouweigenschap;
   rdfs:label "Energielabel";
   dct:source <https://example.com> .
 
@@ -859,7 +852,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Evacuatie van kwetsbare groepen naar koele binnenruimten voor langer verblijf. Overigens blijkt uit onderzoek dat ouderen zich niet graag laten verplaatsen."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :maatregel;
   rdfs:label "Evacuatie kwetsbare groepen";
   dct:source <https://example.com> .
 
@@ -871,7 +864,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Gedrag van mensen: op dance-events bijvoorbeeld veel drank en drugs, waardoor mensen minder handelingsbekwaam worden. Kenmerken: type evenement, meteo-gegevens, locatie, bezoekersaantal, etc."@nl;
   skos:example "Festival, Braderie"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :gebeurtenis;
   rdfs:label "Evenement";
   dct:source <https://example.com> .
 
@@ -883,7 +876,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Voor menukaart hitte in gebouwde omgeving wordt onderscheid gemaakt tussen 'hitte' en 'extreme' hitte omdat er andere gevolgen en maatregelen mee gepaard gaan."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :gebeurtenis;
   rdfs:label "Extreme hitte";
   dct:source <https://example.com> .
 
@@ -895,7 +888,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :natuurlijk_object;
   rdfs:label "Fauna";
   skos:exactMatch <https://www.aquo.nl/index.php/Id-6697bb31-5519-4b9b-9f46-9e4f4c77a80a>;
   dct:source <https://www.aquo.nl/index.php/Id-6697bb31-5519-4b9b-9f46-9e4f4c77a80a> .
@@ -908,10 +901,22 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :natuurlijk_object;
   rdfs:label "Flora";
   skos:exactMatch <https://www.aquo.nl/index.php/Id-7b776f89-0ba0-47b8-8a29-0113d0b7c50b>;
   dct:source <https://www.aquo.nl/index.php/Id-7b776f89-0ba0-47b8-8a29-0113d0b7c50b> .
+
+:fysiek_object a skos:Concept;
+  skos:prefLabel "Fysiek object"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Een tastbaar begrensd object dat gekenmerkt wordt door zijn materiële samenstelling en structuur."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :object;
+  rdfs:label "Fysiek object";
+  dct:source <http://definities.geostandaarden.nl/nen3610-2022/id/begrip/reeel_object> .
 
 :fysiologisch_stressniveau a skos:Concept;
   skos:prefLabel "Fysiologisch Stressniveau"@nl;
@@ -921,7 +926,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :menselijke_eigenschap;
   rdfs:label "Fysiologisch Stressniveau";
   dct:source <https://example.com> .
 
@@ -933,7 +938,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :eigenschap;
   rdfs:label "Gebouweigenschap";
   dct:source <https://www.juridischwoordenboek.nl/?zoek=gebouw> .
 
@@ -945,7 +950,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :gebouweigenschap;
   rdfs:label "Gebouwhoogte";
   dct:source <https://example.com> .
 
@@ -957,7 +962,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :mens_gemaakt_object;
   rdfs:label "Gebouwonderdeel";
   dct:source <https://www.juridischwoordenboek.nl/?zoek=gebouw>;
   dct:source <https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/onderdeel#.Y24kl3bMIQ8> .
@@ -970,7 +975,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Hoe mensen omgaan met hitte. Nemen ze maatregelen? Zijn handelingsbekwaam of niet (bijv. door alcohol of drugs)."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :activiteit;
   rdfs:label "Gedrag";
   dct:source <https://example.com> .
 
@@ -982,20 +987,20 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :locatie;
   rdfs:label "Gemeentegrens";
   dct:source <https://example.com> .
 
-:gezondheidsproblemen a skos:Concept;
-  skos:prefLabel "Gezondheidsproblemen"@nl;
+:gezondheidsprobleem a skos:Concept;
+  skos:prefLabel "Gezondheidsprobleem"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
   skos:definition "Afwijking van de gezonde toestand van mens, dier of natuur."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
-  rdfs:label "Gezondheidsproblemen";
+  skos:broader :gebeurtenis;
+  rdfs:label "Gezondheidsprobleem";
   dct:source <https://nl.wikipedia.org/wiki/Aandoening> .
 
 :gezondheidszorg a skos:Concept;
@@ -1006,7 +1011,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :sector;
   rdfs:label "Gezondheidszorg";
   dct:source <https://example.com> .
 
@@ -1018,7 +1023,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :kleur;
   rdfs:label "Grijs";
   dct:source <https://example.com> .
 
@@ -1030,7 +1035,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :proces;
   rdfs:label "Groei";
   dct:source <http://www.kennisconsult.nl/begrippen/9027/> .
 
@@ -1042,7 +1047,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :kleur;
   rdfs:label "Groen";
   dct:source <https://example.com> .
 
@@ -1054,7 +1059,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :gebouwonderdeel;
   rdfs:label "Groen dak";
   dct:source <https://example.com> .
 
@@ -1066,7 +1071,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :gebouwonderdeel;
   rdfs:label "Groene gevel";
   dct:source <https://example.com> .
 
@@ -1078,7 +1083,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Minder warmtegevoelig."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :gebouwonderdeel;
   rdfs:label "Hellend dak";
   dct:source <https://example.com> .
 
@@ -1090,7 +1095,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "Parameter in model"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "Één keer per honderd jaar."@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :herhalingstijd;
   rdfs:label "Herhalingstijd";
   dct:source <https://example.com> .
 
@@ -1102,7 +1107,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Geen onderscheid maken tussen mens, dier en natuur; ondervinden allemaal de effecten. Korte en lange termijn wel relevant. Lange termijn gaat dan over jaren, niet over één jaar. Hitte heb je niet alleen in de zomer. Het is een kortetermijnverschijnsel dat in alle seizoenen kan optreden."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :gebeurtenis;
   rdfs:label "Hitte";
   dct:source <https://example.com> .
 
@@ -1114,11 +1119,11 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :eigenschap_gebouwde_omgeving;
   rdfs:label "Hittebestendig";
   dct:source <https://example.com> .
 
-:hittegol_a a skos:Concept;
+:hittegolf_a a skos:Concept;
   skos:prefLabel "Hittegolf (KNMI)"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
@@ -1134,11 +1139,11 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Hittegolf (Alternatief)"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Extreme temperatuur boven het gemiddelde in dat seizoen"@nl;
+  skos:definition "Opeenvolging van een aantal dagen met extreme temperatuur boven het gemiddelde in dat seizoen"@nl;
   skos:scopeNote "Ook in voor- en najaar heb je in woningen last van hitte"@nl;
-  skos:editorialNote "Deze definitie wijkt af van de KNMI-definitie: want ook in voor- en najaar kan een hittegolf plaatsvinden en voor schade aan mens en natuur zorgen."@nl;
+  skos:editorialNote "Deze definitie wijkt af van de KNMI-definitie: want ook in voor- en najaar kan een hittegolf plaatsvinden en voor schade aan mens en natuur zorgen. De WMO definieert een 'heat wave' als 'a period during which the daily maximum temperature exceeds for more than five consecutive days the maximum normal temperature by 5°C'. "@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :gebeurtenis;
   rdfs:label "Hittegolf";
   dct:source <https://example.com> .
 
@@ -1150,7 +1155,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :temporele_eigenschap;
   rdfs:label "Hittegolffrequentie";
   dct:source <https://example.com> .
 
@@ -1186,7 +1191,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :instrument;
   rdfs:label "Hitteplan";
   dct:source <https://example.com> .
 
@@ -1210,7 +1215,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Zeer relevant. Ook goed meetbaar. Het is een vorm van oversterfte. Het effect is heel duidelijk zichtbaar in perioden van extreme hitte. Gaat specifiek om 'Vroegtijdige sterfte': mensen die normaal niet dood zouden gaan, maar als gevolg van die hitte wel doodgaan. Naast oudere mensen, zijn bijvoorbeeld ook mensen met overgewicht kwetsbaarder."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :sterfte;
   rdfs:label "Hittesterfte";
   dct:source <https://example.com> .
 
@@ -1222,7 +1227,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "Boven 23°C PET kan al hittestress ontstaan. Vanaf 41°C PET is er sprake van extreme hittestress."@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:broader :gebeurtenis;
+  skos:broader :aandoening_mens_en_dier;
   rdfs:label "Hittestress";
   dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
 
@@ -1234,7 +1239,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :stresstest;
   rdfs:label "Hittestresstest";
   dct:source <https://example.com> .
 
@@ -1258,7 +1263,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :aandoening_mens_en_dier;
   rdfs:label "Huidkanker";
   dct:source <https://example.com> .
 
@@ -1270,7 +1275,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "I.v.m toenemende druk op gezondsheidszorg door hitte."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :beroep;
   rdfs:label "Huisarts";
   dct:source <https://example.com> .
 
@@ -1294,7 +1299,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :proces;
   rdfs:label "Impact";
   dct:source <https://example.com> .
 
@@ -1306,7 +1311,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "I.r.t. virus en gezondheid. Ook weer een gevolg van meer groen en blauw in de stad."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :aandoening_mens_en_dier;
   rdfs:label "Infectieziektes";
   dct:source <https://example.com> .
 
@@ -1318,7 +1323,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "Parameter in model."@nl;
   skos:editorialNote "samen met 'duur' de assen waarop je hittefenomeen kunt categorieseren, vaststellen en standaardiseren."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :eigenschap;
   rdfs:label "Intensiteit";
   dct:source <https://example.com> .
 
@@ -1330,7 +1335,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :natuurlijk_object;
   rdfs:label "Invasieve soort";
   dct:source <https://example.com> .
 
@@ -1342,7 +1347,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "I.r.t. gebouw."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :gebouwonderdeel;
   rdfs:label "Isolatie";
   dct:source <https://example.com> .
 
@@ -1354,7 +1359,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :observatie;
   rdfs:label "Jaarlijkse neerslag";
   dct:source <https://example.com> .
 
@@ -1366,7 +1371,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :observatie;
   rdfs:label "Jaarlijkse referentieverdamping";
   dct:source <https://example.com> .
 
@@ -1378,7 +1383,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Bepalend voor de gevoelstemperatuur."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :mens_gemaakt_object;
   rdfs:label "Kleding";
   dct:source <https://example.com> .
 
@@ -1390,20 +1395,20 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "Mensen nemen licht waar wanneer elektromagnetische straling met een golflengte tussen 750 en 400 nanometer het oog bereikt. De samenstelling van golflengtes wordt het spectrum genoemd."@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :eigenschap;
   rdfs:label "Kleur";
   dct:source <https://nl.wikipedia.org/wiki/Kleur> .
 
-:klimaatextremen a skos:Concept;
-  skos:prefLabel "Klimaatextremen"@nl;
+:klimaatextreem a skos:Concept;
+  skos:prefLabel "Klimaatextreem"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
   skos:definition "(verplicht opnemen)"@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
-  rdfs:label "Klimaatextremen";
+  skos:broader :gebeurtenis;
+  rdfs:label "Klimaatextreem";
   dct:source <https://example.com> .
 
 :klimaatimpact_op_sectoren a skos:Concept;
@@ -1415,7 +1420,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:related :secundair_klimaateffect;
-  skos:topConceptOf bk:imka;
+  skos:broader :impact;
   rdfs:label "Klimaatimpact op sectoren";
   dct:source <https://example.com> .
 
@@ -1427,7 +1432,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :locatie;
   rdfs:label "Klimaatzone";
   dct:source <https://example.com> .
 
@@ -1439,7 +1444,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Type koele plek."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :koele_plek;
   rdfs:label "Koele binnenruimte";
   dct:source <https://example.com> .
 
@@ -1451,7 +1456,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Type koele plek."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :koele_plek;
   rdfs:label "Koele buitenruimte";
   dct:source <https://example.com> .
 
@@ -1463,7 +1468,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Uitgesplitst in koele binnen- en buitenruimte."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :locatie;
   rdfs:label "Koele plek";
   dct:source <https://example.com> .
 
@@ -1475,7 +1480,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :water;
   rdfs:label "Koelwater";
   dct:source <https://example.com> .
 
@@ -1487,7 +1492,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "Onder te verdelen in gevoeligheid en aanpassingsvermogen."@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :menselijke_eigenschap;
   rdfs:label "Kwetsbaarheid";
   dct:source <https://example.com> .
 
@@ -1511,7 +1516,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "De toepassing van dit concept zorgt ervoor dat woningen leefbaar en gezond kunnen blijven en voorkomt dat mensen massaal de voor het milieu schadelijke airconditioning gaan gebruiken."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :instrument;
   rdfs:label "Ladder van koelte";
   dct:source <https://example.com> .
 
@@ -1523,7 +1528,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Dit begrip zeker openemen. Het ministerie van VWS zet bijvoorbeeld in op een groene en gezonde leefomgeving."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :locatie;
   rdfs:label "Leefomgeving";
   dct:source <https://example.com> .
 
@@ -1535,7 +1540,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :menselijke_eigenschap;
   rdfs:label "Leeftijd";
   dct:source <https://example.com> .
 
@@ -1547,7 +1552,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "Een absolute locatie kan vaak worden gedefinieerd met behulp van cartesiaanse coördinaten, zoals gebruikmaking van specifieke breedtegraad en lengtegraad. Op Aarde kunnen de geografische coördinaten worden gebruikt om de locatie van een positie te specificeren."@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :object;
   rdfs:label "Locatie";
   dct:source <https://nl.wikipedia.org/wiki/Locatie> .
 
@@ -1559,7 +1564,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :hitteplan;
   rdfs:label "Lokaal hitteplan";
   dct:source <https://example.com> .
 
@@ -1571,7 +1576,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :proces;
   rdfs:label "Luchtstromingspatroon";
   dct:source <https://example.com> .
 
@@ -1583,7 +1588,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :proces;
   rdfs:label "Luchtverontreiniging";
   dct:source <https://example.com> .
 
@@ -1595,7 +1600,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Type virus."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :aandoening_mens_en_dier;
   rdfs:label "Malaria";
   dct:source <https://example.com> .
 
@@ -1607,7 +1612,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :fysiek_object;
   rdfs:label "Materiaal";
   dct:source <https://www.woorden.org/woord/materiaal> .
 
@@ -1619,7 +1624,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :temperatuur;
   rdfs:label "Maximumtemperatuur";
   dct:source <https://example.com> .
 
@@ -1631,7 +1636,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "Door mensen gemaakte objecten kunnen zowel werkelijk bestaand als denkbeeldig zijn."@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :fysiek_object;
   rdfs:label "Mens gemaakt object";
   dct:source <https://example.com> .
 
@@ -1643,7 +1648,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :eigenschap;
   rdfs:label "Menselijke eigenschap";
   dct:source <https://example.com> .
 
@@ -1667,7 +1672,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Er is een spanningsveld tussen energietransitie en klimaatadaptatie. Deze term gaat erover om dat spanningsveld deels weg te nemen. Vroeger was het: of/of, nu: en/en."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :gebouwonderdeel;
   rdfs:label "Multifunctioneel dak";
   dct:source <https://example.com> .
 
@@ -1679,7 +1684,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :hitteplan;
   rdfs:label "Nationaal hitteplan";
   dct:source <https://example.com> .
 
@@ -1691,7 +1696,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :gebeurtenis;
   rdfs:label "Natuurbrand";
   dct:source <https://example.com> .
 
@@ -1703,7 +1708,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :natuureigenschap;
   rdfs:label "Natuurbrandgevoeligheid";
   dct:source <https://example.com> .
 
@@ -1715,7 +1720,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :eigenschap;
   rdfs:label "Natuureigenschap";
   dct:source <https://www.ecopedia.be/encyclopedie/natuur> .
 
@@ -1727,7 +1732,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "Natuurlijke objecten kunnen zowel werkelijk bestaand als denkbeeldig zijn."@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :fysiek_object;
   rdfs:label "Natuurlijk object";
   dct:source <https://example.com> .
 
@@ -1739,7 +1744,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :natuurlijk_object;
   rdfs:label "Natuurlijk systeem";
   dct:source <https://example.com> .
 
@@ -1751,7 +1756,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :locatie;
   rdfs:label "Natuurlijk gebied";
   dct:source <https://example.com> .
 
@@ -1763,7 +1768,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :locatie;
   rdfs:label "Natuurlijke klimaatbuffer";
   dct:source <https://example.com> .
 
@@ -1775,7 +1780,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :flora;
   rdfs:label "Openbaar groen";
   dct:source <https://example.com> .
 
@@ -1799,7 +1804,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :temperatuur;
   rdfs:label "Oppervlaktetemperatuur";
   dct:source <https://example.com> .
 
@@ -1811,7 +1816,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :impact;
   rdfs:label "Opwarming";
   dct:source <https://example.com> .
 
@@ -1823,7 +1828,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :gezondheidsprobleem;
   rdfs:label "Oversterfte";
   dct:source <https://example.com> .
 
@@ -1835,11 +1840,11 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Warmtegevoelig."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :gebouwonderdeel;
   rdfs:label "Plat dak";
   dct:source <https://example.com> .
 
-:pollen-burst a skos:Concept;
+:pollen_burst a skos:Concept;
   skos:prefLabel "Pollen-burst"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
@@ -1847,7 +1852,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Toont aan hoezeer hitte en droogte met elkaar samenhangen."@nl;
   skos:example "In Australië werd het enkele jaren geleden zeer warm en vochtig nader een zeer droge periode was geweest. Daardoor ontstond er een enorme pollen-burst."@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :gebeurtenis;
   rdfs:label "Pollen-burst";
   dct:source <https://example.com> .
 
@@ -1860,7 +1865,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:related :secundair_klimaateffect;
-  skos:topConceptOf bk:imka;
+  skos:broader :impact;
   rdfs:label "Primair klimaateffect";
   dct:source <https://example.com> .
 
@@ -1884,7 +1889,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:broader :eigenschap;
+  skos:broader :eigenschap_gebouwde_omgeving;
   rdfs:label "Reflectiefactor";
   dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
 
@@ -1896,7 +1901,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :eigenschap_gebouwde_omgeving;
   rdfs:label "Reflecterend vermogen";
   dct:source <https://example.com> .
 
@@ -1908,7 +1913,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :materiaal;
   rdfs:label "Reflecterend materiaal";
   dct:source <https://example.com> .
 
@@ -1920,7 +1925,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :locatie;
   rdfs:label "Schaduwplek";
   dct:source <https://example.com> .
 
@@ -1932,7 +1937,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :object;
   rdfs:label "Sector";
   dct:source <https://example.com> .
 
@@ -1945,7 +1950,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "Impact op de bodem."@nl;
   skos:related :primair_klimaateffect;
-  skos:topConceptOf bk:imka;
+  skos:broader :impact;
   rdfs:label "Secundair klimaateffect";
   dct:source <https://example.com> .
 
@@ -1957,20 +1962,20 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :gebouwonderdeel;
   rdfs:label "Sedumdak";
   dct:source <https://example.com> .
 
-:slaapproblemen a skos:Concept;
-  skos:prefLabel "Slaapproblemen"@nl;
+:slaapprobleem a skos:Concept;
+  skos:prefLabel "Slaapprobleem"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
   skos:definition "(verplicht opnemen)"@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
-  rdfs:label "Slaapproblemen";
+  skos:broader :aandoening_mens_en_dier;
+  rdfs:label "Slaapprobleem";
   dct:source <https://example.com> .
 
 :sky_view_factor a skos:Concept;
@@ -1981,7 +1986,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :eigenschap_gebouwde_omgeving;
   rdfs:label "Sky View Factor";
   dct:source <https://example.com> .
 
@@ -1993,7 +1998,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :aandoening_mens_en_dier;
   rdfs:label "Staar";
   dct:source <https://example.com> .
 
@@ -2005,7 +2010,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :stedelijke_recreatieruimte;
   rdfs:label "Stadspark";
   dct:source <https://example.com> .
 
@@ -2029,7 +2034,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :mens_gemaakt_object;
   rdfs:label "Stedelijke recreatieruimte";
   dct:source <https://www.ensie.nl/betekenis/recreatieruimte-rekreatieruimte> .
 
@@ -2041,7 +2046,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Relevant want kinderen zijn kwetsbaar."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :stedelijke_recreatieruimte;
   rdfs:label "Speeltuin";
   dct:source <https://example.com> .
 
@@ -2053,7 +2058,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :gezondheidsprobleem;
   rdfs:label "Sterfte";
   dct:source <https://nl.wikipedia.org/wiki/Sterfte> .
 
@@ -2065,7 +2070,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "Het wordt vaak uitgedrukt in sterfgevallen per 1000 inwoners per jaar. Het kan gaan om een aantal van de gehele bevolking of alleen binnen een bepaalde groep en het kan gaan over doden in het algemeen of specifiek als gevolg van een bepaalde ziekte."@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :observatie;
   rdfs:label "Sterftecijfer";
   dct:source <https://nl.wikipedia.org/wiki/Sterftecijfer> .
 
@@ -2077,7 +2082,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Waarbij de weg minimaal twee keer zo breed is als de hoogte van de aanliggende gebouwen. Anders blijft het jhuist hangen op lichaamshoogte."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :eigenschap_gebouwde_omgeving;
   rdfs:label "Straatprofiel";
   dct:source <https://www.joostdevree.nl/shtmls/straatprofiel.shtml> .
 
@@ -2099,7 +2104,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :instrument;
   rdfs:label "Stresstest";
   dct:source <https://example.com> .
 
@@ -2121,7 +2126,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :gebeurtenis;
   rdfs:label "Temperatuuroploop";
   dct:source <https://example.com> .
 
@@ -2133,7 +2138,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :eigenschap;
   rdfs:label "Temporele eigenschap";
   dct:source <https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/temporeel> .
 
@@ -2145,7 +2150,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :sector;
   rdfs:label "Thuiszorg";
   dct:source <https://example.com> .
 
@@ -2157,7 +2162,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :groei;
   rdfs:label "Toename alcoholgebruik";
   dct:source <https://example.com> .
 
@@ -2169,7 +2174,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :groei;
   rdfs:label "Toename drugsgebruik";
   dct:source <https://example.com> .
 
@@ -2181,7 +2186,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "In relatie tot 'Hitte' niet onbenoemd laten, maar wel echt een neveneffect."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :groei;
   rdfs:label "Toename ziekenhuisopnamen door hittestress en zomersmog";
   dct:source <https://example.com> .
 
@@ -2193,7 +2198,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "In het kader van groen."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :mens_gemaakt_object;
   rdfs:label "Tuin";
   dct:source <https://example.com> .
 
@@ -2205,7 +2210,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "I.r.t. Gezondheid."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :aandoening_mens_en_dier;
   rdfs:label "Uitdroging";
   dct:source <https://example.com> .
 
@@ -2217,7 +2222,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "I.r.t. Gezondheid"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :aandoening_mens_en_dier;
   rdfs:label "Uitputting";
   dct:source <https://example.com> .
 
@@ -2229,7 +2234,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Discussie, maar bij nader inzien toch opnemen. Doordat de zon schijnt gaan mensen meer naar buiten en is er meer blootstelling aan UV-straing."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :weereigenschap;
   rdfs:label "Uv-straling";
   dct:source <https://example.com> .
 
@@ -2241,7 +2246,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Zorgt al heel snel voor lokale verdamping en dat heeft weer een temperend effect op de temperatuur."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :flora;
   rdfs:label "Vegetatie";
   dct:source <https://example.com> .
 
@@ -2265,7 +2270,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Klassieke oplossing, maar nog steeds een effectieve vorm van verkoeling."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :apparaat;
   rdfs:label "Ventilator";
   dct:source <https://example.com> .
 
@@ -2277,7 +2282,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Risico verdrinking door toename waterrecreatie."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :gezondheidsprobleem;
   rdfs:label "Verdrinking";
   dct:source <https://example.com> .
 
@@ -2289,7 +2294,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Vergroening van de openbare en private ruimte."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :maatregel;
   rdfs:label "Vergroening";
   dct:source <https://example.com> .
 
@@ -2301,7 +2306,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Relevant: het gaat niet alleen om ziekenhuisopnamen maar ook om verhoogde druk op huisartsen en thuiszorg. Er is een aantoonbaar verband met 'Hitte'. Gaat niet direct om sterfgevallen. Mensen kunnen ook op andere manieren in de problemen komen: uitdroging, oververhitting, uitputting."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :groei;
   rdfs:label "Verhoogde druk op gezondsheidszorg door hitte";
   dct:source <https://example.com> .
 
@@ -2313,7 +2318,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "I.r.t. Gezondheid."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :aandoening_mens_en_dier;
   rdfs:label "Vermoeidheid";
   dct:source <https://example.com> .
 
@@ -2325,7 +2330,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :impact;
   rdfs:label "Verschuiving van seizoenen";
   dct:source <https://example.com> .
 
@@ -2337,7 +2342,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :locatie;
   rdfs:label "Versteend gebied";
   dct:source <https://example.com> .
 
@@ -2345,11 +2350,11 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Verstening"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Het bebouwt raken van natuur en landschap"@nl;
+  skos:definition "Het bebouwd raken van natuur en landschap"@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Verstening van de openbare en private ruimte."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :proces;
   rdfs:label "Verstening";
   dct:source <https://nl.wikipedia.org/wiki/Verstening_(ruimtelijke_ordening)> .
 
@@ -2361,7 +2366,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Bepaalde virussen gedijen nu ook in andere klimaatzones, zoals malaria en dengue. Hoort bij 'Gezondheid'."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :natuurlijk_object;
   rdfs:label "Virus";
   dct:source <https://example.com> .
 
@@ -2373,7 +2378,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Dat hoeven overigens lang niet altijd fragiele oudere mensen te zijn. Ook mensen met overgewicht zijn hiervoor kwetsbaar."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :sterfte;
   rdfs:label "Vroegtijdige sterfte";
   dct:source <https://example.com> .
 
@@ -2397,7 +2402,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :fauna;
   rdfs:label "Warmteminnende aquatische soorten";
   dct:source <https://example.com> .
 
@@ -2409,7 +2414,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "WKO: warmtepompen kunnen (in sommige gevallen?) ook koelen."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :apparaat;
   rdfs:label "Warmtepomp";
   dct:source <https://example.com> .
 
@@ -2421,7 +2426,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :materiaal;
   rdfs:label "Warmtewerend materiaal";
   dct:source <https://example.com> .
 
@@ -2433,7 +2438,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Het eigenlijke probleem is gebrek aan water dat schadelijk is voor mensen, natuur en dier. Hitte is niet zo'n probleem als er voldoende water aanwezig is."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :natuurlijk_object;
   rdfs:label "Water";
   dct:source <https://example.com> .
 
@@ -2445,7 +2450,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :aandoening_flora;
   rdfs:label "Waterstress";
   dct:source <https://example.com> .
 
@@ -2457,7 +2462,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :temperatuur;
   rdfs:label "Watertemperatuur";
   dct:source <https://example.com> .
 
@@ -2469,7 +2474,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :eigenschap;
   rdfs:label "Weereigenschap";
   dct:source <https://nl.wikipedia.org/wiki/Weer_(meteorologie)#> .
 
@@ -2481,7 +2486,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Wet Bulb Globe Temperatur. Deze index voor thermisch comfort drukt de invloed uit van het weer op de lichaamstemperatuur. Hiermee is het risico op hitteletsels in te schatten. Het ontstaan van gezondheidsproblemen is afhankelijk van verschillende factoren; de luchttemperatuur, de luchtvochtigheid, de stralingswarmte, de mate van luchtbeweging (wind), de kleding en de hoeveelheid inspanning die wordt verricht c.q. de zwaarte van het werk. Gerelateerd aan NEN-ISO 7243"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :temperatuur;
   rdfs:label "Wbgt-index";
   dct:source <https://example.com> .
 
@@ -2493,7 +2498,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :object;
   rdfs:label "Wet- en regelgeving";
   dct:source <https://www.slimmermetregelgeving.nl/dna/#:~:text=De%20%E2%80%9Cwetgeving%E2%80%9D%20betreft%20regels%20opgesteld,algemene%20werking%20hebben%20(gekregen).> .
 
@@ -2505,11 +2510,11 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :gebouwonderdeel;
   rdfs:label "Wit dak";
   dct:source <https://example.com> .
 
-:woning-oriëntatie a skos:Concept;
+:woning_orientatie a skos:Concept;
   skos:prefLabel "Woning-oriëntatie"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
@@ -2517,7 +2522,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :gebouweigenschap;
   rdfs:label "Woning-oriëntatie";
   dct:source <https://example.com> .
 
@@ -2529,7 +2534,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :impact;
   rdfs:label "Zeespiegelstijging";
   dct:source <https://example.com> .
 
@@ -2541,7 +2546,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :observatie;
   rdfs:label "Ziekenhuisopnamen";
   dct:source <https://example.com> .
 
@@ -2553,7 +2558,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :gebeurtenis;
   rdfs:label "Zomersmog";
   dct:source <https://example.com> .
 
@@ -2565,7 +2570,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Bij nader inzien toch opnemen: doordat zon schijnt gaan mensen naar buiten en is er meer blootstelling."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :weereigenschap;
   rdfs:label "Zonkracht";
   dct:source <https://example.com> .
 
@@ -2577,7 +2582,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :locatie;
   rdfs:label "Zonplek";
   dct:source <https://example.com> .
 
@@ -2589,14 +2594,14 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Er zijn veel verschillende soorten, zowel aan de binnen- als aan de buitenkant van het gebouw."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :hittemaatregel;
   rdfs:label "Zonwering";
   dct:source <https://example.com> .
 
 :zuurstofstress a skos:Concept;
   dct:source <https://example.com>;
   rdfs:label "Zuurstofstress";
-  skos:topConceptOf bk:imka;
+  skos:broader :aandoening_flora;
   skos:example "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
@@ -2613,7 +2618,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :gebouwonderdeel;
   rdfs:label "Zwart dak";
   dct:source <https://example.com> .
 
@@ -2625,6 +2630,6 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
+  skos:broader :temperatuur;
   rdfs:label "Zwarteboltemperatuur";
   dct:source <https://example.com> .
