@@ -104,277 +104,6 @@ col:weerverschijnselen a skos:Collection;
   skos:member :hittegolf, :koelgraaddag, :luchttemperatuur, :luchtvochtigheid, :relatieve_luchtvochtigheid, :temperatuur, :temperatuurmeting, :tropische_dag, :tropische_nacht, :warme_dag, :zomerse_dag, :gevoelstemperatuur, :stralingstemperatuur, :windkracht, :windsnelheid, :zonnestraling, :stedelijk_hitte_eilandeffect .
 
 #==================================================================================================
-# Hiërarchie - nieuwe objecten
-#==================================================================================================
-
-#OBJECT
-:apparaat a skos:Concept;
-  skos:prefLabel "Apparaat"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl;
-  skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
-  rdfs:label "Apparaat";
-  dct:source <https://example.com> .
-
-:flora a skos:Concept;
-  skos:prefLabel "Flora"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl;
-  skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
-  rdfs:label "Flora";
-  dct:source <https://example.com> .
-
-:fauna a skos:Concept;
-  skos:prefLabel "Fauna"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl;
-  skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
-  rdfs:label "Fauna";
-  dct:source <https://example.com> .
-
-:gebouwonderdeel a skos:Concept;
-  skos:prefLabel "Gebouwonderdeel"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl;
-  skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
-  rdfs:label "Gebouwonderdeel";
-  dct:source <https://example.com> .
-
-:locatie a skos:Concept;
-  skos:prefLabel "Locatie"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl;
-  skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
-  rdfs:label "Locatie";
-  dct:source <https://example.com> .
-
-:materiaal a skos:Concept;
-  skos:prefLabel "Materiaal"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl;
-  skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
-  rdfs:label "Materiaal";
-  dct:source <https://example.com> .
-
-:mens_gemaakt_object a skos:Concept;
-  skos:prefLabel "Mens gemaakt object"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl;
-  skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
-  rdfs:label "Mens gemaakt object";
-  dct:source <https://example.com> .
-
-:natuurlijk_object a skos:Concept;
-  skos:prefLabel "Natuurlijk object"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl;
-  skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
-  rdfs:label "Natuurlijk object";
-  dct:source <https://example.com> .
-
-:sector a skos:Concept;
-  skos:prefLabel "Sector"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl;
-  skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
-  rdfs:label "Sector";
-  dct:source <https://example.com> .
-
-:wet_en_regelgeving a skos:Concept;
-  skos:prefLabel "Wet- en regelgeving"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl;
-  skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
-  rdfs:label "Wet- en regelgeving";
-  dct:source <https://example.com> .
-
-#EIGENSSCHAP
-:beroep a skos:Concept;
-  skos:prefLabel "Beroep"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl;
-  skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
-  rdfs:label "Beroep";
-  dct:source <https://example.com> .
-
-:eigenschap_gebouwde_omgeving a skos:Concept;
-  skos:prefLabel "Eigenschap gebouwde omgeving"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl;
-  skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
-  rdfs:label "Eigenschap gebouwde omgeving";
-  dct:source <https://example.com> .
-
-:gebouweigenschap a skos:Concept;
-  skos:prefLabel "Gebouweigenschap"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl;
-  skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
-  rdfs:label "Gebouweigenschap";
-  dct:source <https://example.com> .
-
-:kleur a skos:Concept;
-  skos:prefLabel "Kleur"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl;
-  skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
-  rdfs:label "Kleur";
-  dct:source <https://example.com> .
-
-:menselijke_eigenschap a skos:Concept;
-  skos:prefLabel "Menselijke eigenschap"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl;
-  skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
-  rdfs:label "Menselijke eigenschap";
-  dct:source <https://example.com> .
-
-:natuureigenschap a skos:Concept;
-  skos:prefLabel "Natuureigenschap"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl;
-  skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
-  rdfs:label "Natuureigenschap";
-  dct:source <https://example.com> .
-
-:temporele_eigenschap a skos:Concept;
-  skos:prefLabel "Temporele eigenschap"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl;
-  skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
-  rdfs:label "Temporele eigenschap";
-  dct:source <https://example.com> .
-
-:weereigenschap a skos:Concept;
-  skos:prefLabel "Weereigenschap"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl;
-  skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
-  rdfs:label "Weereigenschap";
-  dct:source <https://example.com> .
-
-#GEBEURTENIS
-:aandoening_flora a skos:Concept;
-  skos:prefLabel "Aandoening flora"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl;
-  skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
-  rdfs:label "Aandoening flora";
-  dct:source <https://example.com> .
-
-:aandoening_mens_en_dier a skos:Concept;
-  skos:prefLabel "Aandoening mens en dier"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl;
-  skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
-  rdfs:label "Aandoening mens en dier";
-  dct:source <https://example.com> .
-
-:gezondheidsproblemen a skos:Concept;
-  skos:prefLabel "Gezondheidsproblemen"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl;
-  skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
-  rdfs:label "Gezondheidsproblemen";
-  dct:source <https://example.com> .
-
-:groei a skos:Concept;
-  skos:prefLabel "Groei"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl;
-  skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:topConceptOf bk:imka;
-  rdfs:label "Groei";
-  dct:source <https://example.com> .
-
-#==================================================================================================
 # Hierarchie
 #==================================================================================================
 
@@ -402,14 +131,15 @@ col:weerverschijnselen a skos:Collection;
 :gebeurtenis a skos:Concept;
   skos:prefLabel "Gebeurtenis"@nl;
   skos:inScheme bk:imka;
-  skos:definition "-"@nl;
+  skos:definition "Iets dat plaatsvindt."@nl;
   skos:broader :ding;
   dct:source <https://example.com> .
 
 :instrument a skos:Concept;
   skos:prefLabel "Instrument"@nl;
   skos:inScheme bk:imka;
-  skos:definition "-"@nl;
+  skos:definition "Een meetgereedschap"@nl;
+  skos:scopeNote "hulpmiddelen om een natuurkundige grootheid mee te meten." @nl;
   skos:broader :object;
   dct:source <https://example.com> .
 
@@ -448,8 +178,9 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Object"@nl; 
   skos:inScheme 
   bk:imka; 
-  skos:definition "Een object is elk ding dat zich aan de menselijke zintuigen voordoet, of het is een zaak, proces of persoon waarover men aan het spreken of denken is. Objecten kunnen zowel werkelijk bestaand als denkbeeldig zijn."@nl;
-  skos:scopeNote "Hier kan het NEN 3610 semantisch model onder gehangen worden(reëel object, virtuele ruimte)"@nl;
+  skos:definition "Elk ding dat zich aan de menselijke zintuigen voordoet, of het is een zaak, proces of persoon waarover men aan het spreken of denken is."@nl;
+  skos:scopeNote "Objecten kunnen zowel werkelijk bestaand als denkbeeldig zijn."@nl;
+  skos:editorialNote "Hier kan het NEN 3610 semantisch model onder gehangen worden (reëel object, virtuele ruimte, etc.)"@nl;
   skos:broader :ding;
   dct:source <https://www.rijsenbrij.net/archive1/vision/nl/begrip2.htm#Object> .
 
@@ -686,6 +417,29 @@ col:weerverschijnselen a skos:Collection;
 #==================================================================================================
 # Niet ingedeeld, alfabetisch
 #==================================================================================================
+:aandoening_flora a skos:Concept;
+  skos:prefLabel "Aandoening flora"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Afwijking van de gezonde toestand van de plantenwereld van een regio."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:topConceptOf bk:imka;
+  rdfs:label "Aandoening flora";
+  dct:source <https://nl.wikipedia.org/wiki/Aandoening> .
+
+:aandoening_mens_en_dier a skos:Concept;
+  skos:prefLabel "Aandoening mens en dier"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Afwijking van de gezonde toestand van een mens of een dier (in een bepaalde regio)."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:topConceptOf bk:imka;
+  rdfs:label "Aandoening mens en dier";
+  dct:source <https://nl.wikipedia.org/wiki/Aandoening> .
 
 :atmosfeer a skos:Concept;
   skos:prefLabel "Atmosfeer"@nl;
@@ -723,6 +477,18 @@ col:weerverschijnselen a skos:Collection;
   rdfs:label "Alcoholgebruik";
   dct:source <https://example.com> .
 
+:apparaat a skos:Concept;
+  skos:prefLabel "Apparaat"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Mechanisch hulpmiddel"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:topConceptOf bk:imka;
+  rdfs:label "Apparaat";
+  dct:source <https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/apparaat#> .
+
 :bebouwingsdichtheid a skos:Concept;
   skos:prefLabel "Bebouwingsdichtheid"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
@@ -758,6 +524,18 @@ col:weerverschijnselen a skos:Collection;
   skos:topConceptOf bk:imka;
   rdfs:label "Bereikbaarheid";
   dct:source <https://example.com> .
+
+:beroep a skos:Concept;
+  skos:prefLabel "Beroep"@nl;
+  skos:altLabel "Vak"@nl, "Stiel"@nl, "Metier"@nl, "Professie"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Een samenhangend geheel van arbeidstaken die voor de uitvoering een bepaalde vakkennis en -kunde vereisen, en dat losstaand van de individuele beroepsbeoefenaar kan voortbestaan en voor de maatschappij herkenbaar is."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:topConceptOf bk:imka;
+  rdfs:label "Beroep";
+  dct:source <https://nl.wikipedia.org/wiki/Beroep> .
 
 :beschaduwing a skos:Concept;
   skos:prefLabel "Beschaduwing"@nl;
@@ -907,13 +685,13 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Bouwbesluit"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
+  skos:definition "voorschriften voor veiligheid, gezondheid, bruikbaarheid, energiezuinigheid en milieu, waaraan een bouwwerk altijd moet voldoen."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Opnemen, dit geeft namelijk duidelijk richting aan welke maatregelen wel en niet mogelijk zijn."@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf bk:imka;
   rdfs:label "Bouwbesluit";
-  dct:source <https://example.com> .
+  dct:source <https://www.rijksoverheid.nl/onderwerpen/bouwregelgeving/bouwbesluit-2012> .
 
 :brandgevaar a skos:Concept;
   skos:prefLabel "Brandgevaar"@nl;
@@ -955,13 +733,13 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Deltaplan Ruimtelijke Adaptatie"@nl;
   skos:altLabel "DRA"@nl, "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:definition "Een plan van Nederlandse overheden om wateroverlast, hittestress, droogte en de gevolgen van overstromingen te beperken."@nl;
+  skos:scopeNote "Het doel van het plan is dat Nederland in 2050 klimaatbestendig en waterrobuust is ingericht. Gemeenten, waterschappen, provincies en het Rijk werken samen aan de ambities in dit plan en hebben zich daarvoor ook verenigd in werkregio's."@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf bk:imka;
   rdfs:label "Deltaplan Ruimtelijke Adaptatie";
-  dct:source <https://example.com> .
+  dct:source <https://klimaatadaptatienederland.nl/overheden/deltaplan-ra/> .
 
 :dengue a skos:Concept;
   skos:prefLabel "Dengue"@nl;
@@ -1004,13 +782,14 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Droogte"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
+  skos:definition "Een periode van abnormaal droog weer die lang genoeg duurt zodat het gebrek aan water een serieuze hydrologische impact heeft in het getroffen gebied."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Opnemen in het woordenboek, want dit wordt veroorzaakt dóór hitte."@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf bk:imka;
+  skos:exactMatch <https://www.aquo.nl/index.php/Id-88defb88-c5fa-40f9-b198-3525af6cbd31>;
   rdfs:label "Droogte";
-  dct:source <https://example.com> .
+  dct:source "National Weather Forecast Service Office, NOAA, Glossary of Select Meteorological, Climatological and Hydrological Terms."@en .
 
 :drugsgebruik a skos:Concept;
   skos:prefLabel "Drugsgebruik"@nl;
@@ -1040,12 +819,24 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Ecosysteemverschuiving"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
+  skos:definition "Langdurige of onomkeerbare verandering in het natuurlijk systeem dat bestaat uit alle organismen die in een bepaald gebied voorkomen, samen met hun abiotische omgeving, en de wisselwerkingen tussen beide"@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf bk:imka;
   rdfs:label "Ecosysteemverschuiving";
+  dct:source <https://nl.wikipedia.org/wiki/Ecosysteem> .
+
+:eigenschap_gebouwde_omgeving a skos:Concept;
+  skos:prefLabel "Eigenschap gebouwde omgeving"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Elementen met bouwwerken die een continuüm vormen van het grootste gecultiveerde en natuurlijke landschapselement tot de kleinste afzonderlijke bouwwerken."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:topConceptOf bk:imka;
+  rdfs:label "Eigenschap gebouwde omgeving";
   dct:source <https://example.com> .
 
 :energielabel a skos:Concept;
@@ -1096,6 +887,32 @@ col:weerverschijnselen a skos:Collection;
   rdfs:label "Extreme hitte";
   dct:source <https://example.com> .
 
+:fauna a skos:Concept;
+  skos:prefLabel "Fauna"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "De dierenwereld van een regio."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:topConceptOf bk:imka;
+  rdfs:label "Fauna";
+  skos:exactMatch <https://www.aquo.nl/index.php/Id-6697bb31-5519-4b9b-9f46-9e4f4c77a80a>;
+  dct:source <https://www.aquo.nl/index.php/Id-6697bb31-5519-4b9b-9f46-9e4f4c77a80a> .
+
+:flora a skos:Concept;
+  skos:prefLabel "Flora"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "De plantenwereld van een regio."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:topConceptOf bk:imka;
+  rdfs:label "Flora";
+  skos:exactMatch <https://www.aquo.nl/index.php/Id-7b776f89-0ba0-47b8-8a29-0113d0b7c50b>;
+  dct:source <https://www.aquo.nl/index.php/Id-7b776f89-0ba0-47b8-8a29-0113d0b7c50b> .
+
 :fysiologisch_stressniveau a skos:Concept;
   skos:prefLabel "Fysiologisch Stressniveau"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
@@ -1108,6 +925,18 @@ col:weerverschijnselen a skos:Collection;
   rdfs:label "Fysiologisch Stressniveau";
   dct:source <https://example.com> .
 
+:gebouweigenschap a skos:Concept;
+  skos:prefLabel "Gebouweigenschap"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Kenmerk van een bouwwerk dat een voor mensen toegankelijke overdekte, met wanden omsloten ruimte vormt."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:topConceptOf bk:imka;
+  rdfs:label "Gebouweigenschap";
+  dct:source <https://www.juridischwoordenboek.nl/?zoek=gebouw> .
+
 :gebouwhoogte a skos:Concept;
   skos:prefLabel "Gebouwhoogte"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
@@ -1119,6 +948,19 @@ col:weerverschijnselen a skos:Collection;
   skos:topConceptOf bk:imka;
   rdfs:label "Gebouwhoogte";
   dct:source <https://example.com> .
+
+:gebouwonderdeel a skos:Concept;
+  skos:prefLabel "Gebouwonderdeel"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Deel van een bouwwerk dat een voor mensen toegankelijke overdekte, met wanden omsloten ruimte vormt."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:topConceptOf bk:imka;
+  rdfs:label "Gebouwonderdeel";
+  dct:source <https://www.juridischwoordenboek.nl/?zoek=gebouw>;
+  dct:source <https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/onderdeel#.Y24kl3bMIQ8> .
 
 :gedrag a skos:Concept;
   skos:prefLabel "Gedrag"@nl;
@@ -1144,6 +986,18 @@ col:weerverschijnselen a skos:Collection;
   rdfs:label "Gemeentegrens";
   dct:source <https://example.com> .
 
+:gezondheidsproblemen a skos:Concept;
+  skos:prefLabel "Gezondheidsproblemen"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Afwijking van de gezonde toestand van mens, dier of natuur."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:topConceptOf bk:imka;
+  rdfs:label "Gezondheidsproblemen";
+  dct:source <https://nl.wikipedia.org/wiki/Aandoening> .
+
 :gezondheidszorg a skos:Concept;
   skos:prefLabel "Gezondheidszorg"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
@@ -1167,6 +1021,18 @@ col:weerverschijnselen a skos:Collection;
   skos:topConceptOf bk:imka;
   rdfs:label "Grijs";
   dct:source <https://example.com> .
+
+:groei a skos:Concept;
+  skos:prefLabel "Groei"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Toenemen in omvang, aantal, belang, kwaliteit, enz."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:topConceptOf bk:imka;
+  rdfs:label "Groei";
+  dct:source <http://www.kennisconsult.nl/begrippen/9027/> .
 
 :groen a skos:Concept;
   skos:prefLabel "Groen"@nl;
@@ -1516,6 +1382,18 @@ col:weerverschijnselen a skos:Collection;
   rdfs:label "Kleding";
   dct:source <https://example.com> .
 
+:kleur a skos:Concept;
+  skos:prefLabel "Kleur"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Kleur is een eigenschap van licht die wordt bepaald door de verschillende golflengtes waaruit dat licht is samengesteld."@nl;
+  skos:scopeNote "Mensen nemen licht waar wanneer elektromagnetische straling met een golflengte tussen 750 en 400 nanometer het oog bereikt. De samenstelling van golflengtes wordt het spectrum genoemd."@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:topConceptOf bk:imka;
+  rdfs:label "Kleur";
+  dct:source <https://nl.wikipedia.org/wiki/Kleur> .
+
 :klimaatextremen a skos:Concept;
   skos:prefLabel "Klimaatextremen"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
@@ -1661,6 +1539,18 @@ col:weerverschijnselen a skos:Collection;
   rdfs:label "Leeftijd";
   dct:source <https://example.com> .
 
+:locatie a skos:Concept;
+  skos:prefLabel "Locatie"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Een positie of punt, lijn of vlak (of gebied) in de ruimte, uitgedrukt in relatie tot iets anders. "@nl;
+  skos:scopeNote "Een absolute locatie kan vaak worden gedefinieerd met behulp van cartesiaanse coördinaten, zoals gebruikmaking van specifieke breedtegraad en lengtegraad. Op Aarde kunnen de geografische coördinaten worden gebruikt om de locatie van een positie te specificeren."@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:topConceptOf bk:imka;
+  rdfs:label "Locatie";
+  dct:source <https://nl.wikipedia.org/wiki/Locatie> .
+
 :lokaal_hitteplan a skos:Concept;
   skos:prefLabel "Lokaal hitteplan"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
@@ -1709,6 +1599,18 @@ col:weerverschijnselen a skos:Collection;
   rdfs:label "Malaria";
   dct:source <https://example.com> .
 
+:materiaal a skos:Concept;
+  skos:prefLabel "Materiaal"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Alles waarvan iets is gemaakt, of waarmee je iets kunt doen"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:topConceptOf bk:imka;
+  rdfs:label "Materiaal";
+  dct:source <https://www.woorden.org/woord/materiaal> .
+
 :maximumtemperatuur a skos:Concept;
   skos:prefLabel "Maximumtemperatuur"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
@@ -1719,6 +1621,30 @@ col:weerverschijnselen a skos:Collection;
   skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf bk:imka;
   rdfs:label "Maximumtemperatuur";
+  dct:source <https://example.com> .
+
+:mens_gemaakt_object a skos:Concept;
+  skos:prefLabel "Mens gemaakt object"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Elk ding dat zich aan de menselijke zintuigen voordoet, of het is een zaak, proces of persoon waarover men aan het spreken of denken is, dat door de mens is geconstrueerd."@nl;
+  skos:scopeNote "Door mensen gemaakte objecten kunnen zowel werkelijk bestaand als denkbeeldig zijn."@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:topConceptOf bk:imka;
+  rdfs:label "Mens gemaakt object";
+  dct:source <https://example.com> .
+
+:menselijke_eigenschap a skos:Concept;
+  skos:prefLabel "Menselijke eigenschap"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Kenmerk van een mens."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:topConceptOf bk:imka;
+  rdfs:label "Menselijke eigenschap";
   dct:source <https://example.com> .
 
 #:migratiepatroon a skos:Concept;
@@ -1779,6 +1705,30 @@ col:weerverschijnselen a skos:Collection;
   skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf bk:imka;
   rdfs:label "Natuurbrandgevoeligheid";
+  dct:source <https://example.com> .
+
+:natuureigenschap a skos:Concept;
+  skos:prefLabel "Natuureigenschap"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Kenmerk van een dier of een plant, danwel het ecosysteem waarvan zij deel uitmaken en de bijbehorende processen."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:topConceptOf bk:imka;
+  rdfs:label "Natuureigenschap";
+  dct:source <https://www.ecopedia.be/encyclopedie/natuur> .
+
+:natuurlijk_object a skos:Concept;
+  skos:prefLabel "Natuurlijk object"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Elk ding dat zich aan de menselijke zintuigen voordoet, of het is een zaak, proces of persoon waarover men aan het spreken of denken is, dat in de natuur voorkomt en niet door de mens is geconstrueerd."@nl;
+  skos:scopeNote "Natuurlijke objecten kunnen zowel werkelijk bestaand als denkbeeldig zijn."@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:topConceptOf bk:imka;
+  rdfs:label "Natuurlijk object";
   dct:source <https://example.com> .
 
 :natuurlijk_systeem a skos:Concept;
@@ -1974,6 +1924,18 @@ col:weerverschijnselen a skos:Collection;
   rdfs:label "Schaduwplek";
   dct:source <https://example.com> .
 
+:sector a skos:Concept;
+  skos:prefLabel "Sector"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Groep bedrijven die in dezelfde branche zitten."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:topConceptOf bk:imka;
+  rdfs:label "Sector";
+  dct:source <https://example.com> .
+
 :secundair_klimaateffect a skos:Concept;
   skos:prefLabel "Secundair klimaateffect"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
@@ -2063,13 +2025,13 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Stedelijke recreatieruimte"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
+  skos:definition "De totale oppervlakte van land en water, in gebruik, geschikt of bestemd voor openluchtrecreatie binnen of direct grenzend aan stedelijk gebied."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf bk:imka;
   rdfs:label "Stedelijke recreatieruimte";
-  dct:source <https://example.com> .
+  dct:source <https://www.ensie.nl/betekenis/recreatieruimte-rekreatieruimte> .
 
 :speeltuin a skos:Concept;
   skos:prefLabel "Speeltuin"@nl;
@@ -2087,37 +2049,37 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Sterfte"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
+  skos:definition "Het geheel der sterfgevallen."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf bk:imka;
   rdfs:label "Sterfte";
-  dct:source <https://example.com> .
+  dct:source <https://nl.wikipedia.org/wiki/Sterfte> .
 
 :sterftecijfer a skos:Concept;
   skos:prefLabel "Sterftecijfer"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:altLabel "Sterftegetal"@nl, "Mortaliteit"@nl;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:definition "aantal sterfgevallen in een populatie in verhouding tot het aantal individuen in die populatie, per tijdseenheid."@nl;
+  skos:scopeNote "Het wordt vaak uitgedrukt in sterfgevallen per 1000 inwoners per jaar. Het kan gaan om een aantal van de gehele bevolking of alleen binnen een bepaalde groep en het kan gaan over doden in het algemeen of specifiek als gevolg van een bepaalde ziekte."@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf bk:imka;
   rdfs:label "Sterftecijfer";
-  dct:source <https://example.com> .
+  dct:source <https://nl.wikipedia.org/wiki/Sterftecijfer> .
 
 :straatprofiel a skos:Concept;
   skos:prefLabel "Straatprofiel"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
+  skos:definition "Het straatprofiel is de verticale doorsnede van een straat, gezien van gevel tot gevel. In een straatprofiel worden bij voorkeur opgenomen: een klein deel van de panden, voortuinen, trottoirs, parkeerplaatsen, bomen en de rijweg."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Waarbij de weg minimaal twee keer zo breed is als de hoogte van de aanliggende gebouwen. Anders blijft het jhuist hangen op lichaamshoogte."@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:topConceptOf bk:imka;
   rdfs:label "Straatprofiel";
-  dct:source <https://example.com> .
+  dct:source <https://www.joostdevree.nl/shtmls/straatprofiel.shtml> .
 
 :stralingstemperatuur a skos:Concept;
   skos:prefLabel "Stralingstemperatuur"@nl;
@@ -2131,9 +2093,9 @@ col:weerverschijnselen a skos:Collection;
 
 :stresstest a skos:Concept;
   skos:prefLabel "Stresstest"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:altLabel "Klimaatstresstest"@nl;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
+  skos:definition "Een klimaatstresstest brengt in beeld hoe kwetsbaar een gebied is voor extreme neerslag, hitte, droogte en overstroming."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
@@ -2162,6 +2124,18 @@ col:weerverschijnselen a skos:Collection;
   skos:topConceptOf bk:imka;
   rdfs:label "Temperatuuroploop";
   dct:source <https://example.com> .
+
+:temporele_eigenschap a skos:Concept;
+  skos:prefLabel "Temporele eigenschap"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Een op tijdsduur berustend kenmerk."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:topConceptOf bk:imka;
+  rdfs:label "Temporele eigenschap";
+  dct:source <https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/temporeel> .
 
 :thuiszorg a skos:Concept;
   skos:prefLabel "Thuiszorg"@nl;
@@ -2487,6 +2461,18 @@ col:weerverschijnselen a skos:Collection;
   rdfs:label "Watertemperatuur";
   dct:source <https://example.com> .
 
+:weereigenschap a skos:Concept;
+  skos:prefLabel "Weereigenschap"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Kenmerk van de gesteldheid van de atmosfeer op een bepaald ogenblik."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:topConceptOf bk:imka;
+  rdfs:label "Weereigenschap";
+  dct:source <https://nl.wikipedia.org/wiki/Weer_(meteorologie)#> .
+
 :wet_bulb_globe_temperature-index a skos:Concept;
   skos:prefLabel "Wet Bulb Globe Temperature"@nl;
   skos:altLabel "WBGT-index"@en;
@@ -2498,6 +2484,18 @@ col:weerverschijnselen a skos:Collection;
   skos:topConceptOf bk:imka;
   rdfs:label "Wbgt-index";
   dct:source <https://example.com> .
+
+:wet_en_regelgeving a skos:Concept;
+  skos:prefLabel "Wet- en regelgeving"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Door de wetgevende macht opgestelde regels en de daarvan afgeleide regels door de uitvoerende macht."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:topConceptOf bk:imka;
+  rdfs:label "Wet- en regelgeving";
+  dct:source <https://www.slimmermetregelgeving.nl/dna/#:~:text=De%20%E2%80%9Cwetgeving%E2%80%9D%20betreft%20regels%20opgesteld,algemene%20werking%20hebben%20(gekregen).> .
 
 :wit_dak a skos:Concept;
   skos:prefLabel "Wit dak"@nl;
