@@ -104,7 +104,7 @@ col:weerverschijnselen a skos:Collection;
   skos:member :hittegolf, :koelgraaddag, :luchttemperatuur, :luchtvochtigheid, :relatieve_luchtvochtigheid, :temperatuur, :temperatuurmeting, :tropische_dag, :tropische_nacht, :warme_dag, :zomerse_dag, :gevoelstemperatuur, :stralingstemperatuur, :windkracht, :windsnelheid, :zonnestraling, :stedelijk_hitte_eilandeffect .
 
 #==================================================================================================
-# Hierarchie
+# Hierarchie (ingevuld)
 #==================================================================================================
 
 :activiteit a skos:Concept;
