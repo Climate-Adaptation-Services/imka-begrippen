@@ -149,7 +149,7 @@ col:weerverschijnselen a skos:Collection;
   skos:inScheme bk:imka;
   skos:definition "De fluctuaties op lang termijn van temperatuur, neerslag, wind en alle andere aspecten van het klimaat op aarde."@nl;
   skos:scopeNote "Tijdens de Conventie over de Klimaatverandering van de Verenigde Naties werd klimaatverandering ook omschreven als “verandering van het klimaat die direct of indirect kan worden toegeschreven aan menselijke activiteiten die de samenstelling van de atmosfeer wijzigen en die zich toevoegt aan de veranderlijkheid van het natuurlijke klimaat en met vergelijkbare perioden kan worden waargenomen.”"@nl;
-  skos:broader :impact;
+  skos:broader :proces;
   dct:source <https://www.greenfacts.org/nl/begrippenlijst/jkl/klimaatverandering.htm> .
 
 :maatregel a skos:Concept;
@@ -179,10 +179,13 @@ col:weerverschijnselen a skos:Collection;
 
 :observatie a skos:Concept;
   skos:prefLabel "Observatie"@nl;
+  skos:altLabel "Waarneming"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Een waarmening"@nl;
+  skos:definition "Het bepalen van de waarde van een variabele in de werkelijkheid."@nl;
+  skos:example "Temperatuurmeting"@nl;
   skos:broader :activiteit;
-  dct:source <https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/observatie#.YxCKLXZBwQ8> .
+  skos:exactMatch <https://www.aquo.nl/index.php/Id-b08a9858-fe76-45a3-9d0c-07cd490bcea8>;
+  dct:source <https://www.aquo.nl/> .
 
 :risico a skos:Concept;
   skos:prefLabel "Risico"@nl;
@@ -197,14 +200,6 @@ col:weerverschijnselen a skos:Collection;
   skos:definition "De temperatuur is de mate van warmte (of kou) uitgedrukt in graden."@nl;
   skos:broader :weereigenschap;
   dct:source <https://www.knmi.nl/kennis-en-datacentrum/uitleg/temperatuur> .
-
-:temperatuurmeting a skos:Concept;
-  skos:prefLabel "Temperatuurmeting"@nl;
-  skos:inScheme bk:imka;
-  skos:definition "Een waarneming van hoe warm of koud iets is"@nl;
-  skos:scopeNote "Op meteorologische stations wordt de temperatuur van de lucht volgens internationale afspraak gemeten. Dit gebeurt in graden Celsius op een hoogte van anderhalve meter boven een open grasvlakte."@nl;
-  skos:broader :observatie;
-  dct:source <https://nl.wikipedia.org/wiki/Temperatuur> .
 
 :antropogene_warmte a skos:Concept;
   skos:prefLabel "Antropogene warmte"@nl;
@@ -247,6 +242,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "Als de gemeten luchttemperatuur bijvoorbeeld 30 ºC is, kan het in de volle zon en uit de wind voelen als 40 ºC."@nl;
   skos:broader :temperatuur;
   skos:altLabel "Fysiologisch equivalente temperatuur"@nl, "PET"@en, "Physiological Equivalent Temperature"@en;
+  skos:editorialNote "PET is een subjectieve ervaring. Aan het eind van een warme periode ervaar je minder warmte. "@nl;
   skos:broadMatch <https://www.aquo.nl/index.php/Id-368757fa-38b2-4b6a-910f-72e849810ba9>;
   dct:source <https://www.klimaateffectatlas.nl/nl/hittekaart-gevoelstemperatuur> .
 
@@ -598,7 +594,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:broader :fauna;
+  skos:broader :flora;
   rdfs:label "Blauwalg";
   dct:source <https://example.com> .
 
@@ -672,6 +668,18 @@ col:weerverschijnselen a skos:Collection;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :flora;
   rdfs:label "Boom";
+  dct:source <https://example.com> .
+  
+:boomkroonbedekking a skos:Concept;
+  skos:prefLabel "Boomkroonbedekking"@nl;
+  skos:altLabel "Urban tree cover"@en;
+  skos:inScheme bk:imka;
+  skos:definition "Oppervlakte boomkronen gedeeld door landoppervlak (water niet meegenomen) x 100%."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :natuureigenschap;
+  rdfs:label "Boomkroonbedekking";
   dct:source <https://example.com> .
 
 :bouwbesluit a skos:Concept;
@@ -765,7 +773,7 @@ col:weerverschijnselen a skos:Collection;
   skos:inScheme bk:imka;
   skos:definition "(verplicht opnemen)"@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "De opwarming van drinkwater is ook belangrijk in relatie tot gezondheid."@nl;
+  skos:editorialNote "De opwarming van drinkwater is belangrijk in relatie tot gezondheid. Waterleidingen kunnen te warm (warmer dan 25 graden) worden door hitte."@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :natuurlijk_object;
   rdfs:label "Drinkwater";
@@ -905,6 +913,20 @@ col:weerverschijnselen a skos:Collection;
   rdfs:label "Flora";
   skos:exactMatch <https://www.aquo.nl/index.php/Id-7b776f89-0ba0-47b8-8a29-0113d0b7c50b>;
   dct:source <https://www.aquo.nl/index.php/Id-7b776f89-0ba0-47b8-8a29-0113d0b7c50b> .
+
+:freatisch_grondwater a skos:Concept;
+  skos:prefLabel "Freatisch water"@nl;
+  skos:altLabel "Ondiep grondwater"@nl;
+  skos:altLabel "Vrij grondwater"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Water in de verzadigde zone met een vrije grondwaterspiegel."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :water;
+  rdfs:label "Freatisch water";
+  skos:exactMatch <https://www.aquo.nl/index.php/Id-fef29bc1-f33b-4696-9eca-c1fb0c8259ac>;
+  dct:source <https://www.aquo.nl/> .
 
 :fysiek_object a skos:Concept;
   skos:prefLabel "Fysiek object"@nl;
@@ -1224,11 +1246,24 @@ col:weerverschijnselen a skos:Collection;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
   skos:definition "Fysiologische stress gerelateerd aan warmte."@nl;
-  skos:scopeNote "Boven 23°C PET kan al hittestress ontstaan. Vanaf 41°C PET is er sprake van extreme hittestress."@nl;
+  skos:scopeNote "Bij de mens kan boven 23°C PET al hittestress ontstaan. Vanaf 41°C PET is er bij mensen sprake van extreme hittestress. Ook dieren en vegetatie kunnen te maken hebben met hittestress. Hittestress kan bijvoorbeeld leiden tot aandoeningen zoals oververhitting en uitdroging."@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :aandoening_mens_en_dier;
   rdfs:label "Hittestress";
+  dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
+
+:hittestressplek a skos:Concept;
+  skos:prefLabel "Hittestressplek"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Locatie waar de temperatuur hoger wordt dan 35 graden. "@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "Het tegenovergestelde van een koele plek. Nog uitzoeken: welke temperatuur moet hier gehanteerd worden?"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :locatie;
+  skos:related :koele_plek;
+  rdfs:label "Hittestressplek";
   dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
 
 :hittestresstest  a skos:Concept;
@@ -1450,11 +1485,11 @@ col:weerverschijnselen a skos:Collection;
 
 :koele_buitenruimte a skos:Concept;
   skos:prefLabel "Koele buitenruimte"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:altLabel "Cool spot"@en;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
+  skos:definition "Een plek in de openbare ruimte waar minimaal 200 m2 schaduw is en een PET van lager dan 35 graden (o.b.v. PET 1 juli 2015)."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "Type koele plek."@nl;
+  skos:editorialNote "Over deze definitie is nog wel discussie in het werkveld. Schaduw in deze definitie is bijvoorbeeld niet beperkt tot schaduw van bomen, maar het maakt voor de koelte wel uit of schaduw van bomem of gebouwen komt. "@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :koele_plek;
   rdfs:label "Koele buitenruimte";
@@ -1464,7 +1499,7 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Koele plek"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
+  skos:definition "Een plek waar het minder warm is dan in de omgeving."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Uitgesplitst in koele binnen- en buitenruimte."@nl;
   skos:example "(optioneel opnemen)"@nl;
@@ -1518,6 +1553,18 @@ col:weerverschijnselen a skos:Collection;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :instrument;
   rdfs:label "Ladder van koelte";
+  dct:source <https://example.com> .
+
+:landschapstype a skos:Concept;
+  skos:prefLabel "Landschapstype"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "Zie bijvoorbeeld de classificatie fysiek voorkomen bij IMGeo."@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :natuureigenschap;
+  rdfs:label "Landschapstype";
   dct:source <https://example.com> .
 
 :leefomgeving a skos:Concept;
@@ -1800,13 +1847,26 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Oppervlaktetemperatuur"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
+  skos:definition "Temperatuur die op het oppervlak van een object wordt gemeten."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
+  skos:example "Asfalttemperatuur, de temperatuur van het blad van een boom."@nl;
   skos:broader :temperatuur;
   rdfs:label "Oppervlaktetemperatuur";
   dct:source <https://example.com> .
+
+:oppervlaktewater a skos:Concept;
+  skos:prefLabel "Oppervlaktewater"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Het grondoppervlak in principe bedekt met water."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "De bovenstaande, ruime definitie kan ingeperkt worden door een synthese van de volgende definities van oppervlaktewater: Onder wateren worden alle wateren begrepen die in principe zichtbaar al dan niet overdekt op het aardoppervlak aanwezig zijn."@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :water;
+  rdfs:label "Oppervlaktewater";
+  skos:exactMatch <https://www.aquo.nl/index.php/Id-a87236c5-3703-4902-ab55-fe3b60019d3b>;
+  dct:source <https://www.aquo.nl/> .
 
 :opwarming a skos:Concept;
   skos:prefLabel "Opwarming"@nl;
@@ -1814,7 +1874,7 @@ col:weerverschijnselen a skos:Collection;
   skos:inScheme bk:imka;
   skos:definition "(verplicht opnemen)"@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "Opwarming leidt onder andere tot meer warme dagen hittegolven en juist minder vorstdagen en ijsdagen."@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :impact;
   rdfs:label "Opwarming";
@@ -1921,9 +1981,9 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Schaduwplek"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
+  skos:definition "Locatie waar het zonlicht wordt afgevangen door een object of objecten en de energie van het zonlicht daardoor minder is dan 400 joule per m2 per tijdseenheid (seconde?)"@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "Er wordt ook specifieker gesproken van groene schaduw (door vegetatie) en grijze schaduw (door gebouwen)."@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :locatie;
   rdfs:label "Schaduwplek";
@@ -2282,7 +2342,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Risico verdrinking door toename waterrecreatie."@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:broader :gezondheidsprobleem;
+  skos:broader :sterfte;
   rdfs:label "Verdrinking";
   dct:source <https://example.com> .
 
