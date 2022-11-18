@@ -664,7 +664,7 @@ col:weerverschijnselen a skos:Collection;
   skos:inScheme bk:imka;
   skos:definition "(verplicht opnemen)"@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "hier is nog steeds geen duidelijk definitie van. Vallen struiken hier ook onder? Overigens wordt vaak makkelijk gedacht dat een boom alleen maar nuttig is tegen hitte, maar het kan ook de wind blokkeren, waardoor het juist warmer wordt. "@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :flora;
   rdfs:label "Boom";
@@ -816,6 +816,18 @@ col:weerverschijnselen a skos:Collection;
   rdfs:label "Duur";
   dct:source <https://example.com> .
 
+:ecosysteem a skos:Concept;
+  skos:prefLabel "Ecosysteem"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Het natuurlijk systeem dat bestaat uit alle organismen die in een bepaald gebied voorkomen, samen met hun abiotische omgeving, en de wisselwerkingen tussen beide"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :natuurlijk_object;
+  rdfs:label "Ecosysteem";
+  dct:source <https://nl.wikipedia.org/wiki/Ecosysteem> .
+
 :ecosysteemverschuiving a skos:Concept;
   skos:prefLabel "Ecosysteemverschuiving"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
@@ -839,6 +851,18 @@ col:weerverschijnselen a skos:Collection;
   skos:broader :eigenschap;
   rdfs:label "Eigenschap gebouwde omgeving";
   dct:source <https://example.com> .
+
+:energie a skos:Concept;
+  skos:prefLabel "Energie"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "De sector die zich bezighoudt met opwekking en gebruik van energie."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)."@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :sector;
+  rdfs:label "Energie";
+  dct:source <https://klimaatadaptatienederland.nl/thema-sector/energie/> .
 
 :energielabel a skos:Concept;
   skos:prefLabel "Energielabel"@nl;
@@ -952,6 +976,18 @@ col:weerverschijnselen a skos:Collection;
   rdfs:label "Fysiologisch Stressniveau";
   dct:source <https://example.com> .
 
+:gebouwde_omgeving_en_ruimtelijke_ordening a skos:Concept;
+  skos:prefLabel "Gebouwde omgeving en ruimtelijke ordening"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "De sector die zich bezighoudt met de fysieke leefomgeving en de inrichting daarvan."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :sector;
+  rdfs:label "Gebouwde omgeving en ruimtelijke ordening";
+  dct:source <https://klimaatadaptatienederland.nl/thema-sector/gebouwde-omgeving-ruimtelijke-ordening/> .
+
 :gebouweigenschap a skos:Concept;
   skos:prefLabel "Gebouweigenschap"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
@@ -1012,6 +1048,18 @@ col:weerverschijnselen a skos:Collection;
   skos:broader :locatie;
   rdfs:label "Gemeentegrens";
   dct:source <https://example.com> .
+
+:gezondheid a skos:Concept;
+  skos:prefLabel "Gezondheid"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "De sector die zich bezighoudt met gezondheid van de mens."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :sector;
+  rdfs:label "Gezondheid";
+  dct:source <https://klimaatadaptatienederland.nl/thema-sector/gezondheid/> .
 
 :gezondheidsprobleem a skos:Concept;
   skos:prefLabel "Gezondheidsprobleem"@nl;
@@ -1145,7 +1193,7 @@ col:weerverschijnselen a skos:Collection;
   rdfs:label "Hittebestendig";
   dct:source <https://example.com> .
 
-:hittegolf_a a skos:Concept;
+:hittegolf a skos:Concept;
   skos:prefLabel "Hittegolf (KNMI)"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
@@ -1157,16 +1205,16 @@ col:weerverschijnselen a skos:Collection;
   rdfs:label "Hittegolf";
   dct:source <https://www.knmi.nl/kennis-en-datacentrum/uitleg/hittegolf> .
 
-:hittegolf_b a skos:Concept;
-  skos:prefLabel "Hittegolf (Alternatief)"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl;
+:warmtegolf a skos:Concept;
+  skos:prefLabel "Warmtegolf"@nl;
+  skos:altLabel "Extreem warme periode"@nl;
   skos:inScheme bk:imka;
   skos:definition "Opeenvolging van een aantal dagen met extreme temperatuur boven het gemiddelde in dat seizoen"@nl;
   skos:scopeNote "Ook in voor- en najaar heb je in woningen last van hitte"@nl;
   skos:editorialNote "Deze definitie wijkt af van de KNMI-definitie: want ook in voor- en najaar kan een hittegolf plaatsvinden en voor schade aan mens en natuur zorgen. De WMO definieert een 'heat wave' als 'a period during which the daily maximum temperature exceeds for more than five consecutive days the maximum normal temperature by 5°C'. "@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :gebeurtenis;
-  rdfs:label "Hittegolf";
+  rdfs:label "Warmtegolf";
   dct:source <https://example.com> .
 
 :hittegolffrequentie a skos:Concept;
@@ -1326,6 +1374,18 @@ col:weerverschijnselen a skos:Collection;
   #rdfs:label "Hulpdienst";
   #dct:source <https://example.com> .
 
+:ict_en_telecom a skos:Concept;
+  skos:prefLabel "ICT en telecom"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "De sector die zich bezighoudt met informatie- en communicatietechnologie."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :sector;
+  rdfs:label "ICT en telecom";
+  dct:source <https://klimaatadaptatienederland.nl/thema-sector/ict-telecom/> .
+
 :impact a skos:Concept;
   skos:prefLabel "Impact"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
@@ -1349,6 +1409,18 @@ col:weerverschijnselen a skos:Collection;
   skos:broader :aandoening_mens_en_dier;
   rdfs:label "Infectieziektes";
   dct:source <https://example.com> .
+
+:infrastructuur a skos:Concept;
+  skos:prefLabel "Infrastructuur"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "De sector die zich bezighoudt met transportnetwerken."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)."@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :sector;
+  rdfs:label "Infrastructuur";
+  dct:source <https://klimaatadaptatienederland.nl/thema-sector/infrastructuur/> .
 
 :intensiteit a skos:Concept;
   skos:prefLabel "Intensiteit"@nl;
@@ -1433,6 +1505,18 @@ col:weerverschijnselen a skos:Collection;
   skos:broader :eigenschap;
   rdfs:label "Kleur";
   dct:source <https://nl.wikipedia.org/wiki/Kleur> .
+
+:klimaatadaptatie a skos:Concept;
+  skos:prefLabel "Klimaatadaptatie"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Het zich voorbereiden op de risico's van het veranderende klimaat en het aanpassen hierop van de omgeving."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :activiteit;
+  rdfs:label "Klimaatadaptatie";
+  dct:source <https://www.rijksoverheid.nl/onderwerpen/klimaatverandering/klimaatadaptatie> .
 
 :klimaatextreem a skos:Concept;
   skos:prefLabel "Klimaatextreem"@nl;
@@ -1555,6 +1639,18 @@ col:weerverschijnselen a skos:Collection;
   rdfs:label "Ladder van koelte";
   dct:source <https://example.com> .
 
+:landbouw a skos:Concept;
+  skos:prefLabel "Landbouw"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "De sector die zich bezighoudt met de productie van planten en dieren, ten behoeve van de menselijke economie."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :sector;
+  rdfs:label "Landbouw";
+  dct:source <https://klimaatadaptatienederland.nl/thema-sector/landbouw/> .
+
 :landschapstype a skos:Concept;
   skos:prefLabel "Landschapstype"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
@@ -1651,6 +1747,30 @@ col:weerverschijnselen a skos:Collection;
   rdfs:label "Malaria";
   dct:source <https://example.com> .
 
+:mate_van_isolatie a skos:Concept;
+  skos:prefLabel "Mate van isolatie"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "In hoeverre een gebouw is voorzien van isolatie voor thermische doeleinden."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :gebouweigenschap;
+  rdfs:label "Mate van isolatie";
+  dct:source <https://example.com> 
+
+:mate_van_zonwering a skos:Concept;
+  skos:prefLabel "Mate van zonwering"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "In hoeverre een gebouw is voorzien van constructies die de overlast van zonlicht en/of warmte ten gevolge van zonlicht moeten tegengaan."nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :gebouweigenschap;
+  rdfs:label "Mate van zonwering";
+  dct:source <https://example.com> 
+
 :materiaal a skos:Concept;
   skos:prefLabel "Materiaal"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
@@ -1734,6 +1854,18 @@ col:weerverschijnselen a skos:Collection;
   skos:broader :hitteplan;
   rdfs:label "Nationaal hitteplan";
   dct:source <https://example.com> .
+
+:natuur a skos:Concept;
+  skos:prefLabel "Natuur"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "De sector die zich bezighoudt met natuurbeheer."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :sector;
+  rdfs:label "Natuur";
+  dct:source <https://klimaatadaptatienederland.nl/thema-sector/natuur/> .
 
 :natuurbrand a skos:Concept;
   skos:prefLabel "Natuurbrand"@nl;
@@ -1929,6 +2061,30 @@ col:weerverschijnselen a skos:Collection;
   rdfs:label "Primair klimaateffect";
   dct:source <https://example.com> .
 
+:raamoppervlak a skos:Concept;
+  skos:prefLabel "Raamoppervlak"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Oppervlakte van een raam in een gebouw."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "Niet duidelijk is of het oppervlak van elk raam relevant is, of het opgetelde oppervlak van de ramen van een gebouw of een gevel."@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :gebouweigenschap;
+  rdfs:label "Raamopperlvak";
+  dct:source <https://example.com/> .
+
+:recreatie_en_toerisme a skos:Concept;
+  skos:prefLabel "Recreatie en toerisme"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "De sector die zich bezighoudt met vrijetijdsbesteding."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :sector;
+  rdfs:label "Recreatie en toerisme";
+  dct:source <https://klimaatadaptatienederland.nl/thema-sector/recreatie-toerisme/> .
+
 :reflectie a skos:Concept;
   skos:prefLabel "Reflectie"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
@@ -1963,18 +2119,6 @@ col:weerverschijnselen a skos:Collection;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :eigenschap_gebouwde_omgeving;
   rdfs:label "Reflecterend vermogen";
-  dct:source <https://example.com> .
-
-:reflecterend_materiaal a skos:Concept;
-  skos:prefLabel "Reflecterend materiaal"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl;
-  skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:broader :materiaal;
-  rdfs:label "Reflecterend materiaal";
   dct:source <https://example.com> .
 
 :schaduwplek a skos:Concept;
@@ -2298,6 +2442,18 @@ col:weerverschijnselen a skos:Collection;
   rdfs:label "Uv-straling";
   dct:source <https://example.com> .
 
+:veiligheid a skos:Concept;
+  skos:prefLabel "Veiligheid"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "De sector die zich bezighoudt met het beschermen tegen bedreigingen van Nederland en haar inwoners."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)."@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :sector;
+  rdfs:label "Veiligheid";
+  dct:source <https://klimaatadaptatienederland.nl/thema-sector/veiligheid/> .
+
 :vegetatie a skos:Concept;
   skos:prefLabel "Vegetatie"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
@@ -2332,6 +2488,18 @@ col:weerverschijnselen a skos:Collection;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :apparaat;
   rdfs:label "Ventilator";
+  dct:source <https://example.com> .
+
+:verblijfsplek a skos:Concept;
+  skos:prefLabel "Verblijfsplek"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)."@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :locatie;
+  rdfs:label "Verblijfsplek";
   dct:source <https://example.com> .
 
 :verdrinking a skos:Concept;
@@ -2482,13 +2650,13 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Warmtewerend materiaal"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:definition "Materiaal met een hoge reflectie en/of lage warmteafgifte."@nl;
+  skos:scopeNote "Voor het bepalen van de warmtewerendheid van materialen worden de minimale SRI-waarden van BREAAM-gebied gebruikt. Deze Solar Reflectance Index is gebaseerd op de reflectiegraad (albedo) en de thermische emissiegraad (warmtestraling)."@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :materiaal;
   rdfs:label "Warmtewerend materiaal";
-  dct:source <https://example.com> .
+  dct:source <https://bouwadaptief.nl/minimale-eisen/hittestress/> .
 
 :water a skos:Concept;
   skos:prefLabel "Water"@nl;
@@ -2501,6 +2669,18 @@ col:weerverschijnselen a skos:Collection;
   skos:broader :natuurlijk_object;
   rdfs:label "Water";
   dct:source <https://example.com> .
+
+:waterhuishouding a skos:Concept;
+  skos:prefLabel "Waterhuishouding"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Sector die zich bezighoudt met waterbeheer."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :sector;
+  rdfs:label "Waterhuishouding";
+  dct:source <https://klimaatadaptatienederland.nl/thema-sector/waterhuishouding/> .
 
 :waterstress a skos:Concept;
   skos:prefLabel "Waterstress"@nl;
@@ -2650,13 +2830,13 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Zonwering"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
+  skos:definition "Constructies die de overlast van zonlicht en/of warmte ten gevolge van zonlicht moeten tegengaan."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Er zijn veel verschillende soorten, zowel aan de binnen- als aan de buitenkant van het gebouw."@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :hittemaatregel;
   rdfs:label "Zonwering";
-  dct:source <https://example.com> .
+  dct:source <https://nl.wikipedia.org/wiki/Zonwering> .
 
 :zuurstofstress a skos:Concept;
   dct:source <https://example.com>;
