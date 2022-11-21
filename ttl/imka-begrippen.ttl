@@ -198,7 +198,9 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Temperatuur"@nl;
   skos:inScheme bk:imka;
   skos:definition "De temperatuur is de mate van warmte (of kou) uitgedrukt in graden."@nl;
+  skos:scopeNote "De temperatuur wordt gemeten met een thermometer. De bekendste schaalverdelingen zijn Fahrenheit en Celsius. Vooral in Engeland en de Verenigde Staten wordt de temperatuur nog aangegeven in graden Fahrenheit, in Europa is Celsius ingeburgerd."@nl;
   skos:broader :weereigenschap;
+  skos:exactMatch <https://www.aquo.nl/index.php/Id-368757fa-38b2-4b6a-910f-72e849810ba9>;
   dct:source <https://www.knmi.nl/kennis-en-datacentrum/uitleg/temperatuur> .
 
 :antropogene_warmte a skos:Concept;
@@ -213,18 +215,21 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Antropogene warmtebron"@nl;
   skos:inScheme bk:imka;
   skos:definition "Een voorwerp/object van menselijke oorsprong dat warmte afgeeft"@nl;
-  skos:scopeNote "Auto, gebouw, lantaarnpaal, oplaadstation"@nl;
+  skos:scopeNote "(Optioneel opnemen)"@nl;
   skos:broader :mens_gemaakt_object;
+  skos:example "Auto, gebouw, lantaarnpaal, oplaadstation"@nl;
   skos:editorialNote "Dit is een lastige term voor opname in een thesaurus omdat het een samengestelde term is. Eigenlijk is het antropogeen-zijn een eigenschap van een object. Misschien opsplitsen in Antropogeen en Warmtebron. Het is doordat het een samenstelling is, ook lastig in een categorie te plaatsen. Iets specifiekere Broader categorie zou wel zijn: Reëel object zoals gedefinieerd in NEN 3610, eventueel met een subcategorie Antropogeen Reëel Object. Maar deze zijn nog niet opgenomen in deze thesaurus."@nl;
   dct:source <http://cartogis.ugent.be/geologis/quartair/ijstijden/43_klimaatverandering_oorzaken_antropogene_invloeden.html> .
 
 :binnentemperatuur a skos:Concept;
   skos:prefLabel "Binnentemperatuur"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Hoe warm het is in een gebouw."@nl;
+  skos:definition "De temperatuur in een gebouw, uitgedrukt in graden."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:note "Met name bepaalde gebouwkenmerken spelen een belangrijke rol bij de opwarming van de woning. In hoeverre de ene woning meer opwarmt dan de andere hangt echter ook af van omgevingsfactoren die de buitentemperatuur en indirect de binnentemperatuur beïnvloeden, en gedragingen van bewoners zelf. "
+  skos:editorialNote "Er zijn verschillende meetmethoden en meetperioden voor de vaststelling van binnentemperatuur."
   skos:broader :temperatuur;
-  dct:source <https://www.klimaateffectatlas.nl/nl/hittekaart-gevoelstemperatuur> .
+  dct:source <https://klimaatadaptatienederland.nl/publish/pages/205672/bureaustudie-hitte-gebied-en-gebouw-7-.pdf> .
 
 :energiebalans a skos:Concept;
   skos:prefLabel "Energiebalans"@nl;
@@ -238,12 +243,12 @@ col:weerverschijnselen a skos:Collection;
 :gevoelstemperatuur a skos:Concept;
   skos:prefLabel "Gevoelstemperatuur"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Hoe warm een persoon het heeft in een bepaalde weersituatie."@nl;
-  skos:scopeNote "Als de gemeten luchttemperatuur bijvoorbeeld 30 ºC is, kan het in de volle zon en uit de wind voelen als 40 ºC."@nl;
+  skos:definition "Hoe warm een persoon het heeft in een bepaalde weersituatie, afhankelijk van luchttemperatuur, zonnestraling, windsnelheid en luchtvochtigheid, en bovendien van de lokale omgeving. "@nl;
+  skos:example "Als de gemeten luchttemperatuur bijvoorbeeld 30 ºC is, kan het in de volle zon en uit de wind voelen als 40 ºC."@nl;
+  skos:scopeNote "De PET-index is een maat waarmee de gevoelstemperatuur kan worden aangegeven. Deze wordt bijvoorbeeld gebruikt in hittestresstests."
   skos:broader :temperatuur;
-  skos:altLabel "Fysiologisch equivalente temperatuur"@nl, "PET"@en, "Physiological Equivalent Temperature"@en;
+  skos:altLabel "(optioneel opnemen)"@en;
   skos:editorialNote "PET is een subjectieve ervaring. Aan het eind van een warme periode ervaar je minder warmte. "@nl;
-  skos:broadMatch <https://www.aquo.nl/index.php/Id-368757fa-38b2-4b6a-910f-72e849810ba9>;
   dct:source <https://www.klimaateffectatlas.nl/nl/hittekaart-gevoelstemperatuur> .
 
 :hitterisico a skos:Concept;
@@ -975,6 +980,18 @@ col:weerverschijnselen a skos:Collection;
   skos:broader :object;
   rdfs:label "Fysiek object";
   dct:source <http://definities.geostandaarden.nl/nen3610-2022/id/begrip/reeel_object> .
+
+:fysiologisch_equivalente_temperatuur a skos:Concept;
+  skos:prefLabel "Fysiologisch equivalente temperatuur"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Een maat waarmee de gevoelstemperatuur kan worden aangegeven, vooral gericht op de gevoelstemperatuur op een warme zomerdag."@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:scopeNote "De gemiddelde gevoelstemperatuur in ºC voor het tijdvak van 12:00-18:00 lokale tijd voor een hete zomerdag.";
+  skos:broader :temperatuur;
+  skos:altLabel "PET"@en, "Physiological Equivalent Temperature"@en;
+  skos:editorialNote "PET is een subjectieve ervaring. Aan het eind van een warme periode ervaar je minder warmte. "@nl;
+  rdfs:label "Fysiologisch equivalente temperatuur";
+  dct:source <https://www.klimaateffectatlas.nl/nl/hittekaart-gevoelstemperatuur> .
 
 :fysiologisch_stressniveau a skos:Concept;
   skos:prefLabel "Fysiologisch Stressniveau"@nl;
