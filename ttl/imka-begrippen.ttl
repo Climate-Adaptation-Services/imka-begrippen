@@ -1769,19 +1769,19 @@ col:weerverschijnselen a skos:Collection;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :gebouweigenschap;
   rdfs:label "Mate van isolatie";
-  dct:source <https://example.com> 
+  dct:source <https://example.com> .
 
 :mate_van_zonwering a skos:Concept;
   skos:prefLabel "Mate van zonwering"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "In hoeverre een gebouw is voorzien van constructies die de overlast van zonlicht en/of warmte ten gevolge van zonlicht moeten tegengaan."nl;
+  skos:definition "In hoeverre een gebouw is voorzien van constructies die de overlast van zonlicht en/of warmte ten gevolge van zonlicht moeten tegengaan."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :gebouweigenschap;
   rdfs:label "Mate van zonwering";
-  dct:source <https://example.com> 
+  dct:source <https://example.com> .
 
 :materiaal a skos:Concept;
   skos:prefLabel "Materiaal"@nl;
