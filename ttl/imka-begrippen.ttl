@@ -900,6 +900,18 @@ col:weerverschijnselen a skos:Collection;
   rdfs:label "Evenement";
   dct:source <https://example.com> .
 
+:extreem_warme_dag a skos:Concept;
+  skos:prefLabel "Extreem warme dag"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Dag waarop de maximumtemperatuur 35 °C of hoger is"@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :gebeurtenis;
+  rdfs:label "Extreem warme dag"; 
+  dct:source <https://www.knmi.nl/klimaat-viewer/kaarten/temperatuur/extreem-warme-dagen/Periode_1991-2020> .
+
 :extreme_hitte a skos:Concept;
   skos:prefLabel "Extreme hitte"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
