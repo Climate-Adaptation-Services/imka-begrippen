@@ -1226,7 +1226,7 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Hittegolf (KNMI)"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "In Nederland is een hittegolf een opeenvolging van in De Bilt minimaal 5 zomerse dagen, waarvan er minimaal drie tropische dagen zijn."@nl;
+  skos:definition "In Nederland is een hittegolf een opeenvolging van in De Bilt minimaal 5 zomerse dagen (maximumtemperatuur 25,0 °C of hoger), waarvan er minimaal drie tropische dagen (maximumtemperatuur 30,0 °C of hoger) zijn."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
@@ -1240,7 +1240,7 @@ col:weerverschijnselen a skos:Collection;
   skos:inScheme bk:imka;
   skos:definition "Opeenvolging van een aantal dagen met extreme temperatuur boven het gemiddelde in dat seizoen"@nl;
   skos:scopeNote "Ook in voor- en najaar heb je in woningen last van hitte"@nl;
-  skos:editorialNote "Deze definitie wijkt af van de KNMI-definitie: want ook in voor- en najaar kan een hittegolf plaatsvinden en voor schade aan mens en natuur zorgen. De WMO definieert een 'heat wave' als 'a period during which the daily maximum temperature exceeds for more than five consecutive days the maximum normal temperature by 5°C'. "@nl;
+  skos:editorialNote "Deze definitie is in lijn met de definitie van 'heat wave' van de World Meteorological Organization (WMO): 'a period during which the daily maximum temperature exceeds for more than five consecutive days the maximum normal temperature by 5°C'. "@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :gebeurtenis;
   rdfs:label "Warmtegolf";
@@ -1262,7 +1262,7 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Hittemaatregel"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Maatregel om stadsbreed de luchttemperatuur of lokaal de gevoelstemperatuur te verlagen."@nl;
+  skos:definition "Maatregel om in een bepaald (stedelijk) gebied de luchttemperatuur, of op lokaal niveau de gevoelstemperatuur in een binnen- of buitenruimte, te verlagen."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Misschien moet de scope van de definitie verbreed worden om ook toepasbaar te zijn op binnenruimte en buiten de stad"@nl;
   skos:example "(optioneel opnemen)"@nl;
@@ -1286,13 +1286,14 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Hitteplan"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
+  skos:definition "Afspraken over verantwoordelijkheden en maatregelen bij periode van
+hitte."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :instrument;
   rdfs:label "Hitteplan";
-  dct:source <https://example.com> .
+  dct:source "Handreiking Lokaal Hitteplan, Klimaatadaptatie Nederland, 2019, p.3"@nl .
 
 :hitterisicokaart a skos:Concept;
   skos:prefLabel "Hitterisicokaart"@nl;
@@ -1310,20 +1311,20 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Hittesterfte"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
+  skos:definition "Een vorm van oversterfte tijdens een hittegolf waarbij het waargenomen aantal overledenen hoger is dan het verwachte aantal overledenen in dezelfde periode."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Zeer relevant. Ook goed meetbaar. Het is een vorm van oversterfte. Het effect is heel duidelijk zichtbaar in perioden van extreme hitte. Gaat specifiek om 'Vroegtijdige sterfte': mensen die normaal niet dood zouden gaan, maar als gevolg van die hitte wel doodgaan. Naast oudere mensen, zijn bijvoorbeeld ook mensen met overgewicht kwetsbaarder."@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :sterfte;
   rdfs:label "Hittesterfte";
-  dct:source <https://example.com> .
+  dct:source <https://www.cbs.nl/nl-nl/nieuws/2021/02/bijna-4-duizend-mensen-overleden-in-eerste-week-van-2021/oversterfte-en-verwachte-sterfte> .
 
 :hittestress a skos:Concept;
   skos:prefLabel "Hittestress"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
   skos:definition "Fysiologische stress gerelateerd aan warmte."@nl;
-  skos:scopeNote "Bij de mens kan boven 23°C PET al hittestress ontstaan. Vanaf 41°C PET is er bij mensen sprake van extreme hittestress. Ook dieren en vegetatie kunnen te maken hebben met hittestress. Hittestress kan bijvoorbeeld leiden tot aandoeningen zoals oververhitting en uitdroging."@nl;
+  skos:scopeNote "Bij de mens kan boven 23°C PET al hittestress ontstaan. Vanaf 41°C PET is er bij mensen sprake van extreme hittestress. Ook dieren en vegetatie kunnen te maken hebben met hittestress. Hittestress kan bijvoorbeeld leiden tot aandoeningen zoals oververhitting en uitdroging. Voor bomen is een oppervlaktetemperatuur 35 graden Celsius het punt waarop het blad zo heet wordt dat de boom begint te reageren. Er wordt geen CO2 meer vastgelegd, er vindt geen fotosynthese meer plaats, het grondwater wordt onbereikbaar, de verdamping stopt en bladeren laten los."@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :aandoening_mens_en_dier;
@@ -1334,8 +1335,8 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Hittestressplek"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Locatie waar de temperatuur hoger wordt dan 35 graden. "@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:definition "Locatie waar de (oppervlakte-)temperatuur hoger wordt dan 35 graden. "@nl;
+  skos:scopeNote "De oppervlaktetemperatuur is de temperatuur die door satelliet wordt waargenomen en waarvan andere typen temperaturen, zoals de luchttemperatuur en gevoelstemperatuur worden afgeleid. Op basis van deze temperatuur is het mogelijk plekken aan te duiden waar de temperatuur dusdanig oploopt, dat mensen, dieren en planten te maken krijgen met hittestress."@nl;
   skos:editorialNote "Het tegenovergestelde van een koele plek. Nog uitzoeken: welke temperatuur moet hier gehanteerd worden?"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :locatie;
@@ -1347,13 +1348,13 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Hittestresstest"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:definition "Het identificeren van potentiële kwetsbaarheden binnen een gebied als gevolg van toenemende hitte."@nl;
+  skos:scopeNote "Hiermee wordt duidelijk waar een lokale adaptatiestrategie op in moet spelen."@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :stresstest;
   rdfs:label "Hittestresstest";
-  dct:source <https://example.com> .
+  dct:source <https://klimaatadaptatienederland.nl/stresstest/aanbieders/> .
 
 :hittetoetsingskaart a skos:Concept;
   skos:prefLabel "Hittetoetsingskaart"@nl;
@@ -1732,13 +1733,13 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Lokaal hitteplan"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:definition "Protocollen voor de lokale aanpak van de gezondheidsgevolgen van hitte."@nl;
+  skos:scopeNote "Ze zijn een nadere uitwerking van het Nationaal Hitteplan, gericht op praktische uitvoering op lokaal niveau. Bij een lokaal hitteplan staan de mensen centraal die extra kwetsbaar zijn voor hitte, bijvoorbeeld ouderen en chronisch zieken. Een lokaal hitteplan richt zich op het beter functioneren van individuele verzorgers en professionals, zorginstellingen en maatschappelijke organisaties tijdens een periode van hitte. Het helpt deze spelers bijvoorbeeld bij het verkrijgen van achtergrondinformatie tijdens hitte, en bij de uitvoering van hun reguliere taken en aanvullende maatregelen tijdens hitte."@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :hitteplan;
   rdfs:label "Lokaal hitteplan";
-  dct:source <https://example.com> .
+  dct:source "Handreiking Lokaal Hitteplan, Klimaatadaptatie Nederland, 2019, p.3"@nl .
 
 :luchtstromingspatroon a skos:Concept;
   skos:prefLabel "Luchtstromingspatroon"@nl;
@@ -1876,13 +1877,13 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Nationaal hitteplan"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:definition "Een waarschuwingssysteem om via de regionale contacten (o.a. GGD en Rode Kruis) extra aandacht te vragen voor de risico's van warm weer (met de nadruk op de risicogroepen)."@nl;
+  skos:scopeNote "Als het langere tijd warmer gaat worden dan 27 graden, kan het Nationaal Hitteplan in werking treden. Wanneer het KNMI een periode met aanhoudende hitte ziet aankomen, neemt het contact op met het RIVM. Als blijkt dat de periode aan de criteria voldoen, wordt het Nationaal Hitteplan geactiveerd. Het RIVM zal dan contact opnemen met de (landelijke) organisaties in de zorg."@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :hitteplan;
   rdfs:label "Nationaal hitteplan";
-  dct:source <https://example.com> .
+  dct:source <https://www.rijksoverheid.nl/onderwerpen/droogte-en-hitte/vraag-en-antwoord/wat-kan-ik-doen-tegen-de-hitte#:~:text=Het%20Nationaal%20Hitteplan%20is%20een,contact%20op%20met%20het%20RIVM.> .
 
 :natuur a skos:Concept;
   skos:prefLabel "Natuur"@nl;
