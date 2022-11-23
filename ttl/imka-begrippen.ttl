@@ -289,7 +289,7 @@ col:weerverschijnselen a skos:Collection;
   skos:altLabel "Buitentemperatuur"@nl;
   skos:inScheme bk:imka;
   skos:definition "Temperatuur van de buitenlucht"@nl;
-  skos:scopeNote "Bij weerstations wordt deze gemeten in graden Celsius op een hoogte van anderhalve meter boven een open grasvlakte."@nl;
+  skos:scopeNote "Bij weerstations wordt de luchttemperatuur gemeten volgens internationale afspraak op een hoogte van anderhalve meter boven een open grasvlakte. De temperatuur wordt in Nederland uitgedrukt in graden Celsius."@nl;
   skos:broader :temperatuur;
   dct:source <https://nl.wikipedia.org/wiki/Luchttemperatuur> .
 
@@ -1817,13 +1817,13 @@ hitte."@nl;
   skos:prefLabel "Maximumtemperatuur"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
+  skos:definition "Hoogste temperatuur die in een etmaal op een bepaalde plaats is gemeten."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :temperatuur;
   rdfs:label "Maximumtemperatuur";
-  dct:source <https://example.com> .
+  dct:source <https://www.ensie.nl/peter-timofeeff/maximumtemperatuur> .
 
 :mens_gemaakt_object a skos:Concept;
   skos:prefLabel "Mens gemaakt object"@nl;
@@ -2009,10 +2009,11 @@ hitte."@nl;
   skos:prefLabel "Oppervlaktetemperatuur"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Temperatuur die op het oppervlak van een object wordt gemeten."@nl;
+  skos:definition "Temperatuur die op het oppervlak van een fysiek object wordt gemeten."@nl;
+  skos:note "De oppervlaktetemperatuur wordt door satellieten waargenomen."
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "Asfalttemperatuur, de temperatuur van het blad van een boom."@nl;
+  skos:example "Asfalttemperatuur; de temperatuur van het blad van een boom."@nl;
   skos:broader :temperatuur;
   rdfs:label "Oppervlaktetemperatuur";
   dct:source <https://example.com> .
