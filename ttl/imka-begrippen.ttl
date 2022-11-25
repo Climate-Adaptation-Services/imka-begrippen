@@ -1141,18 +1141,6 @@ col:weerverschijnselen a skos:Collection;
   rdfs:label "Gezondheidszorg";
   dct:source <https://example.com> .
 
-:grijs a skos:Concept;
-  skos:prefLabel "Grijs"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl;
-  skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:broader :kleur;
-  rdfs:label "Grijs";
-  dct:source <https://example.com> .
-
 :groei a skos:Concept;
   skos:prefLabel "Groei"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
@@ -1164,18 +1152,6 @@ col:weerverschijnselen a skos:Collection;
   skos:broader :proces;
   rdfs:label "Groei";
   dct:source <http://www.kennisconsult.nl/begrippen/9027/> .
-
-:groen a skos:Concept;
-  skos:prefLabel "Groen"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl;
-  skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:broader :kleur;
-  rdfs:label "Groen";
-  dct:source <https://example.com> .
 
 :groen_dak a skos:Concept;
   skos:prefLabel "Groen dak"@nl;
