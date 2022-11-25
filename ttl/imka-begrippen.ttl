@@ -23,7 +23,7 @@ col:binnenruimte a skos:Collection;
   skos:prefLabel "Binnenruimte en gebouw"@nl;
   skos:altLabel "(bijv. afkorting)"@nl, "(bijv. Engelse term)"@en;
   rdfs:label "Binnenruimte en gebouw";
-  skos:member :airconditioning, :bebouwingsdichtheid, :binnentemperatuur, :groene_gevel, :groen_dak, :gebouwhoogte, :reflecterend_materiaal, :reflecterend_vermogen, :reflectie, :reflectiefactor, :ventilatie, :verstening;
+  skos:member :airconditioning, :bebouwingsdichtheid, :bewonersgedrag, :binnentemperatuur, :bouwbesluit, :energielabel, :gebouw, :groene_gevel, :gebouweigenschap, :gebouwhoogte, :gebouwonderdeel, :groen_dak, :reflecterend_materiaal, :reflecterend_vermogen, :reflectie, :reflectiefactor, :ventilatie, :verstening;
   skos:definition "Begrippen die te maken hebben met de binnenruimte en gebouwen in het kader van hitte."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
@@ -34,7 +34,7 @@ col:buitenruimte a skos:Collection;
   skos:prefLabel "Buitenruimte (gebied)"@nl;
   skos:altLabel "(bijv. afkorting)"@nl, "(bijv. Engelse term)"@en;
   rdfs:label "Buitenruimte (gebied)";
-  skos:member :bebouwingsdichtheid, :antropogene_warmtebron, :boom, :koele_plek, :leefomgeving, :luchttemperatuur, :openbaar_groen, :luchtverontreiniging, :schaduwplek, :speeltuin, :stadspark, :stedelijk_hitte_eilandeffect, :stedelijke_recreatieruimte, :verstening, :zonplek, :warmtestraling;
+  skos:member :antropogene_warmte, :antropogene_warmtebron, :bebouwingsdichtheid, :beplanting, :bereikbaarheid, :bijna_energieneutraal_gebouw, :boom, :comfort, :eigenschap_gebouwde_omgeving, :energiebalans, :gebouwde_omgeving_en_ruimtelijke_ordening, :koele_plek, :leefomgeving, :luchttemperatuur, :openbaar_groen, :luchtverontreiniging, :schaduwplek, :speeltuin, :stadspark, :stedelijk_hitte_eilandeffect, :stedelijke_recreatieruimte, :verstening, :zonplek, :warmtestraling;
   skos:definition "Begrippen die te maken hebben met de buitenruimte, voornamelijk de stedelijke omgeving."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
@@ -45,7 +45,7 @@ col:gezondheid a skos:Collection;
   skos:prefLabel "Gezondheid"@nl;
   skos:altLabel "(bijv. afkorting)"@nl, "(bijv. Engelse term)"@en;
   rdfs:label "Gezondheid";
-  skos:member :alcoholgebruik, :blackout, :blauwalg, :concentratieprobleem, :drugsgebruik, :fysiologisch_stressniveau, :gezondheidszorg, :hittestress, :huidkanker, :huisarts, :hulpdienst, :leeftijd, :slaapprobleem, :staar, :sterfte, :sterftecijfer, :thuiszorg, :uitdroging, :uitputting, :verdrinking, :ziekenhuisopnamen, :zuurstofstress, :vermoeidheid;
+  skos:member :alcoholgebruik, :beroep, :blackout, :blauwalg, :blootstelling, :concentratieprobleem, :drugsgebruik, :fysiologisch_equivalente_temperatuur, :fysiologisch_stressniveau, :gevoelstemperatuur, :gezondheid, :gezondheidsprobleem, :gezondheidszorg, :hittestress, :huidkanker, :huisarts, :hulpdienst, :leeftijd, :slaapprobleem, :staar, :sterfte, :sterftecijfer, :thuiszorg, :uitdroging, :uitputting, :verdrinking, :ziekenhuisopnamen, :zuurstofstress, :vermoeidheid;
   skos:definition "Begrippen die te maken hebben met gezondheid van mens en dier"@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
@@ -56,18 +56,18 @@ col:instrumenten a skos:Collection;
   skos:prefLabel "Instrumenten"@nl;
   skos:altLabel "(bijv. afkorting)"@nl, "(bijv. Engelse term)"@en;
   rdfs:label "Instrumenten";
-  skos:member :klimatopenkaart, :klimaatschadeschatter, :kwetsbaarheidskaart, :hitteplan, :hitterisicokaart, :hittetoetsingskaart, :temperatuurkaart, :stresstest;
+  skos:member :bodemdalingvoorspelling, :klimatopenkaart, :klimaatschadeschatter, :kwetsbaarheidskaart, :hitteplan, :hitterisicokaart, :hittetoetsingskaart, :temperatuurkaart, :stresstest;
   skos:definition "Begrippen die te maken hebben met de instrumenten, concrete hulpmiddelen, die er zijn voor het bepalen en doorvoeren van klimaatadaptatiemaatregelen."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   dct:source <https://example.com> .
 
-col:klimaatadaptatie a skos:Collection;
+col:klimaatadaptatiemaatregelen a skos:Collection;
   skos:prefLabel "Klimaatadaptatiemaatregelen"@nl;
   skos:altLabel "(bijv. afkorting)"@nl, "(bijv. Engelse term)"@en;
   rdfs:label "Klimaatadaptatie";
-  skos:member :beschaduwing, :hitteopgave, :koele_plek, :ventilatie, :verdamping, :risico, :hitteplan, :beplanting, :groen_dak, :groene_gevel, :natuurlijke_klimaatbuffer, :schaduwplek;
+  skos:member :beschaduwing, :deltaplan_ruimtelijke_adaptatie, :evacuatie_kwetsbare_groepen, :hitteopgave, :koele_plek, :ventilatie, :verdamping, :risico, :hitteplan, :beplanting, :groen_dak, :groene_gevel, :natuurlijke_klimaatbuffer, :schaduwplek;
   skos:definition "Begrippen die te maken hebben met klimaatadaptatiemaatregelen"@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
@@ -78,7 +78,7 @@ col:klimaateffect a skos:Collection;
   skos:prefLabel "Klimaateffecten"@nl;
   skos:altLabel "(bijv. afkorting)"@nl, "(bijv. Engelse term)"@en;
   rdfs:label "Klimaateffecten";
-  skos:member :blootstelling, :hitteopgave, :hitterisico, :hittestress, :impact, :klimaatschadeschatter, :klimaatverandering, :natuurbrand, :opwarming, :sterfte;
+  skos:member :bodemdaling, :blootstelling, :brandgevaar, :droogte, :ecosysteemverschuiving, :hitteopgave, :hitterisico, :hittestress, :impact, :klimaatschadeschatter, :klimaatverandering, :natuurbrand, :opwarming, :sterfte;
   skos:definition "Begrippen die te maken hebben met klimaateffecten"@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
@@ -95,13 +95,13 @@ col:natuur a skos:Collection;
   skos:prefLabel "Natuur"@nl;
   skos:definition "Begrippen die te maken hebben met natuur en klimaatadaptatie"@nl;
   rdfs:label "Natuur"@nl;
-  skos:member :blauwalg, :bloeiinductie, :boom, :natuurbrand, :natuurbrandgevoeligheid, :warmteminnende_aquatische_soorten, :zuurstofstress, :beplanting, :migratiepatroon, :natuurlijk_systeem, :natuurlijke_klimaatbuffer, :openbaar_groen, :stadspark .
+  skos:member :aandoening_flora, :aandoening_mens_en_dier, :biodiversiteit, :blauwalg, :bloeiinductie, :bodem, :boom, :boomkroonbedekking, :ecosysteem, :fauna, :flora, :freatisch_grondwater, :natuurbrand, :natuurbrandgevoeligheid, :warmteminnende_aquatische_soorten, :zuurstofstress, :beplanting, :migratiepatroon, :natuurlijk_systeem, :natuurlijke_klimaatbuffer, :openbaar_groen, :stadspark .
 
 col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Weerverschijnselen"@nl;
   skos:definition "Begrippen die te maken hebben met het van dag tot dag wisselende weer."@nl;
   rdfs:label "Weerverschijnselen"@nl;
-  skos:member :hittegolf, :koelgraaddag, :luchttemperatuur, :luchtvochtigheid, :relatieve_luchtvochtigheid, :temperatuur, :temperatuurmeting, :tropische_dag, :tropische_nacht, :warme_dag, :zomerse_dag, :gevoelstemperatuur, :stralingstemperatuur, :windkracht, :windsnelheid, :zonnestraling, :stedelijk_hitte_eilandeffect .
+  skos:member :extreem_warme_dag, :extreme_hitte, :gevoelstemperatuur, :hittegolf, :koelgraaddag, :luchttemperatuur, :luchtvochtigheid, :relatieve_luchtvochtigheid, :stedelijk_hitte_eilandeffect, :stralingstemperatuur, :temperatuur, :temperatuurmeting, :tropische_dag, :tropische_nacht, :warme_dag, :windkracht, :windsnelheid, :zomerse_dag, :zonnestraling .
 
 #==================================================================================================
 # Hierarchie (ingevuld)
