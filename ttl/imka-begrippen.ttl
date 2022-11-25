@@ -226,8 +226,8 @@ col:weerverschijnselen a skos:Collection;
   skos:inScheme bk:imka;
   skos:definition "De temperatuur in een gebouw, uitgedrukt in graden."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:note "Met name bepaalde gebouwkenmerken spelen een belangrijke rol bij de opwarming van de woning. In hoeverre de ene woning meer opwarmt dan de andere hangt echter ook af van omgevingsfactoren die de buitentemperatuur en indirect de binnentemperatuur beïnvloeden, en gedragingen van bewoners zelf. "
-  skos:editorialNote "Er zijn verschillende meetmethoden en meetperioden voor de vaststelling van binnentemperatuur."
+  skos:note "Met name bepaalde gebouwkenmerken spelen een belangrijke rol bij de opwarming van de woning. In hoeverre de ene woning meer opwarmt dan de andere hangt echter ook af van omgevingsfactoren die de buitentemperatuur en indirect de binnentemperatuur beïnvloeden, en gedragingen van bewoners zelf. "@nl;
+  skos:editorialNote "Er zijn verschillende meetmethoden en meetperioden voor de vaststelling van binnentemperatuur."@nl;
   skos:broader :temperatuur;
   dct:source <https://klimaatadaptatienederland.nl/publish/pages/205672/bureaustudie-hitte-gebied-en-gebouw-7-.pdf> .
 
@@ -244,12 +244,25 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Gevoelstemperatuur"@nl;
   skos:inScheme bk:imka;
   skos:definition "Hoe warm een persoon het heeft in een bepaalde weersituatie, afhankelijk van luchttemperatuur, zonnestraling, windsnelheid en luchtvochtigheid, en bovendien van de lokale omgeving. "@nl;
-  skos:example "Als de gemeten luchttemperatuur bijvoorbeeld 30 ºC is, kan het in de volle zon en uit de wind voelen als 40 ºC."@nl;
-  skos:scopeNote "De PET-index is een maat waarmee de gevoelstemperatuur kan worden aangegeven. Deze wordt bijvoorbeeld gebruikt in hittestresstests."
+  skos:example "Als de gemeten luchttemperatuur 30 ºC is, kan het in de volle zon en uit de wind voelen als 40 ºC."@nl;
+  skos:scopeNote "Er zijn meerdere manieren om de gevoelstemperatuur te bepalen. De PET-index (fysiologisch equivalente temperatuur) is een maat waarmee de gevoelstemperatuur kan worden aangegeven. Deze wordt gebruikt in hittestresstests."@nl;
   skos:broader :temperatuur;
   skos:altLabel "(optioneel opnemen)"@en;
-  skos:editorialNote "PET is een subjectieve ervaring. Aan het eind van een warme periode ervaar je minder warmte. "@nl;
+  skos:editorialNote "Het KNMI hanteert voor de gevoelstemperatuur bij warm niet de PET-index maar de combinatie van luchtttemperatuur en relatieve luchtvochtigheid (ook wel 'Heat index')."@nl;
   dct:source <https://www.klimaateffectatlas.nl/nl/hittekaart-gevoelstemperatuur> .
+
+:hitte_index a skos:Concept;
+  skos:prefLabel "Hitte-index"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Een indicatie voor de gevoelstemperatuur bij warm weer, berekend op basis van de combinatie van luchtttemperatuur en relatieve luchtvochtigheid."@nl;
+  skos:example "(optioneel opnemen)."@nl;
+  skos:scopeNote "(optioneel opnemen)."@nl;
+  skos:altLabel "Heat index"@en;
+  skos:altLabel "Warmte-index"@nl;
+  skos:altLabel "Apparent temperature"@en;
+  skos:broader :gevoelstemperatuur;
+  skos:editorialNote "Opgenomen om aan te geven dat er verschillende maten voor gevoelstemperatuur bestaan."@nl;
+  dct:source <https://www.knmi.nl/kennis-en-datacentrum/uitleg/gevoelstemperatuur-bij-warm-weer> .
 
 :hitterisico a skos:Concept;
   skos:prefLabel "Hitterisico"@nl;
@@ -289,7 +302,7 @@ col:weerverschijnselen a skos:Collection;
   skos:altLabel "Buitentemperatuur"@nl;
   skos:inScheme bk:imka;
   skos:definition "Temperatuur van de buitenlucht"@nl;
-  skos:scopeNote "Bij weerstations wordt de luchttemperatuur gemeten volgens internationale afspraak op een hoogte van anderhalve meter boven een open grasvlakte. De temperatuur wordt in Nederland uitgedrukt in graden Celsius."@nl;
+  skos:scopeNote "Bij weerstations wordt de luchttemperatuur gemeten volgens internationale afspraak op een hoogte van anderhalve meter boven een open grasvlakte."@nl;
   skos:broader :temperatuur;
   dct:source <https://nl.wikipedia.org/wiki/Luchttemperatuur> .
 
@@ -667,13 +680,13 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Boom"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
+  skos:definition "Een solitair vegetatie-object, dat geen onderdeel uitmaakt van een andere boom- of struikbeplanting."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "hier is nog steeds geen duidelijk definitie van. Vallen struiken hier ook onder? Overigens wordt vaak makkelijk gedacht dat een boom alleen maar nuttig is tegen hitte, maar het kan ook de wind blokkeren, waardoor het juist warmer wordt. "@nl;
+  skos:editorialNote "Er is geen nauwkeurige, algemeen geaccepteerde definitie van een boom; overgangsvormen naar een struik komen voor. Meestal heeft wat we bedoelen met een 'boom' een relatief grote lengte (vanaf vijf meter), een verhoute stam en een kroon. Er zijn ook meerstammige bomen. "@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :flora;
   rdfs:label "Boom";
-  dct:source <https://example.com> .
+  dct:source <https://geonovum.github.io/IMGeo-objectenhandboek/vegetatieobject> .
   
 :boomkroonbedekking a skos:Concept;
   skos:prefLabel "Boomkroonbedekking"@nl;
@@ -984,14 +997,14 @@ col:weerverschijnselen a skos:Collection;
 :fysiologisch_equivalente_temperatuur a skos:Concept;
   skos:prefLabel "Fysiologisch equivalente temperatuur"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Een maat waarmee de gevoelstemperatuur kan worden aangegeven, vooral gericht op de gevoelstemperatuur op een warme zomerdag."@nl;
+  skos:definition "Een maat waarmee de gevoelstemperatuur kan worden aangegeven, vooral gericht op de gevoelstemperatuur op een warme zomerdag, en gebaseerd op de mate van warmte-uitwisseling tussen de mens en zijn omgeving. Deze wordt bepaald door luchttemperatuur, luchtvochtigheid, wind en straling, maar ook door kleding, inspanningsniveau en een aantal persoonskenmerken."@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:scopeNote "De gemiddelde gevoelstemperatuur in ºC voor het tijdvak van 12:00-18:00 lokale tijd voor een hete zomerdag.";
-  skos:broader :temperatuur;
+  skos:broader :gevoelstemperatuur;
   skos:altLabel "PET"@en, "Physiological Equivalent Temperature"@en;
   skos:editorialNote "PET is een subjectieve ervaring. Aan het eind van een warme periode ervaar je minder warmte. "@nl;
   rdfs:label "Fysiologisch equivalente temperatuur";
-  dct:source <https://www.klimaateffectatlas.nl/nl/hittekaart-gevoelstemperatuur> .
+  dct:source <https://www.rivm.nl/bibliotheek/rapporten/2019-0008.pdf> .
 
 :fysiologisch_stressniveau a skos:Concept;
   skos:prefLabel "Fysiologisch Stressniveau"@nl;
@@ -1004,6 +1017,20 @@ col:weerverschijnselen a skos:Collection;
   skos:broader :menselijke_eigenschap;
   rdfs:label "Fysiologisch Stressniveau";
   dct:source <https://example.com> .
+
+:gebouw a skos:Concept;
+  skos:prefLabel "Gebouw"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Overdekte en geheel of gedeeltelijk met wanden omsloten constructie bedoeld voor het in een afgeschermde omgeving onderbrengen van mensen, dieren of voorwerpen of voor de productie van goederen."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :mens_gemaakt_object;
+  skos:exactMatch <http://definities.geostandaarden.nl/nen3610-2022/id/begrip/gebouw>;
+  skos:closeMatch <http://ont.cbnl.org/cb/def/CB01095>;
+  rdfs:label "Gebouw";
+  dct:source <https://www.juridischwoordenboek.nl/?zoek=gebouw> .
 
 :gebouwde_omgeving_en_ruimtelijke_ordening a skos:Concept;
   skos:prefLabel "Gebouwde omgeving en ruimtelijke ordening"@nl;
@@ -1286,8 +1313,7 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Hitteplan"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Afspraken over verantwoordelijkheden en maatregelen bij periode van
-hitte."@nl;
+  skos:definition "Afspraken over verantwoordelijkheden en maatregelen bij periode van hitte."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
@@ -2010,7 +2036,7 @@ hitte."@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
   skos:definition "Temperatuur die op het oppervlak van een fysiek object wordt gemeten."@nl;
-  skos:note "De oppervlaktetemperatuur wordt door satellieten waargenomen."
+  skos:note "De oppervlaktetemperatuur wordt door satellieten waargenomen."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "Asfalttemperatuur; de temperatuur van het blad van een boom."@nl;
@@ -2324,11 +2350,10 @@ hitte."@nl;
 :stralingstemperatuur a skos:Concept;
   skos:prefLabel "Stralingstemperatuur"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Stralingstemperatuur is net als PET een index voor de gevoelstemperatuur en combineert luchttemperatuur en straling."@nl;
+  skos:definition "Stralingstemperatuur is net als PET een index voor de gevoelstemperatuur en combineert luchttemperatuur en warmtestraling."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:broader :temperatuur;
-  skos:altLabel "Mean radiant temperature"@en, "Tmrt"@en;
-  skos:broadMatch <https://www.aquo.nl/index.php/Id-368757fa-38b2-4b6a-910f-72e849810ba9>;
+  skos:broader :gevoelstemperatuur;
+  skos:altLabel "Mean radiant temperature"@en, "Tmrt"@en, "Zwarteboltemperatuur"@nl;
   dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
 
 :stresstest a skos:Concept;
@@ -2489,13 +2514,14 @@ hitte."@nl;
   skos:prefLabel "Vegetatie"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
+  skos:definition "Planten-individuen in een bepaalde rangschikking."@nl;
+  skos:note "Vegetatie zorgt lokale verdamping en in het geval van grotere vegetatie ook voor schaduw. Beide hebben een temperend effect op de temperatuur."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "Zorgt al heel snel voor lokale verdamping en dat heeft weer een temperend effect op de temperatuur."@nl;
+  skos:editorialNote "Het begrip vegetatie is door Westhoff (1951) gedefinieerd als de 'ruimtelijke massa van plantenindividuen, in samenhang met de plaats waar zij groeien en de rangschikking die zij uit zichzelf hebben aangenomen'. In de context van hittemaatregelen wordt de term echter breder toegepast voor alle flora in een omgeving. "@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :flora;
   rdfs:label "Vegetatie";
-  dct:source <https://example.com> .
+  dct:source <https://nl.wikipedia.org/wiki/Vegetatie> .
 
 :ventilatie a skos:Concept;
   skos:altLabel "(bijv. afkorting)"@nl;
@@ -2545,11 +2571,24 @@ hitte."@nl;
   rdfs:label "Verdrinking";
   dct:source <https://example.com> .
 
+:vergroend_gebied a skos:Concept;
+  skos:prefLabel "Vergroend gebied"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Een gebied met relatief veel vegetatie."@nl;
+  skos:note "Bomen, gras, struiken en ander groen spelen een belangrijke rol bij een klimaatbestendige inrichting."@nl;
+  skos:scopeNote "Vooral van toepassing in steden. Er kan onderscheid wordden gemaakt tussen hoog (bomen) en laag groen (struiken, gras en planten) en tussen groen in openbaar en privaat terrein."@nl;
+  skos:editorialNote "In de wandelgangen wordt vaak gesproken over 'groen' (met als tegenhanger: 'grijs'). Van 'vergroend gebied' is geen definitie gevonden. De hier opgenomen definitie is geformuleerd op basis van het begrip 'groen' in de klimaateffectatlas."@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :locatie;
+  rdfs:label "Vergroend gebied";
+  dct:source <https://www.klimaateffectatlas.nl/nl/basiskaart-groen-en-grijs> .
+
 :vergroening a skos:Concept;
   skos:prefLabel "Vergroening"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
+  skos:definition "Het aanbrengen van meer vegetatie in steden om zo te zorgen voor verkoeling."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Vergroening van de openbare en private ruimte."@nl;
   skos:example "(optioneel opnemen)"@nl;
@@ -2597,13 +2636,13 @@ hitte."@nl;
   skos:prefLabel "Versteend gebied"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:definition "Een gebied met voornamelijk gewbouwen, stenen, verharding, en/of kale grond."@nl;
+  skos:scopeNote "Vooral van toepassing in steden."@nl;
+  skos:editorialNote " In de wandelgangen wordt vaak gesproken over 'grijs' (met als tegenhanger: 'groen). Van 'versteend gebied' is geen definitie gevonden. De hier opgenomen definitie is geformuleerd op basis van het begrip 'grijs' in de klimaateffectatlas."@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :locatie;
   rdfs:label "Versteend gebied";
-  dct:source <https://example.com> .
+  dct:source <https://www.klimaateffectatlas.nl/nl/basiskaart-groen-en-grijs> .
 
 :verstening a skos:Concept;
   skos:prefLabel "Verstening"@nl;
@@ -2729,13 +2768,13 @@ hitte."@nl;
   skos:prefLabel "Watertemperatuur"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
+  skos:definition "Temperatuur van het oppervlaktewater of grondwater."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :temperatuur;
   rdfs:label "Watertemperatuur";
-  dct:source <https://example.com> .
+  dct:source <https://www.knmi.nl/kennis-en-datacentrum/uitleg/watertemperatuur> .
 
 :weereigenschap a skos:Concept;
   skos:prefLabel "Weereigenschap"@nl;
@@ -2749,17 +2788,17 @@ hitte."@nl;
   rdfs:label "Weereigenschap";
   dct:source <https://nl.wikipedia.org/wiki/Weer_(meteorologie)#> .
 
-:wet_bulb_globe_temperature-index a skos:Concept;
-  skos:prefLabel "Wet Bulb Globe Temperature"@nl;
+:wet_bulb_globe_temperature_index a skos:Concept;
+  skos:prefLabel "Wet Bulb Globe Temperature"@en;
   skos:altLabel "WBGT-index"@en;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
+  skos:definition "Deze index voor thermisch comfort drukt de invloed uit van het weer op de lichaamstemperatuur. Het combineert temperatuur, luchtvochtigheid, windsnelheid, en stralingswarmte."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "Wet Bulb Globe Temperatur. Deze index voor thermisch comfort drukt de invloed uit van het weer op de lichaamstemperatuur. Hiermee is het risico op hitteletsels in te schatten. Het ontstaan van gezondheidsproblemen is afhankelijk van verschillende factoren; de luchttemperatuur, de luchtvochtigheid, de stralingswarmte, de mate van luchtbeweging (wind), de kleding en de hoeveelheid inspanning die wordt verricht c.q. de zwaarte van het werk. Gerelateerd aan NEN-ISO 7243"@nl;
+  skos:editorialNote "Hiermee is het risico op hitteletsels in te schatten, mede afhankelijk van de hoeveelheid inspanning die wordt verricht c.q. de zwaarte van het werk. Het wordt bijvoorbeeld gebruikt bij sportevenementen en in de context van arbo-omstandigheden. Gerelateerd aan NEN-ISO 7243"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:broader :temperatuur;
+  skos:broader :gevoelstemperatuur;
   rdfs:label "Wbgt-index";
-  dct:source <https://example.com> .
+  dct:source <https://en.wikipedia.org/wiki/Wet-bulb_globe_temperature> .
 
 :wet_en_regelgeving a skos:Concept;
   skos:prefLabel "Wet- en regelgeving"@nl;
@@ -2891,16 +2930,4 @@ hitte."@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :gebouwonderdeel;
   rdfs:label "Zwart dak";
-  dct:source <https://example.com> .
-
-:zwarteboltemperatuur a skos:Concept;
-  skos:prefLabel "Zwarteboltemperatuur"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl;
-  skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:broader :temperatuur;
-  rdfs:label "Zwarteboltemperatuur";
   dct:source <https://example.com> .
