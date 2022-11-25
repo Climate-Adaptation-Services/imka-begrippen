@@ -1226,28 +1226,16 @@ col:weerverschijnselen a skos:Collection;
   dct:source <https://example.com> .
 
 :hittegolf a skos:Concept;
-  skos:prefLabel "Hittegolf (KNMI)"@nl;
+  skos:prefLabel "Hittegolf"@nl, "Heat wave"@en;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "In Nederland is een hittegolf een opeenvolging van in De Bilt minimaal 5 zomerse dagen (maximumtemperatuur 25,0 °C of hoger), waarvan er minimaal drie tropische dagen (maximumtemperatuur 30,0 °C of hoger) zijn."@nl;
+  skos:definition "Een opeenvolging van in De Bilt minimaal 5 zomerse dagen (maximumtemperatuur 25,0 °C of hoger), waarvan er minimaal drie tropische dagen (maximumtemperatuur 30,0 °C of hoger) zijn."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "Het KNMI definieert een hittegolf absoluut. Andere wetenschappers hanteren soms een relatieve definitie. Bijvoorbeeld: ten minste zes opeenvolgende dagen waarop de maximale temperatuur de grens van de 10 procent warmste dagen voor die locatie overschrijdt."@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :gebeurtenis;
   rdfs:label "Hittegolf";
   dct:source <https://www.knmi.nl/kennis-en-datacentrum/uitleg/hittegolf> .
-
-:warmtegolf a skos:Concept;
-  skos:prefLabel "Warmtegolf"@nl;
-  skos:altLabel "Extreem warme periode"@nl;
-  skos:inScheme bk:imka;
-  skos:definition "Opeenvolging van een aantal dagen met extreme temperatuur boven het gemiddelde in dat seizoen"@nl;
-  skos:scopeNote "Ook in voor- en najaar heb je in woningen last van hitte"@nl;
-  skos:editorialNote "Deze definitie is in lijn met de definitie van 'heat wave' van de World Meteorological Organization (WMO): 'a period during which the daily maximum temperature exceeds for more than five consecutive days the maximum normal temperature by 5°C'. "@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:broader :gebeurtenis;
-  rdfs:label "Warmtegolf";
-  dct:source <https://example.com> .
 
 :hittegolffrequentie a skos:Concept;
   skos:prefLabel "Hittegolffrequentie"@nl;
@@ -1308,6 +1296,18 @@ col:weerverschijnselen a skos:Collection;
   skos:broader :instrument;
   rdfs:label "Hitterisicokaart";
   dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
+
+:hitteschade a skos:Concept;
+  skos:prefLabel "Hitteschade"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Een schatting van de kosten van hitte voor sterfte, ziekenhuisopnamen, arbeidsproductiviteit en eikenprocessierups voor periode 2018-2050, in het scenario dat niemand ingrijpt."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :klimaatschadeschatter;
+  rdfs:label "Hitteschade";
+  dct:source "Klimaatschadeschatter, Rapportage (2020), p.5"@nl .
 
 :hittesterfte a skos:Concept;
   skos:prefLabel "Hittesterfte"@nl;
@@ -1574,6 +1574,18 @@ col:weerverschijnselen a skos:Collection;
   skos:broader :impact;
   rdfs:label "Klimaatimpact op sectoren";
   dct:source <https://example.com> .
+
+:klimaatschadeschatter a skos:Concept;
+  skos:prefLabel "Klimaatschadeschatter"@nl;
+  skos:altLabel "KSS"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Een schatting van de kosten van klimaatverandering voor hitte, droogte en wateroverlast, per gemeente en provincie voor de periode 2018-2050, als niemand ingrijpt."@nl;
+  skos:scopeNote "De effecten van klimaatverandering veroorzaken schade voor mensen, dieren en planten. De Klimaatschadeschatter (KSS) helpt om inzicht te krijgen in deze schade, door een schatting te maken van de kosten ervan. Gemeenten, waterschappen en provincies kunnen de tool gebruiken voor risicodialogen en de omgevingsvisie."@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :instrument;
+  rdfs:label "Klimaatschadeschatter";
+  dct:source <http://www.klimaatschadeschatter.nl/> .
 
 :klimaatzone a skos:Concept;
   skos:prefLabel "Klimaatzone"@nl;
@@ -1886,6 +1898,18 @@ col:weerverschijnselen a skos:Collection;
   skos:broader :hitteplan;
   rdfs:label "Nationaal hitteplan";
   dct:source <https://www.rijksoverheid.nl/onderwerpen/droogte-en-hitte/vraag-en-antwoord/wat-kan-ik-doen-tegen-de-hitte#:~:text=Het%20Nationaal%20Hitteplan%20is%20een,contact%20op%20met%20het%20RIVM.> .
+
+:nationale_adaptatie_strategie a skos:Concept;
+  skos:prefLabel "Nationale Klimaatadaptatiestrategie"@nl;
+  skos:altLabel "Nationale Adaptatiestrategie"@nl, "NAS"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Strategie waarin de koerst wordt uitgezet voor een klimaatbestendig Nederland."@nl;
+  skos:scopeNote "Deze strategie brengt nieuwe initiatieven voor klimaatadaptatie op gang, en versnelt en verbreedt bestaande initiatieven. De NAS geeft een overzicht van de belangrijkste klimaatrisico’s. Sommige klimaatrisico’s zijn urgenter om op te pakken dan andere, bijvoorbeeld door gebrek aan kennis of het ontbreken van beleid. Drie tabellen uit de impactanalyse van het Planbureau voor de Leefomgeving zijn als uitgangspunt gebruikt voor het vaststellen van de zes meest urgente klimaatrisico's. Mede op basis van deze urgente klimaatrisico’s, zijn de speerpunten van de NAS bepaald. De NAS is het Nederlandse antwoord op de oproep van de Europese Commissie aan alle lidstaten om uiterlijk in 2017 een klimaatadaptatiestrategie op te stellen. De NAS is eind 2016 naar het kabinet gestuurd en eind 2017 door de nieuwe Tweede Kamer vastgesteld."@nl;
+  skos:editorialNote ""@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :instrument;
+  rdfs:label "Nationale Adaptatiestrategie";
+  dct:source <https://klimaatadaptatienederland.nl/overheden/nas/> .
 
 :natuur a skos:Concept;
   skos:prefLabel "Natuur"@nl;
@@ -2667,6 +2691,18 @@ col:weerverschijnselen a skos:Collection;
   skos:broader :proces;
   rdfs:label "Warmteflux"@nl;
   dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
+
+:warmtegolf a skos:Concept;
+  skos:prefLabel "Warmtegolf"@nl;
+  skos:altLabel "Extreem warme periode"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Opeenvolging van een aantal dagen met extreme temperatuur boven het gemiddelde in dat seizoen"@nl;
+  skos:scopeNote "Ook in voor- en najaar heb je in woningen last van hitte"@nl;
+  skos:editorialNote "Deze definitie is in lijn met de definitie van 'heat wave' van de World Meteorological Organization (WMO): 'a period during which the daily maximum temperature exceeds for more than five consecutive days the maximum normal temperature by 5°C'. "@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :gebeurtenis;
+  rdfs:label "Warmtegolf";
+  dct:source <https://example.com> .
 
 :warmteminnende_aquatische_soorten a skos:Concept;
   skos:prefLabel "Warmteminnende aquatische soorten"@nl;
