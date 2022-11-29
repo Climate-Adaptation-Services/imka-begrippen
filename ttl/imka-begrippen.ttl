@@ -1607,19 +1607,19 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Koele binnenruimte"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
+  skos:definition "Openbare of private verblijfsruimte in een gebouw waar de operatieve temperatuur in de zomer tenminste tussen de 19 en 25 graden Celsius ligt en waar meerdere mensen kunnen verblijven of voor langere tijd kunnen worden opgevangen."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "Type koele plek."@nl;
+  skos:editorialNote "Definitie is gebaseerd op kenmerken uit tabel 2, H6 van de arbocatalogus (zie:bron). Dit gaat over een thermisch behagelijk klimaat op werkplekken. De definitie is vervolgens aangevuld met eigenschappen die tijdens de werkgroepbijeenkomsten tersprake kwamen, maar heeft nog verdere aanscherping nodig. Er zou bijvoorbeeld gekeken kunnen worden naar NEN-ISO 7243, eisen aan locatie, opvangcapaciteit, toegankelijkheid en andere kenmerken van het binnenklimaat van een gebouw."@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :koele_plek;
   rdfs:label "Koele binnenruimte";
-  dct:source <https://example.com> .
+  dct:source <https://www.wvoi.nl/arbocatalogus/hoofdstuk-6-binnenklimaat-in-kantoren/> .
 
 :koele_buitenruimte a skos:Concept;
   skos:prefLabel "Koele buitenruimte"@nl;
-  skos:altLabel "Cool spot"@en;
+  skos:altLabel "(bijv. afkorting)"@en;
   skos:inScheme bk:imka;
-  skos:definition "Een plek in de openbare ruimte waar minimaal 200 m2 schaduw is en een PET van lager dan 35 graden (o.b.v. PET 1 juli 2015)."@nl;
+  skos:definition "Een plek in de openbare ruimte waar minimaal 200 m2 schaduw is, een PET van lager dan 35 graden (o.b.v. PET 1 juli 2015) en waar meerdere mensen kunnen verlbijven en eventueel kunnen recreëren."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Over deze definitie is nog wel discussie in het werkveld. Schaduw in deze definitie is bijvoorbeeld niet beperkt tot schaduw van bomen, maar het maakt voor de koelte wel uit of schaduw van bomen of gebouwen komt. "@nl;
   skos:example "(optioneel opnemen)"@nl;
@@ -1628,7 +1628,7 @@ col:weerverschijnselen a skos:Collection;
   dct:source <https://example.com> .
 
 :koele_plek a skos:Concept;
-  skos:prefLabel "Koele plek"@nl;
+  skos:prefLabel "Koele plek"@nl, "Cool spot"@en;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
   skos:definition "Een plek waar het minder warm is dan in de omgeving."@nl;
