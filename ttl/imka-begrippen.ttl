@@ -147,10 +147,14 @@ col:weerverschijnselen a skos:Collection;
 :klimaatverandering a skos:Concept;
   skos:prefLabel "Klimaatverandering"@nl;
   skos:inScheme bk:imka;
-  skos:definition "De fluctuaties op lang termijn van temperatuur, neerslag, wind en alle andere aspecten van het klimaat op aarde."@nl;
-  skos:scopeNote "Tijdens de Conventie over de Klimaatverandering van de Verenigde Naties werd klimaatverandering ook omschreven als “verandering van het klimaat die direct of indirect kan worden toegeschreven aan menselijke activiteiten die de samenstelling van de atmosfeer wijzigen en die zich toevoegt aan de veranderlijkheid van het natuurlijke klimaat en met vergelijkbare perioden kan worden waargenomen.”"@nl;
+  skos:definition "Een verandering in de toestand van het klimaat die kan worden vastgesteld (bv. aan de hand van statistische tests) door veranderingen in het gemiddelde en/of de variabiliteit van de eigenschappen ervan, en die gedurende een langere periode, meestal tientallen jaren of langer, aanhoudt."@nl;
+  skos:scopeNote "Eigenschappen van het klimaat zijn: temperatuur, neerslag en wind."@nl;
+  skos:scopeNote "Klimaatverandering kan het gevolg zijn van natuurlijke interne processen of externe factoren, of van aanhoudende antropogene veranderingen in de samenstelling van de atmosfeer of in het landgebruik."@nl;
+  skos:scopeNote "Tijdens de Conventie over de Klimaatverandering van de Verenigde Naties werd klimaatverandering ook omschreven als 'verandering van het klimaat die direct of indirect kan worden toegeschreven aan menselijke activiteiten die de samenstelling van de atmosfeer wijzigen en die zich toevoegt aan de veranderlijkheid van het natuurlijke klimaat en met vergelijkbare perioden kan worden waargenomen.'"@nl;
   skos:broader :proces;
-  dct:source <https://www.greenfacts.org/nl/begrippenlijst/jkl/klimaatverandering.htm> .
+  dct:source <https://www.greenfacts.org/nl/begrippenlijst/jkl/klimaatverandering.htm>;
+  dct:source <https://unterm.un.org/unterm/display/record/imo/na?OriginalId=fe67c5bd95ca4f25a6b0a00c63e1f3bc>;
+  dct:source <https://unterm.un.org/unterm/display/record/unog/na?OriginalId=54098> .
 
 :maatregel a skos:Concept;
   skos:prefLabel "Maatregel"@nl;
