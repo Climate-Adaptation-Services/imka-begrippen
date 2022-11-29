@@ -1022,7 +1022,7 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Hittemaatregel"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Maatregel om in een bepaald (stedelijk) gebied de luchttemperatuur, of op lokaal niveau de gevoelstemperatuur in een binnen- of buitenruimte, te verlagen."@nl;
+  skos:definition "Maatregel om in een bepaald (stedelijk) gebied de luchttemperatuur, of op lokaal niveau, de gevoelstemperatuur in een binnen- of buitenruimte, te verlagen."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Misschien moet de scope van de definitie verbreed worden om ook toepasbaar te zijn op binnenruimte en buiten de stad"@nl;
   skos:example "(optioneel opnemen)"@nl;
