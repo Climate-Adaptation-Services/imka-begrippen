@@ -1633,7 +1633,7 @@ col:weerverschijnselen a skos:Collection;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :koele_plek;
   rdfs:label "Koele buitenruimte";
-  dct:source <https://www.tauw.nl/nieuws/handelingsperspectief-hittestress-op-zoek-naar-koele-plekken-in-de-stad.html> .
+  dct:source <https://www.tauw.nl/nieuws/handelingsperspectief-hittestress-op-zoek-naar-koele-plekken-in-de-stad.html#:~:text=Een%20koele%20plek%20is,niet%20publiek%20toegankelijk%20zijn.> .
 
 :koele_plek a skos:Concept;
   skos:prefLabel "Koele plek"@nl, "Cool spot"@en;
@@ -1647,6 +1647,17 @@ col:weerverschijnselen a skos:Collection;
   skos:broader :locatie;
   rdfs:label "Koele plek";
   dct:source <https://example.com> .
+
+:afstand_tot_koele_plek a skos:Concept;
+  skos:prefLabel "Afstand tot koele plek"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition ""@nl;
+  skos:editorialNote ""@nl;
+    skos:example "(optioneel opnemen)"@nl;
+  skos:broader :locatie;
+  rdfs:label "Afstand tot koele plek";
+  dct:source <http://www.tauw.nl/nieuws/handelingsperspectief-hittestress-op-zoek-naar-koele-plekken-in-de-stad.html#:~:text=De%20afstand%20die,verkleint%20(Toftager%2C%202011).> .
 
 :koelwater a skos:Concept;
   skos:prefLabel "Koelwater"@nl;
