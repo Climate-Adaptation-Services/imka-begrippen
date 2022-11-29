@@ -1350,7 +1350,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "Voorbeelden van klimaatadaptatie zijn: dijken verstevigen, rivieren verbreden en meer groen in steden en dorpen."@nl;
   skos:broader :activiteit;
-  skos:related :nationale_adaptatie_strategie, deltaplan_ruimtelijke_adaptatie;
+  skos:related :nationale_adaptatie_strategie, :deltaplan_ruimtelijke_adaptatie;
   rdfs:label "Klimaatadaptatie";
   dct:source <https://www.rijksoverheid.nl/onderwerpen/klimaatverandering/klimaatadaptatie> .
 
@@ -1479,7 +1479,7 @@ col:weerverschijnselen a skos:Collection;
   skos:definition "Locatie in de binnen- of buitenruimte waar, tijdens een warme of tropische dag (of een (gecombineerde) reeks daarvan), een dusdanig significant koeleffect optreedt, dat hittestress voor mensen, dieren of planten vermeden wordt."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Uitgesplitst in koele binnen- en buitenruimte."@nl;
-  skos:related :warme_dag, :warme_nacht :tropische_dag, :tropische_nacht;
+  skos:related :warme_dag, :warme_nacht, :tropische_dag, :tropische_nacht;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :locatie;
   rdfs:label "Koele plek";
@@ -2026,7 +2026,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:related :secundair_klimaateffect, tertair_klimaateffect;
+  skos:related :secundair_klimaateffect, :tertair_klimaateffect;
   skos:broader :impact;
   rdfs:label "Primair klimaateffect";
   dct:source "Xplorelab, provincie Zuid Holland (2009), De ruimtelijke klimaatscan provincie Zuid Holland."@nl .
@@ -2161,9 +2161,8 @@ col:weerverschijnselen a skos:Collection;
   skos:definition "Impact van primaire effecten op de fysieke omgeving."@nl;
   skos:scopeNote "De gevolgen van primaire klimaateffecten zijn afhankelijk van verschillende fysischgeografische aspecten in een gebied, zoals hoogteligging, bodemtype, rivier- en bekenstelsels, en van de manier waarop een gebied is ingericht."@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "Secundaire gevolgen kunnen zijn overstroming, droogte, verzilting
-   en hittestress, maar ook impact op de bodem."@nl;
-  skos:related :primair_klimaateffect, tertair_klimaateffect;
+  skos:example "Secundaire gevolgen kunnen zijn overstroming, droogte, verzilting en hittestress, maar ook impact op de bodem."@nl;
+  skos:related :primair_klimaateffect, :tertair_klimaateffect;
   skos:broader :impact;
   rdfs:label "Secundair klimaateffect";
   dct:source <https://example.com> .
@@ -2372,7 +2371,7 @@ col:weerverschijnselen a skos:Collection;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "Een voorbeeld: de toename van hevige piekbuien (primair effect) kan leiden tot te veel water in laaggelegen gebieden (secundair effect) wat zorgt voor ondergelopen wegen (tertiair effect)."@nl;
-  skos:related :primair_klimaateffect, secundair_klimaateffect;
+  skos:related :primair_klimaateffect, :secundair_klimaateffect;
   skos:broader :impact;
   rdfs:label "Tertair klimaateffect";
   dct:source "Interprovinciaal overleg (2009), Klimaateffectatlas: Inspelen op Klimaatverandering."@nl .
@@ -2729,15 +2728,15 @@ col:weerverschijnselen a skos:Collection;
 :warme_dag a skos:Concept;
   skos:prefLabel "Warme dag"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Dag waarop de maximumtemperatuur 20 °C of hoger is"@nl;
-  skos:broader :gebeurtenis .
+  skos:definition "Dag waarop de maximumtemperatuur 20 °C of hoger is."@nl;
+  skos:broader :gebeurtenis;
   dct:source <https://www.knmi.nl/kennis-en-datacentrum/uitleg/warme-dagen> .
 
-:warme_nacht skos:Concept;
+:warme_nacht a skos:Concept;
   skos:prefLabel "Warme nacht"@nl;
   skos:inScheme bk:imka;
   skos:definition "We spreken in Nederland van een tropische nacht als de minimumtemperatuur 20 °C of hoger is"@nl;
-  skos:broader :gebeurtenis .
+  skos:broader :gebeurtenis;
   dct:source <https://www.knmi.nl/over-het-knmi/nieuws/warme-nachten> .
 
 :warmteflux a skos:Concept;
