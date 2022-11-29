@@ -2722,18 +2722,6 @@ col:weerverschijnselen a skos:Collection;
   rdfs:label "Warmteflux"@nl;
   dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
 
-:warmtegolf a skos:Concept;
-  skos:prefLabel "Warmtegolf"@nl;
-  skos:altLabel "Extreem warme periode"@nl;
-  skos:inScheme bk:imka;
-  skos:definition "Opeenvolging van een aantal dagen met extreme temperatuur boven het gemiddelde in dat seizoen"@nl;
-  skos:scopeNote "Ook in voor- en najaar heb je in woningen last van hitte"@nl;
-  skos:editorialNote "Deze definitie is in lijn met de definitie van 'heat wave' van de World Meteorological Organization (WMO): 'a period during which the daily maximum temperature exceeds for more than five consecutive days the maximum normal temperature by 5°C'. "@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:broader :gebeurtenis;
-  rdfs:label "Warmtegolf";
-  dct:source <https://example.com> .
-
 #:warmteminnende_aquatische_soorten a skos:Concept;
 #  skos:prefLabel "Warmteminnende aquatische soorten"@nl;
 ##  skos:altLabel "(bijv. afkorting)"@nl;
@@ -2877,6 +2865,19 @@ col:weerverschijnselen a skos:Collection;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :gebouweigenschap;
   rdfs:label "Woning-oriëntatie";
+  dct:source <https://example.com> .
+
+:zachte_periode a skos:Concept;
+  skos:prefLabel "Zachte periode"@nl, "Warm spell"@en;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Reeks van relatief warme dagen in herfst, winter of lente, waarbij de luchttemperatuur significant hoger is dan het gemiddelde voor dat seizoen."@nl;
+  skos:scopeNote "Er zijn perioden waarin het warmer is dan normaal in dat seizoen, hoewel niet warm in absolute zin, heeft het wel gevolgen voor flora en fauna."@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "Bijvoorbeeld als de luchttemperatuur midden in de winter meerdere dagen 15 graden Celsius of hober is."@nl;
+  skos:broader :gebeurtenis;
+  skos:relatedMatch <https://public.wmo.int/en/media/news/wmo-has-no-immediate-plans-name-heatwaves#:~:text=A%20heat%20wave%20is%20broadly%20defined%20as%20a%20period%20of%20statistically%20unusual%20hot%20weather%20persisting%20for%20a%20number%20of%20days%20and%20nights.>;
+  rdfs:label "Zachte periode";
   dct:source <https://example.com> .
 
 :zeespiegelstijging a skos:Concept;
