@@ -1330,9 +1330,9 @@ col:weerverschijnselen a skos:Collection;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
   skos:definition "Fysiologische stress gerelateerd aan warmte."@nl;
-  skos:scopeNote "Bij de mens kan boven 23°C PET al hittestress ontstaan. Vanaf 41°C PET is er bij mensen sprake van extreme hittestress. Ook dieren en vegetatie kunnen te maken hebben met hittestress. Hittestress kan bijvoorbeeld leiden tot aandoeningen zoals oververhitting en uitdroging. Voor bomen is een oppervlaktetemperatuur 35 graden Celsius het punt waarop het blad zo heet wordt dat de boom begint te reageren. Er wordt geen CO2 meer vastgelegd, er vindt geen fotosynthese meer plaats, het grondwater wordt onbereikbaar, de verdamping stopt en bladeren laten los."@nl;
+  skos:scopeNote "Bij de mens kan boven 23°C PET al hittestress ontstaan. Vanaf 41°C PET is er bij mensen sprake van extreme hittestress. Ook dieren en planten kunnen te maken hebben met hittestress."@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
+  skos:example "Hittestress kan bijvoorbeeld leiden tot aandoeningen zoals oververhitting en uitdroging. Voor bomen is een oppervlaktetemperatuur 35 graden Celsius het punt waarop het blad zo heet wordt dat de boom begint te reageren. Er wordt geen CO2 meer vastgelegd, er vindt geen fotosynthese meer plaats, het grondwater wordt onbereikbaar, de verdamping stopt en bladeren laten los."@nl;
   skos:broader :aandoening_mens_en_dier;
   rdfs:label "Hittestress";
   dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
