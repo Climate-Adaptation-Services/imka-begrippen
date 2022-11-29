@@ -582,19 +582,6 @@ col:weerverschijnselen a skos:Collection;
   rdfs:label "Bewonersgedrag";
   dct:source <https://example.com> .
 
-:eisen_voor_bijna_energieneutraal_gebouw a skos:Concept;
-  skos:prefLabel "Eisen voor bijna energieneutraal gebouw"@nl;
-  skos:altLabel "BENG"@nl;
-  skos:inScheme bk:imka;
-  skos:definition "Energie-prestatie indicatoren voor nieuwbouw, zijnde de maximale energiebehoefte, het maximale primair fossiel energieverbruik, en het minimale aandeel hernieuwbare energie."@nl;
-  skos:note "Aanvragen van de omgevingsvergunning voor nieuwbouw moeten vanaf 1 januari 2021 voldoen aan de eisen voor bijna energieneutrale gebouwen (BENG)."@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  skos:broader :wet_en_regelgeving;
-  rdfs:label "Bijna energieneutraal gebouw";
-  dct:source <https://www.rvo.nl/onderwerpen/wetten-en-regels-gebouwen/beng> .
-
 :biodiversiteit a skos:Concept;
   skos:prefLabel "Biodiversiteit"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
@@ -910,6 +897,19 @@ col:weerverschijnselen a skos:Collection;
   rdfs:label "Energielabel";
   dct:source <https://nl.wikipedia.org/wiki/Energielabel> .
 
+:eisen_voor_bijna_energieneutraal_gebouw a skos:Concept;
+  skos:prefLabel "Eisen voor bijna energieneutraal gebouw"@nl;
+  skos:altLabel "BENG"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Energie-prestatie indicatoren voor nieuwbouw, zijnde de maximale energiebehoefte, het maximale primair fossiel energieverbruik, en het minimale aandeel hernieuwbare energie."@nl;
+  skos:note "Aanvragen van de omgevingsvergunning voor nieuwbouw moeten vanaf 1 januari 2021 voldoen aan de eisen voor bijna energieneutrale gebouwen (BENG)."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :wet_en_regelgeving;
+  rdfs:label "Bijna energieneutraal gebouw";
+  dct:source <https://www.rvo.nl/onderwerpen/wetten-en-regels-gebouwen/beng> .
+
 :evacuatie_kwetsbare_groepen a skos:Concept;
   skos:prefLabel "Evacuatie kwetsbare groepen"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
@@ -1217,18 +1217,6 @@ col:weerverschijnselen a skos:Collection;
   rdfs:label "Herhalingstijd";
   dct:source <https://example.com> .
 
-:meteorologische_hitte a skos:Concept;
-  skos:prefLabel "Meteorologische hitte"@nl;
-  skos:altLabel "Hitte"@nl;
-  skos:inScheme bk:imka;
-  skos:definition "Een (lucht)temperatuur van 25 graden Celsius of hoger."@nl;
-  skos:scopeNote "Binnen het domein klimaatadaptatie gaat 'hitte' specifiek over de meteorologische verschijningsvorm ervan. Hiermee hanteert het domein een engere opvatting van de bredere natuurkundige betekenis. Daarom wordt het begrip 'meteorologische hitte' als voorkeursterm gehanteerd, met 'hitte' als alternatieve term. De definitie is afgeleid van de term hittegolf, dat een specieke afbakening van tijd bevat: 'minimaal vijf aaneengesloten dagen'. Maar, binnen het domein klimaatadaptatie zijn niet alleen (langere) aangesloten perioden (golven) van hitte relevant, maar juist ook die kortere (piek)momenten, waarop de (lucht)temperatuur bijvoorbeeld midden op de dag 25 graden Celsius of hoger is."@nl;
-  skos:editorialNote ""@nl;
-  skos:example "Definitie en toelichting ter controle voorleggen in reviewsessie."@nl;
-  skos:broader :gebeurtenis;
-  rdfs:label "Meteorologische hitte";
-  dct:source <https://example.com> .
-
 :hittebestendig a skos:Concept;
   skos:prefLabel "Hittebestendig"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
@@ -1246,8 +1234,8 @@ col:weerverschijnselen a skos:Collection;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
   skos:definition "Een opeenvolging van in De Bilt minimaal 5 zomerse dagen (maximumtemperatuur 25,0 °C of hoger), waarvan er minimaal drie tropische dagen (maximumtemperatuur 30,0 °C of hoger) zijn."@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "Het KNMI definieert een hittegolf absoluut. Andere wetenschappers hanteren soms een relatieve definitie. Bijvoorbeeld: ten minste zes opeenvolgende dagen waarop de maximale temperatuur de grens van de 10 procent warmste dagen voor die locatie overschrijdt."@nl;
+  skos:scopeNote "Het KNMI definieert een hittegolf absoluut. Andere wetenschappers hanteren soms een relatieve definitie. Bijvoorbeeld: ten minste zes opeenvolgende dagen waarop de maximale temperatuur de grens van de 10 procent warmste dagen voor die locatie overschrijdt."@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :gebeurtenis;
   rdfs:label "Hittegolf";
@@ -1319,7 +1307,7 @@ col:weerverschijnselen a skos:Collection;
   skos:inScheme bk:imka;
   skos:definition "Een schatting van de kosten van hitte voor sterfte, ziekenhuisopnamen, arbeidsproductiviteit en eikenprocessierups voor periode 2018-2050, in het scenario dat niemand ingrijpt."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "Is deze definitie voor het werkveld toereikend?"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :klimaatschadeschatter;
   rdfs:label "Hitteschade";
@@ -1878,6 +1866,18 @@ col:weerverschijnselen a skos:Collection;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :eigenschap;
   rdfs:label "Menselijke eigenschap";
+  dct:source <https://example.com> .
+
+:meteorologische_hitte a skos:Concept;
+  skos:prefLabel "Meteorologische hitte"@nl;
+  skos:altLabel "Hitte"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Een (lucht)temperatuur van 25 graden Celsius of hoger."@nl;
+  skos:scopeNote "Binnen het domein klimaatadaptatie gaat 'hitte' specifiek over de meteorologische verschijningsvorm ervan. Hiermee hanteert het domein een engere opvatting van de bredere natuurkundige betekenis. Daarom wordt het begrip 'meteorologische hitte' als voorkeursterm gehanteerd, met 'hitte' als alternatieve term. De definitie is afgeleid van de term hittegolf, dat een specifieke afbakening van tijd bevat: 'minimaal vijf aaneengesloten dagen'. Maar, binnen het domein klimaatadaptatie zijn niet alleen (langere) aangesloten perioden (golven) van hitte relevant, maar juist ook die kortere (piek)momenten, waarop de (lucht)temperatuur bijvoorbeeld midden op de dag 25 graden Celsius of hoger is."@nl;
+  skos:editorialNote ""@nl;
+  skos:example "Definitie en toelichting ter controle voorleggen in reviewsessie."@nl;
+  skos:broader :gebeurtenis;
+  rdfs:label "Meteorologische hitte";
   dct:source <https://example.com> .
 
 #:migratiepatroon a skos:Concept;
