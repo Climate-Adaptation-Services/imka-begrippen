@@ -1558,11 +1558,12 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Klimaatadaptatie"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Het zich voorbereiden op de risico's van het veranderende klimaat en het aanpassen hierop van de omgeving."@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:definition "De voorbereiding op de risico's van het veranderende klimaat en de aanpassing hierop van de omgeving."@nl;
+  skos:scopeNote "Om Nederland voor te bereiden op de gevolgen van klimaatverandering is een nationale aanpak nodig. Het ministerie van Infrastructuur en Waterstaat heeft hierin een coördinerende en stimulerende rol. Dit gebeurt vanuit 2 programma’s: de Nationale klimaatadaptiestrategie (NAS) en het Deltaprogramma."@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
+  skos:example "Voorbeelden van klimaatadaptatie zijn: dijken verstevigen, rivieren verbreden en meer groen in steden en dorpen."@nl;
   skos:broader :activiteit;
+  skos:related :nationale_adaptatie_strategie, deltaplan_ruimtelijke_adaptatie;
   rdfs:label "Klimaatadaptatie";
   dct:source <https://www.rijksoverheid.nl/onderwerpen/klimaatverandering/klimaatadaptatie> .
 
