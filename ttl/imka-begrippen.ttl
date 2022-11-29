@@ -389,6 +389,14 @@ col:weerverschijnselen a skos:Collection;
   skos:inScheme bk:imka;
   skos:definition "Dag waarop de maximumtemperatuur 20 °C of hoger is"@nl;
   skos:broader :gebeurtenis .
+  dct:source <https://www.knmi.nl/kennis-en-datacentrum/uitleg/warme-dagen> .
+
+:warme_nacht skos:Concept;
+  skos:prefLabel "Warme nacht"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "We spreken in Nederland van een tropische nacht als de minimumtemperatuur 20 °C of hoger is"@nl;
+  skos:broader :gebeurtenis .
+  dct:source <https://www.knmi.nl/over-het-knmi/nieuws/warme-nachten> .
 
 :warmtestraling a skos:Concept;
   skos:prefLabel "Warmtestraling"@nl;
@@ -1620,7 +1628,7 @@ col:weerverschijnselen a skos:Collection;
   skos:altLabel "(bijv. afkorting)"@en;
   skos:inScheme bk:imka;
   skos:definition "Een plek in de openbare ruimte met minimaal 200 m2 schaduw, een PET van lager dan 35 graden (o.b.v. PET 1 juli 2015)"@nl;
-  skos:scopeNote "De minimale grootte van 200m2 is gekozen omdat [a] de plek ruimte moet kunnen bieden aan merdere personen om te kunnen verblijven en eventueel recreëren, [b] vanaf deze omvang een significant koeleffect kan optreden en [c] dit minimaal nodig is voor een evenwichtig ecosysteem. Smalle stroken groen, plekken direct langs grote wegen en privaat terrein blijven buiten beschouwing omdat ze niet geschikt zijn als verblijfsplek en/of niet publiek toegankelijk zijn."@nl;
+  skos:scopeNote "De minimale grootte van 200m2 is gekozen omdat [a] de plek ruimte moet kunnen bieden aan meerdere personen om te kunnen verblijven en eventueel te recreëren, [b] er vanaf deze omvang een significant koeleffect kan optreden en [c] dit minimaal nodig is voor een evenwichtig ecosysteem. Smalle stroken groen, plekken direct langs grote wegen en privaat terrein blijven buiten beschouwing omdat ze niet geschikt zijn als verblijfsplek en/of niet publiek toegankelijk zijn."@nl;
   skos:editorialNote "Over deze definitie is nog wel discussie in het werkveld. Schaduw in deze definitie is bijvoorbeeld niet beperkt tot schaduw van bomen, maar het maakt voor de koelte wel uit of schaduw van bomen of gebouwen komt. "@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :koele_plek;
@@ -1631,9 +1639,10 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Koele plek"@nl, "Cool spot"@en;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Een plek waar het minder warm is dan in de omgeving."@nl;
+  skos:definition "Locatie in de binnen- of buitenruimte waar, tijdens een warme of tropische dag (of een (gecombineerde) reeks daarvan), een dusdanig significant koeleffect optreedt, dat hittestress voor mensen, dieren of planten vermeden wordt."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "Uitgesplitst in koele binnen- en buitenruimte."@nl;
+  skos:related :warme_dag, :warme_nacht :tropische_dag, :tropische_nacht;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :locatie;
   rdfs:label "Koele plek";
@@ -2478,7 +2487,6 @@ col:weerverschijnselen a skos:Collection;
   skos:broader :wet_en_regelgeving;
   rdfs:label "TOjuli";
   dct:source <https://www.rvo.nl/onderwerpen/wetten-en-regels-gebouwen/beng/indicatoren#gezond-binnenklimaat-en-tojuli> .
-
 
 :tuin a skos:Concept;
   skos:prefLabel "Tuin"@nl;
