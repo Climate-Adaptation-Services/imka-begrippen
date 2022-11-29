@@ -1615,19 +1615,20 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Koele binnenruimte"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Openbare of private verblijfsruimte in een gebouw waar de operatieve temperatuur in de zomer tenminste tussen de 19 en 25 graden Celsius ligt en waar meerdere mensen kunnen verblijven of voor langere tijd kunnen worden opgevangen."@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:definition "Openbare of private verblijfsruimte in een gebouw waar tijdens een warme of tropische dag de operatieve temperatuur in de zomer tenminste tussen de 19 en 25 graden Celsius ligt en waar meerdere mensen kunnen verblijven of eventueel zelfs voor langere tijd kunnen worden opgevangen."@nl;
+  skos:scopeNote "Naast koelte plekken in de openbare ruimte kan tijdens een warme of tropische dag ook verkoeling worden gezocht in diverse gebouwen. Hierbij valt te denken aan bibliotheken, supermarkten, kerken, musea en theaters."@nl;
   skos:editorialNote "De definitie is gebaseerd op kenmerken uit tabel 2, H6 van de arbocatalogus (zie:bron). Dit gaat over een thermisch behagelijk klimaat op werkplekken. De definitie is vervolgens aangevuld met eigenschappen die tijdens de werkgroepbijeenkomsten tersprake kwamen, maar heeft nog verdere aanscherping nodig. Er zou bijvoorbeeld gekeken kunnen worden naar NEN-ISO 7243, eisen aan locatie, opvangcapaciteit, toegankelijkheid en andere kenmerken van het binnenklimaat van een gebouw."@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :koele_plek;
   rdfs:label "Koele binnenruimte";
-  dct:source <https://www.wvoi.nl/arbocatalogus/hoofdstuk-6-binnenklimaat-in-kantoren/> .
+  dct:source <https://www.wvoi.nl/arbocatalogus/hoofdstuk-6-binnenklimaat-in-kantoren/>;
+  dct:source <https://www.tauw.nl/nieuws/handelingsperspectief-hittestress-op-zoek-naar-koele-plekken-in-de-stad.html#:~:text=Naast%20koelte%20plekken%20in%20de%20openbare%20ruimte%20kan%20tijdens%20een%20hete%20dag%20ook%20verkoeling%20worden%20gezocht%20in%20diverse%20gebouwen.%20Hierbij%20valt%20te%20denken%20aan%20bibliotheken%2C%20supermarkten%2C%20kerken%2C%20musea%20en%20theaters.> . 
 
 :koele_buitenruimte a skos:Concept;
   skos:prefLabel "Koele buitenruimte"@nl;
   skos:altLabel "(bijv. afkorting)"@en;
   skos:inScheme bk:imka;
-  skos:definition "Een plek in de openbare ruimte met minimaal 200 m2 schaduw, een PET van lager dan 35 graden (o.b.v. PET 1 juli 2015)"@nl;
+  skos:definition "Een plek in de openbare ruimte waar tijdens een warme of tropische dag minimaal 200 m2 is en een PET van lager dan 35 graden (o.b.v. PET 1 juli 2015)"@nl;
   skos:scopeNote "De minimale grootte van 200m2 is gekozen omdat [a] de plek ruimte moet kunnen bieden aan meerdere personen om te kunnen verblijven en eventueel te recreëren, [b] er vanaf deze omvang een significant koeleffect kan optreden en [c] dit minimaal nodig is voor een evenwichtig ecosysteem. Smalle stroken groen, plekken direct langs grote wegen en privaat terrein blijven buiten beschouwing omdat ze niet geschikt zijn als verblijfsplek en/of niet publiek toegankelijk zijn."@nl;
   skos:editorialNote "Over deze definitie is nog wel discussie in het werkveld. Schaduw in deze definitie is bijvoorbeeld niet beperkt tot schaduw van bomen, maar het maakt voor de koelte wel uit of schaduw van bomen of gebouwen komt. "@nl;
   skos:example "(optioneel opnemen)"@nl;
@@ -1652,7 +1653,8 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Afstand tot koele plek"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition ""@nl;
+  skos:definition "De maximale loopafstand tussen een woning en koele plek in de binnen- of buitenruimte."@nl;
+  skos:scopeNote "De afstand die men in de hitte kan overbruggen is tijdgebonden. Voor ouderen – de meest kwetsbare groep voor hitte – is de tijd van actieve beweging (looptijd) bepalend. In 5 minuten legt een ouder persoon 292 meter af tegen 350 meter voor een gemiddeld persoon. De kritieke loopafstand van maximaal 300 meter is uiteindelijk gekozen omdat deze afstand voor gezonde ouderen in 5 minuten te lopen is (Nuijten, 2008). Ook blijkt dat de aanwezigheid van groen binnen 300 meter van de woning het gebruik ervan vergroot en de kans op obesitas verkleint (Toftager, 2011)."@nl;
   skos:editorialNote ""@nl;
     skos:example "(optioneel opnemen)"@nl;
   skos:broader :locatie;
