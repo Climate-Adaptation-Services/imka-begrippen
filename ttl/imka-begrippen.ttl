@@ -2165,7 +2165,7 @@ col:weerverschijnselen a skos:Collection;
   skos:related :primair_klimaateffect, :tertair_klimaateffect;
   skos:broader :impact;
   rdfs:label "Secundair klimaateffect";
-  dct:source <https://example.com> .
+  dct:source "Xplorelab, provincie Zuid Holland (2009), De ruimtelijke klimaatscan provincie Zuid Holland."@nl .
 
 :sedumdak a skos:Concept;
   skos:prefLabel "Sedumdak"@nl;
