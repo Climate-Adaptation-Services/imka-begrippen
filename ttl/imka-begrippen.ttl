@@ -2839,6 +2839,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "Hiermee is het risico op hitteletsels in te schatten, mede afhankelijk van de hoeveelheid inspanning die wordt verricht c.q. de zwaarte van het werk. Het wordt bijvoorbeeld gebruikt bij sportevenementen en in de context van arbo-omstandigheden. Gerelateerd aan NEN-ISO 7243"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :gevoelstemperatuur;
+  skos:broadMatch <https://en.wikipedia.org/wiki/Apparent_temperature>; 
   rdfs:label "Wbgt-index";
   dct:source <https://en.wikipedia.org/wiki/Wet-bulb_globe_temperature> .
 
