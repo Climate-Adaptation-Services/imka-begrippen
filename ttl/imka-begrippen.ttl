@@ -1217,16 +1217,16 @@ col:weerverschijnselen a skos:Collection;
   rdfs:label "Herhalingstijd";
   dct:source <https://example.com> .
 
-:hitte a skos:Concept;
-  skos:prefLabel "Hitte"@nl;
-  skos:altLabel "(bijv. afkorting)"@nl;
+:meteorologische_hitte a skos:Concept;
+  skos:prefLabel "Meteorologische hitte"@nl;
+  skos:altLabel "Hitte"@nl;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "Geen onderscheid maken tussen mens, dier en natuur; ondervinden allemaal de effecten. Korte en lange termijn wel relevant. Lange termijn gaat dan over jaren, niet over één jaar. Hitte heb je niet alleen in de zomer. Het is een kortetermijnverschijnsel dat in alle seizoenen kan optreden."@nl;
-  skos:example "(optioneel opnemen)"@nl;
+  skos:definition "Een (lucht)temperatuur van 25 graden Celsius of hoger."@nl;
+  skos:scopeNote "Binnen het domein klimaatadaptatie gaat 'hitte' specifiek over de meteorologische verschijningsvorm ervan. Hiermee hanteert het domein een engere opvatting van de bredere natuurkundige betekenis. Daarom wordt het begrip 'meteorologische hitte' als voorkeursterm gehanteerd, met 'hitte' als alternatieve term. De definitie is afgeleid van de term hittegolf, dat een specieke afbakening van tijd bevat: 'minimaal vijf aaneengesloten dagen'. Maar, binnen het domein klimaatadaptatie zijn niet alleen (langere) aangesloten perioden (golven) van hitte relevant, maar juist ook die kortere (piek)momenten, waarop de (lucht)temperatuur bijvoorbeeld midden op de dag 25 graden Celsius of hoger is."@nl;
+  skos:editorialNote ""@nl;
+  skos:example "Definitie en toelichting ter controle voorleggen in reviewsessie."@nl;
   skos:broader :gebeurtenis;
-  rdfs:label "Hitte";
+  rdfs:label "Meteorologische hitte";
   dct:source <https://example.com> .
 
 :hittebestendig a skos:Concept;
