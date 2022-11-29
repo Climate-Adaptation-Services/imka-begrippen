@@ -891,7 +891,7 @@ col:weerverschijnselen a skos:Collection;
   skos:inScheme bk:imka;
   skos:definition "Afwijking van de gezonde toestand van mens, dier of natuur."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "Eigenlijk zou je onderscheid moeten maken tussen primaire gezondheidsproblemen (direct veroorzaakt door hitte, zoals uitdroging) en secundaire gezondheidsproblemen (indirect veroorzaakt door hitte, zoals verdrinking)."@nl;
+  skos:editorialNote "Eigenlijk zou je onderscheid moeten maken tussen primaire gezondheidsproblemen (direct veroorzaakt door hitte, zoals uitdroging) en secundaire gezondheidsproblemen (indirect veroorzaakt door hitte, zoals verdrinking, staar of huidkanker)."@nl;
   skos:example "Hittestress, hitteberoerte, uitdroging, oververhitting"@nl;
   skos:broader :gebeurtenis;
   rdfs:label "Gezondheidsprobleem";
@@ -1335,10 +1335,11 @@ col:weerverschijnselen a skos:Collection;
 :klimaat a skos:Concept;
   skos:prefLabel "Klimaat"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Het gemiddelde weer over een bepaalde periode."@nl;
+  skos:definition "Het gemiddelde weer van meteorologische grootheden zoals temperatuur, neerslag, vochtigheid, zonneschijn en wind in een bepaald gebied over een bepaalde periode."@nl;
   skos:scopeNote "Een klimaat is niet stabiel, het kan door natuurlijke en menselijke invloeden veranderen. Om het klimaat te bepalen wordt gekeken naar het gemiddelde over 30 jaar van temperatuur, vocht, luchtdruk, wind, bewolking en neerslag. Dagelijkse en jaarlijkse variaties en hoe vaak extremen voorkomen zijn ook van belang. Voorbeelden van extremen zijn hittegolven en zware regen met wateroverlast of overstromingen."@nl;
   skos:broader :proces;
-  dct:source <https://www.knmi.nl/kennis-en-datacentrum/uitleg/klimaat/> .
+  dct:source <https://www.knmi.nl/kennis-en-datacentrum/uitleg/klimaat/>;
+  dct:source "Xplorelab, provincie Zuid Holland (2009), De ruimtelijke klimaatscan provincie Zuid Holland."@nl .
 
 :klimaatadaptatie a skos:Concept;
   skos:prefLabel "Klimaatadaptatie"@nl;
@@ -1378,6 +1379,18 @@ col:weerverschijnselen a skos:Collection;
   rdfs:label "Klimaatimpact op sectoren";
   dct:source <https://example.com> .
 
+:klimaatmitigatie a skos:Concept;
+  skos:prefLabel "Klimaatmitigatie"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Vermindering van de snelheid en omvang van klimaatverandering door het terugdringen van broeikasgassen."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example ""@nl;
+  skos:broader :activiteit;
+  rdfs:label "Klimaatmitigatie";
+  dct:source "Xplorelab, provincie Zuid Holland (2009), De ruimtelijke klimaatscan provincie Zuid Holland."@nl .
+
 :klimaatschadeschatter a skos:Concept;
   skos:prefLabel "Klimaatschadeschatter"@nl;
   skos:altLabel "KSS"@nl;
@@ -1390,13 +1403,17 @@ col:weerverschijnselen a skos:Collection;
   rdfs:label "Klimaatschadeschatter";
   dct:source <http://www.klimaatschadeschatter.nl/> .
 
-:klimatopenkaart a skos:Concept;
-  skos:prefLabel "Klimatopenkaart"@nl;
+:klimaatscenario
+  skos:prefLabel "Klimaatscenario"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Kaart die deelgebieden in de stad toont die eenzelfde landgebruik en bebouwingstypologie hebben en daardoor ook een soortgelijk stedelijk klimaat"@nl;
-  skos:scopeNote "Klimatopenkaarten geven aan welke deelgebieden koeler of warmer zijn tijdens een hete dag en sluiten dus aan bij het doel te identificeren waar het heet is."@nl;
-  skos:broader :instrument;
-  dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
+  skos:definition "consistent en waarschijnlijk beeld van een mogelijk toekomstig klimaat"@nl;
+  skos:scopeNote "Het geeft aan in welke mate bijvoorbeeld de temperatuur, neerslag en wind kunnen veranderen, bij een bepaalde mondiale klimaatverandering."@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "(optioneel opnemen)"@nl;
+  skos:broader :gebeurtenis;
+  rdfs:label "Klimaatscenario";
+  dct:source "Xplorelab, provincie Zuid Holland (2009), De ruimtelijke klimaatscan provincie Zuid Holland."@nl .
 
 :klimaatverandering a skos:Concept;
   skos:prefLabel "Klimaatverandering"@nl;
@@ -1421,6 +1438,14 @@ col:weerverschijnselen a skos:Collection;
   skos:broader :locatie;
   rdfs:label "Klimaatzone";
   dct:source <https://example.com> .
+
+:klimatopenkaart a skos:Concept;
+  skos:prefLabel "Klimatopenkaart"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Kaart die deelgebieden in de stad toont die eenzelfde landgebruik en bebouwingstypologie hebben en daardoor ook een soortgelijk stedelijk klimaat"@nl;
+  skos:scopeNote "Klimatopenkaarten geven aan welke deelgebieden koeler of warmer zijn tijdens een hete dag en sluiten dus aan bij het doel te identificeren waar het heet is."@nl;
+  skos:broader :instrument;
+  dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
 
 :koele_binnenruimte a skos:Concept;
   skos:prefLabel "Koele binnenruimte"@nl;
@@ -1997,14 +2022,14 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Primair klimaateffect"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Het weer en de fysieke gevolgen daarvan."@nl;
+  skos:definition "Effect van klimaatverandering vertaald in de neerslagintensiteit, temperatuur, zeespiegel, luchtstromingenpatroon, et cetera."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
-  skos:related :secundair_klimaateffect;
+  skos:related :secundair_klimaateffect, tertair_klimaateffect;
   skos:broader :impact;
   rdfs:label "Primair klimaateffect";
-  dct:source <https://example.com> .
+  dct:source "Xplorelab, provincie Zuid Holland (2009), De ruimtelijke klimaatscan provincie Zuid Holland."@nl .
 
 :proces a skos:Concept;
   skos:prefLabel "Proces"@nl; 
@@ -2087,6 +2112,16 @@ col:weerverschijnselen a skos:Collection;
   skos:broader :eigenschap;
   dct:source <https://nl.wikipedia.org/wiki/Risico> .
 
+:robuustheid a skos:Concept;
+  skos:prefLabel "Robuustheid"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Mate van gevoeligheid voor klimaatverandering."@nl;
+  skos:scopeNote "De mate van robuustheid van een functie is afhankelijk van veerkracht en weerstand."@nl;
+  skos:broader :natuureigenschap;
+  skos:related :veerkracht, :weerstand;
+  rdfs:label "Robuustheid";
+  dct:source <https://edepot.wur.nl/272626> .
+
 :schaduw a skos:Concept;
   skos:prefLabel "Schaduw"@nl;
   skos:definition "Geheel of gedeeltelijk tegengehouden licht van een lichtbron, door een object"@nl;
@@ -2124,10 +2159,11 @@ col:weerverschijnselen a skos:Collection;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
   skos:definition "Impact van primaire effecten op de fysieke omgeving."@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:scopeNote "De gevolgen van primaire klimaateffecten zijn afhankelijk van verschillende fysischgeografische aspecten in een gebied, zoals hoogteligging, bodemtype, rivier- en bekenstelsels, en van de manier waarop een gebied is ingericht."@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "Impact op de bodem."@nl;
-  skos:related :primair_klimaateffect;
+  skos:example "Secundaire gevolgen kunnen zijn overstroming, droogte, verzilting
+   en hittestress, maar ook impact op de bodem."@nl;
+  skos:related :primair_klimaateffect, tertair_klimaateffect;
   skos:broader :impact;
   rdfs:label "Secundair klimaateffect";
   dct:source <https://example.com> .
@@ -2328,6 +2364,19 @@ col:weerverschijnselen a skos:Collection;
   rdfs:label "Temporele eigenschap";
   dct:source <https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/temporeel> .
 
+:tertair_klimaateffect a skos:Concept;
+  skos:prefLabel "Tertair klimaateffect"@nl;
+  skos:altLabel "(bijv. afkorting)"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Impact van secundaire effecten op de fysieke omgeving."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:editorialNote "(optioneel opnemen)"@nl;
+  skos:example "Een voorbeeld: de toename van hevige piekbuien (primair effect) kan leiden tot te veel water in laaggelegen gebieden (secundair effect) wat zorgt voor ondergelopen wegen (tertiair effect)."@nl;
+  skos:related :primair_klimaateffect, secundair_klimaateffect;
+  skos:broader :impact;
+  rdfs:label "Tertair klimaateffect";
+  dct:source "Interprovinciaal overleg (2009), Klimaateffectatlas: Inspelen op Klimaatverandering."@nl .
+
 :thermalwalk a skos:Concept;
   skos:prefLabel "Thermal walk"@nl;
   skos:definition "een meetmethode voor het meten van hitte in de stad"@nl;
@@ -2466,6 +2515,7 @@ col:weerverschijnselen a skos:Collection;
   skos:definition "De capaciteit om verstoringen te absorberen en te veranderen waarbij het adaptieve vermogen behouden blijft."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:broader :natuureigenschap;
+  skos:related :robuustheid, :weerstand;
   skos:altLabel "Ecologische veerkracht"@nl;
   dct:source <https://edepot.wur.nl/272626> .
 
@@ -2805,6 +2855,17 @@ col:weerverschijnselen a skos:Collection;
   skos:broader :eigenschap;
   rdfs:label "Weereigenschap";
   dct:source <https://nl.wikipedia.org/wiki/Weer_(meteorologie)#> .
+
+:weerstand a skos:Concept;
+  skos:prefLabel "Weerstand"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Het vermogen om een externe druk te weerstaan zonder te reageren."@nl;
+  skos:scopeNote "(optioneel opnemen)"@nl;
+  skos:example "Bijvoorbeeld een kering die het achterland beschermd tegen water."@nl;
+  skos:broader :natuureigenschap;
+  skos:related :veerkracht, :robuustheid;
+  rdfs:labe "Weerstand";
+  dct:source <https://edepot.wur.nl/272626> .
 
 :wet_bulb_globe_temperature_index a skos:Concept;
   skos:prefLabel "Wet Bulb Globe Temperature"@en;
