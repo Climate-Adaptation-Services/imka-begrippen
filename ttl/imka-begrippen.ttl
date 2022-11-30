@@ -2139,6 +2139,7 @@ col:weerverschijnselen a skos:Collection;
   skos:inScheme bk:imka;
   skos:broader :eigenschap;
   skos:editorialNote "Schaduw is lastig te categoriseren. Sommige definities zeggen dat het een gebied is waar licht wordt tegengehouden, anderen zeggen dat het iets is dat ontstaat als het licht van een lichtbron wordt tegengehouden door een object en definiëren het dus als een verschijnsel, of een resultaat. Het is ook iets dat je kunt observeren, dus in die zin een eigenschap. Voorlopig daarom als eigenschap gecategoriseerd."@nl;
+  skos:related :schaduwplek;
   dct:source <https://nl.wikipedia.org/wiki/Schaduw> .
 
 :schaduwplek a skos:Concept;
@@ -2150,6 +2151,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :locatie;
+  skos:related :schaduw;
   rdfs:label "Schaduwplek";
   dct:source <https://example.com> .
 
