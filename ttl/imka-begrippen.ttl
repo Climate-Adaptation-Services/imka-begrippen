@@ -1475,7 +1475,7 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Koele buitenruimte"@nl;
   skos:altLabel "(bijv. afkorting)"@en;
   skos:inScheme bk:imka;
-  skos:definition "Een plek in de openbare ruimte waar tijdens een warme of tropische dag minimaal 200 m2 is en een PET van lager dan 35 graden (o.b.v. PET 1 juli 2015)"@nl;
+  skos:definition "Een plek in de openbare ruimte waar tijdens een warme of tropische dag minimaal 200 m2 schaduw is en een PET van lager dan 35 graden (o.b.v. PET 1 juli 2015)"@nl;
   skos:scopeNote "De minimale grootte van 200m2 is gekozen omdat [a] de plek ruimte moet kunnen bieden aan meerdere personen om te kunnen verblijven en eventueel te recreëren, [b] er vanaf deze omvang een significant koeleffect kan optreden en [c] dit minimaal nodig is voor een evenwichtig ecosysteem. Smalle stroken groen, plekken direct langs grote wegen en privaat terrein blijven buiten beschouwing omdat ze niet geschikt zijn als verblijfsplek en/of niet publiek toegankelijk zijn."@nl;
   skos:editorialNote "Over deze definitie is nog wel discussie in het werkveld. Schaduw in deze definitie is bijvoorbeeld niet beperkt tot schaduw van bomen, maar het maakt voor de koelte wel uit of schaduw van bomen of gebouwen komt. "@nl;
   skos:example "(optioneel opnemen)"@nl;
