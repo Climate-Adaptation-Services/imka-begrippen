@@ -2679,7 +2679,7 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Versteend gebied"@nl;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Een gebied met voornamelijk gewbouwen, stenen, verharding, en/of kale grond."@nl;
+  skos:definition "Een gebied met voornamelijk gebouwen, stenen, verharding, en/of kale grond."@nl;
   skos:scopeNote "Vooral van toepassing in steden."@nl;
   skos:editorialNote " In de wandelgangen wordt vaak gesproken over 'grijs' (met als tegenhanger: 'groen). Van 'versteend gebied' is geen definitie gevonden. De hier opgenomen definitie is geformuleerd op basis van het begrip 'grijs' in de klimaateffectatlas."@nl;
   skos:example "(optioneel opnemen)"@nl;
