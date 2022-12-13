@@ -31,19 +31,15 @@
 
 ### Inhoud
 
-   Dit project levert een eerste aanzet op tot een conceptueel informatiemodel hitte. Het uitgangspunt vormt de informatie die overheden nodig hebben om een hittestresstest uit te voeren. Zij zijn verplicht deze testen iedere 6 jaar te [actualiseren](https://klimaatadaptatienederland.nl/stresstest/#:~:text=In%20het%20Deltaplan%20Ruimtelijke%20Adaptatie%20is%20afgesproken%20dat%20overheden%20de%20stresstest%20iedere%206%20jaar%20actualiseren%20omdat%20de%20kwetsbaarheden%20in%20de%20loop%20der%20tijd%20kunnen%20veranderen.). 
+   Het conceptueel informatiemodel hitte is een eerste aanzet. Het uitgangspunt vormt de informatie die overheden nodig hebben om een hittestresstest uit te voeren. Zij zijn verplicht deze testen iedere 6 jaar te [actualiseren](https://klimaatadaptatienederland.nl/stresstest/#:~:text=In%20het%20Deltaplan%20Ruimtelijke%20Adaptatie%20is%20afgesproken%20dat%20overheden%20de%20stresstest%20iedere%206%20jaar%20actualiseren%20omdat%20de%20kwetsbaarheden%20in%20de%20loop%20der%20tijd%20kunnen%20veranderen.). Hiermee faciliteert het model eenduidige en uniforme informatie-uitwisseling over hittestress op basis van mogelijke afspraken rondom inhoud, betekenis en samenhang.
 
-   Dit informatiemodel geeft een eerste indruk voor de mogelijke afspraken rondom inhoud, betekenis en samenhang. Hiermee faciliteert het model eenduidige en uniforme informatie-uitwisseling over hittestress.
-
-   Voor een definitieve versie, is een verdere uitwerking noodzakelijk. Relevant is om in dat geval exact te weten welke informatie voor hittestress uitgewisseld wordt en tussen welke partijen. In dit stadium is dat beeld echter nog beperkt. Maar, op basis van de werksessies rondom het woordenboek hitte tekenden zich gaandeweg de eerste contouren af.
-
-   Hoewel dit model schetst een globaal beeld geeft van de (mogelijk) relevante informatie-objecten en de afspraken, helpt het om dit in een model te visualiseren. Daarnaast, roept het nieuwe vragen op die nodig zijn om de afspraken voldoende scherp af te bakenen.
+   Voor een definitieve versie, is een verdere uitwerking noodzakelijk. Relevant is om in dat geval exact te weten welke informatie voor hittestress uitgewisseld wordt en tussen welke partijen. In dit stadium is dat beeld echter nog beperkt. Maar, op basis van de werksessies rondom het woordenboek hitte tekenden zich gaandeweg de eerste contouren af, die hier zijn vastgelegd.** Hoewel dit model schetst een globaal beeld geeft van de (mogelijk) relevante informatie-objecten en de afspraken, helpt het om dit in een model te visualiseren. Daarnaast, roept het nieuwe vragen op die nodig zijn om de afspraken voldoende scherp af te bakenen.
 
 ### Totstandkoming
    
-   Het conceptuele informatiemodel hitte is gemaakt **in opdracht van het ministerie** van Infrastructuur en Waterstaat gemaakt door Geonovum op basis van de resultaten uit de werkgroep en andere relevante organisaties uit het veld, die rondom het woordenboek hitte zijn georganiseerd.
+   Het conceptuele informatiemodel hitte is gemaakt **in opdracht van het ministerie** van Infrastructuur en Waterstaat gemaakt door Geonovum op basis van de resultaten uit de werkgroep en andere relevante organisaties uit het veld die rondom het woordenboek hitte zijn georganiseerd.
 
-   Om een informatiemodel te kunnen maken, is het belangrijk duidelijke **use cases** te hebben. Op dit gebied is het werkveld nog volop in ontwikkeling. Eén of meer duidelijk beschreven use cases, waren in dit stadium nog niet beschikbaar. Daarom is ervoor gekozen om op basis van de gesprekken met stakeholders en reeds bestaande informatiestromen een eerste en algemene versie van een conceptueel informatiemodel hitte te maken.
+   Om een informatiemodel te kunnen maken zijn duidelijke **use cases** nodig. Op dit gebied is het werkveld nog volop in ontwikkeling. Eén of meer duidelijk beschreven use cases, waren in dit stadium nog niet beschikbaar. Daarom is ervoor gekozen om op basis van de gesprekken met stakeholders en reeds bestaande informatiestromen een eerste en algemene versie van een conceptueel informatiemodel hitte te maken.
 
    Het **doel** van het informatiemodel in dit stadium is om het voorstellingsvermogen te prikkelen: Wat heb je nodig? Waar zitten de gaten?
 
