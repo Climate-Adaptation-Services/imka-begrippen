@@ -84,7 +84,7 @@ Begroeidterreindeel BGT
 
 ![](media/imka_schets_02_uitgebreid.png)
 
-#### Overzicht van waarden van de objecteigenschappen bij het conceptueel informatiemodel hitte  
+#### Overzicht van waarden die horen bij de objecteigenschappen van het conceptueel informatiemodel hitte - uitgebreid 
 
 ![](media/imka_schets_02_uitgebreid_datatypen.png)
 
