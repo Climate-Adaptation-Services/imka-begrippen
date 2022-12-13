@@ -67,15 +67,15 @@
 
 ### Aanbevelingen voor vervolg
 
-Use cases. Doe een verkenning naar de informatiebehoefte en -stromen. Kijk ook waar op dit moment dit vraagstuk speelt.
+**Use cases**. Doe een verkenning naar de informatiebehoefte en -stromen. Kijk ook waar op dit moment dit vraagstuk speelt.
 
-Dataspecificatie/gegevenscatalogus en die ook weer afgestemd op het begrippenkader
+**Dataspecificatie/gegevenscatalogus** en die ook weer afgestemd op het begrippenkader
 
 Het huidige informatiemodel bevat alleen objecten, eigenschappen en relaties tussen objecten. Definities bijvoorbeeld, ontbreken op dit moment nog.
 
 Het huidige model is dus volgens de MIM-standaard incompleet.
 
-Model verder uitwerken voor de casus hittestresstest in samenwerking met experts van het ministerie. 
+Model verder uitwerken voor de **casus hittestresstest** in samenwerking met experts van het ministerie. 
 
 Daar hoort dan ook de uitbreiding met de onderwerpen **water** en **infrastructuur** bij.
 
@@ -83,7 +83,7 @@ Dit is noodzakelijk voor de doorontwikkeling naar een volwaardig conceptueel inf
 
 Tevens advies om de **focus op het onderwerp hitte** te houden,
 
-Werk de keten  van MIM-niveaus uit (van begrippenkader, naar implementatie) en test de implementaties in een iteratief proces.
+**Uitwerken keten** van MIM-niveaus (van begrippenkader, naar implementatie) en test de implementaties in een iteratief proces.
 
 Als je die structuur werkend hebt, dan indien gewenst uitbreiden met thema's '*droogte*', '*wateroverlast*' en '*overstroming*'.
 
