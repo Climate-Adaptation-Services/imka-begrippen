@@ -68,9 +68,19 @@ Het stappenplan in de bijsluiter voor de stresstest hitte vormt de basis van dit
     - Wat zijn de niet-klimatologische factoren die de omvang van de gevolgen kunnen beïnvloeden (bijv. vergrijzing in een bepaalde wijk)
     - Zijn er al maatregelen genomen, of nog niet?
 
-Het stappenplan verwijst naar de [mindmap hitte](https://klimaatadaptatienederland.nl/publish/pages/156633/mindmap_hitte_hoge_resolutie.png) van de Hogeschool van Amsterdam. Drie van de vijf thema's die daarin worden genoemd, namelijk: **_gezondheid_**, **_buitenruimte_** en **_leefbaarheid_**, zijn in dit informatiemodel uitgewerkt. In de toekomst zouden ook de thema's **_infrastructuur_** en **_water_** meegenomen kunnen worden.
+Het stappenplan verwijst naar de [mindmap hitte](https://klimaatadaptatienederland.nl/publish/pages/156633/mindmap_hitte_hoge_resolutie.png) van de Hogeschool van Amsterdam. 
+Omwille van de beschikbare tijd enerzijds en het ontbreken van use cases anderzijds, is ervoor gekozen om drie van de vijf thema's die in de mindmap hitte voorkomen, uit te werken, namelijk: **_gezondheid_**, **_buitenruimte_** en **_leefbaarheid_**. Deze keuze sluit min of meer aan bij de scope die ook vanuit het ministerie aan ons is meegegeven. In een vervolgtraject kunnen uiteraard ook de thema's **_infrastructuur_** en **_water_** meegenomen worden.
+
+Uitgebreide versie van het informatiemodel:
+
+Bouwjaar en nergielabel
+Bomenbestand
+
+Begroeidterreindeel BGT
 
 <!-- ![](media/imka_schets_02_uitgebreid.png) -->
+
+
 
 ### Aanbevelingen voor vervolg
 
