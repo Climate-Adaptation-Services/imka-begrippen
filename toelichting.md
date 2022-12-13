@@ -68,4 +68,13 @@ Overweeg ieder gevolg uit de **mindmap hitte** te overwegen:
 
 ### Aanbevelingen Voor Vervolg
 
+Use cases. Doe een verkenning naar de informatiebehoefte en -stromen. Kijk ook waar op dit moment dit vraagstuk speelt.
 
+Dit is noodzakelijk voor de doorontwikkeling naar een volwaardig conceptueel informatiemodel en eventuele verdere specificaties, zoals een logisch model, een productmodel en een technisch (of: implementatie-) model.
+
+Tevens advies om de focus op het onderwerp hitte te houden en de keten (van begrippenkader, naar implementatie: MIMniveaus)daarvoor uit tewerken:
+
+ - [Model van begrippen](https://docs.geostandaarden.nl/mim/mim/#niveau-1-model-van-begrippen)
+ - [Conceptueel informatiemodel](https://docs.geostandaarden.nl/mim/mim/#niveau-2-conceptueel-informatiemodel)
+ - [Logisch informatiemodel](https://docs.geostandaarden.nl/mim/mim/#niveau-3-logisch-informatie-of-gegevensmodel)
+ - [Technisch informatiemodel](https://docs.geostandaarden.nl/mim/mim/#niveau-4-fysiek-of-technisch-gegevens-of-datamodel)
