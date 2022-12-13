@@ -66,6 +66,9 @@ Overweeg ieder gevolg uit de **mindmap hitte** te overwegen:
    Het stappenplan verwijst naar de [mindmap hitte van de Hogeschool van Amsterdam](https://klimaatadaptatienederland.nl/publish/pages/156633/mindmap_hitte_hoge_resolutie.png). Voor drie van de vijf thema's die daarin genoemed worden, te weten: gezondheid, buitenruimte en leefbaarheid, is dit informatiemodel uitgewerkt. In de toekomst zouden ook de thema's infrastructuur en water meegenomen kunnen worden.  
 
 
+![](media/imka_schets_02_compact.png)
+![](media/imka_schets_02_uitgebreid.png)
+
 ### Aanbevelingen Voor Vervolg
 
 Use cases. Doe een verkenning naar de informatiebehoefte en -stromen. Kijk ook waar op dit moment dit vraagstuk speelt.
