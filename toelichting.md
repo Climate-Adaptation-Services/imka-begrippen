@@ -78,9 +78,13 @@ Bomenbestand
 
 Begroeidterreindeel BGT
 
+Overzicht van conceptueel informatiemodel hitte - uitgebreid
+
 ![](media/imka_schets_02_uitgebreid.png)
 
+Overzicht van waarden van de objecteigenschappen bij het conceptueel informatiemodel hitte  
 
+![](media/imka_schets_02_uitgebreid_datatypen.png)
 
 ### Aanbevelingen voor vervolg
 
