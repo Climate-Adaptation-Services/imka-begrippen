@@ -95,12 +95,9 @@ We hebben de volgende aanbevelingen:
  1. Model verder uitwerken voor de **casus hittestress(test)** in samenwerking met experts van het Ministerie van Infrastructuur en Waterstaat. 
  1. Model uitbreiding met de overige onderwerpen van de mindmap hitte: **infrastructuur** en **water** .
  1. Dit is noodzakelijk voor de doorontwikkeling naar een volwaardig conceptueel informatiemodel en eventuele verdere uitwerkingen, zoals een logisch model, een productmodel en een technisch (of: implementatie-) model (zie: onderstaande overzicht van MIM-niveaus).
- 1. Tevens advies om de **focus op het onderwerp hitte** te houden,
- 1. **Uitwerken keten** van MIM-niveaus (van begrippenkader, naar implementatie) en test de implementaties in een iteratief proces.
+ 1. Tevens advies om de **focus op het onderwerp hitte** te houden en eerst de keten van MIM-niveaus (van begrippenkader, naar implementatie) verder uit te werken tot feitelijk werkende informatieproducten. Als je die structuur werkend hebt, dan indien gewenst uitbreiden met thema's '**_droogte_**', '**_wateroverlast_**' en '**_overstroming_**'.
 
-Als je die structuur werkend hebt, dan indien gewenst uitbreiden met thema's '*droogte*', '*wateroverlast*' en '*overstroming*'.
-
- - **MIM-niveau 1**: [Model van begrippen](https://docs.geostandaarden.nl/mim/mim/#niveau-1-model-van-begrippen)
- - **MIM-niveau 2**: [Conceptueel informatiemodel](https://docs.geostandaarden.nl/mim/mim/#niveau-2-conceptueel-informatiemodel)
- - **MIM-niveau 3**: [Logisch informatiemodel](https://docs.geostandaarden.nl/mim/mim/#niveau-3-logisch-informatie-of-gegevensmodel)
- - **MIM-niveau 4**: [Technisch informatiemodel](https://docs.geostandaarden.nl/mim/mim/#niveau-4-fysiek-of-technisch-gegevens-of-datamodel)
+    - **MIM-niveau 1**: [Model van begrippen](https://docs.geostandaarden.nl/mim/mim/#niveau-1-model-van-begrippen)
+    - **MIM-niveau 2**: [Conceptueel informatiemodel](https://docs.geostandaarden.nl/mim/mim/#niveau-2-conceptueel-informatiemodel)
+    - **MIM-niveau 3**: [Logisch informatiemodel](https://docs.geostandaarden.nl/mim/mim/#niveau-3-logisch-informatie-of-gegevensmodel)
+    - **MIM-niveau 4**: [Technisch informatiemodel](https://docs.geostandaarden.nl/mim/mim/#niveau-4-fysiek-of-technisch-gegevens-of-datamodel)
