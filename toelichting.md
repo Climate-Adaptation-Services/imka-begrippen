@@ -55,26 +55,30 @@ Deze eerste versie van het model geeft de meest relevante informatie-objecten we
 
 De basis voor het conceptuele informatiemodel is de bijsluiter voor de stresstest hitte. Hierin staan de volgende stappen beschreven:
 
- 1. Bekijk de kaart met:
-    - (a) het _aantal warme nachten_ in de Klimaateffectatlas en
-    - (b) de _gevoelstemperatuur_ in de Klimaateffectatlas.
+#### Stap 1
 
- 2. Overweeg ieder gevolg uit de _mindmap hitte_ te overwegen. Het stappenplan verwijst hier naar de [mindmap hitte](https://klimaatadaptatienederland.nl/publish/pages/156633/mindmap_hitte_hoge_resolutie.png) van de Hogeschool van Amsterdam. Speelt dat gevolg hier? Is de blootstelling relevant? Zo ja:
+Bekijk de kaart met:
+ - (a) het _aantal warme nachten_ in de Klimaateffectatlas en
+ - (b) de _gevoelstemperatuur_ in de Klimaateffectatlas.
 
-    - Waar speelt het?
-    - Welke factoren beïnvloeden de gevoeligheid voor gevolgen?
-    - Wat zijn de niet-klimatologische factoren die de omvang van de gevolgen kunnen beïnvloeden (bijv. vergrijzing in een bepaalde wijk)
-    - Zijn er al maatregelen genomen, of nog niet?
+#### Stap 2
+
+Overweeg ieder gevolg uit de _mindmap hitte_ te overwegen. Het stappenplan verwijst hier naar de [mindmap hitte](https://klimaatadaptatienederland.nl/publish/pages/156633/mindmap_hitte_hoge_resolutie.png) van de Hogeschool van Amsterdam. Speelt dat gevolg hier? Is de blootstelling relevant? Zo ja:
+
+ - Waar speelt het?
+ - Welke factoren beïnvloeden de gevoeligheid voor gevolgen?
+ - Wat zijn de niet-klimatologische factoren die de omvang van de gevolgen kunnen beïnvloeden (bijv. vergrijzing in een bepaalde wijk)
+ - Zijn er al maatregelen genomen, of nog niet?
 
 Omwille van de beschikbare tijd, de scope van het project en het ontbreken van duidelijke van use cases, is ervoor gekozen om drie van de vijf thema's die in de mindmap hitte voorkomen nader uit te werken in het informatiemodel. Dit zijn de onderwerpen: **_gezondheid_**, **_buitenruimte_** en **_leefbaarheid_**. In een vervolgtraject kunnen uiteraard ook de thema's **_infrastructuur_** en **_water_** meegenomen worden.
 
-#### Stap 1
+#### Mindmap Hitte en aansluiten bij Basisregistraties
 De mindmap hitte geeft per deelonderwerp aan welke (minimale) informatiebehoefte er is. Voor de benodigde objecten sluit het model zoveel mogelijk aan bij bestaande registraties zoals de Basisregistratie Grootschalige Topografie en het IMGeo, bijvoorbeeld: `Wegdeel (BGT)`.Kijk je binnen het onderwerp _leefbaarheid_, naar het deelonderwerp _comfort in gebouwen_, dan zie je dat er behoefte is aan informatie over `bouwjaar` en `energielabel` bij een `Pand`.
 
-#### Stap 2
+#### Relateren aan woordenboek
 Het model dat hieruit ontstond is vervolgens naast het woordenboek hitte gelegd voor eventuele aanvullingen. Een resultaat van deze stap is bijvoorbeeld de opslitsing van `KoelePlek` in `KoeleBinnenplek` en `KoeleBuitenplek`. Een ander voorbeeld is de reeks van aanvullende kenmerken bij het object `Pand`.
 
-#### Stap 3
+#### Inhoudelijke logica en consistentie
 Tot slot is het informatiemodel op logica en consistentie beoordeeld door de informatiemodelleurs. Een voortvloeisel hiervan is bijvoorbeeld de keuze om  `Hittestressplek` op te splitsen in `HittestressBinnenplek` en `HittestressBuitenplek`. Een `Hittestressplek` is feitelijk het tegenovergesteelde van een `KoelePlek` en kan zowel buitenruimte voorkomen, als in een pand.
 
 #### Overzicht van conceptueel informatiemodel hitte - uitgebreid
