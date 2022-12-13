@@ -68,12 +68,13 @@ De basis voor het conceptuele informatiemodel is de bijsluiter voor de stresstes
 
 Omwille van de beschikbare tijd, de scope van het project en het ontbreken van duidelijke van use cases, is ervoor gekozen om drie van de vijf thema's die in de mindmap hitte voorkomen nader uit te werken in het informatiemodel. Dit zijn de onderwerpen: **_gezondheid_**, **_buitenruimte_** en **_leefbaarheid_**. In een vervolgtraject kunnen uiteraard ook de thema's **_infrastructuur_** en **_water_** meegenomen worden.
 
-De mindmap hitte geeft per deelonderwerp aan welke (minimale) informatiebehoefte er is. Kijk je binnen het onderwerp _leefbaarheid_, naar het deelonderwerp _comfort in gebouwen_, dan zie je dat er behoefte is aan informatie over `bouwjaar` en `energielabel` bij een `Pand`.
+#### Stap 1
+De mindmap hitte geeft per deelonderwerp aan welke (minimale) informatiebehoefte er is. Voor de benodigde objecten sluit het model zoveel mogelijk aan bij bestaande registraties zoals de Basisregistratie Grootschalige Topografie en het IMGeo, bijvoorbeeld: `Wegdeel (BGT)`.Kijk je binnen het onderwerp _leefbaarheid_, naar het deelonderwerp _comfort in gebouwen_, dan zie je dat er behoefte is aan informatie over `bouwjaar` en `energielabel` bij een `Pand`.
 
-Voor de benodigde objecten sluit het model zoveel mogelijk aan bij bestaande registraties zoals de Basisregistratie Grootschalige Topografie en het IMGeo.
-
+#### Stap 2
 Het model dat hieruit ontstond is vervolgens naast het woordenboek hitte gelegd voor eventuele aanvullingen. Een resultaat van deze stap is bijvoorbeeld de opslitsing van `KoelePlek` in `KoeleBinnenplek` en `KoeleBuitenplek`. Een ander voorbeeld is de reeks van aanvullende kenmerken bij het object `Pand`.
 
+#### Stap 3
 Tot slot is het informatiemodel op logica en consistentie beoordeeld door de informatiemodelleurs. Een voortvloeisel hiervan is bijvoorbeeld de keuze om  `Hittestressplek` op te splitsen in `HittestressBinnenplek` en `HittestressBuitenplek`. Een `Hittestressplek` is feitelijk het tegenovergesteelde van een `KoelePlek` en kan zowel buitenruimte voorkomen, als in een pand.
 
 #### Overzicht van conceptueel informatiemodel hitte - uitgebreid
