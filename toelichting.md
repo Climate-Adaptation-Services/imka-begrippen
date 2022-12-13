@@ -49,7 +49,7 @@ Hier weergegeven in een compacte versie van het informatiemodel hitte:
    
 Het conceptuele informatiemodel hitte is gemaakt **in opdracht van het ministerie** van Infrastructuur en Waterstaat door Geonovum. Het resultaat is gebaseerd op de bevindingen uit de werkgroep en gesprekken met andere relevante organisaties uit het veld die rondom het woordenboek hitte zijn georganiseerd.
 
-Voor een volwaardig conceptueel informatiemodel is een verdere uitwerking noodzakelijk. Belangrijk is om exact te weten welke informatie partijen in het werkveld willen uitwisselen over hittestress (use cases). In dit stadium ontbreekt dat beeld nog goeddeels. Maar, op basis van de werksessies rondom het woordenboek hitte tekenden zich gaandeweg de eerste contouren af.
+Voor een volwaardig conceptueel informatiemodel is een verdere uitwerking noodzakelijk. Belangrijk is om exact te weten welke informatie partijen in het werkveld willen uitwisselen over hittestress (_use cases_). In dit stadium ontbreekt dat beeld nog goeddeels. Maar, op basis van de werksessies rondom het woordenboek hitte tekenden zich gaandeweg de eerste contouren af.
 
 Deze huidige versie van het model geeft de meest relevant informatie-objecten weer, inclusief de bijbehorende eigenschappen en onderlinge relaties tussen de objecten. Door de informatiestructuur te visualeren, ontstaat een scherper beeld van de behoeften, mogelijkheden en eventuele 'kennisgaten'.
 
@@ -57,7 +57,8 @@ Deze huidige versie van het model geeft de meest relevant informatie-objecten we
 
 Het stappenplan in de bijsluiter voor de stresstest hitte vormt de basis van dit informatiemodel:
 
- 1. **a**: bekijk de kaart met het _aantal warme nachten_ in de Klimaateffectatlas en **b**: bekijk de kaart met de _gevoelstemperatuur_ in de Klimaateffectatlas.
+ 1. **a**: bekijk de kaart met het _aantal warme nachten_ in de Klimaateffectatlas en
+   **b**: bekijk de kaart met de _gevoelstemperatuur_ in de Klimaateffectatlas.
 
  2. Overweeg ieder gevolg uit de **mindmap hitte** te overwegen. Speelt dat gevolg hier? Is de blootstelling relevant? Zo ja:
 
