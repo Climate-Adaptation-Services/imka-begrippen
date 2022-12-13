@@ -3,7 +3,8 @@
 ## Het woordenboek Hitte
 
 ### Inhoud
-Het Woordenboek Hitte bevat termen en definities die te maken hebben met het thema 'hitte' binnen het bredere thema 'klimaatadaptatie'. De focus ligt daarbij vooral op termen rondom kortdurende hitte in het stedelijk gebied (dat wil zeggen, hittegolven en alles wat daarmee te maken heeft). Maar ook enkele termen die meer te maken hebben met globale, geleidelijke opwarming en de effecten daarvan, zijn meegenomen. De termen hebben te maken met de fysieke omgeving (inclusief gebouwen), gezondheid van mens en dier, weer- en klimaatverschijnselen, effecten van hitte op mens en natuur, en relevante instrumenten en maatregelen om de negatieve effecten van hitte te bestrijden. Waar mogelijk zijn begrippen in dit woordenboek gekoppeld aan vergelijkbare termen uit andere, vergelijkbare woordenboeken zoals het Aquo.
+
+   Het Woordenboek Hitte bevat termen en definities die te maken hebben met het thema 'hitte' binnen het bredere thema 'klimaatadaptatie'. De focus ligt daarbij vooral op termen rondom kortdurende hitte in het stedelijk gebied (dat wil zeggen, hittegolven en alles wat daarmee te maken heeft). Maar ook enkele termen die meer te maken hebben met globale, geleidelijke opwarming en de effecten daarvan, zijn meegenomen. De termen hebben te maken met de fysieke omgeving (inclusief gebouwen), gezondheid van mens en dier, weer- en klimaatverschijnselen, effecten van hitte op mens en natuur, en relevante instrumenten en maatregelen om de negatieve effecten van hitte te bestrijden. Waar mogelijk zijn begrippen in dit woordenboek gekoppeld aan vergelijkbare termen uit andere, vergelijkbare woordenboeken zoals het Aquo.
 
 ### Totstandkoming
 
@@ -28,16 +29,41 @@ Het Woordenboek Hitte bevat termen en definities die te maken hebben met het the
 [... todo aanvullen Gerard]
 
 ### Inhoud
-Het conceptuele informatiemodel hitte is een eerste uitwerking van (een deel van)informatie die een gemeente nodig heeft om broninformatie en resultaten rondom een hittestresstest uniform uit te kunnen wisselen. Voor een definitieve versie, is een verdere uitwerking noodzakelijk, maar deze initiele versie zet de contouren neer voor hoe dat model er globaal uit ziet. 
 
+   Het conceptuele informatiemodel hitte is een eerste uitwerking van (een deel van)informatie die een gemeente nodig heeft om broninformatie en resultaten rondom een hittestresstest uniform uit te kunnen wisselen. Voor een definitieve versie, is een verdere uitwerking noodzakelijk, maar deze initiele versie zet de contouren neer voor hoe dat model er globaal uit ziet. 
 
-
- Hiervoor is relevant om te weten welke informatie binnen het domein uitgewisseld wordt en tussen welke partijen. In dit stadium is dat nog maar beperkt bekend. Wel moeten gemeenten zesjaarlijks een aantal stresstesten uitvoeren in het kader van klimaatadaptatie.   
+   Hiervoor is relevant om te weten welke informatie binnen het domein uitgewisseld wordt en tussen welke partijen. In dit stadium is dat nog maar beperkt bekend. Wel moeten gemeenten zesjaarlijks een aantal stresstesten uitvoeren in het kader van klimaatadaptatie.  
 
 ### Totstandkoming
-Het conceptuele informatiemodel hitte is gemaakt in opdracht van het ministerie van Infrastructuur en Waterstaat gemaakt door Geonovum op basis van de resultaten uit de werkgroep en andere relevante organisaties uit het veld, die rondom het woordenboek hitte zijn georganiseerd. Om een informatiemodel te kunnen maken, is het belangrijk duidelijke use cases te hebben. Op dit gebied is het werkveld nog volop in ontwikkeling. De meest concrete en voordehandliggende use case in het domein is het zesjaarlijkse opstellen van hitestresstesten door gemeenten. Uit de eerste ronde stresstesten blijkt dat er behoefte is aan het uniformeren van toepassing en uitkomsten. Op basis van het huidige stappenplan is dit conceptuel inofmraitemodel samengesteld. Het stappenplan verwijst naar de mindmap hitte van de Hogeschool van Amsterdam. Voor drie van de vijf thema's die daarin genoemed worden, te weten: gezondheid, buitenruimte en leefbaarheid, is dit informatiemodel uitgewerkt. In de toekomst zouden ook de thema's infrastructuur en water meegenomen kunnen worden.  
+   
+   Het conceptuele informatiemodel hitte is gemaakt in opdracht van het ministerie van Infrastructuur en Waterstaat gemaakt door Geonovum op basis van de resultaten uit de werkgroep en andere relevante organisaties uit het veld, die rondom het woordenboek hitte zijn georganiseerd. Om een informatiemodel te kunnen maken, is het belangrijk duidelijke use cases te hebben. Op dit gebied is het werkveld nog volop in ontwikkeling. Eén of meer duidelijk beschreven use cases, waren in dit stadium nog niet beschikbaar. Daarom is ervoor gekozen om op basis van de gesprekken met stakeholders en reeds bestaande informatiestromen een eerste en algemene versie van een conceptueel informatiemodel hitte te maken.
+
+   Het doel van het informatiemodel in dit stadium is om het voorstellingsvermogen te prikkelen: Wat heb je nodig? Waar zitten de gaten?
+
 
 ### Inhoudelijke Keuzen
+
+   Om de eerste versie van het conceptuele model toch zoveel mogelijk richting te geven. De meest concrete en voordehandliggende use case in het domein is het zesjaarlijkse opstellen van hitestresstesten door gemeenten [linkOpnemen](www.example.com). Uit de eerste ronde stresstesten blijkt dat er behoefte is aan het uniformeren van toepassing en uitkomsten[linkOpnemen](www.onlineConclusieBeschikbaar.nl). Op basis van het huidige stappenplan is dit conceptuel informatiemodel samengesteld
+
+#### Stap 1a
+
+Bekijk de kaart met het aantal warme nachten in de Klimaateffectatlas.
+
+#### Stap 1b
+
+Bekijk de kaart met de gevoelstemperatuur in de Klimaateffectatlas.
+
+#### Stap 2
+
+Overweeg ieder gevolg uit de **mindmap hitte** te overwegen:
+
+ - Speelt dat gevolg hier? Is de blootstelling relevant? Zo ja:
+ - Waar speelt het?
+ - Welke factoren beïnvloeden de gevoeligheid voor gevolgen?
+ - Wat zijn de niet-klimatologische factoren die de omvang van de gevolgen kunnen beïnvloeden (bijv. vergrijzing in een bepaalde wijk)
+ - Zijn er al maatregelen genomen, of nog niet?
+
+   Het stappenplan verwijst naar de [mindmap hitte van de Hogeschool van Amsterdam](https://klimaatadaptatienederland.nl/publish/pages/156633/mindmap_hitte_hoge_resolutie.png). Voor drie van de vijf thema's die daarin genoemed worden, te weten: gezondheid, buitenruimte en leefbaarheid, is dit informatiemodel uitgewerkt. In de toekomst zouden ook de thema's infrastructuur en water meegenomen kunnen worden.  
 
 
 ### Aanbevelingen Voor Vervolg
