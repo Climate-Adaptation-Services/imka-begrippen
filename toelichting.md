@@ -34,28 +34,23 @@
 
    Hiervoor is relevant om te weten welke informatie binnen het domein uitgewisseld wordt en tussen welke partijen. In dit stadium is dat nog maar beperkt bekend. Wel moeten gemeenten zesjaarlijks een aantal stresstesten uitvoeren in het kader van klimaatadaptatie.  
 
+   Een dergelijk model definieert het ‘wat’: welke 'onderwerpen van gesprek' ('concepten', 'dingen’) worden onderscheiden in de beschouwde werkelijkheid. Wat betekenen zij, hoe verhouden ze zich tot elkaar en welke informatie is daarvan relevant. Deze informatie wordt gemodelleerd als informatieobjecten met eigenschappen/kenmerken, oftewel waarvoor data beschikbaar is (of zal zijn) en wordt ondergebracht in een informatiemodel. Dit informatiemodel dient als taal waarmee domeinexperts kunnen communiceren met informatieanalisten en verschaft een eenduidige interpretatie van die werkelijkheid ten behoeve van deze communicatie.
+
 ### Totstandkoming
    
    Het conceptuele informatiemodel hitte is gemaakt in opdracht van het ministerie van Infrastructuur en Waterstaat gemaakt door Geonovum op basis van de resultaten uit de werkgroep en andere relevante organisaties uit het veld, die rondom het woordenboek hitte zijn georganiseerd. Om een informatiemodel te kunnen maken, is het belangrijk duidelijke use cases te hebben. Op dit gebied is het werkveld nog volop in ontwikkeling. Eén of meer duidelijk beschreven use cases, waren in dit stadium nog niet beschikbaar. Daarom is ervoor gekozen om op basis van de gesprekken met stakeholders en reeds bestaande informatiestromen een eerste en algemene versie van een conceptueel informatiemodel hitte te maken.
 
    Het doel van het informatiemodel in dit stadium is om het voorstellingsvermogen te prikkelen: Wat heb je nodig? Waar zitten de gaten?
 
-
 ### Inhoudelijke Keuzen
 
-   Om de eerste versie van het conceptuele model toch zoveel mogelijk richting te geven. De meest concrete en voordehandliggende use case in het domein is het zesjaarlijkse opstellen van hitestresstesten door gemeenten [linkOpnemen](www.example.com). Uit de eerste ronde stresstesten blijkt dat er behoefte is aan het uniformeren van toepassing en uitkomsten[linkOpnemen](www.onlineConclusieBeschikbaar.nl). Op basis van het huidige stappenplan is dit conceptuel informatiemodel samengesteld
+   Om de eerste versie van het conceptuele model toch zoveel mogelijk richting te geven. De meest concrete en voordehandliggende use case in het domein is het zesjaarlijkse opstellen van hitestresstesten door gemeenten [linkOpnemen](www.example.com). Uit de eerste ronde stresstesten blijkt dat er behoefte is aan het uniformeren van toepassing en uitkomsten [linkOpnemen](www.onlineConclusieBeschikbaar.nl). Op basis van het huidige stappenplan is dit conceptuel informatiemodel samengesteld
 
-#### Stap 1a
+**Stap 1a:** Bekijk de kaart met het aantal warme nachten in de Klimaateffectatlas.
 
-Bekijk de kaart met het aantal warme nachten in de Klimaateffectatlas.
+**Stap 1b:** Bekijk de kaart met de gevoelstemperatuur in de Klimaateffectatlas.
 
-#### Stap 1b
-
-Bekijk de kaart met de gevoelstemperatuur in de Klimaateffectatlas.
-
-#### Stap 2
-
-Overweeg ieder gevolg uit de **mindmap hitte** te overwegen:
+**Stap 2:** Overweeg ieder gevolg uit de **mindmap hitte** te overwegen:
 
  - Speelt dat gevolg hier? Is de blootstelling relevant? Zo ja:
  - Waar speelt het?
@@ -65,13 +60,22 @@ Overweeg ieder gevolg uit de **mindmap hitte** te overwegen:
 
    Het stappenplan verwijst naar de [mindmap hitte van de Hogeschool van Amsterdam](https://klimaatadaptatienederland.nl/publish/pages/156633/mindmap_hitte_hoge_resolutie.png). Voor drie van de vijf thema's die daarin genoemed worden, te weten: gezondheid, buitenruimte en leefbaarheid, is dit informatiemodel uitgewerkt. In de toekomst zouden ook de thema's infrastructuur en water meegenomen kunnen worden.  
 
-
-![](media/imka_schets_02_compact.png)
-![](media/imka_schets_02_uitgebreid.png)
+<!-- ![](media/imka_schets_02_compact.png) -->
+<!-- ![](media/imka_schets_02_uitgebreid.png) -->
 
 ### Aanbevelingen Voor Vervolg
 
 Use cases. Doe een verkenning naar de informatiebehoefte en -stromen. Kijk ook waar op dit moment dit vraagstuk speelt.
+
+Dataspecificatie/gegevenscatalogus en die ook weer afgestemd op het begrippenkader
+
+huidige model bevat alleen object, eigenschappen en relaties. Maar geen metagegevens zoals definities van de verschillende onderdelen.
+
+Het huidige model is dus volgens de MIM-standaard incompleet.
+
+Model verder uitwerken voor de casus hittestresstest in samenwerking met experts van het ministerie. 
+
+Daar hoort dan ook de uitbreiding met de onderwerpen **water** en **infrastructuur** bij.
 
 Dit is noodzakelijk voor de doorontwikkeling naar een volwaardig conceptueel informatiemodel en eventuele verdere specificaties, zoals een logisch model, een productmodel en een technisch (of: implementatie-) model.
 
