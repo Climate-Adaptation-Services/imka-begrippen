@@ -97,7 +97,8 @@ We hebben de volgende aanbevelingen:
  1. Dit is noodzakelijk voor de doorontwikkeling naar een volwaardig conceptueel informatiemodel en eventuele verdere uitwerkingen, zoals een logisch model, een productmodel en een technisch (of: implementatie-) model (zie: onderstaande overzicht van MIM-niveaus).
  1. Tevens advies om de **focus op het onderwerp hitte** te houden en eerst de keten van MIM-niveaus (van begrippenkader, naar implementatie) verder uit te werken tot feitelijk werkende informatieproducten. Als je die structuur werkend hebt, dan indien gewenst uitbreiden met thema's '**_droogte_**', '**_wateroverlast_**' en '**_overstroming_**'.
 
-    - **MIM-niveau 1**: [Model van begrippen](https://docs.geostandaarden.nl/mim/mim/#niveau-1-model-van-begrippen)
-    - **MIM-niveau 2**: [Conceptueel informatiemodel](https://docs.geostandaarden.nl/mim/mim/#niveau-2-conceptueel-informatiemodel)
-    - **MIM-niveau 3**: [Logisch informatiemodel](https://docs.geostandaarden.nl/mim/mim/#niveau-3-logisch-informatie-of-gegevensmodel)
-    - **MIM-niveau 4**: [Technisch informatiemodel](https://docs.geostandaarden.nl/mim/mim/#niveau-4-fysiek-of-technisch-gegevens-of-datamodel)
+#### Uitleg over MIM-niveau's:
+ - **MIM-niveau 1**: [Model van begrippen](https://docs.geostandaarden.nl/mim/mim/#niveau-1-model-van-begrippen)
+ - **MIM-niveau 2**: [Conceptueel informatiemodel](https://docs.geostandaarden.nl/mim/mim/#niveau-2-conceptueel-informatiemodel)
+ - **MIM-niveau 3**: [Logisch informatiemodel](https://docs.geostandaarden.nl/mim/mim/#niveau-3-logisch-informatie-of-gegevensmodel)
+ - **MIM-niveau 4**: [Technisch informatiemodel](https://docs.geostandaarden.nl/mim/mim/#niveau-4-fysiek-of-technisch-gegevens-of-datamodel)
