@@ -78,7 +78,7 @@ Bomenbestand
 
 Begroeidterreindeel BGT
 
-<!-- ![](media/imka_schets_02_uitgebreid.png) -->
+![](media/imka_schets_02_uitgebreid.png)
 
 
 
