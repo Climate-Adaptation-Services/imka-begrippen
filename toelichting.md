@@ -57,16 +57,16 @@ Deze huidige versie van het model geeft de meest relevant informatie-objecten we
 
 Het stappenplan in de bijsluiter voor de stresstest hitte vormt de basis van dit informatiemodel:
 
- 1. **a**: bekijk de kaart met het _aantal warme nachten_ in de Klimaateffectatlas en
- 
-   **b**: bekijk de kaart met de _gevoelstemperatuur_ in de Klimaateffectatlas.
+ 1. Bekijk de kaart met :
+    - (a) het _aantal warme nachten_ in de Klimaateffectatlas en
+    - (b) de _gevoelstemperatuur_ in de Klimaateffectatlas.
 
  2. Overweeg ieder gevolg uit de **mindmap hitte** te overwegen. Speelt dat gevolg hier? Is de blootstelling relevant? Zo ja:
 
- - Waar speelt het?
- - Welke factoren beïnvloeden de gevoeligheid voor gevolgen?
- - Wat zijn de niet-klimatologische factoren die de omvang van de gevolgen kunnen beïnvloeden (bijv. vergrijzing in een bepaalde wijk)
- - Zijn er al maatregelen genomen, of nog niet?
+    - Waar speelt het?
+    - Welke factoren beïnvloeden de gevoeligheid voor gevolgen?
+    - Wat zijn de niet-klimatologische factoren die de omvang van de gevolgen kunnen beïnvloeden (bijv. vergrijzing in een bepaalde wijk)
+    - Zijn er al maatregelen genomen, of nog niet?
 
 Het stappenplan verwijst naar de [mindmap hitte](https://klimaatadaptatienederland.nl/publish/pages/156633/mindmap_hitte_hoge_resolutie.png) van de Hogeschool van Amsterdam. Drie van de vijf thema's die daarin worden genoemd, namelijk: **_gezondheid_**, **_buitenruimte_** en **_leefbaarheid_**, zijn in dit informatiemodel uitgewerkt. In de toekomst zouden ook de thema's **_infrastructuur_** en **_water_** meegenomen kunnen worden.
 
