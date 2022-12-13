@@ -4,72 +4,69 @@
 
 ### Inhoud
 
-   Het Woordenboek Hitte bevat termen en definities die te maken hebben met het thema 'hitte' binnen het bredere thema 'klimaatadaptatie'. De focus ligt daarbij vooral op termen rondom kortdurende hitte in het stedelijk gebied (dat wil zeggen, hittegolven en alles wat daarmee te maken heeft). Maar ook enkele termen die meer te maken hebben met globale, geleidelijke opwarming en de effecten daarvan, zijn meegenomen. De termen hebben te maken met de fysieke omgeving (inclusief gebouwen), gezondheid van mens en dier, weer- en klimaatverschijnselen, effecten van hitte op mens en natuur, en relevante instrumenten en maatregelen om de negatieve effecten van hitte te bestrijden. Waar mogelijk zijn begrippen in dit woordenboek gekoppeld aan vergelijkbare termen uit andere, vergelijkbare woordenboeken zoals het Aquo.
+Het Woordenboek Hitte bevat termen en definities die te maken hebben met het thema 'hitte' binnen het bredere thema 'klimaatadaptatie'. De focus ligt daarbij vooral op termen rondom kortdurende hitte in het stedelijk gebied (dat wil zeggen, hittegolven en alles wat daarmee te maken heeft). Maar ook enkele termen die meer te maken hebben met globale, geleidelijke opwarming en de effecten daarvan, zijn meegenomen. De termen hebben te maken met de fysieke omgeving (inclusief gebouwen), gezondheid van mens en dier, weer- en klimaatverschijnselen, effecten van hitte op mens en natuur, en relevante instrumenten en maatregelen om de negatieve effecten van hitte te bestrijden. Waar mogelijk zijn begrippen in dit woordenboek gekoppeld aan vergelijkbare termen uit andere, vergelijkbare woordenboeken zoals het Aquo.
 
 ### Totstandkoming
 
-   Het woordenboek is in opdracht van het ministerie van Infrastructuur en Waterstaat gemaakt door Geonovum, samen met een werkgroep met leden vanuit relevante organisaties in het werkveld. Met de werkgroep hebben we de relevante termen geselecteerd, geordend en gedefinieerd. Middels open reviewsessies hebben we commentaar uit een bredere groep stakeholders verzameld en verwerkt. 
+Het woordenboek is in opdracht van het ministerie van Infrastructuur en Waterstaat gemaakt door Geonovum, samen met een werkgroep met leden vanuit relevante organisaties in het werkveld. Met de werkgroep hebben we de relevante termen geselecteerd, geordend en gedefinieerd. Middels open reviewsessies hebben we commentaar uit een bredere groep stakeholders verzameld en verwerkt. 
 
 ### Inhoudelijke keuzen
 
-   Er is voor gekozen om het woordenboek zo breed op te stellen als mogelijk binnen de tijd die er was. Het bevat zo'n 230 termen, die geordend zijn in een hiërarchische structuur en gegroepeerd in (hopelijk) intuïtieve collecties. Daarnaast is het woordenboek alfabetisch en via een zoekfunctie te raadplegen. 
+Er is voor gekozen om het woordenboek zo breed op te stellen als mogelijk binnen de tijd die er was. Het bevat zo'n 230 termen, die geordend zijn in een hiërarchische structuur en gegroepeerd in (hopelijk) intuïtieve collecties. Daarnaast is het woordenboek alfabetisch en via een zoekfunctie te raadplegen. 
 
-   Er was geen tijd om alle woorden van een compleet uitgewerkte definitie te voorzien. Daarom zijn veel termen gedefiniëerd op basis van Van Dale of Wikipedia. Waar mogelijk is een betere bron gebruikt zoals de website van het KNMI, de klimaateffectatlas of het HvA rapport "De hittebestendige stad". Aan sommige definities is meer aandacht besteed omdat uit discussies in de werkgroep bleek dat dit belangrijke termen waren. 
+Er was geen tijd om alle woorden van een compleet uitgewerkte definitie te voorzien. Daarom zijn veel termen gedefiniëerd op basis van Van Dale of Wikipedia. Waar mogelijk is een betere bron gebruikt zoals de website van het KNMI, de klimaateffectatlas of het HvA rapport "De hittebestendige stad". Aan sommige definities is meer aandacht besteed omdat uit discussies in de werkgroep bleek dat dit belangrijke termen waren. 
 
-   Dit geldt bijvoorbeeld voor de term [Koele plek](http://definities.geostandaarden.nl/imka/id/begrip/koele_plek) (inclusief  gerelateerde termen zoals schaduwplek, hittestressplek, afstand tot koele plek, koele binnenruimte/buitenruimte), en voor [Gevoelstemperatuur](
-   http://definities.geostandaarden.nl/imka/id/begrip/gevoelstemperatuur). Ook de definitie van vegetatie-begrippen zoals [Boom](http://definities.geostandaarden.nl/imka/id/begrip/boom) heeft extra aandacht gehad, vanwege de belangrijke rol van groen bij hittebestrijding in steden. Ook termen zoals [Hittesterfte](http://definities.geostandaarden.nl/imka/id/begrip/hittesterfte) zijn wat beter bekeken.
+Dit geldt bijvoorbeeld voor de term [Koele plek](http://definities.geostandaarden.nl/imka/id/begrip/koele_plek) (inclusief  gerelateerde termen zoals schaduwplek, hittestressplek, afstand tot koele plek, koele binnenruimte/buitenruimte), en voor [Gevoelstemperatuur](
+http://definities.geostandaarden.nl/imka/id/begrip/gevoelstemperatuur). Ook de definitie van vegetatie-begrippen zoals [Boom](http://definities.geostandaarden.nl/imka/id/begrip/boom) heeft extra aandacht gehad, vanwege de belangrijke rol van groen bij hittebestrijding in steden. Ook termen zoals [Hittesterfte](http://definities.geostandaarden.nl/imka/id/begrip/hittesterfte) zijn wat beter bekeken.
 
 ### Aanbevelingen voor vervolg
 
-   Het woordenboek is in korte tijd samengesteld en slechts een aanzet tot een potentieel volledige collectie juist gedefinieerde termen. Een logisch vervolg zou dan ook zijn om het woordenboek verder aan te vullen, de definities te verbeteren op basis van goede bronnen, en waar mogelijk aan te sluiten bij internationale standaarden; dit in samenwerking met het werkveld zodat er een breed gedragen woordenboek ontstaat. De aanbeveling is echter wel om dit te doen vanuit concrete use cases. Dit zorgt voor de juiste focus en context. 
+Het woordenboek is in korte tijd samengesteld en slechts een aanzet tot een potentieel volledige collectie juist gedefinieerde termen. Een logisch vervolg zou dan ook zijn om het woordenboek verder aan te vullen, de definities te verbeteren op basis van goede bronnen, en waar mogelijk aan te sluiten bij internationale standaarden; dit in samenwerking met het werkveld zodat er een breed gedragen woordenboek ontstaat. De aanbeveling is echter wel om dit te doen vanuit concrete use cases. Dit zorgt voor de juiste focus en context. 
 
-   Daarnaast kan het woordenboek de basis vormen voor een informatiemodel. Hier geldt nog sterker dat concrete use cases het startpunt moeten zijn. Een informatiemodel kan concreet en exact beschrijven welke gegevens nodig zijn voor een specifieke use case en kan de basis zijn voor uniforme, interoperabele informatieuitwisseling. Vanuit het informatiemodel wordt terugverwezen naar het woordenboek. Als in het informatiemodel bijvoorbeeld het objecttype 'Gebouw' voorkomt, verwijst dit terug naar de definitie van Gebouw in het woordenboek. 
+Daarnaast kan het woordenboek de basis vormen voor een informatiemodel. Hier geldt nog sterker dat concrete use cases het startpunt moeten zijn. Een informatiemodel kan concreet en exact beschrijven welke gegevens nodig zijn voor een specifieke use case en kan de basis zijn voor uniforme, interoperabele informatieuitwisseling. Vanuit het informatiemodel wordt terugverwezen naar het woordenboek. Als in het informatiemodel bijvoorbeeld het objecttype 'Gebouw' voorkomt, verwijst dit terug naar de definitie van Gebouw in het woordenboek. 
 
 ## Het conceptuele model
 
-   In het algemeen definieert een conceptueel informatiemodel welke 'onderwerpen van gesprek' ('concepten', 'dingen’) worden onderscheiden in een bepaald domein. Wat betekenen zij, hoe verhouden ze zich tot elkaar en welke informatie is daarvan relevant? Deze informatie wordt gemodelleerd als informatieobjecten met kenmerken.
+In het algemeen definieert een conceptueel informatiemodel welke 'onderwerpen van gesprek' ('concepten', 'dingen’) worden onderscheiden in een bepaald domein. Wat betekenen zij, hoe verhouden ze zich tot elkaar en welke informatie is daarvan relevant? Deze informatie wordt gemodelleerd als informatieobjecten met kenmerken.
 
-   Het informatiemodel dient als taal waarmee domeinexperts kunnen communiceren met informatieanalisten en verschaft een eenduidige interpretatie van die werkelijkheid ten behoeve van deze communicatie. Hieronder een korte toelichting op het conceptueel informatiemodel hitte.
+Het informatiemodel dient als taal waarmee domeinexperts kunnen communiceren met informatieanalisten en verschaft een eenduidige interpretatie van die werkelijkheid ten behoeve van deze communicatie. Hieronder een korte toelichting op het conceptueel informatiemodel hitte.
 
 ### Inhoud
 
-   Het conceptueel informatiemodel hitte voromt een eerste aanzet. Het uitgangspunt is de informatie die overheden nodig hebben om een hittestresstest uit te voeren. Zij zijn verplicht deze testen iedere 6 jaar te [actualiseren](https://klimaatadaptatienederland.nl/stresstest/#:~:text=In%20het%20Deltaplan%20Ruimtelijke%20Adaptatie%20is%20afgesproken%20dat%20overheden%20de%20stresstest%20iedere%206%20jaar%20actualiseren%20omdat%20de%20kwetsbaarheden%20in%20de%20loop%20der%20tijd%20kunnen%20veranderen.). Het model faciliteert eenduidige en uniforme informatie-uitwisseling over hittestress op basis van mogelijke afspraken rondom inhoud, betekenis en samenhang.
+Het conceptueel informatiemodel hitte voromt een eerste aanzet. Het uitgangspunt is de informatie die overheden nodig hebben om een hittestresstest uit te voeren. Zij zijn verplicht deze testen iedere 6 jaar te [actualiseren](https://klimaatadaptatienederland.nl/stresstest/#:~:text=In%20het%20Deltaplan%20Ruimtelijke%20Adaptatie%20is%20afgesproken%20dat%20overheden%20de%20stresstest%20iedere%206%20jaar%20actualiseren%20omdat%20de%20kwetsbaarheden%20in%20de%20loop%20der%20tijd%20kunnen%20veranderen.). Het model faciliteert eenduidige en uniforme informatie-uitwisseling over hittestress op basis van mogelijke afspraken rondom inhoud, betekenis en samenhang.
 
-   Voor een volwaardig conceptueel informatiemodel is een verdere uitwerking noodzakelijk. Belangrijk is om exact te weten welke informatie partijen in het werkveld willen uitwisselen over hittestress. In dit stadium ontbreekt dat beeld nog goeddeels. Maar, op basis van de werksessies rondom het woordenboek hitte tekenden zich gaandeweg de eerste contouren af. Deze eerste versie van het model geeft de meest relevant informatie-objecten weer, inclusief de bijbehorende eigenschappen en onderlinge relaties tussen de objecten. Door de informatiestructuur te visualeren, ontstaat een scherper beeld van de behoeften, mogelijkheden en eventuele 'kennisgaten'. 
+De belangrijkste objecten in het huidige model zijn:
 
-   De belangrijkste objecten in het huidige model zijn:
-
- - `Koele plek` (uitgesplitst naar: `binnen` en `buiten`)
- - `Hittestressplek`  (uitgesplitst naar: `binnen` en `buiten`)
+ - `Koele plek` (verder uitgesplitst in: `binnen` en `buiten`)
+ - `Hittestressplek`  (verder uitgesplitst in: `binnen` en `buiten`)
  - `Schaduw` 
- - `Gebied`  (uitgesplitst naar: bebouwd(=`grijs`), begroeid(=`groen`) en water(=`blauw`))
+ - `Gebied` (verder uitgesplitst in: `grijs` [bebouwd], `groen` [begroeid] en `blauw` [water])
 
-Hier weergegeven in een compacte versie van het informatiemodel:
-![TEST](media/imka_schets_02_compact.png)
+Hier weergegeven in een compacte versie van het informatiemodel hitte:
+![](media/imka_schets_02_compact.png)
 
 ### Totstandkoming
    
-   Het conceptuele informatiemodel hitte is gemaakt **in opdracht van het ministerie** van Infrastructuur en Waterstaat gemaakt door Geonovum op basis van de resultaten uit de werkgroep en andere relevante organisaties uit het veld die rondom het woordenboek hitte zijn georganiseerd.
+Het conceptuele informatiemodel hitte is gemaakt **in opdracht van het ministerie** van Infrastructuur en Waterstaat door Geonovum. Het resultaat is gebaseerd op de bevindingen uit de werkgroep en gesprekken met andere relevante organisaties uit het veld die rondom het woordenboek hitte zijn georganiseerd.
 
-   Om een informatiemodel te kunnen maken zijn duidelijke **use cases** nodig. Op dit gebied is het werkveld nog volop in ontwikkeling. Eén of meer duidelijk beschreven use cases, waren in dit stadium nog niet beschikbaar. Daarom is ervoor gekozen om op basis van de gesprekken met stakeholders en reeds bestaande informatiestromen een eerste en algemene versie van een conceptueel informatiemodel hitte te maken.
+Voor een volwaardig conceptueel informatiemodel is een verdere uitwerking noodzakelijk. Belangrijk is om exact te weten welke informatie partijen in het werkveld willen uitwisselen over hittestress (use cases). In dit stadium ontbreekt dat beeld nog goeddeels. Maar, op basis van de werksessies rondom het woordenboek hitte tekenden zich gaandeweg de eerste contouren af.
 
-   Het **doel** van het informatiemodel in dit stadium is om het voorstellingsvermogen te prikkelen: Wat heb je nodig? Waar zitten de gaten?
+Deze huidige versie van het model geeft de meest relevant informatie-objecten weer, inclusief de bijbehorende eigenschappen en onderlinge relaties tussen de objecten. Door de informatiestructuur te visualeren, ontstaat een scherper beeld van de behoeften, mogelijkheden en eventuele 'kennisgaten'.
 
 ### Inhoudelijke keuzen
 
-   Het stappenplan in de bijsluiter voor de stresstest hitte vormt de basis van dit informatiemodel:
+Het stappenplan in de bijsluiter voor de stresstest hitte vormt de basis van dit informatiemodel:
 
  1. **a**: bekijk de kaart met het _aantal warme nachten_ in de Klimaateffectatlas en **b**: bekijk de kaart met de _gevoelstemperatuur_ in de Klimaateffectatlas.
 
  2. Overweeg ieder gevolg uit de **mindmap hitte** te overwegen. Speelt dat gevolg hier? Is de blootstelling relevant? Zo ja:
 
-    - Waar speelt het?
-    - Welke factoren beïnvloeden de gevoeligheid voor gevolgen?
-    - Wat zijn de niet-klimatologische factoren die de omvang van de gevolgen kunnen beïnvloeden (bijv. vergrijzing in een bepaalde wijk)
-    - Zijn er al maatregelen genomen, of nog niet?
+ - Waar speelt het?
+ - Welke factoren beïnvloeden de gevoeligheid voor gevolgen?
+ - Wat zijn de niet-klimatologische factoren die de omvang van de gevolgen kunnen beïnvloeden (bijv. vergrijzing in een bepaalde wijk)
+ - Zijn er al maatregelen genomen, of nog niet?
 
-Het stappenplan verwijst naar de [mindmap hitte](https://klimaatadaptatienederland.nl/publish/pages/156633/mindmap_hitte_hoge_resolutie.png) van de Hogeschool van Amsterdam. Voor drie van de vijf thema's die daarin genoemed worden, te weten: **_gezondheid_**, **_buitenruimte_** en **_leefbaarheid_**, is dit informatiemodel uitgewerkt. In de toekomst zouden ook de thema's infrastructuur en water meegenomen kunnen worden.  
-
+Het stappenplan verwijst naar de [mindmap hitte](https://klimaatadaptatienederland.nl/publish/pages/156633/mindmap_hitte_hoge_resolutie.png) van de Hogeschool van Amsterdam. Drie van de vijf thema's die daarin worden genoemd, namelijk: **_gezondheid_**, **_buitenruimte_** en **_leefbaarheid_**, zijn in dit informatiemodel uitgewerkt. In de toekomst zouden ook de thema's **_infrastructuur_** en **_water_** meegenomen kunnen worden.
 
 <!-- ![](media/imka_schets_02_uitgebreid.png) -->
 
