@@ -58,6 +58,7 @@ Deze huidige versie van het model geeft de meest relevant informatie-objecten we
 Het stappenplan in de bijsluiter voor de stresstest hitte vormt de basis van dit informatiemodel:
 
  1. **a**: bekijk de kaart met het _aantal warme nachten_ in de Klimaateffectatlas en
+ 
    **b**: bekijk de kaart met de _gevoelstemperatuur_ in de Klimaateffectatlas.
 
  2. Overweeg ieder gevolg uit de **mindmap hitte** te overwegen. Speelt dat gevolg hier? Is de blootstelling relevant? Zo ja:
