@@ -44,7 +44,7 @@ De belangrijkste objecten in het huidige model zijn:
 
 Hier weergegeven in een compacte versie van het informatiemodel hitte:
 
-Overzicht van conceptueel informatiemodel hitte - compact
+#### Overzicht van conceptueel informatiemodel hitte - compact
 ![](media/imka_schets_02_compact.png)
 
 ### Totstandkoming
@@ -80,11 +80,11 @@ Bomenbestand
 
 Begroeidterreindeel BGT
 
-Overzicht van conceptueel informatiemodel hitte - uitgebreid
+#### Overzicht van conceptueel informatiemodel hitte - uitgebreid
 
 ![](media/imka_schets_02_uitgebreid.png)
 
-Overzicht van waarden van de objecteigenschappen bij het conceptueel informatiemodel hitte  
+#### Overzicht van waarden van de objecteigenschappen bij het conceptueel informatiemodel hitte  
 
 ![](media/imka_schets_02_uitgebreid_datatypen.png)
 
