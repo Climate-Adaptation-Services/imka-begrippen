@@ -27,27 +27,17 @@
 
 ## Het conceptuele model
 
-   Een conceptueel informatiemodel definieert welke 'onderwerpen van gesprek' ('concepten', 'dingen’) worden onderscheiden in een bepaald domein, in dit geval: _hitte_ vanuit het bredere domein _klimaatadaptatie_. Wat betekenen zij, hoe verhouden ze zich tot elkaar en welke informatie is daarvan relevant? Deze informatie wordt gemodelleerd als informatieobjecten met kenmerken. Het informatiemodel dient als taal waarmee domeinexperts kunnen communiceren met informatieanalisten en verschaft een eenduidige interpretatie van die werkelijkheid ten behoeve van deze communicatie.
+   Een conceptueel informatiemodel definieert welke 'onderwerpen van gesprek' ('concepten', 'dingen’) worden onderscheiden in een bepaald domein, in dit geval: _hitte_ (vanuit het perspectief: _klimaatadaptatie_). Wat betekenen zij, hoe verhouden ze zich tot elkaar en welke informatie is daarvan relevant? Deze informatie wordt gemodelleerd als informatieobjecten met kenmerken. Het informatiemodel dient als taal waarmee domeinexperts kunnen communiceren met informatieanalisten en verschaft een eenduidige interpretatie van die werkelijkheid ten behoeve van deze communicatie.
 
 ### Inhoud
 
-   Dit project levert een eerste aanzet op tot een conceptueel informatiemodel hitte. Het uitgangspunt vormt de informatie die overheden nodig hebben om een hittestresstest uit te voeren. Zij zijn verplicht deze testen [iedere 6 jaar te actualiseren](https://klimaatadaptatienederland.nl/stresstest/#:~:text=In%20het%20Deltaplan%20Ruimtelijke%20Adaptatie%20is%20afgesproken%20dat%20overheden%20de%20stresstest%20iedere%206%20jaar%20actualiseren%20omdat%20de%20kwetsbaarheden%20in%20de%20loop%20der%20tijd%20kunnen%20veranderen.). 
+   Dit project levert een eerste aanzet op tot een conceptueel informatiemodel hitte. Het uitgangspunt vormt de informatie die overheden nodig hebben om een hittestresstest uit te voeren. Zij zijn verplicht deze testen iedere 6 jaar te [actualiseren](https://klimaatadaptatienederland.nl/stresstest/#:~:text=In%20het%20Deltaplan%20Ruimtelijke%20Adaptatie%20is%20afgesproken%20dat%20overheden%20de%20stresstest%20iedere%206%20jaar%20actualiseren%20omdat%20de%20kwetsbaarheden%20in%20de%20loop%20der%20tijd%20kunnen%20veranderen.). 
 
-   Dit informatiemodel geeft een eerste indruk voor de mogelijke afspraken rondom inhoud, betekenis en samenhang.
+   Dit informatiemodel geeft een eerste indruk voor de mogelijke afspraken rondom inhoud, betekenis en samenhang. Hiermee faciliteert het model eenduidige en uniforme informatie-uitwisseling over hittestress.
 
-   Hiermee faciliteert het model eenduidige en uniforme informatie-uitwisseling over hittestress.
+   Voor een definitieve versie, is een verdere uitwerking noodzakelijk. Relevant is om in dat geval exact te weten welke informatie voor hittestress uitgewisseld wordt en tussen welke partijen. In dit stadium is dat beeld echter nog beperkt. Maar, op basis van de werksessies rondom het woordenboek hitte tekenden zich gaandeweg de eerste contouren af.
 
-   Voor een definitieve versie, is een verdere uitwerking noodzakelijk.
-
-   Hiervoor is relevant om te weten welke informatie binnen het domein uitgewisseld wordt en tussen welke partijen. In dit stadium is dat nog maar beperkt bekend.   
-
-   Op basis van de werksessies rondom het woordenboek hitte tekenden zich gaandeweg de eerste contouren af.
-
-
-
-
-   Hoewel dit model schetst een globaal beeld geeft van de (mogelijk) relevante informatie-objecten en de afspraken. Het helpt om dit in een model te visualiseren. Tegelijkertijd, roept dit nieuwe vragen op, die nodig zijn om de ... de juiste scherpte krijgt.
-
+   Hoewel dit model schetst een globaal beeld geeft van de (mogelijk) relevante informatie-objecten en de afspraken, helpt het om dit in een model te visualiseren. Daarnaast, roept het nieuwe vragen op die nodig zijn om de afspraken voldoende scherp af te bakenen.
 
 ### Totstandkoming
    
