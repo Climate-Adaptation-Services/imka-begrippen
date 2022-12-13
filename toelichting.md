@@ -47,7 +47,7 @@
 
    Om de eerste versie van het conceptuele model toch zoveel mogelijk richting te geven. De meest concrete en voordehandliggende use case in het domein is het zesjaarlijkse opstellen van hitestresstesten door gemeenten [linkOpnemen](www.example.com). Uit de eerste ronde stresstesten blijkt dat er behoefte is aan het uniformeren van toepassing en uitkomsten [linkOpnemen](www.onlineConclusieBeschikbaar.nl). Op basis van het huidige stappenplan is dit conceptuel informatiemodel samengesteld:
 
- 1. [**a**] bekijk de kaart met het _aantal warme nachten_ in de Klimaateffectatlas en [**b**] bekijk de kaart met de _gevoelstemperatuur_ in de Klimaateffectatlas.
+ 1. **a**: bekijk de kaart met het _aantal warme nachten_ in de Klimaateffectatlas en **b**: bekijk de kaart met de _gevoelstemperatuur_ in de Klimaateffectatlas.
 
  2. Overweeg ieder gevolg uit de **mindmap hitte** te overwegen. Speelt dat gevolg hier? Is de blootstelling relevant? Zo ja:
 
