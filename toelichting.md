@@ -26,15 +26,28 @@
    Daarnaast kan het woordenboek de basis vormen voor een informatiemodel. Hier geldt nog sterker dat concrete use cases het startpunt moeten zijn. Een informatiemodel kan concreet en exact beschrijven welke gegevens nodig zijn voor een specifieke use case en kan de basis zijn voor uniforme, interoperabele informatieuitwisseling. Vanuit het informatiemodel wordt terugverwezen naar het woordenboek. Als in het informatiemodel bijvoorbeeld het objecttype 'Gebouw' voorkomt, verwijst dit terug naar de definitie van Gebouw in het woordenboek. 
 
 ## Het conceptuele model
-[... todo aanvullen Gerard]
+
+   Een conceptueel informatiemodel definieert welke 'onderwerpen van gesprek' ('concepten', 'dingen’) worden onderscheiden in een bepaald domein, in dit geval: _hitte_ vanuit het bredere domein _klimaatadaptatie_. Wat betekenen zij, hoe verhouden ze zich tot elkaar en welke informatie is daarvan relevant? Deze informatie wordt gemodelleerd als informatieobjecten met kenmerken. Het informatiemodel dient als taal waarmee domeinexperts kunnen communiceren met informatieanalisten en verschaft een eenduidige interpretatie van die werkelijkheid ten behoeve van deze communicatie.
 
 ### Inhoud
 
-   Het conceptuele informatiemodel hitte is een eerste uitwerking van (een deel van) informatie die een gemeente nodig heeft om bron-informatie en resultaten rondom een hittestresstest uniform uit te kunnen wisselen. Voor een definitieve versie, is een verdere uitwerking noodzakelijk, maar deze initiele versie zet de contouren neer voor hoe dat model er globaal uit ziet. 
+   Dit project levert een eerste aanzet op tot een conceptueel informatiemodel hitte. Het uitgangspunt vormt de informatie die overheden nodig hebben om een hittestresstest uit te voeren. Zij zijn verplicht deze testen [iedere 6 jaar te actualiseren](https://klimaatadaptatienederland.nl/stresstest/#:~:text=In%20het%20Deltaplan%20Ruimtelijke%20Adaptatie%20is%20afgesproken%20dat%20overheden%20de%20stresstest%20iedere%206%20jaar%20actualiseren%20omdat%20de%20kwetsbaarheden%20in%20de%20loop%20der%20tijd%20kunnen%20veranderen.). 
 
-   Hiervoor is relevant om te weten welke informatie binnen het domein uitgewisseld wordt en tussen welke partijen. In dit stadium is dat nog maar beperkt bekend. Wel moeten gemeenten zesjaarlijks een aantal stresstesten uitvoeren in het kader van klimaatadaptatie.  
+   Dit informatiemodel geeft een eerste indruk voor de mogelijke afspraken rondom inhoud, betekenis en samenhang.
 
-   Een dergelijk model definieert het ‘wat’: welke 'onderwerpen van gesprek' ('concepten', 'dingen’) worden onderscheiden in de beschouwde werkelijkheid. Wat betekenen zij, hoe verhouden ze zich tot elkaar en welke informatie is daarvan relevant. Deze informatie wordt gemodelleerd als informatieobjecten met eigenschappen/kenmerken, oftewel waarvoor data beschikbaar is (of zal zijn) en wordt ondergebracht in een informatiemodel. Dit informatiemodel dient als taal waarmee domeinexperts kunnen communiceren met informatieanalisten en verschaft een eenduidige interpretatie van die werkelijkheid ten behoeve van deze communicatie.
+   Hiermee faciliteert het model eenduidige en uniforme informatie-uitwisseling over hittestress.
+
+   Voor een definitieve versie, is een verdere uitwerking noodzakelijk.
+
+   Hiervoor is relevant om te weten welke informatie binnen het domein uitgewisseld wordt en tussen welke partijen. In dit stadium is dat nog maar beperkt bekend.   
+
+   Op basis van de werksessies rondom het woordenboek hitte tekenden zich gaandeweg de eerste contouren af.
+
+
+
+
+   Hoewel dit model schetst een globaal beeld geeft van de (mogelijk) relevante informatie-objecten en de afspraken. Het helpt om dit in een model te visualiseren. Tegelijkertijd, roept dit nieuwe vragen op, die nodig zijn om de ... de juiste scherpte krijgt.
+
 
 ### Totstandkoming
    
@@ -48,9 +61,7 @@
 
    Om de eerste versie van het conceptuele model toch zoveel mogelijk richting te geven. De meest concrete en voordehandliggende use case in het domein is het zesjaarlijkse opstellen van hitestresstesten door gemeenten [linkOpnemen](www.example.com). Uit de eerste ronde stresstesten blijkt dat er behoefte is aan het uniformeren van toepassing en uitkomsten [linkOpnemen](www.onlineConclusieBeschikbaar.nl). Op basis van het huidige stappenplan is dit conceptuel informatiemodel samengesteld
 
- - **Stap 1a:** Bekijk de kaart met het aantal warme nachten in de Klimaateffectatlas.
-
- - **Stap 1b:** Bekijk de kaart met de gevoelstemperatuur in de Klimaateffectatlas.
+ - **Stap 1** [**a**] bekijk de kaart met het _aantal warme nachten_ in de Klimaateffectatlas en [**b**] bekijk de kaart met de _gevoelstemperatuur_ in de Klimaateffectatlas.
 
  - **Stap 2:** Overweeg ieder gevolg uit de **mindmap hitte** te overwegen. Speelt dat gevolg hier? Is de blootstelling relevant? Zo ja:
 
@@ -59,7 +70,7 @@
     - Wat zijn de niet-klimatologische factoren die de omvang van de gevolgen kunnen beïnvloeden (bijv. vergrijzing in een bepaalde wijk)
     - Zijn er al maatregelen genomen, of nog niet?
 
-Het stappenplan verwijst naar de [mindmap hitte](https://klimaatadaptatienederland.nl/publish/pages/156633/mindmap_hitte_hoge_resolutie.png) van de Hogeschool van Amsterdam. Voor drie van de vijf thema's die daarin genoemed worden, te weten: gezondheid, buitenruimte en leefbaarheid, is dit informatiemodel uitgewerkt. In de toekomst zouden ook de thema's infrastructuur en water meegenomen kunnen worden.  
+Het stappenplan verwijst naar de [mindmap hitte](https://klimaatadaptatienederland.nl/publish/pages/156633/mindmap_hitte_hoge_resolutie.png) van de Hogeschool van Amsterdam. Voor drie van de vijf thema's die daarin genoemed worden, te weten: **_gezondheid_**, **_buitenruimte_** en **_leefbaarheid_**, is dit informatiemodel uitgewerkt. In de toekomst zouden ook de thema's infrastructuur en water meegenomen kunnen worden.  
 
 <!-- ![](media/imka_schets_02_compact.png) -->
 <!-- ![](media/imka_schets_02_uitgebreid.png) -->
