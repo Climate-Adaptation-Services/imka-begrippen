@@ -43,7 +43,9 @@ De belangrijkste objecten in het huidige model zijn:
  - `Gebied` (verder uitgesplitst in: `grijs` [bebouwd], `groen` [begroeid] en `blauw` [water])
 
 Hier weergegeven in een compacte versie van het informatiemodel hitte:
-<!-- ![](media/imka_schets_02_compact.png) -->
+
+Overzicht van conceptueel informatiemodel hitte - compact
+![](media/imka_schets_02_compact.png)
 
 ### Totstandkoming
    
