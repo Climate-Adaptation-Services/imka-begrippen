@@ -37,12 +37,15 @@
 
    Voor een volwaardig conceptueel informatiemodel is een verdere uitwerking noodzakelijk. Belangrijk is om exact te weten welke informatie partijen in het werkveld willen uitwisselen over hittestress. In dit stadium ontbreekt dat beeld nog goeddeels. Maar, op basis van de werksessies rondom het woordenboek hitte tekenden zich gaandeweg de eerste contouren af. Deze eerste versie van het model geeft de meest relevant informatie-objecten weer, inclusief de bijbehorende eigenschappen en onderlinge relaties tussen de objecten. Door de informatiestructuur te visualeren, ontstaat een scherper beeld van de behoeften, mogelijkheden en eventuele 'kennisgaten'. 
 
-   De belangrijkste objecten in het huidige model zijn
+   De belangrijkste objecten in het huidige model zijn:
 
-    - `Koele plek` (uitgesplitst naar: binnen en buiten)
-    - `Hittestressplek` (uitgesplitst naar: binnen en buiten)
-    - `Schaduw`
-    - `Gebied` (uitgesplitst naar: bebouwd(=grijs), begroeid(=groen) en water(=blauw))
+ - `Koele plek` (uitgesplitst naar: `binnen` en `buiten`)
+ - `Hittestressplek`  (uitgesplitst naar: `binnen` en `buiten`)
+ - `Schaduw` 
+ - `Gebied`  (uitgesplitst naar: bebouwd(=`grijs`), begroeid(=`groen`) en water(=`blauw`))
+
+Hier weergegeven in een compacte versie van het informatiemodel:
+![TEST](media/imka_schets_02_compact.png)
 
 ### Totstandkoming
    
@@ -54,7 +57,7 @@
 
 ### Inhoudelijke keuzen
 
-   Om de eerste versie van het conceptuele model toch zoveel mogelijk richting te geven. De meest concrete en voordehandliggende use case in het domein is het zesjaarlijkse opstellen van hitestresstesten door gemeenten [linkOpnemen](www.example.com). Uit de eerste ronde stresstesten blijkt dat er behoefte is aan het uniformeren van toepassing en uitkomsten [linkOpnemen](www.onlineConclusieBeschikbaar.nl). Op basis van het huidige stappenplan is dit conceptuel informatiemodel samengesteld:
+   Het stappenplan in de bijsluiter voor de stresstest hitte vormt de basis van dit informatiemodel:
 
  1. **a**: bekijk de kaart met het _aantal warme nachten_ in de Klimaateffectatlas en **b**: bekijk de kaart met de _gevoelstemperatuur_ in de Klimaateffectatlas.
 
@@ -67,7 +70,7 @@
 
 Het stappenplan verwijst naar de [mindmap hitte](https://klimaatadaptatienederland.nl/publish/pages/156633/mindmap_hitte_hoge_resolutie.png) van de Hogeschool van Amsterdam. Voor drie van de vijf thema's die daarin genoemed worden, te weten: **_gezondheid_**, **_buitenruimte_** en **_leefbaarheid_**, is dit informatiemodel uitgewerkt. In de toekomst zouden ook de thema's infrastructuur en water meegenomen kunnen worden.  
 
-<!-- ![](media/imka_schets_02_compact.png) -->
+
 <!-- ![](media/imka_schets_02_uitgebreid.png) -->
 
 ### Aanbevelingen voor vervolg
