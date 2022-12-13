@@ -31,16 +31,14 @@ In het algemeen definieert een conceptueel informatiemodel welke 'onderwerpen va
 
 ### Inhoud
 
-Het gepresenteerde conceptueel informatiemodel hitte vormt een eerste aanzet. Het uitgangspunt is de informatie die overheden nodig hebben om een hittestresstest uit te voeren in een informatiemodel te vatten. De overheden zijn verplicht deze testen iedere 6 jaar te [actualiseren](https://klimaatadaptatienederland.nl/stresstest/#:~:text=In%20het%20Deltaplan%20Ruimtelijke%20Adaptatie%20is%20afgesproken%20dat%20overheden%20de%20stresstest%20iedere%206%20jaar%20actualiseren%20omdat%20de%20kwetsbaarheden%20in%20de%20loop%20der%20tijd%20kunnen%20veranderen.). Een informatiemodel hitte helpt om eenduidige en uniforme informatie-uitwisseling over hittestress te faciliteren op basis van afspraken rondom inhoud, betekenis en samenhang.
-
-De belangrijkste objecten in het huidige model zijn:
+Het gepresenteerde conceptueel informatiemodel hitte vormt een eerste aanzet. Het uitgangspunt is de informatie die overheden nodig hebben om een hittestresstest uit te voeren in een informatiemodel te vatten. De overheden zijn verplicht deze testen iedere 6 jaar te [actualiseren](https://klimaatadaptatienederland.nl/stresstest/#:~:text=In%20het%20Deltaplan%20Ruimtelijke%20Adaptatie%20is%20afgesproken%20dat%20overheden%20de%20stresstest%20iedere%206%20jaar%20actualiseren%20omdat%20de%20kwetsbaarheden%20in%20de%20loop%20der%20tijd%20kunnen%20veranderen.). Een informatiemodel hitte helpt om eenduidige en uniforme informatie-uitwisseling over hittestress te faciliteren op basis van afspraken rondom inhoud, betekenis en samenhang. De belangrijkste objecten in het huidige model zijn:
 
  - `Koele plek` (verder uitgesplitst in: `binnen` en `buiten`)
  - `Hittestressplek`  (verder uitgesplitst in: `binnen` en `buiten`)
  - `Schaduw` 
  - `Gebied` (verder uitgesplitst in: `grijs` [bebouwd], `groen` [begroeid] en `blauw` [water])
 
-Deze basiselementen zijn ook terug te vinden in de hieronder afgebeelde compacte versie van het informatiemodel hitte.
+Deze basis-elementen zijn ook terug te vinden in de hieronder afgebeelde compacte versie van het informatiemodel hitte.
 
 #### Overzicht van conceptueel informatiemodel hitte - compact
 ![](media/imka_schets_02_compact.png)
@@ -70,16 +68,13 @@ De basis voor het conceptuele informatiemodel is de bijsluiter voor de stresstes
 
 Omwille van de beschikbare tijd, de scope van het project en het ontbreken van duidelijke van use cases, is ervoor gekozen om drie van de vijf thema's die in de mindmap hitte voorkomen nader uit te werken in het informatiemodel. Dit zijn de onderwerpen: **_gezondheid_**, **_buitenruimte_** en **_leefbaarheid_**. In een vervolgtraject kunnen uiteraard ook de thema's **_infrastructuur_** en **_water_** meegenomen worden.
 
-De mindmap hitte geeft per deelonderwerp aan welke (minimale) informatiebehoefte er is. Kijk je binnen het onderwerp _leefbaarheid_, naar het deelonderwerp _comfort in gebouwen_, dan zie je dat er behoefte is aan informatie over `bouwjaar` en `energielabel` bij een pand.
+De mindmap hitte geeft per deelonderwerp aan welke (minimale) informatiebehoefte er is. Kijk je binnen het onderwerp _leefbaarheid_, naar het deelonderwerp _comfort in gebouwen_, dan zie je dat er behoefte is aan informatie over `bouwjaar` en `energielabel` bij een `Pand`.
 
-Het model dat hieruit ontstond is vervolgens naast het begrippenkader gelegd voor aanvullingen. Een resultaat van deze stap is bijvoorbeeld de opslitsing van `koele plek` in binnen en buiten.
+Voor de benodigde objecten sluit het model zoveel mogelijk aan bij bestaande registraties zoals de Basisregistratie Grootschalige Topografie en het IMGeo.
 
-Uitgebreide versie van het informatiemodel:
+Het model dat hieruit ontstond is vervolgens naast het woordenboek hitte gelegd voor eventuele aanvullingen. Een resultaat van deze stap is bijvoorbeeld de opslitsing van `KoelePlek` in `KoeleBinnenplek` en `KoeleBuitenplek`. Een ander voorbeeld is de reeks van aanvullende kenmerken bij het object `Pand`.
 
-Bouwjaar en nergielabel
-Bomenbestand
-
-Begroeidterreindeel BGT
+Tot slot is het informatiemodel op logica en consistentie beoordeeld door de informatiemodelleurs. Een voortvloeisel hiervan is bijvoorbeeld de keuze om  `Hittestressplek` op te splitsen in `HittestressBinnenplek` en `HittestressBuitenplek`. Een `Hittestressplek` is feitelijk het tegenovergesteelde van een `KoelePlek` en kan zowel buitenruimte voorkomen, als in een pand.
 
 #### Overzicht van conceptueel informatiemodel hitte - uitgebreid
 
@@ -93,12 +88,12 @@ Begroeidterreindeel BGT
 
 We hebben de volgende aanbevelingen:
 
- 1. **Use cases**. Doe een verkenning naar de informatiebehoefte en -stromen. Kijk ook waar op dit moment dit vraagstuk speelt.
- 1. **Dataspecificatie/gegevenscatalogus** en die ook weer afgestemd op het begrippenkader
+ 1. **Use cases**: voer een verkenning uit naar de informatiebehoefte en -stromen leg deze vast in een duidelijk gebruikersvraag.
+ 1. Publiceer het conceptuele model als onderdeel van een volledige **dataspecificatie** of **gegevenscatalogus**
  1. Informatiemodel **relateren aan het begrippenkader**. Het huidige informatiemodel bevat alleen objecten, eigenschappen en relaties tussen objecten. Definities bijvoorbeeld, ontbreken op dit moment nog. Het huidige model is daarmee volgens de MIM-standaard incompleet.
  1. Model verder uitwerken voor de **casus hittestress(test)** in samenwerking met experts van het Ministerie van Infrastructuur en Waterstaat. 
  1. Model uitbreiding met de overige onderwerpen van de mindmap hitte: **infrastructuur** en **water** .
- 1. Dit is noodzakelijk voor de doorontwikkeling naar een volwaardig conceptueel informatiemodel en eventuele verdere specificaties, zoals een logisch model, een productmodel en een technisch (of: implementatie-) model.
+ 1. Dit is noodzakelijk voor de doorontwikkeling naar een volwaardig conceptueel informatiemodel en eventuele verdere uitwerkingen, zoals een logisch model, een productmodel en een technisch (of: implementatie-) model (zie: onderstaande overzicht van MIM-niveaus).
  1. Tevens advies om de **focus op het onderwerp hitte** te houden,
  1. **Uitwerken keten** van MIM-niveaus (van begrippenkader, naar implementatie) en test de implementaties in een iteratief proces.
 
