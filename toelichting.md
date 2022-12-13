@@ -30,7 +30,7 @@
 
 ### Inhoud
 
-   Het conceptuele informatiemodel hitte is een eerste uitwerking van (een deel van)informatie die een gemeente nodig heeft om broninformatie en resultaten rondom een hittestresstest uniform uit te kunnen wisselen. Voor een definitieve versie, is een verdere uitwerking noodzakelijk, maar deze initiele versie zet de contouren neer voor hoe dat model er globaal uit ziet. 
+   Het conceptuele informatiemodel hitte is een eerste uitwerking van (een deel van) informatie die een gemeente nodig heeft om bron-informatie en resultaten rondom een hittestresstest uniform uit te kunnen wisselen. Voor een definitieve versie, is een verdere uitwerking noodzakelijk, maar deze initiele versie zet de contouren neer voor hoe dat model er globaal uit ziet. 
 
    Hiervoor is relevant om te weten welke informatie binnen het domein uitgewisseld wordt en tussen welke partijen. In dit stadium is dat nog maar beperkt bekend. Wel moeten gemeenten zesjaarlijks een aantal stresstesten uitvoeren in het kader van klimaatadaptatie.  
 
@@ -38,11 +38,13 @@
 
 ### Totstandkoming
    
-   Het conceptuele informatiemodel hitte is gemaakt in opdracht van het ministerie van Infrastructuur en Waterstaat gemaakt door Geonovum op basis van de resultaten uit de werkgroep en andere relevante organisaties uit het veld, die rondom het woordenboek hitte zijn georganiseerd. Om een informatiemodel te kunnen maken, is het belangrijk duidelijke use cases te hebben. Op dit gebied is het werkveld nog volop in ontwikkeling. Eén of meer duidelijk beschreven use cases, waren in dit stadium nog niet beschikbaar. Daarom is ervoor gekozen om op basis van de gesprekken met stakeholders en reeds bestaande informatiestromen een eerste en algemene versie van een conceptueel informatiemodel hitte te maken.
+   Het conceptuele informatiemodel hitte is gemaakt **in opdracht van het ministerie** van Infrastructuur en Waterstaat gemaakt door Geonovum op basis van de resultaten uit de werkgroep en andere relevante organisaties uit het veld, die rondom het woordenboek hitte zijn georganiseerd.
 
-   Het doel van het informatiemodel in dit stadium is om het voorstellingsvermogen te prikkelen: Wat heb je nodig? Waar zitten de gaten?
+   Om een informatiemodel te kunnen maken, is het belangrijk duidelijke **use cases** te hebben. Op dit gebied is het werkveld nog volop in ontwikkeling. Eén of meer duidelijk beschreven use cases, waren in dit stadium nog niet beschikbaar. Daarom is ervoor gekozen om op basis van de gesprekken met stakeholders en reeds bestaande informatiestromen een eerste en algemene versie van een conceptueel informatiemodel hitte te maken.
 
-### Inhoudelijke Keuzen
+   Het **doel** van het informatiemodel in dit stadium is om het voorstellingsvermogen te prikkelen: Wat heb je nodig? Waar zitten de gaten?
+
+### Inhoudelijke keuzen
 
    Om de eerste versie van het conceptuele model toch zoveel mogelijk richting te geven. De meest concrete en voordehandliggende use case in het domein is het zesjaarlijkse opstellen van hitestresstesten door gemeenten [linkOpnemen](www.example.com). Uit de eerste ronde stresstesten blijkt dat er behoefte is aan het uniformeren van toepassing en uitkomsten [linkOpnemen](www.onlineConclusieBeschikbaar.nl). Op basis van het huidige stappenplan is dit conceptuel informatiemodel samengesteld
 
@@ -63,13 +65,13 @@
 <!-- ![](media/imka_schets_02_compact.png) -->
 <!-- ![](media/imka_schets_02_uitgebreid.png) -->
 
-### Aanbevelingen Voor Vervolg
+### Aanbevelingen voor vervolg
 
 Use cases. Doe een verkenning naar de informatiebehoefte en -stromen. Kijk ook waar op dit moment dit vraagstuk speelt.
 
 Dataspecificatie/gegevenscatalogus en die ook weer afgestemd op het begrippenkader
 
-huidige model bevat alleen object, eigenschappen en relaties. Maar geen metagegevens zoals definities van de verschillende onderdelen.
+Het huidige informatiemodel bevat alleen objecten, eigenschappen en relaties tussen objecten. Definities bijvoorbeeld, ontbreken op dit moment nog.
 
 Het huidige model is dus volgens de MIM-standaard incompleet.
 
@@ -79,9 +81,13 @@ Daar hoort dan ook de uitbreiding met de onderwerpen **water** en **infrastructu
 
 Dit is noodzakelijk voor de doorontwikkeling naar een volwaardig conceptueel informatiemodel en eventuele verdere specificaties, zoals een logisch model, een productmodel en een technisch (of: implementatie-) model.
 
-Tevens advies om de focus op het onderwerp hitte te houden en de keten (van begrippenkader, naar implementatie: MIMniveaus)daarvoor uit tewerken:
+Tevens advies om de **focus op het onderwerp hitte** te houden,
 
- - [Model van begrippen](https://docs.geostandaarden.nl/mim/mim/#niveau-1-model-van-begrippen)
- - [Conceptueel informatiemodel](https://docs.geostandaarden.nl/mim/mim/#niveau-2-conceptueel-informatiemodel)
- - [Logisch informatiemodel](https://docs.geostandaarden.nl/mim/mim/#niveau-3-logisch-informatie-of-gegevensmodel)
- - [Technisch informatiemodel](https://docs.geostandaarden.nl/mim/mim/#niveau-4-fysiek-of-technisch-gegevens-of-datamodel)
+Werk de keten  van MIM-niveaus uit (van begrippenkader, naar implementatie) en test de implementaties in een iteratief proces.
+
+Als je die structuur werkend hebt, dan indien gewenst uitbreiden met thema's '*droogte*', '*wateroverlast*' en '*overstroming*'.
+
+ - **MIM-niveau 1**: [Model van begrippen](https://docs.geostandaarden.nl/mim/mim/#niveau-1-model-van-begrippen)
+ - **MIM-niveau 2**: [Conceptueel informatiemodel](https://docs.geostandaarden.nl/mim/mim/#niveau-2-conceptueel-informatiemodel)
+ - **MIM-niveau 3**: [Logisch informatiemodel](https://docs.geostandaarden.nl/mim/mim/#niveau-3-logisch-informatie-of-gegevensmodel)
+ - **MIM-niveau 4**: [Technisch informatiemodel](https://docs.geostandaarden.nl/mim/mim/#niveau-4-fysiek-of-technisch-gegevens-of-datamodel)
