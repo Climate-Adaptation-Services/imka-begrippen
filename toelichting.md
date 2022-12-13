@@ -63,23 +63,17 @@ Het stappenplan verwijst naar de [mindmap hitte](https://klimaatadaptatienederla
 
 ### Aanbevelingen voor vervolg
 
-**Use cases**. Doe een verkenning naar de informatiebehoefte en -stromen. Kijk ook waar op dit moment dit vraagstuk speelt.
+We hebben de volgende aanbevelingen:
 
-**Dataspecificatie/gegevenscatalogus** en die ook weer afgestemd op het begrippenkader
-
-Het huidige informatiemodel bevat alleen objecten, eigenschappen en relaties tussen objecten. Definities bijvoorbeeld, ontbreken op dit moment nog.
-
-Het huidige model is dus volgens de MIM-standaard incompleet.
-
-Model verder uitwerken voor de **casus hittestresstest** in samenwerking met experts van het ministerie. 
-
-Daar hoort dan ook de uitbreiding met de onderwerpen **water** en **infrastructuur** bij.
-
-Dit is noodzakelijk voor de doorontwikkeling naar een volwaardig conceptueel informatiemodel en eventuele verdere specificaties, zoals een logisch model, een productmodel en een technisch (of: implementatie-) model.
-
-Tevens advies om de **focus op het onderwerp hitte** te houden,
-
-**Uitwerken keten** van MIM-niveaus (van begrippenkader, naar implementatie) en test de implementaties in een iteratief proces.
+ 1. **Use cases**. Doe een verkenning naar de informatiebehoefte en -stromen. Kijk ook waar op dit moment dit vraagstuk speelt.
+ 1. **Dataspecificatie/gegevenscatalogus** en die ook weer afgestemd op het begrippenkader
+ 1. Informatiemodel **relateren aan het begrippenkader**. Het huidige informatiemodel bevat alleen objecten, eigenschappen en relaties tussen objecten. Definities bijvoorbeeld, ontbreken op dit moment nog.
+ 1. Het huidige model is dus volgens de MIM-standaard incompleet.
+ 1. Model verder uitwerken voor de **casus hittestresstest** in samenwerking met experts van het ministerie. 
+ 1. Daar hoort dan ook de uitbreiding met de onderwerpen **water** en **infrastructuur** bij.
+ 1. Dit is noodzakelijk voor de doorontwikkeling naar een volwaardig conceptueel informatiemodel en eventuele verdere specificaties, zoals een logisch model, een productmodel en een technisch (of: implementatie-) model.
+ 1. Tevens advies om de **focus op het onderwerp hitte** te houden,
+ 1. **Uitwerken keten** van MIM-niveaus (van begrippenkader, naar implementatie) en test de implementaties in een iteratief proces.
 
 Als je die structuur werkend hebt, dan indien gewenst uitbreiden met thema's '*droogte*', '*wateroverlast*' en '*overstroming*'.
 
