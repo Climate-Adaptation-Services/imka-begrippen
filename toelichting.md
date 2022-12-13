@@ -54,13 +54,13 @@
 
 **Stap 2:** Overweeg ieder gevolg uit de **mindmap hitte** te overwegen:
 
- - Speelt dat gevolg hier? Is de blootstelling relevant? Zo ja:
- - Waar speelt het?
- - Welke factoren beïnvloeden de gevoeligheid voor gevolgen?
- - Wat zijn de niet-klimatologische factoren die de omvang van de gevolgen kunnen beïnvloeden (bijv. vergrijzing in een bepaalde wijk)
- - Zijn er al maatregelen genomen, of nog niet?
+    - Speelt dat gevolg hier? Is de blootstelling relevant? Zo ja:
+    - Waar speelt het?
+    - Welke factoren beïnvloeden de gevoeligheid voor gevolgen?
+    - Wat zijn de niet-klimatologische factoren die de omvang van de gevolgen kunnen beïnvloeden (bijv. vergrijzing in een bepaalde wijk)
+    - Zijn er al maatregelen genomen, of nog niet?
 
-   Het stappenplan verwijst naar de [mindmap hitte van de Hogeschool van Amsterdam](https://klimaatadaptatienederland.nl/publish/pages/156633/mindmap_hitte_hoge_resolutie.png). Voor drie van de vijf thema's die daarin genoemed worden, te weten: gezondheid, buitenruimte en leefbaarheid, is dit informatiemodel uitgewerkt. In de toekomst zouden ook de thema's infrastructuur en water meegenomen kunnen worden.  
+Het stappenplan verwijst naar de [mindmap hitte van de Hogeschool van Amsterdam](https://klimaatadaptatienederland.nl/publish/pages/156633/mindmap_hitte_hoge_resolutie.png). Voor drie van de vijf thema's die daarin genoemed worden, te weten: gezondheid, buitenruimte en leefbaarheid, is dit informatiemodel uitgewerkt. In de toekomst zouden ook de thema's infrastructuur en water meegenomen kunnen worden.  
 
 <!-- ![](media/imka_schets_02_compact.png) -->
 <!-- ![](media/imka_schets_02_uitgebreid.png) -->
