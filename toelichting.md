@@ -27,13 +27,22 @@
 
 ## Het conceptuele model
 
-   Een conceptueel informatiemodel definieert welke 'onderwerpen van gesprek' ('concepten', 'dingen’) worden onderscheiden in een bepaald domein, in dit geval: _hitte_ (vanuit het perspectief: _klimaatadaptatie_). Wat betekenen zij, hoe verhouden ze zich tot elkaar en welke informatie is daarvan relevant? Deze informatie wordt gemodelleerd als informatieobjecten met kenmerken. Het informatiemodel dient als taal waarmee domeinexperts kunnen communiceren met informatieanalisten en verschaft een eenduidige interpretatie van die werkelijkheid ten behoeve van deze communicatie.
+   In het algemeen definieert een conceptueel informatiemodel welke 'onderwerpen van gesprek' ('concepten', 'dingen’) worden onderscheiden in een bepaald domein. Wat betekenen zij, hoe verhouden ze zich tot elkaar en welke informatie is daarvan relevant? Deze informatie wordt gemodelleerd als informatieobjecten met kenmerken.
+
+   Het informatiemodel dient als taal waarmee domeinexperts kunnen communiceren met informatieanalisten en verschaft een eenduidige interpretatie van die werkelijkheid ten behoeve van deze communicatie. Hieronder een korte toelichting op het conceptueel informatiemodel hitte.
 
 ### Inhoud
 
-   Het conceptueel informatiemodel hitte is een eerste aanzet. Het uitgangspunt vormt de informatie die overheden nodig hebben om een hittestresstest uit te voeren. Zij zijn verplicht deze testen iedere 6 jaar te [actualiseren](https://klimaatadaptatienederland.nl/stresstest/#:~:text=In%20het%20Deltaplan%20Ruimtelijke%20Adaptatie%20is%20afgesproken%20dat%20overheden%20de%20stresstest%20iedere%206%20jaar%20actualiseren%20omdat%20de%20kwetsbaarheden%20in%20de%20loop%20der%20tijd%20kunnen%20veranderen.). Hiermee faciliteert het model eenduidige en uniforme informatie-uitwisseling over hittestress op basis van mogelijke afspraken rondom inhoud, betekenis en samenhang.
+   Het conceptueel informatiemodel hitte voromt een eerste aanzet. Het uitgangspunt is de informatie die overheden nodig hebben om een hittestresstest uit te voeren. Zij zijn verplicht deze testen iedere 6 jaar te [actualiseren](https://klimaatadaptatienederland.nl/stresstest/#:~:text=In%20het%20Deltaplan%20Ruimtelijke%20Adaptatie%20is%20afgesproken%20dat%20overheden%20de%20stresstest%20iedere%206%20jaar%20actualiseren%20omdat%20de%20kwetsbaarheden%20in%20de%20loop%20der%20tijd%20kunnen%20veranderen.). Het model faciliteert eenduidige en uniforme informatie-uitwisseling over hittestress op basis van mogelijke afspraken rondom inhoud, betekenis en samenhang.
 
-   Voor een definitieve versie, is een verdere uitwerking noodzakelijk. Relevant is om in dat geval exact te weten welke informatie voor hittestress uitgewisseld wordt en tussen welke partijen. In dit stadium is dat beeld echter nog beperkt. Maar, op basis van de werksessies rondom het woordenboek hitte tekenden zich gaandeweg de eerste contouren af, die hier zijn vastgelegd.** Hoewel dit model schetst een globaal beeld geeft van de (mogelijk) relevante informatie-objecten en de afspraken, helpt het om dit in een model te visualiseren. Daarnaast, roept het nieuwe vragen op die nodig zijn om de afspraken voldoende scherp af te bakenen.
+   Voor een volwaardig conceptueel informatiemodel is een verdere uitwerking noodzakelijk. Belangrijk is om exact te weten welke informatie partijen in het werkveld willen uitwisselen over hittestress. In dit stadium ontbreekt dat beeld nog goeddeels. Maar, op basis van de werksessies rondom het woordenboek hitte tekenden zich gaandeweg de eerste contouren af. Deze eerste versie van het model geeft de meest relevant informatie-objecten weer, inclusief de bijbehorende eigenschappen en onderlinge relaties tussen de objecten. Door de informatiestructuur te visualeren, ontstaat een scherper beeld van de behoeften, mogelijkheden en eventuele 'kennisgaten'. 
+
+   De belangrijkste objecten in het huidige model zijn
+
+    - `Koele plek` (uitgesplitst naar: binnen en buiten)
+    - `Hittestressplek` (uitgesplitst naar: binnen en buiten)
+    - `Schaduw`
+    - `Gebied` (uitgesplitst naar: bebouwd(=grijs), begroeid(=groen) en water(=blauw))
 
 ### Totstandkoming
    
@@ -67,10 +76,9 @@ We hebben de volgende aanbevelingen:
 
  1. **Use cases**. Doe een verkenning naar de informatiebehoefte en -stromen. Kijk ook waar op dit moment dit vraagstuk speelt.
  1. **Dataspecificatie/gegevenscatalogus** en die ook weer afgestemd op het begrippenkader
- 1. Informatiemodel **relateren aan het begrippenkader**. Het huidige informatiemodel bevat alleen objecten, eigenschappen en relaties tussen objecten. Definities bijvoorbeeld, ontbreken op dit moment nog.
- 1. Het huidige model is dus volgens de MIM-standaard incompleet.
- 1. Model verder uitwerken voor de **casus hittestresstest** in samenwerking met experts van het ministerie. 
- 1. Daar hoort dan ook de uitbreiding met de onderwerpen **water** en **infrastructuur** bij.
+ 1. Informatiemodel **relateren aan het begrippenkader**. Het huidige informatiemodel bevat alleen objecten, eigenschappen en relaties tussen objecten. Definities bijvoorbeeld, ontbreken op dit moment nog. Het huidige model is daarmee volgens de MIM-standaard incompleet.
+ 1. Model verder uitwerken voor de **casus hittestress(test)** in samenwerking met experts van het Ministerie van Infrastructuur en Waterstaat. 
+ 1. Model uitbreiding met de overige onderwerpen van de mindmap hitte: **infrastructuur** en **water** .
  1. Dit is noodzakelijk voor de doorontwikkeling naar een volwaardig conceptueel informatiemodel en eventuele verdere specificaties, zoals een logisch model, een productmodel en een technisch (of: implementatie-) model.
  1. Tevens advies om de **focus op het onderwerp hitte** te houden,
  1. **Uitwerken keten** van MIM-niveaus (van begrippenkader, naar implementatie) en test de implementaties in een iteratief proces.
