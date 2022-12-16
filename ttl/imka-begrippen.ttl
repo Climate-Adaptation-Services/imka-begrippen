@@ -29,8 +29,7 @@ col:binnenruimte a skos:Collection;
   skos:definition "Begrippen die te maken hebben met de binnenruimte en gebouwen in het kader van hitte."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  dct:source <https://example.com> .
+  skos:example "(optioneel opnemen)"@nl .
 
 col:buitenruimte a skos:Collection;
   skos:prefLabel "Buitenruimte (gebied)"@nl;
@@ -40,8 +39,7 @@ col:buitenruimte a skos:Collection;
   skos:definition "Begrippen die te maken hebben met de buitenruimte, voornamelijk de stedelijke omgeving."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  dct:source <https://example.com> .
+  skos:example "(optioneel opnemen)"@nl .
 
 col:gezondheid a skos:Collection;
   skos:prefLabel "Gezondheid"@nl;
@@ -51,8 +49,7 @@ col:gezondheid a skos:Collection;
   skos:definition "Begrippen die te maken hebben met gezondheid van mens en dier"@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  dct:source <https://example.com> .
+  skos:example "(optioneel opnemen)"@nl .
 
 col:instrumenten a skos:Collection;
   skos:prefLabel "Instrumenten"@nl;
@@ -62,8 +59,7 @@ col:instrumenten a skos:Collection;
   skos:definition "Begrippen die te maken hebben met de instrumenten, concrete hulpmiddelen, die er zijn voor het bepalen en doorvoeren van klimaatadaptatiemaatregelen."@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  dct:source <https://example.com> .
+  skos:example "(optioneel opnemen)"@nl .
 
 col:sectoren a skos:Collection;
   skos:prefLabel "Sectoren"@nl;
@@ -81,8 +77,7 @@ col:klimaatadaptatiemaatregelen a skos:Collection;
   skos:definition "Begrippen die te maken hebben met klimaatadaptatiemaatregelen"@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  dct:source <https://example.com> .
+  skos:example "(optioneel opnemen)"@nl .
 
 col:klimaateffect a skos:Collection;
   skos:prefLabel "Klimaateffecten"@nl;
@@ -92,8 +87,7 @@ col:klimaateffect a skos:Collection;
   skos:definition "Begrippen die te maken hebben met klimaateffecten"@nl;
   skos:scopeNote "(optioneel opnemen)"@nl;
   skos:editorialNote "(optioneel opnemen)"@nl;
-  skos:example "(optioneel opnemen)"@nl;
-  dct:source <https://example.com> .
+  skos:example "(optioneel opnemen)"@nl .
 
 col:klimaatverschijnselen a skos:Collection;
   skos:prefLabel "Klimaatverschijnselen"@nl;
@@ -211,8 +205,7 @@ col:weerverschijnselen a skos:Collection;
   #skos:editorialNote "(optioneel opnemen)"@nl;
   #skos:example "(optioneel opnemen)"@nl;
   #skos:broader :gedrag;
-  #rdfs:label "Alcoholgebruik";
-  #dct:source <https://example.com> .
+  #rdfs:label "Alcoholgebruik" .
 
 :apparaat a skos:Concept;
   skos:prefLabel "Apparaat"@nl;
@@ -247,8 +240,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :flora;
-  rdfs:label "Beplanting";
-  dct:source <https://example.com> .
+  rdfs:label "Beplanting" .
 
 :bereikbaarheid a skos:Concept;
   skos:prefLabel "Bereikbaarheid"@nl;
@@ -296,8 +288,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "Slecht bewonersgedrag, zoals het overdag open houden van de ramen, niet gebruikmaken van zonwering, etc. kan meer effect hebben op hitte in een woning dan in een stad wonen."@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :menselijke_eigenschap;
-  rdfs:label "Bewonersgedrag";
-  dct:source <https://example.com> .
+  rdfs:label "Bewonersgedrag" .
 
 :binnentemperatuur a skos:Concept;
   skos:prefLabel "Binnentemperatuur"@nl;
@@ -318,8 +309,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :natuureigenschap;
-  rdfs:label "Biodiversiteit";
-  dct:source <https://example.com> .
+  rdfs:label "Biodiversiteit" .
 
 :blackout a skos:Concept;
   skos:prefLabel "Blackout"@en;
@@ -354,8 +344,7 @@ col:weerverschijnselen a skos:Collection;
   #skos:editorialNote "(optioneel opnemen)"@nl;
   #skos:example "(optioneel opnemen)"@nl;
   #skos:broader :aandoening_flora;
-  #rdfs:label "Bloeiinductie";
-  #dct:source <https://example.com> .
+  #rdfs:label "Bloeiinductie" .
 
 :blootstelling a skos:Concept;
   skos:prefLabel "Blootstelling"@nl;
@@ -403,8 +392,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :activiteit;
-  rdfs:label "Bodemdalingvoorspelling";
-  dct:source <https://example.com> .
+  rdfs:label "Bodemdalingvoorspelling" .
 
 :boom a skos:Concept;
   skos:prefLabel "Boom"@nl;
@@ -427,8 +415,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :natuureigenschap;
-  rdfs:label "Boomkroonbedekking";
-  dct:source <https://example.com> .
+  rdfs:label "Boomkroonbedekking" .
 
 :bouwbesluit a skos:Concept;
   skos:prefLabel "Bouwbesluit"@nl;
@@ -451,8 +438,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "Door hitte grote kans op natuur-, berm- en woningbranden."@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :risico;
-  rdfs:label "Brandgevaar";
-  dct:source <https://example.com> .
+  rdfs:label "Brandgevaar" .
 
 :comfort a skos:Concept;
   skos:prefLabel "Comfort"@nl;
@@ -463,8 +449,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "In relatie tot 'binnentemperatuur' heel relevant. Bij welke binnentemperatuur ben je nog comfortabel? Parameters o.a.: kleding, doorstroming van de lucht, luchtvochtigheid, etc."@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :eigenschap_gebouwde_omgeving;
-  rdfs:label "Comfort";
-  dct:source <https://example.com> .
+  rdfs:label "Comfort" .
 
 :concentratieprobleem a skos:Concept;
   skos:prefLabel "Concentratieprobleem"@nl;
@@ -500,8 +485,7 @@ col:weerverschijnselen a skos:Collection;
   #skos:example "(optioneel opnemen)"@nl;
   #skos:related :virus;
   #skos:broader :aandoening_mens_en_dier;
-  #rdfs:label "Dengue";
-  #dct:source <https://example.com> .
+  #rdfs:label "Dengue" .
 
 #:doorstroming a skos:Concept;
   #skos:prefLabel "Doorstroming"@nl;
@@ -512,8 +496,7 @@ col:weerverschijnselen a skos:Collection;
   #skos:editorialNote "(optioneel opnemen)"@nl;
   #skos:example "(optioneel opnemen)"@nl;
   #skos:broader :activiteit;
-  #rdfs:label "Doorstroming";
-  #dct:source <https://example.com> .
+  #rdfs:label "Doorstroming" .
 
 :drinkwater a skos:Concept;
   skos:prefLabel "Drinkwater"@nl;
@@ -549,8 +532,7 @@ col:weerverschijnselen a skos:Collection;
   #skos:editorialNote "(optioneel opnemen)"@nl;
   #skos:example "(optioneel opnemen)"@nl;
   #skos:broader :gedrag;
-  #rdfs:label "Drugsgebruik";
-  #dct:source <https://example.com> .
+  #rdfs:label "Drugsgebruik" .
 
 :duur a skos:Concept;
   skos:prefLabel "Duur"@nl;
@@ -598,8 +580,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :eigenschap;
-  rdfs:label "Eigenschap gebouwde omgeving";
-  dct:source <https://example.com> .
+  rdfs:label "Eigenschap gebouwde omgeving" .
 
 :eigenschap a skos:Concept;
   skos:prefLabel "Eigenschap"@nl;
@@ -663,8 +644,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "Evacuatie van kwetsbare groepen naar koele binnenruimten voor langer verblijf."@nl;
   skos:broader :maatregel;
-  rdfs:label "Evacuatie kwetsbare groepen";
-  dct:source <https://example.com> .
+  rdfs:label "Evacuatie kwetsbare groepen" .
 
 :evenement a skos:Concept;
   skos:prefLabel "Evenement"@nl;
@@ -699,8 +679,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "Voor menukaart hitte in gebouwde omgeving wordt onderscheid gemaakt tussen 'hitte' en 'extreme' hitte omdat er andere gevolgen en maatregelen mee gepaard gaan."@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :gebeurtenis;
-  rdfs:label "Extreme hitte";
-  dct:source <https://example.com> .
+  rdfs:label "Extreme hitte" .
 
 :fauna a skos:Concept;
   skos:prefLabel "Fauna"@nl;
@@ -782,8 +761,7 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Gebeurtenis"@nl;
   skos:inScheme bk:imka;
   skos:definition "Iets dat plaatsvindt."@nl;
-  skos:topConceptOf bk:imka;
-  dct:source <https://example.com> .
+  skos:topConceptOf bk:imka .
 
 :gebouw a skos:Concept;
   skos:prefLabel "Gebouw"@nl;
@@ -832,8 +810,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "De gebouwhoogte kan gemeten worden vanaf maaiveld of NAP en kan op verschillende manieren gemeten worden.  "@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :gebouweigenschap;
-  rdfs:label "Gebouwhoogte";
-  dct:source <https://example.com> .
+  rdfs:label "Gebouwhoogte" .
 
 :gebouwonderdeel a skos:Concept;
   skos:prefLabel "Gebouwonderdeel"@nl;
@@ -916,8 +893,7 @@ col:weerverschijnselen a skos:Collection;
   #skos:editorialNote "(optioneel opnemen)"@nl;
   #skos:example "(optioneel opnemen)"@nl;
   #skos:broader :sector;
-  #rdfs:label "Gezondheidszorg";
-  #dct:source <https://example.com> .
+  #rdfs:label "Gezondheidszorg" .
 
 :groei a skos:Concept;
   skos:prefLabel "Groei"@nl;
@@ -940,8 +916,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :gebouwonderdeel;
-  rdfs:label "Groen dak";
-  dct:source <https://example.com> .
+  rdfs:label "Groen dak" .
 
 :groene_gevel a skos:Concept;
   skos:prefLabel "Groene gevel"@nl;
@@ -952,8 +927,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :gebouwonderdeel;
-  rdfs:label "Groene gevel";
-  dct:source <https://example.com> .
+  rdfs:label "Groene gevel" .
 
 :hellend_dak a skos:Concept;
   skos:prefLabel "Hellend dak"@nl;
@@ -964,8 +938,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "Minder warmtegevoelig."@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :gebouwonderdeel;
-  rdfs:label "Hellend dak";
-  dct:source <https://example.com> .
+  rdfs:label "Hellend dak" .
 
 :herhalingstijd a skos:Concept;
   skos:prefLabel "Herhalingstijd"@nl;
@@ -977,8 +950,7 @@ col:weerverschijnselen a skos:Collection;
   skos:example "Één keer per honderd jaar."@nl;
   skos:broader :temporele_eigenschap;
   skos:related :duur;
-  rdfs:label "Herhalingstijd";
-  dct:source <https://example.com> .
+  rdfs:label "Herhalingstijd" .
 
 :hittebestendig a skos:Concept;
   skos:prefLabel "Hittebestendig"@nl;
@@ -989,8 +961,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :eigenschap_gebouwde_omgeving;
-  rdfs:label "Hittebestendig";
-  dct:source <https://example.com> .
+  rdfs:label "Hittebestendig" .
 
 :hittegolf a skos:Concept;
   skos:prefLabel "Hittegolf"@nl, "Heat wave"@en;
@@ -1013,8 +984,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :temporele_eigenschap;
-  rdfs:label "Hittegolffrequentie";
-  dct:source <https://example.com> .
+  rdfs:label "Hittegolffrequentie" .
 
 :hitte_index a skos:Concept;
   skos:prefLabel "Hitte-index"@nl;
@@ -1038,8 +1008,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "Misschien moet de scope van de definitie verbreed worden om ook toepasbaar te zijn op binnenruimte en buiten de stad"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :maatregel;
-  rdfs:label "Hittemaatregel";
-  dct:source <https://example.com> .
+  rdfs:label "Hittemaatregel" .
 
 :hitteopgave a skos:Concept;
   skos:prefLabel "Hitteopgave"@nl;
@@ -1180,8 +1149,7 @@ col:weerverschijnselen a skos:Collection;
   #skos:editorialNote "I.v.m toenemende druk op gezondsheidszorg door hitte."@nl;
   #skos:example "(optioneel opnemen)"@nl;
   #skos:broader :beroep;
-  #rdfs:label "Huisarts";
-  #dct:source <https://example.com> .
+  #rdfs:label "Huisarts" .
 
 #:hulpdienst a skos:Concept;
   #skos:prefLabel "Hulpdienst"@nl;
@@ -1192,8 +1160,7 @@ col:weerverschijnselen a skos:Collection;
   #skos:editorialNote "(optioneel opnemen)"@nl;
   #skos:example "(optioneel opnemen)"@nl;
   #skos:topConceptOf bk:imka;
-  #rdfs:label "Hulpdienst";
-  #dct:source <https://example.com> .
+  #rdfs:label "Hulpdienst" .
 
 :ict_en_telecom a skos:Concept;
   skos:prefLabel "ICT en telecom"@nl;
@@ -1374,8 +1341,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :gebeurtenis;
-  rdfs:label "Klimaatextreem";
-  dct:source <https://example.com> .
+  rdfs:label "Klimaatextreem" .
 
 :klimaatimpact_op_sectoren a skos:Concept;
   skos:prefLabel "Klimaatimpact op sectoren"@nl;
@@ -1387,8 +1353,7 @@ col:weerverschijnselen a skos:Collection;
   skos:example "(optioneel opnemen)"@nl;
   skos:related :secundair_klimaateffect;
   skos:broader :impact;
-  rdfs:label "Klimaatimpact op sectoren";
-  dct:source <https://example.com> .
+  rdfs:label "Klimaatimpact op sectoren" .
 
 :klimaatmitigatie a skos:Concept;
   skos:prefLabel "Klimaatmitigatie"@nl;
@@ -1447,8 +1412,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :locatie;
-  rdfs:label "Klimaatzone";
-  dct:source <https://example.com> .
+  rdfs:label "Klimaatzone" .
 
 :klimatopenkaart a skos:Concept;
   skos:prefLabel "Klimatopenkaart"@nl;
@@ -1493,8 +1457,7 @@ col:weerverschijnselen a skos:Collection;
   skos:related :warme_dag, :warme_nacht, :tropische_dag, :tropische_nacht;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :locatie;
-  rdfs:label "Koele plek";
-  dct:source <https://example.com> .
+  rdfs:label "Koele plek" .
 
 :koelgraaddag a skos:Concept;
   skos:prefLabel "Koelgraaddag"@nl;
@@ -1574,8 +1537,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "Zie bijvoorbeeld de classificatie fysiek voorkomen bij IMGeo."@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :natuureigenschap;
-  rdfs:label "Landschapstype";
-  dct:source <https://example.com> .
+  rdfs:label "Landschapstype" .
 
 :leefomgeving a skos:Concept;
   skos:prefLabel "Leefomgeving"@nl;
@@ -1634,8 +1596,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :proces;
-  rdfs:label "Luchtstromingspatroon";
-  dct:source <https://example.com> .
+  rdfs:label "Luchtstromingspatroon" .
 
 :luchttemperatuur a skos:Concept;
   skos:prefLabel "Luchttemperatuur"@nl;
@@ -1681,8 +1642,7 @@ col:weerverschijnselen a skos:Collection;
   #skos:editorialNote "Type virus."@nl;
   #skos:example "(optioneel opnemen)"@nl;
   #skos:broader :aandoening_mens_en_dier;
-  #rdfs:label "Malaria";
-  #dct:source <https://example.com> .
+  #rdfs:label "Malaria" .
 
 :mate_van_isolatie a skos:Concept;
   skos:prefLabel "Mate van isolatie"@nl;
@@ -1693,8 +1653,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :gebouweigenschap;
-  rdfs:label "Mate van isolatie";
-  dct:source <https://example.com> .
+  rdfs:label "Mate van isolatie" .
 
 :mate_van_zonwering a skos:Concept;
   skos:prefLabel "Mate van zonwering"@nl;
@@ -1705,8 +1664,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :gebouweigenschap;
-  rdfs:label "Mate van zonwering";
-  dct:source <https://example.com> .
+  rdfs:label "Mate van zonwering" .
 
 :materiaal a skos:Concept;
   skos:prefLabel "Materiaal"@nl;
@@ -1741,8 +1699,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :fysiek_object;
-  rdfs:label "Mens gemaakt object";
-  dct:source <https://example.com> .
+  rdfs:label "Mens gemaakt object" .
 
 :menselijke_eigenschap a skos:Concept;
   skos:prefLabel "Menselijke eigenschap"@nl;
@@ -1753,8 +1710,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :eigenschap;
-  rdfs:label "Menselijke eigenschap";
-  dct:source <https://example.com> .
+  rdfs:label "Menselijke eigenschap" .
 
 :meteorologische_hitte a skos:Concept;
   skos:prefLabel "Meteorologische hitte"@nl;
@@ -1765,8 +1721,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote ""@nl;
   skos:example "Definitie en toelichting ter controle voorleggen in reviewsessie."@nl;
   skos:broader :gebeurtenis;
-  rdfs:label "Meteorologische hitte";
-  dct:source <https://example.com> .
+  rdfs:label "Meteorologische hitte" .
 
 #:migratiepatroon a skos:Concept;
   #skos:prefLabel "Migratiepatroon"@nl;
@@ -1777,8 +1732,7 @@ col:weerverschijnselen a skos:Collection;
   #skos:editorialNote "(optioneel opnemen)"@nl;
   #skos:example "(optioneel opnemen)"@nl;
   #skos:topConceptOf bk:imka;
-  #rdfs:label "Migratiepatroon";
-  #dct:source <https://example.com> .
+  #rdfs:label "Migratiepatroon" .
 
 :multifunctioneel_dak a skos:Concept;
   skos:prefLabel "Multifunctioneel dak"@nl;
@@ -1837,8 +1791,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :gebeurtenis;
-  rdfs:label "Natuurbrand";
-  dct:source <https://example.com> .
+  rdfs:label "Natuurbrand" .
 
 :natuurbrandgevoeligheid a skos:Concept;
   skos:prefLabel "Natuurbrandgevoeligheid"@nl;
@@ -1849,8 +1802,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :natuureigenschap;
-  rdfs:label "Natuurbrandgevoeligheid";
-  dct:source <https://example.com> .
+  rdfs:label "Natuurbrandgevoeligheid" .
 
 :natuureigenschap a skos:Concept;
   skos:prefLabel "Natuureigenschap"@nl;
@@ -1873,8 +1825,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :fysiek_object;
-  rdfs:label "Natuurlijk object";
-  dct:source <https://example.com> .
+  rdfs:label "Natuurlijk object" .
 
 :natuurlijk_systeem a skos:Concept;
   skos:prefLabel "Natuurlijk systeem"@nl;
@@ -1897,8 +1848,7 @@ col:weerverschijnselen a skos:Collection;
   #skos:editorialNote "(optioneel opnemen)"@nl;
   #skos:example "(optioneel opnemen)"@nl;
   #skos:broader :locatie;
-  #rdfs:label "Natuurlijk gebied";
- #dct:source <https://example.com> .
+  #rdfs:label "Natuurlijk gebied" .
 
 :natuurlijke_klimaatbuffer a skos:Concept;
   skos:prefLabel "Natuurlijke klimaatbuffer"@nl;
@@ -1909,8 +1859,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :locatie;
-  rdfs:label "Natuurlijke klimaatbuffer";
-  dct:source <https://example.com> .
+  rdfs:label "Natuurlijke klimaatbuffer" .
 
 :object a skos:Concept; 
   skos:prefLabel "Object"@nl; 
@@ -1952,8 +1901,7 @@ col:weerverschijnselen a skos:Collection;
   #skos:editorialNote "(optioneel opnemen)"@nl;
   #skos:example "(optioneel opnemen)"@nl;
   #skos:topConceptOf bk:imka;
-  #rdfs:label "Opleidingsniveau";
-  #dct:source <https://example.com> .
+  #rdfs:label "Opleidingsniveau" .
 
 :oppervlaktetemperatuur a skos:Concept;
   skos:prefLabel "Oppervlaktetemperatuur"@nl;
@@ -1965,8 +1913,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "Asfalttemperatuur; de temperatuur van het blad van een boom."@nl;
   skos:broader :temperatuur;
-  rdfs:label "Oppervlaktetemperatuur";
-  dct:source <https://example.com> .
+  rdfs:label "Oppervlaktetemperatuur" .
 
 :oppervlaktewater a skos:Concept;
   skos:prefLabel "Oppervlaktewater"@nl;
@@ -1990,8 +1937,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "Opwarming leidt onder andere tot meer warme dagen hittegolven en juist minder vorstdagen en ijsdagen."@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :impact;
-  rdfs:label "Opwarming";
-  dct:source <https://example.com> .
+  rdfs:label "Opwarming" .
 
 :oversterfte a skos:Concept;
   skos:prefLabel "Oversterfte"@nl;
@@ -2002,8 +1948,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :gezondheidsprobleem;
-  rdfs:label "Oversterfte";
-  dct:source <https://example.com> .
+  rdfs:label "Oversterfte" .
 
 :plat_dak a skos:Concept;
   skos:prefLabel "Plat dak"@nl;
@@ -2014,8 +1959,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "Warmtegevoelig."@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :gebouwonderdeel;
-  rdfs:label "Plat dak";
-  dct:source <https://example.com> .
+  rdfs:label "Plat dak" .
 
 :pollen_burst a skos:Concept;
   skos:prefLabel "Pollen-burst"@nl;
@@ -2026,8 +1970,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "Toont aan hoezeer hitte en droogte met elkaar samenhangen."@nl;
   skos:example "In Australië werd het enkele jaren geleden zeer warm en vochtig nader een zeer droge periode was geweest. Daardoor ontstond er een enorme pollen-burst."@nl;
   skos:broader :gebeurtenis;
-  rdfs:label "Pollen-burst";
-  dct:source <https://example.com> .
+  rdfs:label "Pollen-burst" .
 
 :primair_klimaateffect a skos:Concept;
   skos:prefLabel "Primair klimaateffect"@nl;
@@ -2058,8 +2001,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "Niet duidelijk is of het oppervlak van elk raam relevant is, of het opgetelde oppervlak van de ramen van een gebouw of een gevel."@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :gebouweigenschap;
-  rdfs:label "Raamopperlvak";
-  dct:source <https://example.com/> .
+  rdfs:label "Raamopperlvak"  .
 
 :recreatie_en_toerisme a skos:Concept;
   skos:prefLabel "Recreatie en toerisme"@nl;
@@ -2106,8 +2048,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :eigenschap_gebouwde_omgeving;
-  rdfs:label "Reflecterend vermogen";
-  dct:source <https://example.com> .
+  rdfs:label "Reflecterend vermogen" .
 
 :relatieve_luchtvochtigheid a skos:Concept;
   skos:prefLabel "Relatieve luchtvochtigheid"@nl;
@@ -2152,8 +2093,7 @@ col:weerverschijnselen a skos:Collection;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :locatie;
   skos:related :schaduw;
-  rdfs:label "Schaduwplek";
-  dct:source <https://example.com> .
+  rdfs:label "Schaduwplek" .
 
 :sector a skos:Concept;
   skos:prefLabel "Sector"@nl;
@@ -2164,8 +2104,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :object;
-  rdfs:label "Sector";
-  dct:source <https://example.com> .
+  rdfs:label "Sector" .
 
 :secundair_klimaateffect a skos:Concept;
   skos:prefLabel "Secundair klimaateffect"@nl;
@@ -2225,8 +2164,7 @@ col:weerverschijnselen a skos:Collection;
   #skos:editorialNote "(optioneel opnemen)"@nl;
   #skos:example "(optioneel opnemen)"@nl;
   #skos:broader :aandoening_mens_en_dier;
-  #rdfs:label "Staar";
-  #dct:source <https://example.com> .
+  #rdfs:label "Staar" .
 
 :stadspark a skos:Concept;
   skos:prefLabel "Stadspark"@nl;
@@ -2330,8 +2268,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :instrument;
-  rdfs:label "Stresstest";
-  dct:source <https://example.com> .
+  rdfs:label "Stresstest" .
 
 :temperatuur a skos:Concept;
   skos:prefLabel "Temperatuur"@nl;
@@ -2361,8 +2298,7 @@ col:weerverschijnselen a skos:Collection;
   #skos:editorialNote "(optioneel opnemen)"@nl;
   #skos:example "(optioneel opnemen)"@nl;
   #skos:broader :gebeurtenis;
-  #rdfs:label "Temperatuuroploop";
-  #dct:source <https://example.com> .
+  #rdfs:label "Temperatuuroploop" .
 
 :temporele_eigenschap a skos:Concept;
   skos:prefLabel "Temporele eigenschap"@nl;
@@ -2406,8 +2342,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :sector;
-  rdfs:label "Thuiszorg";
-  dct:source <https://example.com> .
+  rdfs:label "Thuiszorg" .
 
 #:toename_alcoholgebruik a skos:Concept;
   #skos:prefLabel "Toename alcoholgebruik"@nl;
@@ -2418,8 +2353,7 @@ col:weerverschijnselen a skos:Collection;
   #skos:editorialNote "(optioneel opnemen)"@nl;
   #skos:example "(optioneel opnemen)"@nl;
   #skos:broader :groei;
-  #rdfs:label "Toename alcoholgebruik";
-  #dct:source <https://example.com> .
+  #rdfs:label "Toename alcoholgebruik" .
 
 #:toename_drugsgebruik a skos:Concept;
   #skos:prefLabel "Toename drugsgebruik"@nl;
@@ -2430,8 +2364,7 @@ col:weerverschijnselen a skos:Collection;
   #skos:editorialNote "(optioneel opnemen)"@nl;
   #skos:example "(optioneel opnemen)"@nl;
   #skos:broader :groei;
-  #rdfs:label "Toename drugsgebruik";
-  #dct:source <https://example.com> .
+  #rdfs:label "Toename drugsgebruik" .
 
 :toename_ziekenhuisopnamen_door_hittestress_en_zomersmog a skos:Concept;
   skos:prefLabel "Toename ziekenhuisopnamen door hittestress en zomersmog"@nl;
@@ -2442,8 +2375,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "In relatie tot 'Hitte' niet onbenoemd laten, maar wel echt een neveneffect."@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :groei;
-  rdfs:label "Toename ziekenhuisopnamen door hittestress en zomersmog";
-  dct:source <https://example.com> .
+  rdfs:label "Toename ziekenhuisopnamen door hittestress en zomersmog" .
 
 :tojuli a skos:Concept; 
   skos:prefLabel "TOjuli"@nl;
@@ -2482,8 +2414,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "In het kader van groen."@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :mens_gemaakt_object;
-  rdfs:label "Tuin";
-  dct:source <https://example.com> .
+  rdfs:label "Tuin" .
 
 :uitdroging a skos:Concept;
   skos:prefLabel "Uitdroging"@nl;
@@ -2589,8 +2520,7 @@ col:weerverschijnselen a skos:Collection;
   #skos:editorialNote "(optioneel opnemen)."@nl;
   #skos:example "(optioneel opnemen)"@nl;
   #skos:broader :locatie;
-  #rdfs:label "Verblijfsplek";
-  #dct:source <https://example.com> .
+  #rdfs:label "Verblijfsplek" .
 
 :verdamping a skos:Concept;
   skos:prefLabel "Verdamping"@nl;
@@ -2636,8 +2566,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "Vergroening van de openbare en private ruimte."@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :maatregel;
-  rdfs:label "Vergroening";
-  dct:source <https://example.com> .
+  rdfs:label "Vergroening" .
 
 :verhoogde_druk_op_gezondsheidszorg_door_hitte a skos:Concept;
   skos:prefLabel "Verhoogde druk op gezondsheidszorg door hitte"@nl;
@@ -2648,8 +2577,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "Relevant: het gaat niet alleen om ziekenhuisopnamen maar ook om verhoogde druk op huisartsen en thuiszorg. Er is een aantoonbaar verband met 'Hitte'. Gaat niet direct om sterfgevallen. Mensen kunnen ook op andere manieren in de problemen komen: uitdroging, oververhitting, uitputting."@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :groei;
-  rdfs:label "Verhoogde druk op gezondsheidszorg door hitte";
-  dct:source <https://example.com> .
+  rdfs:label "Verhoogde druk op gezondsheidszorg door hitte" .
 
 :vermoeidheid a skos:Concept;
   skos:prefLabel "Vermoeidheid"@nl;
@@ -2672,8 +2600,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :impact;
-  rdfs:label "Verschuiving van seizoenen";
-  dct:source <https://example.com> .
+  rdfs:label "Verschuiving van seizoenen" .
 
 :versteend_gebied a skos:Concept;
   skos:prefLabel "Versteend gebied"@nl;
@@ -2735,8 +2662,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "Dat hoeven overigens lang niet altijd fragiele oudere mensen te zijn. Ook mensen met overgewicht zijn hiervoor kwetsbaar."@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :sterfte;
-  rdfs:label "Vroegtijdige sterfte";
-  dct:source <https://example.com> .
+  rdfs:label "Vroegtijdige sterfte" .
 
 :warme_dag a skos:Concept;
   skos:prefLabel "Warme dag"@nl;
@@ -2773,8 +2699,7 @@ col:weerverschijnselen a skos:Collection;
   #skos:editorialNote "(optioneel opnemen)"@nl;
   #skos:example "(optioneel opnemen)"@nl;
   #skos:broader :fauna;
-  #rdfs:label "Warmteminnende aquatische soorten";
-  #dct:source <https://example.com> .
+  #rdfs:label "Warmteminnende aquatische soorten" .
 
 :warmtepomp a skos:Concept;
   skos:prefLabel "Warmtepomp"@nl;
@@ -2934,8 +2859,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :gebouwonderdeel;
-  rdfs:label "Wit dak";
-  dct:source <https://example.com> .
+  rdfs:label "Wit dak" .
 
 :woning_orientatie a skos:Concept;
   skos:prefLabel "Woning-oriëntatie"@nl;
@@ -2946,8 +2870,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :gebouweigenschap;
-  rdfs:label "Woning-oriëntatie";
-  dct:source <https://example.com> .
+  rdfs:label "Woning-oriëntatie" .
 
 :zachte_periode a skos:Concept;
   skos:prefLabel "Zachte periode"@nl, "Warm spell"@en;
@@ -2959,8 +2882,7 @@ col:weerverschijnselen a skos:Collection;
   skos:example "Bijvoorbeeld als de luchttemperatuur midden in de winter meerdere dagen 15 graden Celsius of hober is."@nl;
   skos:broader :gebeurtenis;
   skos:relatedMatch <https://public.wmo.int/en/media/news/wmo-has-no-immediate-plans-name-heatwaves#:~:text=A%20heat%20wave%20is%20broadly%20defined%20as%20a%20period%20of%20statistically%20unusual%20hot%20weather%20persisting%20for%20a%20number%20of%20days%20and%20nights.>;
-  rdfs:label "Zachte periode";
-  dct:source <https://example.com> .
+  rdfs:label "Zachte periode" .
 
 :zeespiegelstijging a skos:Concept;
   skos:prefLabel "Zeespiegelstijging"@nl;
@@ -2983,8 +2905,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :observatie;
-  rdfs:label "Ziekenhuisopnamen";
-  dct:source <https://example.com> .
+  rdfs:label "Ziekenhuisopnamen" .
 
 :zomerse_dag a skos:Concept;
   skos:prefLabel "Zomerse dag"@nl;
@@ -3035,8 +2956,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :locatie;
-  rdfs:label "Zonplek";
-  dct:source <https://example.com> .
+  rdfs:label "Zonplek" .
 
 :zonwering a skos:Concept;
   skos:prefLabel "Zonwering"@nl;
@@ -3071,5 +2991,4 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)"@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :gebouwonderdeel;
-  rdfs:label "Zwart dak";
-  dct:source <https://example.com> .
+  rdfs:label "Zwart dak" .
