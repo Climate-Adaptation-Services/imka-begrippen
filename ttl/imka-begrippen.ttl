@@ -1103,12 +1103,12 @@ col:weerverschijnselen a skos:Collection;
   skos:altLabel "(bijv. afkorting)"@nl;
   skos:inScheme bk:imka;
   skos:definition "Een vorm van oversterfte tijdens een hittegolf waarbij het waargenomen aantal overledenen hoger is dan het verwachte aantal overledenen in dezelfde periode."@nl;
-  skos:scopeNote "(optioneel opnemen)"@nl;
-  skos:editorialNote "Zeer relevant. Ook goed meetbaar. Het is een vorm van oversterfte. Het effect is heel duidelijk zichtbaar in perioden van extreme hitte. Gaat specifiek om 'Vroegtijdige sterfte': mensen die normaal niet dood zouden gaan, maar als gevolg van die hitte wel doodgaan. Naast oudere mensen, zijn bijvoorbeeld ook mensen met overgewicht kwetsbaarder."@nl;
+  skos:scopeNote "Van alle sterftegevallen in de zomers tussen 1991 en 2018 hing In Nederland 1,8% samen met temperatuur. Zonder extra temperatuur toename door mondiale klimaatverandering zou dit naar verwachting 1,24 % zijn geweest. Voor Nederland komt dat neer op bijna 250 extra sterfgevallen per jaar."@nl;
+  skos:editorialNote "Deze term behoeft verdere uitwerking. Het gaat in elk geval om een zeer relevante en ook goed meetbare vorm van oversterfte als gevolg van meer warme en hete dagen door klimaatverandering. Het effect blijkt duidelijk zichtbaar in perioden van extreme hitte. Het gaat specifiek om 'vroegtijdige sterfte': mensen die normaal niet dood zouden gaan, maar als gevolg van die hitte nu wel doodgaan. Naast oudere mensen, zijn bijvoorbeeld ook mensen met overgewicht kwetsbaarder."@nl;
   skos:example "(optioneel opnemen)"@nl;
   skos:broader :sterfte;
   rdfs:label "Hittesterfte";
-  dct:source <https://www.cbs.nl/nl-nl/nieuws/2021/02/bijna-4-duizend-mensen-overleden-in-eerste-week-van-2021/oversterfte-en-verwachte-sterfte> .
+  dct:source <https://www.nature.com/articles/s41558-021-01058-x> .
 
 :hittestress a skos:Concept;
   skos:prefLabel "Hittestress"@nl;
