@@ -45,7 +45,7 @@ col:gezondheid a skos:Collection;
 col:instrumenten a skos:Collection;
   skos:prefLabel "Instrumenten"@nl;
   rdfs:label "Instrumenten";
-  skos:member :bodemdalingvoorspelling, :boomkroonbedekking, :duur, :eisen_voor_bijna_energieneutraal_gebouw, :instrument, :klimatopenkaart, :klimaatschadeschatter, :kwetsbaarheidskaart, :ladder_van_koelte, :herhalingstijd, :hittegolffrequentie, :hitteplan, :hitterisicokaart, :hitteschade, :hittestresstest, :hittetoetsingskaart, :intensiteit, :lokaal_hitteplan, :nationaal_hitteplan, :nationale_adaptatie_strategie, :temperatuurkaart, :stresstest, :thermalwalk;
+  skos:member :bodemdalingvoorspelling, :boomkroonbedekking, :duur, :eisen_voor_bijna_energieneutraal_gebouw, :instrument, :klimatopenkaart, :klimaatschadeschatter, :kwetsbaarheidskaart, :ladder_van_koelte, :herhalingstijd, :hitteplan, :hitterisicokaart, :hitteschade, :hittestresstest, :hittetoetsingskaart, :intensiteit, :lokaal_hitteplan, :nationaal_hitteplan, :nationale_adaptatie_strategie, :temperatuurkaart, :stresstest, :thermalwalk;
   skos:definition "Begrippen die te maken hebben met de instrumenten, concrete hulpmiddelen, die er zijn voor het bepalen en doorvoeren van klimaatadaptatiemaatregelen."@nl;
   skos:example "(optioneel opnemen)"@nl.
 
@@ -75,7 +75,7 @@ col:klimaatverschijnselen a skos:Collection;
   skos:prefLabel "Klimaatverschijnselen"@nl;
   skos:definition "Begrippen die te maken hebben met verschijnselen rondom het klimaat (i.e. lange termijn)"@nl;
   rdfs:label "Klimaatverschijnselen"@nl;
-  skos:member :atmosfeer, :hitte, :intensiteit, :luchtstromingspatroon, :klimaat, :klimaatverandering, :klimaatzone, :opwarming, :warmteflux .
+  skos:member :atmosfeer, :hitte, :intensiteit, :hittegolffrequentie, :luchtstromingspatroon, :klimaat, :klimaatverandering, :klimaatzone, :opwarming, :warmteflux .
 
 col:natuur a skos:Collection;
   skos:prefLabel "Natuur"@nl;
@@ -529,10 +529,11 @@ col:weerverschijnselen a skos:Collection;
 :extreme_hitte a skos:Concept;
   skos:prefLabel "Extreme hitte"@nl;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
-  skos:editorialNote "Voor menukaart hitte in gebouwde omgeving wordt onderscheid gemaakt tussen 'hitte' en 'extreme' hitte omdat er andere gevolgen en maatregelen mee gepaard gaan."@nl;
+  skos:definition "In meteorologische context, een maximumtemperatuur van 35 graden of hoger."@nl;
+  skos:editorialNote "Voor menukaart hitte in gebouwde omgeving wordt onderscheid gemaakt tussen 'hitte' en 'extreme' hitte omdat er andere gevolgen en maatregelen mee gepaard gaan. Dan gaat het om extreme hittegolven waarbij KNMI Code Rood voor hitte afgeeft. Bij KNMI is echter niet exact terug te vinden onder welke omstandigheden een code rood voor hitte in werking treedt. Wel wordt beschreven dat het bij extreme hitte gaat om maximumtemperaturen van 35 graden en hoger. "@nl;
   skos:broader :gebeurtenis;
-  rdfs:label "Extreme hitte".
+  rdfs:label "Extreme hitte";
+  dct:source <https://www.knmi.nl/over-het-knmi/nieuws/extreme-hitte-in-nederland>.
 
 :fauna a skos:Concept;
   skos:prefLabel "Fauna"@nl;
@@ -739,9 +740,11 @@ col:weerverschijnselen a skos:Collection;
 :hittebestendig a skos:Concept;
   skos:prefLabel "Hittebestendig"@nl;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
+  skos:definition "Een buitenruimte, gebouw of gedrag is hittebestendig als het (er) leefbaar en comfortabel blijft tijdens hitte."@nl;
+  skos:editorialNote "Voor de buitenruimte is dit in het HvA rapport 'De hittebestendige stad' geconcretiseerd voor de buitenruimte met een definitie van afstand tot koelte, schaduw op loopgebieden en percentage groen."@nl;
   skos:broader :eigenschap_gebouwde_omgeving;
-  rdfs:label "Hittebestendig".
+  rdfs:label "Hittebestendig";
+  dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf>.
 
 :hittegolf a skos:Concept;
   skos:prefLabel "Hittegolf"@nl, "Heat wave"@en;
@@ -755,9 +758,11 @@ col:weerverschijnselen a skos:Collection;
 :hittegolffrequentie a skos:Concept;
   skos:prefLabel "Hittegolffrequentie"@nl;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
+  skos:definition "Hoe vaak hittegolven voorkomen."@nl;
   skos:broader :temporele_eigenschap;
-  rdfs:label "Hittegolffrequentie".
+  rdfs:label "Hittegolffrequentie";
+  skos:editorialNote "Als gevolg van klimaatverandering is het waarschijnlijk dat de frequentie van hittegolven deze eeuw zal toenemen."@nl;
+  dct:source <https://www.knmi.nl/kennis-en-datacentrum/achtergrond/extreem-weer-en-klimaatverandering>.
 
 :hitte_index a skos:Concept;
   skos:prefLabel "Hitte-index"@nl;
@@ -921,12 +926,15 @@ col:weerverschijnselen a skos:Collection;
 
 :impact a skos:Concept;
   skos:prefLabel "Impact"@nl;
-  skos:altLabel "uitwerking, invloed, effect"@nl;
+  skos:altLabel "uitwerking"@nl;
+  skos:altLabel "invloed"@nl;
+  skos:altLabel "effect"@nl;
   skos:inScheme bk:imka;
-  skos:definition "(verplicht opnemen)"@nl;
+  skos:definition "De gevolgen of invloed van een gebeurtenis."@nl;
+  skos:scopeNote "In de context van klimaatverandering is een gevolg volgens het WMO een `key impact` als het ernstige gevolgen heeft voor mens en voor sociaal-ecologische systemen. "@nl;
   skos:broader :proces;
   rdfs:label "Impact";
-  dct:source <https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/impact> .
+  dct:source <https://unterm.un.org/unterm2/en/view/20e8610e-fbd9-4c6b-9afb-cbbf37a4c8b5> .
 
 :infectieziekte a skos:Concept;
   skos:prefLabel "Infectieziektes"@nl;
