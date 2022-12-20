@@ -1104,9 +1104,9 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Klimaatzone"@nl, "Climate zone"@en;
   skos:inScheme bk:imka;
   skos:definition "Een geografische gebied waar hetzelfde klimaat heerst, gedefinieerd door de latitudinale spreiding van klimaatelementen."@nl;
-  skos:scopeNote "De formele indeling van klimaatzones wordt vaak gebaseerd op de klimaatclassificatie van Köppen-Geiger."
+  skos:scopeNote "De formele indeling van klimaatzones wordt vaak gebaseerd op de klimaatclassificatie van Köppen-Geiger."@nl;
   skos:broader :locatie;
-  rdfs:label "Klimaatzone"
+  rdfs:label "Klimaatzone";
   dct:source <https://unterm.un.org/unterm2/en/view/cf254af4-03e6-4f44-8c00-78c4abc90c5f#:~:text=A%20geographical%20zone%20%22defined%20by%20the%20latitudinal%20distribution%20of%20the%20climatic%20elements%22.> .
 
 :klimatopenkaart a skos:Concept;
