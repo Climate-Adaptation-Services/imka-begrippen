@@ -45,7 +45,7 @@ col:gezondheid a skos:Collection;
 col:instrumenten a skos:Collection;
   skos:prefLabel "Instrumenten"@nl;
   rdfs:label "Instrumenten";
-  skos:member :bodemdalingvoorspelling, :boomkroonbedekking, :duur, :eisen_voor_bijna_energieneutraal_gebouw, :instrument, :klimatopenkaart, :klimaatschadeschatter, :kwetsbaarheidskaart, :ladder_van_koelte, :herhalingstijd, :hitteplan, :hitterisicokaart, :hitteschade, :hittestresstest, :hittetoetsingskaart, :intensiteit, :lokaal_hitteplan, :nationaal_hitteplan, :nationale_adaptatie_strategie, :temperatuurkaart, :stresstest, :thermalwalk;
+  skos:member :bodemdalingvoorspelling, :boomkroonbedekking, :duur, :eisen_voor_bijna_energieneutraal_gebouw, :instrument, :klimatopenkaart, :klimaatschadeschatter, :kwetsbaarheidskaart, :ladder_van_koelte, :herhalingstijd, :hittegolffrequentie, :hitteplan, :hitterisicokaart, :hitteschade, :hittestresstest, :hittetoetsingskaart, :intensiteit, :lokaal_hitteplan, :nationaal_hitteplan, :nationale_adaptatie_strategie, :temperatuurkaart, :stresstest, :thermalwalk;
   skos:definition "Begrippen die te maken hebben met de instrumenten, concrete hulpmiddelen, die er zijn voor het bepalen en doorvoeren van klimaatadaptatiemaatregelen."@nl;
   skos:example "(optioneel opnemen)"@nl.
 
@@ -75,7 +75,7 @@ col:klimaatverschijnselen a skos:Collection;
   skos:prefLabel "Klimaatverschijnselen"@nl;
   skos:definition "Begrippen die te maken hebben met verschijnselen rondom het klimaat (i.e. lange termijn)"@nl;
   rdfs:label "Klimaatverschijnselen"@nl;
-  skos:member :atmosfeer, :hitte, :intensiteit, :hittegolffrequentie, :luchtstromingspatroon, :klimaat, :klimaatverandering, :klimaatzone, :opwarming, :warmteflux .
+  skos:member :atmosfeer, :hitte, :intensiteit, :luchtstromingspatroon, :klimaat, :klimaatverandering, :klimaatzone, :opwarming, :warmteflux .
 
 col:natuur a skos:Collection;
   skos:prefLabel "Natuur"@nl;
@@ -529,11 +529,10 @@ col:weerverschijnselen a skos:Collection;
 :extreme_hitte a skos:Concept;
   skos:prefLabel "Extreme hitte"@nl;
   skos:inScheme bk:imka;
-  skos:definition "In meteorologische context, een maximumtemperatuur van 35 graden of hoger."@nl;
-  skos:editorialNote "Voor menukaart hitte in gebouwde omgeving wordt onderscheid gemaakt tussen 'hitte' en 'extreme' hitte omdat er andere gevolgen en maatregelen mee gepaard gaan. Dan gaat het om extreme hittegolven waarbij KNMI Code Rood voor hitte afgeeft. Bij KNMI is echter niet exact terug te vinden onder welke omstandigheden een code rood voor hitte in werking treedt. Wel wordt beschreven dat het bij extreme hitte gaat om maximumtemperaturen van 35 graden en hoger. "@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:editorialNote "Voor menukaart hitte in gebouwde omgeving wordt onderscheid gemaakt tussen 'hitte' en 'extreme' hitte omdat er andere gevolgen en maatregelen mee gepaard gaan."@nl;
   skos:broader :gebeurtenis;
-  rdfs:label "Extreme hitte";
-  dct:source <https://www.knmi.nl/over-het-knmi/nieuws/extreme-hitte-in-nederland>.
+  rdfs:label "Extreme hitte".
 
 :fauna a skos:Concept;
   skos:prefLabel "Fauna"@nl;
@@ -740,11 +739,9 @@ col:weerverschijnselen a skos:Collection;
 :hittebestendig a skos:Concept;
   skos:prefLabel "Hittebestendig"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Een buitenruimte, gebouw of gedrag is hittebestendig als het (er) leefbaar en comfortabel blijft tijdens hitte."@nl;
-  skos:editorialNote "Voor de buitenruimte is dit in het HvA rapport 'De hittebestendige stad' geconcretiseerd voor de buitenruimte met een definitie van afstand tot koelte, schaduw op loopgebieden en percentage groen."@nl;
+  skos:definition "(verplicht opnemen)"@nl;
   skos:broader :eigenschap_gebouwde_omgeving;
-  rdfs:label "Hittebestendig";
-  dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf>.
+  rdfs:label "Hittebestendig".
 
 :hittegolf a skos:Concept;
   skos:prefLabel "Hittegolf"@nl, "Heat wave"@en;
@@ -758,11 +755,9 @@ col:weerverschijnselen a skos:Collection;
 :hittegolffrequentie a skos:Concept;
   skos:prefLabel "Hittegolffrequentie"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Hoe vaak hittegolven voorkomen."@nl;
+  skos:definition "(verplicht opnemen)"@nl;
   skos:broader :temporele_eigenschap;
-  rdfs:label "Hittegolffrequentie";
-  skos:editorialNote "Als gevolg van klimaatverandering is het waarschijnlijk dat de frequentie van hittegolven deze eeuw zal toenemen."@nl;
-  dct:source <https://www.knmi.nl/kennis-en-datacentrum/achtergrond/extreem-weer-en-klimaatverandering>.
+  rdfs:label "Hittegolffrequentie".
 
 :hitte_index a skos:Concept;
   skos:prefLabel "Hitte-index"@nl;
@@ -926,15 +921,12 @@ col:weerverschijnselen a skos:Collection;
 
 :impact a skos:Concept;
   skos:prefLabel "Impact"@nl;
-  skos:altLabel "uitwerking"@nl;
-  skos:altLabel "invloed"@nl;
-  skos:altLabel "effect"@nl;
+  skos:altLabel "uitwerking, invloed, effect"@nl;
   skos:inScheme bk:imka;
-  skos:definition "De gevolgen of invloed van een gebeurtenis."@nl;
-  skos:scopeNote "In de context van klimaatverandering is een gevolg volgens het WMO een `key impact` als het ernstige gevolgen heeft voor mens en voor sociaal-ecologische systemen. "@nl;
+  skos:definition "(verplicht opnemen)"@nl;
   skos:broader :proces;
   rdfs:label "Impact";
-  dct:source <https://unterm.un.org/unterm2/en/view/20e8610e-fbd9-4c6b-9afb-cbbf37a4c8b5> .
+  dct:source <https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/impact> .
 
 :infectieziekte a skos:Concept;
   skos:prefLabel "Infectieziektes"@nl;
@@ -1043,14 +1035,11 @@ col:weerverschijnselen a skos:Collection;
   dct:source <https://www.rijksoverheid.nl/onderwerpen/klimaatverandering/klimaatadaptatie> .
 
 :klimaatextreem a skos:Concept;
-  skos:prefLabel "Klimaatextreem"@nl, "Extreme climate event"@en;
+  skos:prefLabel "Klimaatextreem"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Een patroon van extreem weer dat gedurende enige tijd, bijvoorbeeld een seizoen, lang genoeg aanhoudt om te kunnen worden aangemerkt als een extreme klimaatgebeurtenis, vooral als het een gemiddelde of totaal oplevert dat zelf extreem is (bijvoorbeeld droogte of zware regenval gedurende een seizoen)."@nl;
-  skos:scopeNote "De definities van 'zeldzaam' lopen uiteen, maar een extreme weergebeurtenis is normaliter even zeldzaam als of zeldzamer dan het 10e of 90e percentiel van een op basis van waarnemingen geschatte waarschijnlijkheidsdichtheidsfunctie. Per definitie kunnen de kenmerken van wat extreem weer wordt genoemd van plaats tot plaats in absolute zin verschillen. Wanneer een patroon van extreem weer enige tijd aanhoudt, bijvoorbeeld een seizoen, kan het worden aangemerkt als een extreme klimaatgebeurtenis, vooral als het een gemiddelde of totaal oplevert dat zelf extreem is (bijvoorbeeld droogte of zware regenval gedurende een seizoen)."@nl;
-  skos:editorialNote "In een vervolg op dit woordenboek zou nog eens verder ingezoomd moeten worden op de samenhang tussen  de termen 'weer', 'klimaat' en de toevoeging 'extreem' aan beide termen."@nl;
+  skos:definition "(verplicht opnemen)"@nl;
   skos:broader :gebeurtenis;
-  rdfs:label "Klimaatextreem";
-  dct:source <https://unterm.un.org/unterm2/en/view/21c668e9-e2d9-4711-b5ce-bae59dfc6bb3#:~:text=A%20pattern%20of%20extreme%20weather%20%5Bsee%20extreme%20weather%20event%5D%20that%20persists%20for%20some%20time%2C%20such%20as%20a%20season%2C%20long%20enough%20that%20it%20may%20be%20classed%20as%20an%20extreme%20climate%20event%2C%20especially%20if%20it%20yields%20an%20average%20or%20total%20that%20is%20itself%20extreme%20(e.g.%2C%20drought%20or%20heavy%20rainfall%20over%20a%20season).> .
+  rdfs:label "Klimaatextreem".
 
 :klimaatimpact_op_sectoren a skos:Concept;
   skos:prefLabel "Klimaatimpact op sectoren"@nl;
@@ -1101,13 +1090,11 @@ col:weerverschijnselen a skos:Collection;
   dct:source <https://unterm.un.org/unterm/display/record/unog/na?OriginalId=54098> .
 
 :klimaatzone a skos:Concept;
-  skos:prefLabel "Klimaatzone"@nl, "Climate zone"@en;
+  skos:prefLabel "Klimaatzone"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Een geografische gebied waar hetzelfde klimaat heerst, gedefinieerd door de latitudinale spreiding van klimaatelementen."@nl;
-  skos:scopeNote "De formele indeling van klimaatzones wordt vaak gebaseerd op de klimaatclassificatie van Köppen-Geiger."
+  skos:definition "(verplicht opnemen)"@nl;
   skos:broader :locatie;
-  rdfs:label "Klimaatzone"
-  dct:source <https://unterm.un.org/unterm2/en/view/cf254af4-03e6-4f44-8c00-78c4abc90c5f#:~:text=A%20geographical%20zone%20%22defined%20by%20the%20latitudinal%20distribution%20of%20the%20climatic%20elements%22.> .
+  rdfs:label "Klimaatzone".
 
 :klimatopenkaart a skos:Concept;
   skos:prefLabel "Klimatopenkaart"@nl;
@@ -1343,7 +1330,7 @@ col:weerverschijnselen a skos:Collection;
   skos:altLabel "Hitte"@nl;
   skos:inScheme bk:imka;
   skos:definition "Een (lucht)temperatuur van 25 graden Celsius of hoger."@nl;
-  skos:scopeNote "Binnen het domein klimaatadaptatie gaat 'hitte' specifiek over de meteorologische verschijningsvorm ervan. Hiermee hanteert het domein een engere opvatting van de (bredere) natuurkundige betekenis. Daarom wordt het begrip 'meteorologische hitte' als voorkeursterm gehanteerd, met 'hitte' als alternatieve term. De definitie is afgeleid van de term hittegolf, dat een specifieke afbakening van tijd bevat: 'minimaal vijf aaneengesloten dagen'. Maar, binnen het domein klimaatadaptatie zijn niet alleen (langere) aangesloten perioden (golven) van hitte relevant, maar juist ook die kortere (piek)momenten, waarop de (lucht)temperatuur bijvoorbeeld midden op de dag 25 graden Celsius of hoger is."@nl;
+  skos:scopeNote "Binnen het domein klimaatadaptatie gaat 'hitte' specifiek over de meteorologische verschijningsvorm ervan. Hiermee hanteert het domein een engere opvatting van de bredere natuurkundige betekenis. Daarom wordt het begrip 'meteorologische hitte' als voorkeursterm gehanteerd, met 'hitte' als alternatieve term. De definitie is afgeleid van de term hittegolf, dat een specifieke afbakening van tijd bevat: 'minimaal vijf aaneengesloten dagen'. Maar, binnen het domein klimaatadaptatie zijn niet alleen (langere) aangesloten perioden (golven) van hitte relevant, maar juist ook die kortere (piek)momenten, waarop de (lucht)temperatuur bijvoorbeeld midden op de dag 25 graden Celsius of hoger is."@nl;
   skos:editorialNote ""@nl;
   skos:example "Definitie en toelichting ter controle voorleggen in reviewsessie."@nl;
   skos:broader :gebeurtenis;
@@ -1450,10 +1437,9 @@ col:weerverschijnselen a skos:Collection;
 :natuurlijke_klimaatbuffer a skos:Concept;
   skos:prefLabel "Natuurlijke klimaatbuffer"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Gebieden waar natuurlijke processen de ruimte krijgen waardoor ze meegroeien met klimaatverandering en een rol spelen bij het vasthouden en opvangen van water, het voorkomen van watertekorten, het temperen van hitte en het verminderen van koolstofdioxide in de atmosfeer."@nl;
+  skos:definition "(verplicht opnemen)"@nl;
   skos:broader :locatie;
-  rdfs:label "Natuurlijke klimaatbuffer";
-  dct:source <https://www.klimaatbuffers.nl/natuurlijke-klimaatbuffers#:~:text=Klimaatbuffers%20zijn%20gebieden%20waar%20natuurlijke%20processen%20de%20ruimte%20krijgen.%20Hierdoor%20groeien%20ze%20mee%20met%20klimaatverandering%20en%20vervullen%20een%20rol%20bij%20het%20vasthouden%20en%20opvangen%20van%20water%2C%20het%20voorkomen%20van%20watertekorten%2C%20het%20temperen%20van%20hitte%20en%20het%20verminderen%20van%20kooldioxide%20in%20de%20atmosfeer.> .
+  rdfs:label "Natuurlijke klimaatbuffer".
 
 :object a skos:Concept; 
   skos:prefLabel "Object"@nl; 
@@ -1513,11 +1499,10 @@ col:weerverschijnselen a skos:Collection;
   dct:source <https://www.aquo.nl/> .
 
 :opwarming a skos:Concept;
-  skos:prefLabel "Opwarming"@nl; 
+  skos:prefLabel "Opwarming"@nl;
   skos:inScheme bk:imka;
-  skos:definition "de waargenomen of verwachte geleidelijke stijging van de (mondiale) oppervlaktetemperatuur, als een van de gevolgen van stralingsforcering door antropogene emissies."@nl;
-  skos:scopeNote "Opwarming leidt onder andere tot meer warme dagen hittegolven en juist minder vorstdagen en ijsdagen."@nl;
-  skos:editorialNote "In dit woordenboek worden de termen 'hitte' en 'opwarming' als uitersten van een spectrum beschouwd. Dit behoeft verdere uitwerking. Grofweg geldt dat hitte wordt gezien als een accuut weersverschijnsel en opwarming als een meer langetermijn klimatologisch verschijnsel."@nl;
+  skos:definition "(verplicht opnemen)"@nl;
+  skos:editorialNote "Opwarming leidt onder andere tot meer warme dagen hittegolven en juist minder vorstdagen en ijsdagen."@nl;
   skos:broader :impact;
   rdfs:label "Opwarming".
 
