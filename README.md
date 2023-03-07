@@ -5,7 +5,7 @@ Repository voor het begrippenkader over klimaatadaptatie - thema "Hitte"
 ## Over het IMKA begrippenkader
 In opdracht van het ministerie van I&W werkt [Geonovum](https://www.geonovum.nl) aan een begrippenkader (‘woordenboek’) en een eerste aanzet tot een informatiemodel voor het thema **hitte**. Achterliggende gedachte is dat door standaardisatie van begrippen er een gemeenschappelijke ‘taal’ ontstaat en door de samenhang tussen begrippen te duiden informatie beter kan worden opgeslagen en uitgewisseld. Dit is behulpzaam wanneer men klimaatadaptatie (maatregelen en effecten) wil kunnen monitoren en vergelijken.
  
-Het begrippenkader wordt ontwikkeld conform de W3C standaard [SKOS](https://www.w3.org/2004/02/skos/) in een online werkomgeving (VocBench). Regelmatig wordt een export uit deze omgeving in de imka-begrippen Gihtub repository bewaard. Daarnaast wordt het begrippenkader terwijl het in ontwikkeling is regelmatig gepubliceerd als een online "woordenboek" op https://begrippen.geostandaarden.nl/hitte. Zo kan het werkveld al kijken in het begrippenkader terwijl het nog in ontwikkeling is. 
+Het begrippenkader wordt ontwikkeld conform de W3C standaard [SKOS](https://www.w3.org/2004/02/skos/) in een online werkomgeving (VocBench). Regelmatig wordt een export uit deze omgeving in de imka-begrippen Gihtub repository bewaard. Daarnaast wordt het begrippenkader terwijl het in ontwikkeling is regelmatig gepubliceerd als een online "woordenboek" op https://definities.geostandaarden.nl/hitte/nl/. Zo kan het werkveld al kijken in het begrippenkader terwijl het nog in ontwikkeling is. 
 
 Ook zullen we de samenhang tussen de begrippen (aanzet voor informatiemodel) visualiseren en deze visualisatie of "overzichtsplaat" bewaren in deze GitHub repository. 
 
