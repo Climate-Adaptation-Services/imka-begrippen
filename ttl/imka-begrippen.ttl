@@ -6,16 +6,19 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix : <http://definities.geostandaarden.nl/imka/id/begrip/> .
-@prefix col: <http://definities.geostandaarden.nl/imka/id/collectie/> .
-@prefix bk: <http://definities.geostandaarden.nl/imka/id/begrippenkader/> .
+@prefix : <https://woordenboek.klimaatadaptatienederland.nl/hitte/nl/id/begrip/> .
+@prefix col: <https://woordenboek.klimaatadaptatienederland.nl/hitte/nl/id/collectie/> .
+@prefix bk: <https://woordenboek.klimaatadaptatienederland.nl/hitte/nl/id/begrip/> .
 
 #==================================================================================================
 # Begrippenkader Informatiemodel Klimaatadaptatie (IMKA)
 #==================================================================================================
 
 bk:imka a skos:ConceptScheme;
-  skos:prefLabel "Begrippenkader Klimaatadaptatie - Hitte"@nl .
+  skos:prefLabel "Begrippenkader Klimaatadaptatie - Hitte"@nl;
+  dc:creator     "Geonovum"@nl ;
+  dc:language    "Nederlands"@nl ;
+  dc:rights      "<a href=\"https://creativecommons.org/licenses/by/4.0/deed.nl\" target=\"blank\" rel=\"noopener\">https://creativecommons.org/licenses/by/4.0/deed.nl</a>"^^rdf:HTML .
 
 #==================================================================================================
 # Groepen (alfabetisch)
