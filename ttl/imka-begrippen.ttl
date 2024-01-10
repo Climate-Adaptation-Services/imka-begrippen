@@ -70,7 +70,7 @@ col:klimaatadaptatiemaatregelen a skos:Collection;
 col:klimaateffect a skos:Collection;
   skos:prefLabel "Klimaateffecten"@nl;
   rdfs:label "Klimaateffecten";
-  skos:member :bodemdaling, :blootstelling, :brandgevaar, :droogte, :ecosysteemverschuiving, :hitteopgave, :hitterisico, :hittesterfte, :hittestress, :impact, :klimaatimpact_op_sectoren, :klimaatschadeschatter, :klimaatverandering, :natuurbrand, :opwarming, :primair_klimaateffect, :secundair_klimaateffect, :sterfte, :tertair_klimaateffect, :toename_ziekenhuisopnamen_door_hittestress_en_zomersmog, :verdamping, :verschuiving_van_seizoenen, :watertemperatuur, :zeespiegelstijging;
+  skos:member :bodemdaling, :blackout, :blootstelling, :brandgevaar, :droogte, :ecosysteemverschuiving, :hitteopgave, :hitterisico, :hittesterfte, :hittestress, :impact, :klimaatimpact_op_sectoren, :klimaatschadeschatter, :klimaatverandering, :natuurbrand, :opwarming, :primair_klimaateffect, :secundair_klimaateffect, :sterfte, :tertair_klimaateffect, :toename_ziekenhuisopnamen_door_hittestress_en_zomersmog, :verdamping, :verschuiving_van_seizoenen, :watertemperatuur, :zeespiegelstijging;
   skos:definition "Begrippen die te maken hebben met klimaateffecten"@nl;
   skos:example "(optioneel opnemen)"@nl.
 
@@ -210,8 +210,6 @@ col:weerverschijnselen a skos:Collection;
   skos:inScheme bk:imka;
   skos:definition "Een samenhangend geheel van arbeidstaken die voor de uitvoering een bepaalde vakkennis en -kunde vereisen, en dat losstaand van de individuele beroepsbeoefenaar kan voortbestaan en voor de maatschappij herkenbaar is."@nl;
   skos:scopeNote "Een hoge temperatuur heeft invloed op hoe een persoon een beroep uitoefent."@nl;
-  skos:editorialNote "Het gaat hier om parameter voor het identificeren van kwetsbare groepen. Om de term te operationaliseren, is een nadere uitwerking nodig."@nl;
-  skos:example "De consequenties voor iemand die in de buitenlucht werkt,zijn anders dan voor iemand die in een kantoor werkt."@nl;
   skos:broader :menselijke_eigenschap;
   skos:related :gezondheid;
   rdfs:label "Beroep";
@@ -229,7 +227,6 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Bewonersgedrag"@nl;
   skos:inScheme bk:imka;
   skos:definition "Het gedrag van de mensen die zich bevinden in een woonruimte."@nl;
-  skos:editorialNote "Slecht bewonersgedrag, zoals het overdag open houden van de ramen, niet gebruikmaken van zonwering, etc. kan meer effect hebben op hitte in een woning dan in een stad wonen."@nl;
   skos:broader :menselijke_eigenschap;
   rdfs:label "Bewonersgedrag".
 
@@ -237,8 +234,7 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Binnentemperatuur"@nl;
   skos:inScheme bk:imka;
   skos:definition "De temperatuur in een gebouw, uitgedrukt in graden."@nl;
-  skos:note "Met name bepaalde gebouwkenmerken spelen een belangrijke rol bij de opwarming van de woning. In hoeverre de ene woning meer opwarmt dan de andere hangt echter ook af van omgevingsfactoren die de buitentemperatuur en indirect de binnentemperatuur beïnvloeden, en gedragingen van bewoners zelf. "@nl;
-  skos:editorialNote "Er zijn verschillende meetmethoden en meetperioden voor de vaststelling van binnentemperatuur."@nl;
+  skos:scopeNote "Met name bepaalde gebouwkenmerken spelen een belangrijke rol bij de opwarming van de woning. In hoeverre de ene woning meer opwarmt dan de andere hangt echter ook af van omgevingsfactoren die de buitentemperatuur en indirect de binnentemperatuur beïnvloeden, en gedragingen van bewoners zelf. "@nl;
   skos:broader :temperatuur;
   dct:source <https://klimaatadaptatienederland.nl/publish/pages/205672/bureaustudie-hitte-gebied-en-gebouw-7-.pdf> .
 
@@ -250,17 +246,17 @@ col:weerverschijnselen a skos:Collection;
   rdfs:label "Biodiversiteit".
 
 :blackout a skos:Concept;
-  skos:prefLabel "Blackout"@en;
+  skos:prefLabel "Blackout"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Tijdelijk verlies van geheugen"@nl;
-  skos:broader :aandoening_mens_en_dier;
+  skos:definition "Langdurige stroomuitval"@nl;
+  skos:broader :gebeurtenis;
   rdfs:label "Blackout";
   dct:source <https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/black-out> .
 
 :blauwalg a skos:Concept;
   skos:prefLabel "Blauwalg"@nl;
   skos:inScheme bk:imka;
-  skos:definition "op algen lijkende bacterie die in zwemwater kan voorkomen en gevaarlijk is voor mensen en dieren"@nl;
+  skos:definition "Op algen lijkende bacterie die in zwemwater kan voorkomen en gevaarlijk is voor mensen en dieren"@nl;
   skos:broader :flora;
   rdfs:label "Blauwalg";
   dct:source <https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/blauw-alg> .
@@ -287,7 +283,7 @@ col:weerverschijnselen a skos:Collection;
 :bodem a skos:Concept;
   skos:prefLabel "Bodem"@nl;
   skos:inScheme bk:imka;
-  skos:definition "de bovenste laag van de aardkorst"@nl;
+  skos:definition "De bovenste laag van de aardkorst"@nl;
   skos:broader :natuurlijk_object;
   rdfs:label "Bodem";
   dct:source <https://nl.wikipedia.org/wiki/Bodem> .
@@ -297,7 +293,7 @@ col:weerverschijnselen a skos:Collection;
   skos:altLabel "Bodemverzakking"@nl;
   skos:altLabel "Subsidentie"@nl;
   skos:inScheme bk:imka;
-  skos:definition "het zakken van het niveau van de bodem ten opzichte van een vast referentiepunt, bijvoorbeeld het Normaal Amsterdams Peil (NAP)."@nl;
+  skos:definition "Het zakken van het niveau van de bodem ten opzichte van een vast referentiepunt, bijvoorbeeld het Normaal Amsterdams Peil (NAP)."@nl;
   skos:broader :impact;
   rdfs:label "Bodemdaling";
   dct:source <https://nl.wikipedia.org/wiki/Bodemdaling> .
@@ -313,7 +309,7 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Boom"@nl;
   skos:inScheme bk:imka;
   skos:definition "Een solitair vegetatie-object, dat geen onderdeel uitmaakt van een andere boom- of struikbeplanting."@nl;
-  skos:editorialNote "Er is geen nauwkeurige, algemeen geaccepteerde definitie van een boom; overgangsvormen naar een struik komen voor. Meestal heeft wat we bedoelen met een 'boom' een relatief grote lengte (vanaf vijf meter), een verhoute stam en een kroon. Er zijn ook meerstammige bomen. "@nl;
+  skos:scopeNote "Er is geen nauwkeurige, algemeen geaccepteerde definitie van een boom; overgangsvormen naar een struik komen voor. Meestal heeft wat we bedoelen met een 'boom' een relatief grote lengte (vanaf vijf meter), een verhoute stam en een kroon. Er zijn ook meerstammige bomen. "@nl;
   skos:broader :flora;
   rdfs:label "Boom";
   dct:source <https://geonovum.github.io/IMGeo-objectenhandboek/vegetatieobject> .
