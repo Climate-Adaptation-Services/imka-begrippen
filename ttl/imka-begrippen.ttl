@@ -27,7 +27,7 @@ bk:imka a skos:ConceptScheme;
 col:binnenruimte a skos:Collection;
   skos:prefLabel "Binnenruimte en gebouw"@nl;
   rdfs:label "Binnenruimte en gebouw";
-  skos:member :afstand_tot_koele_plek, :antropogene_warmtebron, :airconditioning, :bebouwingsdichtheid, :bereikbaarheid, :beschaduwing,  :bewonersgedrag, :binnentemperatuur, :bouwbesluit, :comfort, :drinkwater, :eisen_voor_bijna_energieneutraal_gebouw, :energielabel, :evenement, :fysiek_object, :gebouw, :groene_gevel, :gebouweigenschap, :gebouwhoogte, :gebouwonderdeel, :groen_dak, :hellend_dak, :hittebestendig, :isolatie, :kleur, :koele_plek, :koele_binnenruimte, :ladder_van_koelte, :mate_van_isolatie, :mate_van_zonwering, :materiaal, :mens_gemaakt_object, :multifunctioneel_dak, :plat_dak, :raamoppervlak, :reflecterend_materiaal, :reflecterend_vermogen, :reflectie, :reflectiefactor, :relatieve_luchtvochtigheid, :sedumdak, :slaapprobleem, :tojuli, :ventilatie, :ventilator, :verstening, :warme_dag, :warme_nacht, :warmtepomp, :warmtewerend_materiaal, :wit_dak, :woning_orientatie, :zonwering, :zwart_dak;
+  skos:member :antropogene_warmtebron, :airconditioning, :bebouwingsdichtheid, :bereikbaarheid, :beschaduwing,  :bewonersgedrag, :binnentemperatuur, :bouwbesluit, :comfort, :drinkwater, :eisen_voor_bijna_energieneutraal_gebouw, :energielabel, :evenement, :fysiek_object, :gebouw, :groene_gevel, :gebouweigenschap, :gebouwhoogte, :gebouwonderdeel, :groen_dak, :hellend_dak, :hittebestendig, :isolatie, :kleur, :koele_plek, :koele_binnenruimte, :ladder_van_koelte, :mate_van_isolatie, :mate_van_zonwering, :materiaal, :mens_gemaakt_object, :multifunctioneel_dak, :plat_dak, :raamoppervlak, :reflecterend_materiaal, :reflecterend_vermogen, :reflectie, :reflectiefactor, :relatieve_luchtvochtigheid, :sedumdak, :slaapprobleem, :tojuli, :ventilatie, :ventilator, :verstening, :warme_dag, :warme_nacht, :warmtepomp, :warmtewerend_materiaal, :wit_dak, :woning_orientatie, :zonwering, :zwart_dak;
   skos:definition "Begrippen die te maken hebben met de binnenruimte en gebouwen in het kader van hitte."@nl;
   skos:example "(optioneel opnemen)"@nl.
 
@@ -122,18 +122,16 @@ col:weerverschijnselen a skos:Collection;
 :afstand_tot_koele_plek a skos:Concept;
   skos:prefLabel "Afstand tot koele plek"@nl;
   skos:inScheme bk:imka;
-  skos:definition "De maximale loopafstand tussen een woning en koele plek in de binnen- of buitenruimte."@nl;
-  skos:scopeNote "De afstand die men in de hitte kan overbruggen is tijdgebonden. Voor ouderen – de meest kwetsbare groep voor hitte – is de tijd van actieve beweging (looptijd) bepalend. In 5 minuten legt een ouder persoon 292 meter af tegen 350 meter voor een gemiddeld persoon. De kritieke loopafstand van maximaal 300 meter is uiteindelijk gekozen omdat deze afstand voor gezonde ouderen in 5 minuten te lopen is (Nuijten, 2008). Ook blijkt dat de aanwezigheid van groen binnen 300 meter van de woning het gebruik ervan vergroot en de kans op obesitas verkleint (Toftager, 2011)."@nl;
-  skos:editorialNote ""@nl;
+  skos:definition "De loopafstand tussen een woning en de dichtstbijzijnde koele plek in de buitenruimte."@nl;
+  skos:scopeNote "De afstand die men in de hitte kan overbruggen is tijdgebonden. Voor ouderen – de meest kwetsbare groep voor hitte – is de tijd van actieve beweging (looptijd) bepalend. In 5 minuten legt een ouder persoon 292 meter af tegen 350 meter voor een gemiddeld persoon. De kritieke loopafstand die daarom vanuit het onderzoek de Hittebestendige Stad van de Hogeschool van Amsterdam (Kluck et al., 202) geadviseerd wordt, is 300 meter. Deze afstand is voor gezonde ouderen in 5 minuten te lopen (Nuijten, 2008)."@nl;
   skos:broader :bereikbaarheid;
   rdfs:label "Afstand tot koele plek";
-  dct:source <http://www.tauw.nl/nieuws/handelingsperspectief-hittestress-op-zoek-naar-koele-plekken-in-de-stad.html#:~:text=De%20afstand%20die,verkleint%20(Toftager%2C%202011).> .
+  dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
 
 :antropogene_warmte a skos:Concept;
   skos:prefLabel "Antropogene warmte"@nl;
   skos:inScheme bk:imka;
   skos:definition "Warmte die vrijkomt als gevolg van menselijke activiteiten"@nl;
-  skos:scopeNote "Verbranding van fossiele brandstoffenvoor gebouwen, voertuigen en industriële processen, intensieve veeteelt, koelsystemen"@nl;
   skos:broader :eigenschap_gebouwde_omgeving;
   dct:source <http://cartogis.ugent.be/geologis/quartair/ijstijden/43_klimaatverandering_oorzaken_antropogene_invloeden.html> .
 
@@ -143,7 +141,6 @@ col:weerverschijnselen a skos:Collection;
   skos:definition "Een voorwerp/object van menselijke oorsprong dat warmte afgeeft"@nl;
   skos:scopeNote "(Optioneel opnemen)"@nl;
   skos:broader :mens_gemaakt_object;
-  skos:example "Auto, gebouw, lantaarnpaal, oplaadstation"@nl;
   skos:editorialNote "Dit is een lastige term voor opname in een thesaurus omdat het een samengestelde term is. Eigenlijk is het antropogeen-zijn een eigenschap van een object. Misschien opsplitsen in Antropogeen en Warmtebron. Het is doordat het een samenstelling is, ook lastig in een categorie te plaatsen. Iets specifiekere Broader categorie zou wel zijn: Reëel object zoals gedefinieerd in NEN 3610, eventueel met een subcategorie Antropogeen Reëel Object. Maar deze zijn nog niet opgenomen in deze thesaurus."@nl;
   dct:source <http://cartogis.ugent.be/geologis/quartair/ijstijden/43_klimaatverandering_oorzaken_antropogene_invloeden.html> .
 
@@ -151,7 +148,7 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Atmosfeer"@nl;
   skos:altLabel "Dampkring"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Een dunne deken van lucht om de aarde, opgebouwd uit vier lagen: troposfeer, stratosfeer, mesosfeer en de ionosfeer."@nl;
+  skos:definition "Luchtlaag om de aarde, het gasvormige gedeelte dat de aarde omgeeft."@nl;
   skos:broader :natuurlijk_object;
   rdfs:label "Atmosfeer";
   dct:source <https://www.knmi.nl/kennis-en-datacentrum/uitleg/dampkring> .
@@ -161,7 +158,6 @@ col:weerverschijnselen a skos:Collection;
   skos:altLabel "Airco"@nl;
   skos:inScheme bk:imka;
   skos:definition "Installatie voor het op de juiste temperatuur en zuiverheid houden van de lucht in een gesloten ruimte."@nl;
-  skos:editorialNote "Kan ook een bron van geluidsoverlast worden, zeker in heel druk gebied."@nl;
   skos:broader :apparaat;
   rdfs:label "Airconditioning";
   dct:source <https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/airconditioning> .
