@@ -78,7 +78,7 @@ col:klimaatverschijnselen a skos:Collection;
   skos:prefLabel "Klimaatverschijnselen"@nl;
   skos:definition "Begrippen die te maken hebben met verschijnselen rondom het klimaat (i.e. lange termijn)"@nl;
   rdfs:label "Klimaatverschijnselen"@nl;
-  skos:member :atmosfeer, :extreem_warme_dag, :extreme_hitte, :hitte, :hittegolf, :ijsdag, :intensiteit, :hittegolffrequentie, :klimaatextreem, :luchtstromingspatroon, :klimaat, :klimaatverandering, :klimaatzone, :opwarming, :warmteflux .
+  skos:member :atmosfeer, :extreem_warme_dag, :extreme_hitte, :hitte, :hittegolf, :ijsdag, :intensiteit, :hittegolffrequentie, :klimaatextreem, :luchtstromingspatroon, :klimaat, :klimaatverandering, :klimaatzone, :luchttemperatuur, :luchtvochtigheid, :meteorologische_hitte, :natuurbrand, :oppervlaktewater, :opwarming, :temperatuur, :tropische_dag, :tropische_nacht, :verdamping, :warmteflux .
 
 col:natuur a skos:Collection;
   skos:prefLabel "Natuur"@nl;
@@ -1196,7 +1196,7 @@ col:weerverschijnselen a skos:Collection;
 :luchtstromingspatroon a skos:Concept;
   skos:prefLabel "Luchtstromingspatroon"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Vaste bewegingen in de luchtlagen"@nl;
+  skos:definition "Luchtcirculatie"@nl;
   skos:broader :proces;
   rdfs:label "Luchtstromingspatroon".
 
@@ -1204,7 +1204,7 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Luchttemperatuur"@nl;
   skos:altLabel "Buitentemperatuur"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Temperatuur van de buitenlucht"@nl;
+  skos:definition "Temperatuur van de lucht"@nl;
   skos:scopeNote "Bij weerstations wordt de luchttemperatuur gemeten volgens internationale afspraak op een hoogte van anderhalve meter boven een open grasvlakte."@nl;
   skos:broader :temperatuur;
   dct:source <https://nl.wikipedia.org/wiki/Luchttemperatuur> .
@@ -1212,7 +1212,7 @@ col:weerverschijnselen a skos:Collection;
 :luchtverontreiniging a skos:Concept;
   skos:prefLabel "Luchtverontreiniging"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Deeltjes in de lucht door verbranding van fossiele brandstoffen en biomassa."@nl;
+  skos:definition "Verontreiniging van de buitenlucht door gassen, rook, stof of druppeltjes afkomstig van verbranding en van chemische of industriële processen."@nl;
   skos:broader :proces;
   rdfs:label "Luchtverontreiniging";
   dct:source <https://www.rivm.nl/klimaat-en-gezondheid/luchtverontreiniging> .
@@ -1245,14 +1245,14 @@ col:weerverschijnselen a skos:Collection;
 :mate_van_isolatie a skos:Concept;
   skos:prefLabel "Mate van isolatie"@nl;
   skos:inScheme bk:imka;
-  skos:definition "In hoeverre een gebouw is voorzien van isolatie voor thermische doeleinden."@nl;
+  skos:definition "In hoeverre een gebouw is voorzien van isolatie."@nl;
   skos:broader :gebouweigenschap;
   rdfs:label "Mate van isolatie".
 
 :mate_van_zonwering a skos:Concept;
   skos:prefLabel "Mate van zonwering"@nl;
   skos:inScheme bk:imka;
-  skos:definition "In hoeverre een gebouw is voorzien van constructies die de overlast van zonlicht en/of warmte ten gevolge van zonlicht moeten tegengaan."@nl;
+  skos:definition "In hoeverre een gebouw is voorzien van constructies die de zonlicht en/of warmte ten gevolge van zonlicht moeten tegengaan."@nl;
   skos:broader :gebouweigenschap;
   rdfs:label "Mate van zonwering".
 
@@ -1267,10 +1267,10 @@ col:weerverschijnselen a skos:Collection;
 :maximumtemperatuur a skos:Concept;
   skos:prefLabel "Maximumtemperatuur"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Hoogste temperatuur die in een etmaal op een bepaalde plaats is gemeten."@nl;
+  skos:definition "Hoogste temperatuur die in een bepaalde periode op een bepaalde plaats is gemeten. In de meteorologie wordt met de maximumtemperatuur altijd de hoogste etmaalwaarde bedoeld."@nl;
   skos:broader :temperatuur;
   rdfs:label "Maximumtemperatuur";
-  dct:source <https://www.ensie.nl/peter-timofeeff/maximumtemperatuur> .
+  dct:source <https://www.knmi.nl/kennis-en-datacentrum/achtergrond/daggegevens-van-het-weer> .
 
 :mens_gemaakt_object a skos:Concept;
   skos:prefLabel "Mens gemaakt object"@nl;
@@ -1291,10 +1291,7 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Meteorologische hitte"@nl;
   skos:altLabel "Hitte"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Een (lucht)temperatuur van 25 graden Celsius of hoger."@nl;
-  skos:scopeNote "Binnen het domein klimaatadaptatie gaat 'hitte' specifiek over de meteorologische verschijningsvorm ervan. Hiermee hanteert het domein een engere opvatting van de (bredere) natuurkundige betekenis. Daarom wordt het begrip 'meteorologische hitte' als voorkeursterm gehanteerd, met 'hitte' als alternatieve term. De definitie is afgeleid van de term hittegolf, dat een specifieke afbakening van tijd bevat: 'minimaal vijf aaneengesloten dagen'. Maar, binnen het domein klimaatadaptatie zijn niet alleen (langere) aangesloten perioden (golven) van hitte relevant, maar juist ook die kortere (piek)momenten, waarop de (lucht)temperatuur bijvoorbeeld midden op de dag 25 graden Celsius of hoger is."@nl;
-  skos:editorialNote ""@nl;
-  skos:example "Definitie en toelichting ter controle voorleggen in reviewsessie."@nl;
+  skos:definition "Een dag of periode die gekenmerkt wordt door uitzonderlijk hoge temperaturen."@nl;
   skos:broader :gebeurtenis;
   rdfs:label "Meteorologische hitte".
 
@@ -1313,7 +1310,6 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Multifunctioneel dak"@nl;
   skos:inScheme bk:imka;
   skos:definition "Een dak dat naast bedekken ook een andere functie vevult."@nl;
-  skos:editorialNote "Er is een spanningsveld tussen energietransitie en klimaatadaptatie. Deze term gaat erover om dat spanningsveld deels weg te nemen. Vroeger was het: of/of, nu: en/en."@nl;
   skos:example "Bijvoorbeeld een groen dak, een dak met zonnepanelen, een dak dat gebruik wordt als leefruimte of een dak dat regenwater opvangt."@nl;
   skos:broader :gebouwonderdeel;
   rdfs:label "Multifunctioneel dak";
@@ -1322,19 +1318,18 @@ col:weerverschijnselen a skos:Collection;
 :nationaal_hitteplan a skos:Concept;
   skos:prefLabel "Nationaal hitteplan"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Een waarschuwingssysteem om via de regionale contacten (o.a. GGD en Rode Kruis) extra aandacht te vragen voor de risico's van warm weer (met de nadruk op de risicogroepen)."@nl;
+  skos:definition "Een waarschuwingssysteem dat tijdens heet weer geactiveerd wordt om ongemakken en gezondheidsproblemen door hitte te verminderen en waar mogelijk te voorkomen."@nl;
   skos:scopeNote "Als het langere tijd warmer gaat worden dan 27 graden, kan het Nationaal Hitteplan in werking treden. Wanneer het KNMI een periode met aanhoudende hitte ziet aankomen, neemt het contact op met het RIVM. Als blijkt dat de periode aan de criteria voldoen, wordt het Nationaal Hitteplan geactiveerd. Het RIVM zal dan contact opnemen met de (landelijke) organisaties in de zorg."@nl;
   skos:broader :hitteplan;
   rdfs:label "Nationaal hitteplan";
-  dct:source <https://www.rijksoverheid.nl/onderwerpen/droogte-en-hitte/vraag-en-antwoord/wat-kan-ik-doen-tegen-de-hitte#:~:text=Het%20Nationaal%20Hitteplan%20is%20een,contact%20op%20met%20het%20RIVM.> .
+  dct:source <https://www.rivm.nl/hitte/nationaal-hitteplan> .
 
 :nationale_adaptatie_strategie a skos:Concept;
   skos:prefLabel "Nationale Klimaatadaptatiestrategie"@nl;
   skos:altLabel "Nationale Adaptatiestrategie"@nl, "NAS"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Strategie waarin de koerst wordt uitgezet voor een klimaatbestendig Nederland."@nl;
+  skos:definition "Strategie waarin de koers wordt uitgezet voor een klimaatbestendig Nederland."@nl;
   skos:scopeNote "Deze strategie brengt nieuwe initiatieven voor klimaatadaptatie op gang, en versnelt en verbreedt bestaande initiatieven. De NAS geeft een overzicht van de belangrijkste klimaatrisico’s. Sommige klimaatrisico’s zijn urgenter om op te pakken dan andere, bijvoorbeeld door gebrek aan kennis of het ontbreken van beleid. Drie tabellen uit de impactanalyse van het Planbureau voor de Leefomgeving zijn als uitgangspunt gebruikt voor het vaststellen van de zes meest urgente klimaatrisico's. Mede op basis van deze urgente klimaatrisico’s, zijn de speerpunten van de NAS bepaald. De NAS is het Nederlandse antwoord op de oproep van de Europese Commissie aan alle lidstaten om uiterlijk in 2017 een klimaatadaptatiestrategie op te stellen. De NAS is eind 2016 naar het kabinet gestuurd en eind 2017 door de nieuwe Tweede Kamer vastgesteld."@nl;
-  skos:editorialNote ""@nl;
   skos:broader :instrument;
   rdfs:label "Nationale Adaptatiestrategie";
   dct:source <https://klimaatadaptatienederland.nl/overheden/nas/> .
@@ -1402,14 +1397,13 @@ col:weerverschijnselen a skos:Collection;
   skos:definition "Gebieden waar natuurlijke processen de ruimte krijgen waardoor ze meegroeien met klimaatverandering en een rol spelen bij het vasthouden en opvangen van water, het voorkomen van watertekorten, het temperen van hitte en het verminderen van koolstofdioxide in de atmosfeer."@nl;
   skos:broader :locatie;
   rdfs:label "Natuurlijke klimaatbuffer";
-  dct:source <https://www.klimaatbuffers.nl/natuurlijke-klimaatbuffers#:~:text=Klimaatbuffers%20zijn%20gebieden%20waar%20natuurlijke%20processen%20de%20ruimte%20krijgen.%20Hierdoor%20groeien%20ze%20mee%20met%20klimaatverandering%20en%20vervullen%20een%20rol%20bij%20het%20vasthouden%20en%20opvangen%20van%20water%2C%20het%20voorkomen%20van%20watertekorten%2C%20het%20temperen%20van%20hitte%20en%20het%20verminderen%20van%20kooldioxide%20in%20de%20atmosfeer.> .
+  dct:source <https://www.klimaatbuffers.nl/natuurlijke-klimaatbuffers> .
 
 :object a skos:Concept; 
   skos:prefLabel "Object"@nl; 
   skos:inScheme bk:imka; 
   skos:definition "Elk ding dat zich aan de menselijke zintuigen voordoet, of het is een zaak, proces of persoon waarover men aan het spreken of denken is."@nl;
   skos:scopeNote "Objecten kunnen zowel werkelijk bestaand als denkbeeldig zijn."@nl;
-  skos:editorialNote "Hier kan het NEN 3610 semantisch model onder gehangen worden (reëel object, virtuele ruimte, etc.)"@nl;
   skos:topConceptOf bk:imka;
   dct:source <https://www.rijsenbrij.net/archive1/vision/nl/begrip2.htm#Object> .
 
@@ -1426,7 +1420,7 @@ col:weerverschijnselen a skos:Collection;
 :openbaar_groen a skos:Concept;
   skos:prefLabel "Openbaar groen"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Terreindeel met aangelegde beplanting, meestal gras, heesters of struiken."@nl;
+  skos:definition "Terreindeel in de openbare ruimte met aangelegde beplanting, meestal gras, heesters of struiken."@nl;
   skos:broader :flora;
   rdfs:label "Openbaar groen";
   dct:source <https://geonovum.github.io/IMGeo-objectenhandboek/begroeidterreindeel#groenvoorziening> .
@@ -1445,8 +1439,7 @@ col:weerverschijnselen a skos:Collection;
 :oppervlaktetemperatuur a skos:Concept;
   skos:prefLabel "Oppervlaktetemperatuur"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Temperatuur die op het oppervlak van een fysiek object wordt gemeten."@nl;
-  skos:note "De oppervlaktetemperatuur wordt door satellieten waargenomen."@nl;
+  skos:definition "Temperatuur van een oppervlak."@nl;
   skos:example "Asfalttemperatuur; de temperatuur van het blad van een boom."@nl;
   skos:broader :temperatuur;
   rdfs:label "Oppervlaktetemperatuur".
@@ -1455,7 +1448,6 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Oppervlaktewater"@nl;
   skos:inScheme bk:imka;
   skos:definition "Het grondoppervlak in principe bedekt met water."@nl;
-  skos:editorialNote "De bovenstaande, ruime definitie kan ingeperkt worden door een synthese van de volgende definities van oppervlaktewater: Onder wateren worden alle wateren begrepen die in principe zichtbaar al dan niet overdekt op het aardoppervlak aanwezig zijn."@nl;
   skos:broader :water;
   rdfs:label "Oppervlaktewater";
   skos:exactMatch <https://www.aquo.nl/index.php/Id-a87236c5-3703-4902-ab55-fe3b60019d3b>;
@@ -1464,9 +1456,7 @@ col:weerverschijnselen a skos:Collection;
 :opwarming a skos:Concept;
   skos:prefLabel "Opwarming"@nl; 
   skos:inScheme bk:imka;
-  skos:definition "de waargenomen of verwachte geleidelijke stijging van de (mondiale) oppervlaktetemperatuur, als een van de gevolgen van stralingsforcering door antropogene emissies."@nl;
-  skos:scopeNote "Opwarming leidt onder andere tot meer warme dagen hittegolven en juist minder vorstdagen en ijsdagen."@nl;
-  skos:editorialNote "In dit woordenboek worden de termen 'hitte' en 'opwarming' als uitersten van een spectrum beschouwd. Dit behoeft verdere uitwerking. Grofweg geldt dat hitte wordt gezien als een accuut weersverschijnsel en opwarming als een meer langetermijn klimatologisch verschijnsel."@nl;
+  skos:definition "De waargenomen of verwachte geleidelijke stijging van de temperatuur op aarde."@nl;
   skos:broader :impact;
   rdfs:label "Opwarming".
 
@@ -1489,8 +1479,7 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Pollen-burst"@nl;
   skos:inScheme bk:imka;
   skos:definition "Het voorkomen van een grote hoeveelheid pollen van planten en/of bomen."@nl;
-  skos:editorialNote "Toont aan hoezeer hitte en droogte met elkaar samenhangen."@nl;
-  skos:example "In Australië werd het enkele jaren geleden zeer warm en vochtig nader een zeer droge periode was geweest. Daardoor ontstond er een enorme pollen-burst."@nl;
+  skos:example "In Australië werd het enkele jaren geleden zeer warm en vochtig nadat er een zeer droge periode was geweest. Daardoor ontstond er een enorme pollen-burst."@nl;
   skos:broader :gebeurtenis;
   rdfs:label "Pollen-burst".
 
@@ -1514,7 +1503,6 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Raamoppervlak"@nl;
   skos:inScheme bk:imka;
   skos:definition "Oppervlakte van een raam in een gebouw."@nl;
-  skos:editorialNote "Niet duidelijk is of het oppervlak van elk raam relevant is, of het opgetelde oppervlak van de ramen van een gebouw of een gevel."@nl;
   skos:broader :gebouweigenschap;
   rdfs:label "Raamopperlvak" .
 
@@ -1529,10 +1517,9 @@ col:weerverschijnselen a skos:Collection;
 :reflectie a skos:Concept;
   skos:prefLabel "Reflectie"@nl;
   skos:inScheme bk:imka;
-  skos:definition "het weerkaatsen van zonnestraling om de beschikbare energie die de stad opwarmt te verminderen."@nl;
+  skos:definition "Mate waarin straling weerkaatst wordt."@nl;
   skos:broader :proces;
-  rdfs:label "Reflectie";
-  dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
+  rdfs:label "Reflectie" .
 
 :reflectiefactor a skos:Concept;
   skos:prefLabel "Reflectiefactor"@nl;
@@ -1567,26 +1554,25 @@ col:weerverschijnselen a skos:Collection;
 :robuustheid a skos:Concept;
   skos:prefLabel "Robuustheid"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Mate van gevoeligheid voor klimaatverandering."@nl;
+  skos:definition "De mate waarin een systeem bestand is tegen extreme gebeurtenissen en voldoet bij verschillende mogelijke toekomstige ontwikkelingen."@nl;
   skos:scopeNote "De mate van robuustheid van een functie is afhankelijk van veerkracht en weerstand."@nl;
   skos:broader :natuureigenschap;
   skos:related :veerkracht, :weerstand;
   rdfs:label "Robuustheid";
-  dct:source <https://edepot.wur.nl/272626> .
+  dct:source <https://www.stowa.nl/deltafacts/waterveiligheid/innovatieve-dijkconcepten/robuustheid> .
 
 :schaduw a skos:Concept;
   skos:prefLabel "Schaduw"@nl;
-  skos:definition "Geheel of gedeeltelijk tegengehouden licht van een lichtbron, door een object"@nl;
+  skos:definition "Geheel of gedeeltelijk tegengehouden zonlicht, door een object."@nl;
   skos:inScheme bk:imka;
   skos:broader :eigenschap;
-  skos:editorialNote "Schaduw is lastig te categoriseren. Sommige definities zeggen dat het een gebied is waar licht wordt tegengehouden, anderen zeggen dat het iets is dat ontstaat als het licht van een lichtbron wordt tegengehouden door een object en definiëren het dus als een verschijnsel, of een resultaat. Het is ook iets dat je kunt observeren, dus in die zin een eigenschap. Voorlopig daarom als eigenschap gecategoriseerd."@nl;
   skos:related :schaduwplek;
   dct:source <https://nl.wikipedia.org/wiki/Schaduw> .
 
 :schaduwplek a skos:Concept;
   skos:prefLabel "Schaduwplek"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Locatie waar het zonlicht wordt afgevangen door een object of objecten en de energie van het zonlicht daardoor minder is dan 400 joule per m2 per tijdseenheid (seconde?)"@nl;
+  skos:definition "Locatie waar zonlicht wordt afgevangen door een object."@nl;
   skos:scopeNote "Er wordt ook specifieker gesproken van groene schaduw (door vegetatie) en grijze schaduw (door gebouwen)."@nl;
   skos:broader :locatie;
   skos:related :schaduw;
@@ -1622,10 +1608,9 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Slaapprobleem"@nl;
   skos:altLabel "Slapeloosheid"@nl;
   skos:inScheme bk:imka;
-  skos:definition "een slaapstoornis, waarbij je slecht kan slapen en dus geen normale slaap hebt, gepaard gaande met functioneringsklachten overdag."@nl;
+  skos:definition "Slecht slapen waardoor klachten ontstaan."@nl;
   skos:broader :aandoening_mens_en_dier;
-  rdfs:label "Slaapprobleem";
-  dct:source <https://www.gezondheidsplein.nl/aandoeningen/slapeloosheid/item31866> .
+  rdfs:label "Slaapprobleem" .
 
 :sky_view_factor a skos:Concept;
   skos:prefLabel "Sky View Factor"@en;
@@ -1660,7 +1645,6 @@ col:weerverschijnselen a skos:Collection;
   skos:inScheme bk:imka;
   skos:definition "Het verschijnsel waarbij de luchttemperatuur in de stad een paar graden warmer is dan de omgeving"@nl;
   skos:scopeNote "Het effect neemt toe als gevolg van stadsuitbreiding en -inbreiding. NB Een veelgehoord misverstand is dat het stedelijk hitte-eilandeffect de problemen overdag zou vergroten. Dat is niet waar. Overdag is het hitte-eilandeffect doorgaans klein."@nl;
-  skos:editorialNote "Het Urban Heat Island (effect) neemt af bij droogte: landelijk gebied wordt steeds minder verkoelend."@nl;
   skos:broader :proces;
   rdfs:label "Stedelijk hitte-eilandeffect";
   dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
@@ -1677,7 +1661,6 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Speeltuin"@nl;
   skos:inScheme bk:imka;
   skos:definition "Geheel van begroeiing, verharding, opstallen en speelwerktuigen, bedoeld als speelplaats voor kinderen."@nl;
-  skos:editorialNote "Relevant want kinderen zijn kwetsbaar."@nl;
   skos:broader :stedelijke_recreatieruimte;
   rdfs:label "Speeltuin";
   dct:source <https://geonovum.github.io/IMGeo-objectenhandboek/functioneelgebied#recreatie-speeltuin> .
@@ -1704,7 +1687,6 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Straatprofiel"@nl;
   skos:inScheme bk:imka;
   skos:definition "Het straatprofiel is de verticale doorsnede van een straat, gezien van gevel tot gevel. In een straatprofiel worden bij voorkeur opgenomen: een klein deel van de panden, voortuinen, trottoirs, parkeerplaatsen, bomen en de rijweg."@nl;
-  skos:editorialNote "Waarbij de weg minimaal twee keer zo breed is als de hoogte van de aanliggende gebouwen. Anders blijft het jhuist hangen op lichaamshoogte."@nl;
   skos:broader :eigenschap_gebouwde_omgeving;
   rdfs:label "Straatprofiel";
   dct:source <https://www.joostdevree.nl/shtmls/straatprofiel.shtml> .
@@ -1712,7 +1694,7 @@ col:weerverschijnselen a skos:Collection;
 :stralingstemperatuur a skos:Concept;
   skos:prefLabel "Stralingstemperatuur"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Stralingstemperatuur is net als PET een index voor de gevoelstemperatuur en combineert luchttemperatuur en warmtestraling."@nl;
+  skos:definition "Stralingstemperatuur is een index voor de gevoelstemperatuur en combineert luchttemperatuur en warmtestraling."@nl;
   skos:broader :gevoelstemperatuur;
   skos:altLabel "Mean radiant temperature"@en, "Tmrt"@en, "Zwarteboltemperatuur"@nl;
   dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf> .
@@ -1736,7 +1718,7 @@ col:weerverschijnselen a skos:Collection;
 
 :temperatuurkaart a skos:Concept;
   skos:inScheme bk:imka;
-  skos:definition "Een kaart die een inschatting toont van de lucht-, gevoels- of oppervlaktetemperatuur, op basis van modellen, metingen of satellietbeelden."@nl;
+  skos:definition "Een kaart die de lucht-, gevoels- of oppervlaktetemperatuur toont op basis van modellen, metingen of satellietbeelden."@nl;
   skos:broader :instrument;
   rdfs:label "Temperatuurkaart"@nl;
   dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf>;
@@ -1811,7 +1793,6 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Toename ziekenhuisopnamen door hittestress en zomersmog"@nl;
   skos:inScheme bk:imka;
   skos:definition "Het fenomeen dat het aantal ziekenhuisopnamen stijgt bij warm weer."@nl;
-  skos:editorialNote "In relatie tot 'Hitte' niet onbenoemd laten, maar wel echt een neveneffect."@nl;
   skos:broader :groei;
   rdfs:label "Toename ziekenhuisopnamen door hittestress en zomersmog".
 
@@ -1835,7 +1816,7 @@ col:weerverschijnselen a skos:Collection;
 :tropische_nacht a skos:Concept;
   skos:prefLabel "Tropische nacht"@nl;
   skos:definition "We spreken in Nederland van een tropische nacht als de minimumtemperatuur 20 °C of hoger is"@nl;
-  skos:scopeNote "Het hoogste aantal tropische nachten wordt in het zuidwesten van ons land op station Vlissingen behaald. Door de temperende werking van de zee koelt het langs de kust ’s nachts minder af. In het noordwesten komen het laagst aantal tropische nachten voor, doordat daar de temperatuur gemiddeld lager is dan in het zuiden. De metingen zijn gedaan in het landelijk gebied. Het Hitte-eiland effect zorgt ervoor dat het werkelijk aantal tropische nachten in steden hoger zal zijn dan de grafiek hierboven aangeeft. In de toekomst zal het aantal tropische nachten overal in Nederland stijgen. Tropische nachten zorgen vaak voor hitte stress, doordat mensen minder goed slapen en minder goed herstellen van hittestress overdag. Dit kan overdag leiden tot bijvoorbeeld arbeidsproductiviteitsverlies."@nl;
+  skos:scopeNote "Het hoogste aantal tropische nachten wordt doorgaans in het zuidwesten van ons land op station Vlissingen behaald. Door de temperende werking van de zee koelt het langs de kust ’s nachts minder af. Het hitte-eiland effect zorgt ervoor dat het aantal tropische nachten in steden veelal hoger is dan daarbuiten."@nl;
   skos:inScheme bk:imka;
   skos:broader :gebeurtenis;
   dct:source <https://www.klimaateffectatlas.nl/nl/het-wordt-heter> .
@@ -1844,7 +1825,6 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Tuin"@nl;
   skos:inScheme bk:imka;
   skos:definition "Het  erf behorend bij een gebouw, in particulier eigendom, en meestal een combinatie van vegetatie en bestrating"@nl;
-  skos:editorialNote "In het kader van groen."@nl;
   skos:broader :mens_gemaakt_object;
   rdfs:label "Tuin".
 
@@ -1852,7 +1832,7 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Uitdroging"@nl;
   skos:altLabel "dehydratie"@nl;
   skos:inScheme bk:imka;
-  skos:definition "een tekort aan water in het lichaam. "@nl;
+  skos:definition "Een tekort aan water in het lichaam. "@nl;
   skos:editorialNote "I.r.t. Gezondheid."@nl;
   skos:broader :aandoening_mens_en_dier;
   rdfs:label "Uitdroging";
@@ -1861,7 +1841,7 @@ col:weerverschijnselen a skos:Collection;
 :uitputting a skos:Concept;
   skos:prefLabel "Uitputting"@nl;
   skos:inScheme bk:imka;
-  skos:definition "toestand waarin je aan het eind van je krachten bent"@nl;
+  skos:definition "Toestand waarin je aan het eind van je krachten bent"@nl;
   skos:editorialNote "I.r.t. Gezondheid"@nl;
   skos:broader :aandoening_mens_en_dier;
   rdfs:label "Uitputting";
@@ -1871,8 +1851,7 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "UV-straling"@nl;
   skos:altLabel "Ultraviolette straling"@nl;
   skos:inScheme bk:imka;
-  skos:definition "elektromagnetische straling net buiten het deel van het spectrum dat met het menselijk oog waarneembaar is"@nl;
-  skos:editorialNote "Discussie, maar bij nader inzien toch opnemen. Doordat de zon schijnt gaan mensen meer naar buiten en is er meer blootstelling aan UV-straing."@nl;
+  skos:definition "Elektromagnetische straling net buiten het deel van het spectrum dat met het menselijk oog waarneembaar is"@nl;
   skos:broader :weereigenschap;
   rdfs:label "Uv-straling";
   dct:source <https://nl.wikipedia.org/wiki/Ultraviolet> .
@@ -1890,7 +1869,6 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Veiligheid"@nl;
   skos:inScheme bk:imka;
   skos:definition "De sector die zich bezighoudt met het beschermen tegen bedreigingen van Nederland en haar inwoners."@nl;
-  skos:editorialNote "(optioneel opnemen)."@nl;
   skos:broader :sector;
   rdfs:label "Veiligheid";
   dct:source <https://klimaatadaptatienederland.nl/thema-sector/veiligheid/> .
@@ -1899,26 +1877,23 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Vegetatie"@nl;
   skos:inScheme bk:imka;
   skos:definition "Planten-individuen in een bepaalde rangschikking."@nl;
-  skos:note "Vegetatie zorgt lokale verdamping en in het geval van grotere vegetatie ook voor schaduw. Beide hebben een temperend effect op de temperatuur."@nl;
-  skos:editorialNote "Het begrip vegetatie is door Westhoff (1951) gedefinieerd als de 'ruimtelijke massa van plantenindividuen, in samenhang met de plaats waar zij groeien en de rangschikking die zij uit zichzelf hebben aangenomen'. In de context van hittemaatregelen wordt de term echter breder toegepast voor alle flora in een omgeving. "@nl;
+  skos:scopeNote "Vegetatie zorgt voor meer lokale verdamping en in het geval van grotere vegetatie ook voor schaduw. Beide hebben een temperend effect op de temperatuur."@nl;
   skos:broader :flora;
   rdfs:label "Vegetatie";
   dct:source <https://nl.wikipedia.org/wiki/Vegetatie> .
 
 :ventilatie a skos:Concept;
   skos:inScheme bk:imka;
-  skos:definition "Afvoer van warme lucht"@nl;
-  skos:scopeNote "Het kan gaan om afvoer de stad uit of het gebouw uit."@nl;
+  skos:definition "Luchtverversing"@nl;
   skos:broader :hittemaatregel;
   rdfs:label "Ventilatie";
-  dct:source <https://www.hva.nl/binaries/content/assets/subsites/kc-techniek/publicaties-klimaatbestendige-stad/hva_2020_hittebestendige_stad_online.pdf>;
+  dct:source <https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/ventilatie>;
   skos:prefLabel "Ventilatie"@nl .
 
 :ventilator a skos:Concept;
   skos:prefLabel "Ventilator"@nl;
   skos:inScheme bk:imka;
   skos:definition "toestel om te ventileren"@nl;
-  skos:editorialNote "Klassieke oplossing, maar nog steeds een effectieve vorm van verkoeling."@nl;
   skos:broader :apparaat;
   rdfs:label "Ventilator";
   dct:source <https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/ventilator> .
@@ -1957,9 +1932,7 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Vergroend gebied"@nl;
   skos:inScheme bk:imka;
   skos:definition "Een gebied met relatief veel vegetatie."@nl;
-  skos:note "Bomen, gras, struiken en ander groen spelen een belangrijke rol bij een klimaatbestendige inrichting."@nl;
-  skos:scopeNote "Vooral van toepassing in steden. Er kan onderscheid wordden gemaakt tussen hoog (bomen) en laag groen (struiken, gras en planten) en tussen groen in openbaar en privaat terrein."@nl;
-  skos:editorialNote "In de wandelgangen wordt vaak gesproken over 'groen' (met als tegenhanger: 'grijs'). Van 'vergroend gebied' is geen definitie gevonden. De hier opgenomen definitie is geformuleerd op basis van het begrip 'groen' in de klimaateffectatlas."@nl;
+  skos:scopeNote "Bomen, gras, struiken en ander groen zijn onderdelen van het vergroend gebied. Er kan onderscheid wordden gemaakt tussen hoog (bomen) en laag groen (struiken, gras en planten) en tussen groen in openbaar en privaat terrein."@nl;
   skos:broader :locatie;
   rdfs:label "Vergroend gebied";
   dct:source <https://www.klimaateffectatlas.nl/nl/basiskaart-groen-en-grijs> .
@@ -1976,7 +1949,7 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Verhoogde druk op gezondsheidszorg door hitte"@nl;
   skos:inScheme bk:imka;
   skos:definition "Het fenomeen dat het drukker is in de zorg bij heet weer"@nl;
-  skos:editorialNote "Relevant: het gaat niet alleen om ziekenhuisopnamen maar ook om verhoogde druk op huisartsen en thuiszorg. Er is een aantoonbaar verband met 'Hitte'. Gaat niet direct om sterfgevallen. Mensen kunnen ook op andere manieren in de problemen komen: uitdroging, oververhitting, uitputting."@nl;
+  skos:scopeNote "Relevant: Bij verhoogde druk op de gezondheidszorg gaat het niet alleen om ziekenhuisopnamen maar ook om verhoogde druk op huisartsen en thuiszorg als gevolg van gezondheidsproblemen zoals uitdroging, oververhitting, uitputting."@nl;
   skos:broader :groei;
   rdfs:label "Verhoogde druk op gezondsheidszorg door hitte".
 
@@ -1984,7 +1957,6 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Vermoeidheid"@nl;
   skos:inScheme bk:imka;
   skos:definition "Het zich moe voelen"@nl;
-  skos:editorialNote "I.r.t. Gezondheid."@nl;
   skos:broader :aandoening_mens_en_dier;
   rdfs:label "Vermoeidheid";
   dct:source <https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/vermoeid> .
@@ -1999,9 +1971,8 @@ col:weerverschijnselen a skos:Collection;
 :versteend_gebied a skos:Concept;
   skos:prefLabel "Versteend gebied"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Een gebied met voornamelijk gebouwen, stenen, verharding, en/of kale grond."@nl;
+  skos:definition "Een gebied met voornamelijk gebouwen, stenen en verharding."@nl;
   skos:scopeNote "Vooral van toepassing in steden."@nl;
-  skos:editorialNote " In de wandelgangen wordt vaak gesproken over 'grijs' (met als tegenhanger: 'groen). Van 'versteend gebied' is geen definitie gevonden. De hier opgenomen definitie is geformuleerd op basis van het begrip 'grijs' in de klimaateffectatlas."@nl;
   skos:broader :locatie;
   rdfs:label "Versteend gebied";
   dct:source <https://www.klimaateffectatlas.nl/nl/basiskaart-groen-en-grijs> .
@@ -2010,7 +1981,6 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Verstening"@nl;
   skos:inScheme bk:imka;
   skos:definition "Het bebouwd raken van natuur en landschap"@nl;
-  skos:editorialNote "Verstening van de openbare en private ruimte."@nl;
   skos:broader :proces;
   rdfs:label "Verstening";
   dct:source <https://nl.wikipedia.org/wiki/Verstening_(ruimtelijke_ordening)> .
@@ -2027,7 +1997,6 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Virus"@nl;
   skos:inScheme bk:imka;
   skos:definition "microscopisch kleine ziekteverwekker die bestaat uit erfelijk materiaal dat zich in de cellen van een organisme vermeerder"@nl;
-  skos:editorialNote "Bepaalde virussen gedijen nu ook in andere klimaatzones, zoals malaria en dengue. Hoort bij 'Gezondheid'."@nl;
   skos:broader :natuurlijk_object;
   rdfs:label "Virus";
   dct:source <https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/virus> .
@@ -2043,7 +2012,6 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Vroegtijdige sterfte"@nl;
   skos:inScheme bk:imka;
   skos:definition "Eerder sterven dan verwacht op basis van persoonskenmerken"@nl;
-  skos:editorialNote "Dat hoeven overigens lang niet altijd fragiele oudere mensen te zijn. Ook mensen met overgewicht zijn hiervoor kwetsbaar."@nl;
   skos:broader :sterfte;
   rdfs:label "Vroegtijdige sterfte".
 
