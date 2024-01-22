@@ -591,16 +591,17 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Gebied"@nl;
   skos:inScheme bk:imka;
   skos:definition "Deel van het aardoppervlak."@nl;
-  skos:scopeNote "In het kader van hitteadaptatie omvat 'gebied' de omgevingsfactoren waarmee hitteproblemen verminderd kunnen worden door o.a. meer vergroening van de buitenruimte. Daarnaast zijn er maatregelen op het nivea van gebouw en gebruiker.@nl;
-  skos:broader :gebruiker, :gebouw;
+  skos:related :gebruiker, :gebouw;
+  skos:scopeNote "In het kader van hitteadaptatie omvat gebied de omgevingsfactoren waarmee hitteproblemen verminderd kunnen worden door o.a. meer vergroening van de buitenruimte. Daarnaast zijn er maatregelen op het nivea van gebouw en gebruiker."@nl;
   rdfs:label "Gebied".
 
 :gebouw a skos:Concept;
   skos:prefLabel "Gebouw"@nl;
   skos:inScheme bk:imka;
   skos:definition "Overdekte en geheel of gedeeltelijk met wanden omsloten constructie bedoeld voor het in een afgeschermde omgeving onderbrengen van mensen, dieren of voorwerpen of voor de productie van goederen."@nl;
-  skos:scopeNote "In het kader van hitteadaptatie omvat 'gebouw' ook de aanpassingsmogelijkheden aan gebouwen waarmee hitteproblemen verminderd kunnen worden zoals zonwering en groene gevels. Daarnaast zijn er maatregelen op het nivea van gebied en gebruiker."@nl;
+  skos:scopeNote "In het kader van hitteadaptatie omvat gebouw ook de aanpassingsmogelijkheden aan gebouwen waarmee hitteproblemen verminderd kunnen worden zoals zonwering en groene gevels. Daarnaast zijn er maatregelen op het nivea van gebied en gebruiker."@nl;
   skos:broader :mens_gemaakt_object;
+  skos:related :gebied, :gebruiker;
   skos:exactMatch <http://definities.geostandaarden.nl/nen3610-2022/id/begrip/gebouw>;
   skos:closeMatch <http://ont.cbnl.org/cb/def/CB01095>;
   rdfs:label "Gebouw";
@@ -642,8 +643,8 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Gebruiker"@nl;
   skos:inScheme bk:imka;
   skos:definition "Iemand die iets gebruikt."@nl;
-  skos:scopeNote "In het kader van hitteadaptatie omvat 'gebruiker' de factoren die een individu kan nemen om hitteproblemen te verminderen door aanpassing van gedrag en het koel houden van de woning. Daarnaast zijn er maatregelen op het nivea van gebied en gebouw.@nl;
-  skos:broader :gebied, :gebouw;
+  skos:scopeNote "In het kader van hitteadaptatie omvat gebruiker de factoren die een individu kan nemen om hitteproblemen te verminderen door aanpassing van gedrag en het koel houden van de woning. Daarnaast zijn er maatregelen op het nivea van gebied en gebouw."@nl;
+  skos:related :gebied, :gebouw;
   rdfs:label "Gebruiker";
   dct:source <https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/gebruiker> .
 
@@ -1491,10 +1492,10 @@ col:weerverschijnselen a skos:Collection;
   skos:broader :gezondheidsprobleem;
   rdfs:label "Oversterfte".
 
-:park skos:Concept;
+:park a skos:Concept;
   skos:prefLabel "Park"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Een tenmiste voor een deel door de mens ontworpen en aangelegd groen gebied met een overwegend recreatieve functie, met name om te wandelen. "@nl;
+  skos:definition "Een tenmiste voor een deel door de mens ontworpen en aangelegd groen gebied met een overwegend recreatieve functie, met name om te wandelen."@nl;
   skos:broader :gebouwonderdeel;
   rdfs:label "Park".
 
