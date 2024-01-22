@@ -1167,7 +1167,7 @@ col:weerverschijnselen a skos:Collection;
   skos:definition "Een rangorde van maatregelen voor een manier van bouwen waarbij rekening wordt gehouden met warmte."@nl;
   skos:scopeNote "De toepassing van dit concept zorgt ervoor dat woningen leefbaar en gezond kunnen blijven en voorkomt dat mensen massaal de voor het milieu schadelijke airconditioning gaan gebruiken."@nl;
   skos:broader :instrument;
-  rdfs:label "Ladder van koelte";
+  rdfs:label "Ladder van koelte" .
 
 :landbouw a skos:Concept;
   skos:prefLabel "Landbouw"@nl;
