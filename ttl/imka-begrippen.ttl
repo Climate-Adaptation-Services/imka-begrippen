@@ -1117,7 +1117,7 @@ col:weerverschijnselen a skos:Collection;
   dct:source <https://www.tauw.nl/nieuws/handelingsperspectief-hittestress-op-zoek-naar-koele-plekken-in-de-stad.html#:~:text=Een%20koele%20plek%20is,niet%20publiek%20toegankelijk%20zijn.> .
 
 :koele_plek a skos:Concept;
-  skos:prefLabel "Koele plek"@nl, "Cool spot"@en;
+  skos:prefLabel "Koele plek"@nl;
   skos:inScheme bk:imka;
   skos:definition "Locatie in de binnen- of buitenruimte die tijdens een hete dag of periode koel genoeg blijft  waardoor mensen geen hittestress hebben."@nl;
   skos:related :warme_dag, :warme_nacht, :tropische_dag, :tropische_nacht;
