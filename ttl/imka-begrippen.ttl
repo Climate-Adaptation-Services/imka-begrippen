@@ -477,7 +477,7 @@ col:weerverschijnselen a skos:Collection;
   skos:definition "De sector die zich bezighoudt met opwekking en gebruik van energie."@nl;
   skos:broader :sector;
   rdfs:label "Energie";
-  dct:source <https://klimaatadaptatienederland.nl/thema-sector/energie/> .
+  dct:source <https://klimaatadaptatienederland.nl/kennisdossiers/energie/> .
 
 :energiebalans a skos:Concept;
   skos:prefLabel "Energiebalans"@nl;
@@ -613,7 +613,7 @@ col:weerverschijnselen a skos:Collection;
   skos:definition "De sector die zich bezighoudt met de fysieke leefomgeving en de inrichting daarvan."@nl;
   skos:broader :sector;
   rdfs:label "Gebouwde omgeving en ruimtelijke ordening";
-  dct:source <https://klimaatadaptatienederland.nl/thema-sector/gebouwde-omgeving-ruimtelijke-ordening/> .
+  dct:source <https://klimaatadaptatienederland.nl/kennisdossiers/gebouwde-omgeving-ruimtelijke-ordening/> .
 
 :gebouweigenschap a skos:Concept;
   skos:prefLabel "Gebouweigenschap"@nl;
@@ -681,7 +681,7 @@ col:weerverschijnselen a skos:Collection;
   skos:definition "De sector die zich bezighoudt met gezondheid van de mens."@nl;
   skos:broader :sector;
   rdfs:label "Gezondheid";
-  dct:source <https://klimaatadaptatienederland.nl/thema-sector/gezondheid/> .
+  dct:source <https://klimaatadaptatienederland.nl/kennisdossiers/gezondheid/> .
 
 :gezondheidsprobleem a skos:Concept;
   skos:prefLabel "Gezondheidsprobleem"@nl;
@@ -907,7 +907,7 @@ col:weerverschijnselen a skos:Collection;
   skos:definition "De sector die zich bezighoudt met informatie- en communicatietechnologie."@nl;
   skos:broader :sector;
   rdfs:label "ICT en telecom";
-  dct:source <https://klimaatadaptatienederland.nl/thema-sector/ict-telecom/> .
+  dct:source <https://klimaatadaptatienederland.nl/kennisdossiers/ict-telecom/> .
 
 :ijsdag a skos:Concept;
   skos:prefLabel "IJsdag"@nl;
@@ -945,7 +945,7 @@ col:weerverschijnselen a skos:Collection;
   skos:editorialNote "(optioneel opnemen)."@nl;
   skos:broader :sector;
   rdfs:label "Infrastructuur";
-  dct:source <https://klimaatadaptatienederland.nl/thema-sector/infrastructuur/> .
+  dct:source <https://klimaatadaptatienederland.nl/kennisdossiers/infrastructuur/> .
 
 :instrument a skos:Concept;
   skos:prefLabel "Instrument"@nl;
@@ -1175,7 +1175,7 @@ col:weerverschijnselen a skos:Collection;
   skos:definition "De sector die zich bezighoudt met de productie van planten en dieren, ten behoeve van de menselijke economie."@nl;
   skos:broader :sector;
   rdfs:label "Landbouw";
-  dct:source <https://klimaatadaptatienederland.nl/thema-sector/landbouw/> .
+  dct:source <https://klimaatadaptatienederland.nl/kennisdossiers/landbouw/> .
 
 :landschapstype a skos:Concept;
   skos:prefLabel "Landschapstype"@nl;
@@ -1365,7 +1365,7 @@ col:weerverschijnselen a skos:Collection;
   skos:definition "De sector die zich bezighoudt met natuurbeheer."@nl;
   skos:broader :sector;
   rdfs:label "Natuur";
-  dct:source <https://klimaatadaptatienederland.nl/thema-sector/natuur/> .
+  dct:source <https://klimaatadaptatienederland.nl/kennisdossiers/natuur/> .
 
 :natuurbrand a skos:Concept;
   skos:prefLabel "Natuurbrand"@nl;
@@ -1496,7 +1496,6 @@ col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Park"@nl;
   skos:inScheme bk:imka;
   skos:definition "Een tenmiste voor een deel door de mens ontworpen en aangelegd groen gebied met een overwegend recreatieve functie, met name om te wandelen."@nl;
-  skos:broader :gebouwonderdeel;
   rdfs:label "Park".
 
 :plat_dak a skos:Concept;
@@ -1543,7 +1542,7 @@ col:weerverschijnselen a skos:Collection;
   skos:definition "De sector die zich bezighoudt met vrijetijdsbesteding."@nl;
   skos:broader :sector;
   rdfs:label "Recreatie en toerisme";
-  dct:source <https://klimaatadaptatienederland.nl/thema-sector/recreatie-toerisme/> .
+  dct:source <https://klimaatadaptatienederland.nl/kennisdossiers/recreatie-toerisme/> .
 
 :reflectie a skos:Concept;
   skos:prefLabel "Reflectie"@nl;
@@ -1903,7 +1902,7 @@ col:weerverschijnselen a skos:Collection;
   skos:definition "De sector die zich bezighoudt met het beschermen tegen bedreigingen van Nederland en haar inwoners."@nl;
   skos:broader :sector;
   rdfs:label "Veiligheid";
-  dct:source <https://klimaatadaptatienederland.nl/thema-sector/veiligheid/> .
+  dct:source <https://klimaatadaptatienederland.nl/kennisdossiers/veiligheid/> .
 
 :vegetatie a skos:Concept;
   skos:prefLabel "Vegetatie"@nl;
@@ -2120,7 +2119,7 @@ col:weerverschijnselen a skos:Collection;
   skos:definition "Sector die zich bezighoudt met waterbeheer."@nl;
   skos:broader :sector;
   rdfs:label "Waterhuishouding";
-  dct:source <https://klimaatadaptatienederland.nl/thema-sector/waterhuishouding/> .
+  dct:source <https://klimaatadaptatienederland.nl/kennisdossiers/waterhuishouding/> .
 
 :waterstress a skos:Concept;
   skos:prefLabel "Waterstress"@nl;
