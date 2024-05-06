@@ -716,7 +716,7 @@ col:weerverschijnselen a skos:Collection;
   skos:inScheme bk:imka;
   skos:definition "Terreindeel met aangelegde beplanting in de stedelijke omgeving, zoals gras, bomen of struiken tussen een fietspad en een weg. "@nl;
   skos:broader :stedelijke_recreatieruimte;
-  rdfs:label "Groenvoorziening".
+  rdfs:label "Groenvoorziening";
   dct:source <StatLine> .
 
 :groen_dak a skos:Concept;
@@ -1506,7 +1506,7 @@ col:weerverschijnselen a skos:Collection;
   skos:definition "Een park of plantsoen is een groen openbaar gebied binnen de bebouwde kom dat tenminste voor een deel door mensen is ontworpen en aangelegd. De functie van een park of plantsoen is overwegend recreatief: mensen kunnen er in ieder geval doorheen wandelen. Er loopt dus altijd minimaal een wandelpad doorheen. "@nl;
   skos:broader :stedelijke_recreatieruimte;
   skos:altLabel "Plantsoen"@nl;  
-  rdfs:label "Park".
+  rdfs:label "Park";
   dct:source <https://www.rivm.nl/bibliotheek/rapporten/2019-0008.pdf> .
 
 :plat_dak a skos:Concept;
