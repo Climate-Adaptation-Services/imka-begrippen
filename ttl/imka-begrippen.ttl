@@ -717,7 +717,7 @@ col:weerverschijnselen a skos:Collection;
   skos:definition "Terreindeel met aangelegde beplanting in de stedelijke omgeving, zoals gras, bomen of struiken tussen een fietspad en een weg. "@nl;
   skos:broader :stedelijke_recreatieruimte;
   rdfs:label "Groenvoorziening";
-  dct:source <StatLine> .
+  dct:source <https://opendata.cbs.nl/statline/#/CBS/nl/> .
 
 :groen_dak a skos:Concept;
   skos:prefLabel "Groen dak"@nl;
@@ -1507,7 +1507,7 @@ col:weerverschijnselen a skos:Collection;
   skos:broader :stedelijke_recreatieruimte;
   skos:altLabel "Plantsoen"@nl;  
   rdfs:label "Park";
-  dct:source <https://www.rivm.nl/bibliotheek/rapporten/2019-0008.pdf> .
+  dct:source <https://opendata.cbs.nl/statline/#/CBS/nl/> .
 
 :plat_dak a skos:Concept;
   skos:prefLabel "Plat dak"@nl;
