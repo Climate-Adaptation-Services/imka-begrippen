@@ -33,7 +33,7 @@ col:binnenruimte a skos:Collection;
 col:buitenruimte a skos:Collection;
   skos:prefLabel "Buitenruimte (gebied)"@nl;
   rdfs:label "Buitenruimte (gebied)";
-  skos:member :afstand_tot_koele_plek, :antropogene_warmtebron, :antropogene_warmte, :atropogene_warmtebron, :bebouwde_kom, :bebouwingsdichtheid, :beplanting, :bereikbaarheid, :beschaduwing,  :bijna_energieneutraal_gebouw, :biodiversiteit, :bodem, :boom, :comfort, :drinkwater, :droogte, :eigenschap_gebouwde_omgeving, :energiebalans, :evenement, :fysiek_object, :gebouwde_omgeving_en_ruimtelijke_ordening, :gebied, :gedrag, :gemeentegrens, :hitte_index, :hittebestendig, :hittestressplek, :infrastructuur, :kleur, :koele_buitenruimte, :koele_plek, :landschapstype, :leefomgeving, :locatie, :luchttemperatuur, :materiaal, :mens_gemaakt_object, :openbaar_groen, :oppervlaktetemperatuur, :park, :luchtverontreiniging, :raamoppervlak, :reflecterend_vermogen, :reflectie, :reflectiefactor, :relatieve_luchtvochtigheid, :schaduw, :schaduwplek, :speeltuin, :stadspark, :stedelijk_hitte_eilandeffect, :stedelijke_recreatieruimte, :straatprofiel, :stralingstemperatuur, :temperatuurkaart, :tuin, :vegetatie, :verdamping, :versteend_gebied, :verstening, :vergroend_gebied, :warme_dag, :warme_nacht, :warmteflux, :warmtestraling, :water, :windkracht, :windrichting, :windsnelheid, :wit_dak, :zomersmog, :zonkracht, :zonnestraling, :zonplek;
+  skos:member :afstand_tot_koele_plek, :antropogene_warmtebron, :antropogene_warmte, :atropogene_warmtebron, :bebouwde_kom, :bebouwingsdichtheid, :beplanting, :bereikbaarheid, :beschaduwing,  :bijna_energieneutraal_gebouw, :biodiversiteit, :bodem, :boom, :comfort, :drinkwater, :droogte, :eigenschap_gebouwde_omgeving, :energiebalans, :evenement, :fysiek_object, :gebouwde_omgeving_en_ruimtelijke_ordening, :gebied, :gedrag, :gemeentegrens, :groenvoorziening, :hitte_index, :hittebestendig, :hittestressplek, :infrastructuur, :kleur, :koele_buitenruimte, :koele_plek, :landschapstype, :leefomgeving, :locatie, :luchttemperatuur, :materiaal, :mens_gemaakt_object, :openbaar_groen, :oppervlaktetemperatuur, :park, :luchtverontreiniging, :raamoppervlak, :reflecterend_vermogen, :reflectie, :reflectiefactor, :relatieve_luchtvochtigheid, :schaduw, :schaduwplek, :speeltuin, :stadspark, :stedelijk_groen, :stedelijk_hitte_eilandeffect, :stedelijke_recreatieruimte, :straatprofiel, :stralingstemperatuur, :temperatuurkaart, :tuin, :vegetatie, :verdamping, :versteend_gebied, :verstening, :vergroend_gebied, :warme_dag, :warme_nacht, :warmteflux, :warmtestraling, :water, :windkracht, :windrichting, :windsnelheid, :wit_dak, :zomersmog, :zonkracht, :zonnestraling, :zonplek;
   skos:definition "Begrippen die te maken hebben met de buitenruimte, voornamelijk de stedelijke omgeving."@nl.
 
 col:gezondheid a skos:Collection;
@@ -59,7 +59,7 @@ col:sectoren a skos:Collection;
 col:klimaatadaptatiemaatregelen a skos:Collection;
   skos:prefLabel "Klimaatadaptatiemaatregelen"@nl;
   rdfs:label "Klimaatadaptatie";
-  skos:member :afstand_tot_koele_plek, :beplanting, :beschaduwing, :deltaplan_ruimtelijke_adaptatie, :evacuatie_kwetsbare_groepen, :groen_dak, :groene_gevel, :hittemaatregel, :hitteopgave, :hitteplan, :isolatie, :klimaatadaptatie, :klimaatmitigatie, :koele_plek, :maatregel, :natuurlijke_klimaatbuffer, :risico, :schaduwplek, :sedumdak, :stedelijke_recreatieruimte, :tuin, :ventilatie, :verdamping, :vergroening, :warmtepomp, :wet_en_regelgeving, :zonwering;
+  skos:member :afstand_tot_koele_plek, :beplanting, :beschaduwing, :deltaplan_ruimtelijke_adaptatie, :evacuatie_kwetsbare_groepen, :groen_dak, :groene_gevel, :groenvoorziening, :hittemaatregel, :hitteopgave, :hitteplan, :isolatie, :klimaatadaptatie, :klimaatmitigatie, :koele_plek, :maatregel, :natuurlijke_klimaatbuffer, :risico, :schaduwplek, :sedumdak, :stedelijke_recreatieruimte, :tuin, :ventilatie, :verdamping, :vergroening, :warmtepomp, :wet_en_regelgeving, :zonwering;
   skos:definition "Begrippen die te maken hebben met klimaatadaptatiemaatregelen"@nl.
 
 col:klimaateffect a skos:Collection;
@@ -78,7 +78,7 @@ col:natuur a skos:Collection;
   skos:prefLabel "Natuur"@nl;
   skos:definition "Begrippen die te maken hebben met natuur en klimaatadaptatie"@nl;
   rdfs:label "Natuur"@nl;
-  skos:member :aandoening_flora, :aandoening_mens_en_dier, :beplanting, :biodiversiteit, :blauwalg, :blootstelling, :bodem, :boom, :boomkroonbedekking, :brandgevaar, :droogte, :ecosysteem, :fauna, :flora, :freatisch_grondwater, :invasieve_soort, :landbouw, :landschapstype, :migratiepatroon, :natuur, :natuurbrand, :natuurbrandgevoeligheid, :natuureigenschap, :natuurlijke_klimaatbuffer, :natuurlijk_object, :natuurlijk_systeem, :openbaar_groen, :oppervlaktewater, :park, :pollen_burst, :robuustheid, :stadspark, :veerkracht, :vegetatie, :verdamping, :vergroend_gebied, :vergroening, :water, :waterstress, :weerstand, :zuurstofstress .
+  skos:member :aandoening_flora, :aandoening_mens_en_dier, :beplanting, :biodiversiteit, :blauwalg, :blootstelling, :bodem, :boom, :boomkroonbedekking, :brandgevaar, :droogte, :ecosysteem, :fauna, :flora, :freatisch_grondwater, :groenvoorziening, :invasieve_soort, :landbouw, :landschapstype, :migratiepatroon, :natuur, :natuurbrand, :natuurbrandgevoeligheid, :natuureigenschap, :natuurlijke_klimaatbuffer, :natuurlijk_object, :natuurlijk_systeem, :openbaar_groen, :oppervlaktewater, :park, :pollen_burst, :robuustheid, :stadspark, :stedelijk_groen, :veerkracht, :vegetatie, :verdamping, :vergroend_gebied, :vergroening, :water, :waterstress, :weerstand, :zuurstofstress .
 
 col:weerverschijnselen a skos:Collection;
   skos:prefLabel "Weerverschijnselen"@nl;
@@ -710,6 +710,14 @@ col:weerverschijnselen a skos:Collection;
   skos:broader :proces;
   rdfs:label "Groei";
   dct:source <http://www.kennisconsult.nl/begrippen/9027/> .
+
+:groenvoorziening a skos:Concept;
+  skos:prefLabel "Groenvoorziening"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Terreindeel met aangelegde beplanting in de stedelijke omgeving, zoals gras, bomen of struiken tussen een fietspad en een weg. "@nl;
+  skos:broader :stedelijke_recreatieruimte;
+  rdfs:label "Groenvoorziening".
+  dct:source <StatLine> .
 
 :groen_dak a skos:Concept;
   skos:prefLabel "Groen dak"@nl;
@@ -1495,8 +1503,11 @@ col:weerverschijnselen a skos:Collection;
 :park a skos:Concept;
   skos:prefLabel "Park"@nl;
   skos:inScheme bk:imka;
-  skos:definition "Een tenmiste voor een deel door de mens ontworpen en aangelegd groen gebied met een overwegend recreatieve functie, met name om te wandelen."@nl;
+  skos:definition "Een park of plantsoen is een groen openbaar gebied binnen de bebouwde kom dat tenminste voor een deel door mensen is ontworpen en aangelegd. De functie van een park of plantsoen is overwegend recreatief: mensen kunnen er in ieder geval doorheen wandelen. Er loopt dus altijd minimaal een wandelpad doorheen. "@nl;
+  skos:broader :stedelijke_recreatieruimte;
+  skos:altLabel "Plantsoen"@nl;  
   rdfs:label "Park".
+  dct:source <https://www.rivm.nl/bibliotheek/rapporten/2019-0008.pdf> .
 
 :plat_dak a skos:Concept;
   skos:prefLabel "Plat dak"@nl;
@@ -1665,10 +1676,18 @@ col:weerverschijnselen a skos:Collection;
 :stadspark a skos:Concept;
   skos:prefLabel "Stadspark"@nl;
   skos:inScheme bk:imka;
-  skos:definition "een park met als voornaamste doelgroep bezoekers en recreanten uit de stad waarin het park is gelegen. "@nl;
+  skos:definition "Een park met als voornaamste doelgroep bezoekers en recreanten uit de stad waarin het park is gelegen. "@nl;
   skos:broader :stedelijke_recreatieruimte;
   rdfs:label "Stadspark";
   dct:source <https://nl.wikipedia.org/wiki/Stadspark> .
+
+:stedelijk_groen a skos:Concept;
+  skos:prefLabel "Stedelijk groen"@nl;
+  skos:inScheme bk:imka;
+  skos:definition "Stedelijk groen is een verzamelterm voor verschillende vormen van openbaar groen in de stedelijke omgeving. Hieronder vallen onder andere parken, plantsoenen en groenvoorziening in de bebouwde omgeving. Ook de voetgangerspaden en fietspaden die hierdoorheen of langs lopen zijn onderdeel van het stedelijk groen. Andere infrastructuur bij het groen, zoals autowegen en parkeerplaatsen, is geen onderdeel van stedelijk groen. Ook erven en tuinen vallen niet in deze categorie, omdat die in particulier bezit zijn en dus niet openbaar. "@nl;
+  skos:broader :stedelijke_recreatieruimte;
+  rdfs:label "Stedelijk groen";
+  dct:source <https://opendata.cbs.nl/#/CBS/nl/dataset/85835NED/table?ts=1711367902829> .
 
 :stedelijk_hitte_eilandeffect a skos:Concept;
   skos:prefLabel "Stedelijk hitte-eilandeffect"@nl;
